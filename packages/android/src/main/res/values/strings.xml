@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+        strings.xml
+        Localization
+        
+        This file will be generated from Crowdin translations
+        Do not edit manually - use Crowdin instead
+    -->
+    
+    <!-- Common strings -->
+    <string name="actions_save">Save</string>
+    <string name="actions_cancel">Cancel</string>
+    <string name="actions_delete">Delete</string>
+    <string name="actions_edit">Edit</string>
+    
+    <string name="fields_name">Name</string>
+    <string name="fields_email">Email</string>
+    <string name="fields_password">Password</string>
+    
+    <string name="status_loading">Loading...</string>
+    <string name="status_success">Success</string>
+    <string name="status_error">Error</string>
+</resources>

@@ -1,0 +1,1442 @@
+/* appclip -> welcome_to */
+"appclip.welcome_to" = "Bienvenido a";
+/* appclip -> tagline */
+"appclip.tagline" = "Herramienta simple para gestión empresarial";
+/* screen -> invite -> client_title */
+"screen.invite.client_title" = "Has sido invitado como cliente";
+/* screen -> invite -> client_enter_missing */
+"screen.invite.client_enter_missing" = "Para aceptar, introduce los caracteres faltantes: ";
+/* screen -> invite -> employee_title */
+"screen.invite.employee_title" = "Has sido invitado como empleado";
+/* screen -> public -> client_button */
+"screen.public.client_button" = "Continuar como Cliente";
+/* screen -> public -> pro_button */
+"screen.public.pro_button" = "Continuar como Especialista";
+/* screen -> public -> continuation_action */
+"screen.public.continuation_action" = "Presiona el botón para continuar";
+/* screen -> public -> welcome */
+"screen.public.welcome" = "¡Bienvenido a Maetry!";
+/* screen -> public -> card1 -> name */
+"screen.public.card1.name" = "Salon Rose";
+/* screen -> public -> card1 -> address */
+"screen.public.card1.address" = "C/ Tolkatcheva, 2B";
+/* screen -> public -> card1 -> schedule */
+"screen.public.card1.schedule" = "lun-dom 9:00-21:00";
+/* screen -> public -> card2 -> name */
+"screen.public.card2.name" = "ASTEZIS";
+/* screen -> public -> card2 -> address */
+"screen.public.card2.address" = "C/ Tolkatcheva, 2B";
+/* screen -> public -> card2 -> schedule */
+"screen.public.card2.schedule" = "lun-dom 9:00-21:00";
+/* screen -> public -> card3 -> name */
+"screen.public.card3.name" = "Beauty Tutti";
+/* screen -> public -> card3 -> address */
+"screen.public.card3.address" = "C/ Tolkatcheva, 2B";
+/* screen -> public -> card3 -> schedule */
+"screen.public.card3.schedule" = "lun-dom 9:00-21:00";
+/* screen -> profile -> title */
+"screen.profile.title" = "Perfil";
+/* screen -> profile -> mode */
+"screen.profile.mode" = "Modo";
+/* screen -> profile -> switch_action */
+"screen.profile.switch_action" = "Cambiar";
+/* screen -> profile -> create_action */
+"screen.profile.create_action" = "Crear";
+/* screen -> profile -> switch_to_professional_title */
+"screen.profile.switch_to_professional_title" = "Cambiar a Profesional";
+/* screen -> profile -> switch_to_professional_message */
+"screen.profile.switch_to_professional_message" = "La aplicación permite gestionar todos los espacios de trabajo junto con los empleados.";
+/* screen -> profile -> switch_to_customer_title */
+"screen.profile.switch_to_customer_title" = "Cambiar a Cliente";
+/* screen -> profile -> switch_to_customer_message */
+"screen.profile.switch_to_customer_message" = "La aplicación permite encontrar los mejores especialistas y reservar servicios";
+/* screen -> profile -> create_workspace_title */
+"screen.profile.create_workspace_title" = "Crear espacio de trabajo";
+/* screen -> profile -> create_workspace_message */
+"screen.profile.create_workspace_message" = "También puedes crear varios espacios de trabajo para diferentes salones.";
+/* screen -> profile -> create_customer_title */
+"screen.profile.create_customer_title" = "Crear cliente";
+/* screen -> profile -> create_customer_message */
+"screen.profile.create_customer_message" = "Podrás encontrar salones y reservar servicios";
+/* screen -> profile -> support -> title */
+"screen.profile.support.title" = "¿Tienes preguntas? ¡Estamos aquí!";
+/* screen -> profile -> support -> message */
+"screen.profile.support.message" = "¡Estamos aquí para ayudarte! Si tienes alguna pregunta o problema, nuestro equipo de soporte está siempre listo para asistirte";
+/* screen -> profile -> support -> action */
+"screen.profile.support.action" = "Soporte por chat en vivo";
+/* screen -> profile -> support -> user_message */
+"screen.profile.support.user_message" = "Hola, ¡necesito ayuda! Mi ID: ";
+/* screen -> profile -> support -> unknown_id */
+"screen.profile.support.unknown_id" = "Desconocido";
+/* screen -> profile -> support -> not_install */
+"screen.profile.support.not_install" = "La app de Telegram no está instalada";
+/* screen -> profile -> iam -> title */
+"screen.profile.iam.title" = "Seleccionar modo";
+/* screen -> profile -> iam -> customer */
+"screen.profile.iam.customer" = "Cliente";
+/* screen -> profile -> iam -> customer_register */
+"screen.profile.iam.customer_register" = "Registrarse como cliente";
+/* screen -> profile -> iam -> pro */
+"screen.profile.iam.pro" = "Profesional";
+/* screen -> profile -> iam -> pro_add_workplace */
+"screen.profile.iam.pro_add_workplace" = "Registrarse como profesional";
+/* screen -> profile -> app_icon -> title */
+"screen.profile.app_icon.title" = "Ícono de la app";
+/* screen -> profile -> danger_zone -> title */
+"screen.profile.danger_zone.title" = "Zona de peligro";
+/* screen -> profile -> danger_zone -> delete_title */
+"screen.profile.danger_zone.delete_title" = "Eliminar usuario";
+/* screen -> profile -> danger_zone -> delete_hint */
+"screen.profile.danger_zone.delete_hint" = "Esta acción no se puede deshacer";
+/* screen -> profile -> danger_zone -> delete_title_alert */
+"screen.profile.danger_zone.delete_title_alert" = "Esta acción no se puede deshacer. ¿Estás seguro de que deseas eliminar?";
+/* screen -> profile -> danger_zone -> delete_message_alert */
+"screen.profile.danger_zone.delete_message_alert" = "Para confirmar, introduce tu apodo en el campo a continuación";
+/* screen -> profile -> danger_zone -> delete_placeholder */
+"screen.profile.danger_zone.delete_placeholder" = "Apodo";
+/* screen -> profile -> danger_zone -> logout */
+"screen.profile.danger_zone.logout" = "Cerrar sesión";
+/* screen -> profile -> danger_zone -> logout_hint */
+"screen.profile.danger_zone.logout_hint" = "Cerrar sesión de tu cuenta";
+/* screen -> profile -> danger_zone -> logout_message_alert */
+"screen.profile.danger_zone.logout_message_alert" = "Por favor confirma que deseas cerrar sesión";
+/* screen -> profile -> danger_zone -> logout_title_alert */
+"screen.profile.danger_zone.logout_title_alert" = "Atención";
+/* screen -> profile -> danger_zone -> subscription */
+"screen.profile.danger_zone.subscription" = "Suscripción";
+/* screen -> profile -> danger_zone -> without_subscription */
+"screen.profile.danger_zone.without_subscription" = "Sin una suscripción, nada funcionará";
+/* screen -> notice -> title */
+"screen.notice.title" = "Notificaciones";
+/* screen -> notice -> placeholder */
+"screen.notice.placeholder" = "Aún no has recibido notificaciones";
+/* screen -> notice -> read_all */
+"screen.notice.read_all" = "Marcar todo como leído";
+/* screen -> sharing -> qr_button */
+"screen.sharing.qr_button" = "Enviar código QR";
+/* screen -> sharing -> link_button */
+"screen.sharing.link_button" = "Compartir enlace";
+/* screen -> assignment -> title */
+"screen.assignment.title" = "Cita";
+/* screen -> assignment -> executor */
+"screen.assignment.executor" = "Profesional";
+/* screen -> assignment -> invite_executor */
+"screen.assignment.invite_executor" = "Invitar especialista";
+/* screen -> assignment -> client */
+"screen.assignment.client" = "Cliente";
+/* screen -> assignment -> invite_client */
+"screen.assignment.invite_client" = "Invitar cliente";
+/* screen -> assignment -> danger_zone -> title */
+"screen.assignment.danger_zone.title" = "Administración";
+/* screen -> assignment -> danger_zone -> delete_title */
+"screen.assignment.danger_zone.delete_title" = "Eliminar cita";
+/* screen -> assignment -> danger_zone -> delete_description */
+"screen.assignment.danger_zone.delete_description" = "El cliente será notificado sobre la eliminación de la cita";
+/* screen -> assignment -> danger_zone -> delete_button */
+"screen.assignment.danger_zone.delete_button" = "Eliminar";
+/* screen -> assignment -> danger_zone -> confirm_delete_message */
+"screen.assignment.danger_zone.confirm_delete_message" = "¿Eliminar esta cita sin posibilidad de recuperación?";
+/* screen -> workplace -> placeholder_create */
+"screen.workplace.placeholder_create" = "Comienza a trabajar con Maetry
+ Crea tu primer salón";
+/* screen -> workplace -> placeholder_select */
+"screen.workplace.placeholder_select" = "Selecciona un salón para trabajar";
+/* screen -> workplace -> settings */
+"screen.workplace.settings" = "Configuración";
+/* screen -> workplace -> workspace */
+"screen.workplace.workspace" = "Citas";
+/* screen -> workplace -> schedule */
+"screen.workplace.schedule" = "Horario";
+/* screen -> workplace -> dashboard */
+"screen.workplace.dashboard" = "Salón";
+/* screen -> workplace -> action -> title */
+"screen.workplace.action.title" = "Acciones rápidas";
+/* screen -> workplace -> action -> sharing */
+"screen.workplace.action.sharing" = "Compartir";
+/* screen -> workplace -> action -> invite_employee */
+"screen.workplace.action.invite_employee" = "Agregar empleado";
+/* screen -> workplace -> action -> read_all */
+"screen.workplace.action.read_all" = "Marcar como leído";
+/* screen -> workplace -> action -> client_mode -> title */
+"screen.workplace.action.client_mode.title" = "Cambiar a";
+/* screen -> workplace -> action -> client_mode -> subtitle */
+"screen.workplace.action.client_mode.subtitle" = "Modo cliente";
+/* screen -> workspace -> confirmation */
+"screen.workspace.confirmation" = "¡Atención!";
+/* screen -> workspace -> collision_message */
+"screen.workspace.collision_message" = "Ya hay una cita programada para esta hora";
+/* screen -> workspace -> reschedule_button */
+"screen.workspace.reschedule_button" = "Reprogramar cita";
+/* screen -> workspace -> select_masters */
+"screen.workspace.select_masters" = "Seleccionar especialistas";
+/* screen -> workspace -> masters_quantity */
+"screen.workspace.masters_quantity" = "Cantidad de especialistas";
+/* screen -> workspace -> slot_duration */
+"screen.workspace.slot_duration" = "Frecuencia del diario";
+/* screen -> workspace -> diary_type */
+"screen.workspace.diary_type" = "Diario";
+/* screen -> workspace -> list_type */
+"screen.workspace.list_type" = "Lista";
+/* screen -> workspace -> list_empty_placeholder */
+"screen.workspace.list_empty_placeholder" = "Aún no hay citas programadas para este día";
+/* screen -> workspace -> contact_client */
+"screen.workspace.contact_client" = "Contactar";
+/* screen -> workspace -> employees_count */
+"screen.workspace.employees_count" = "empleado(s)";
+/* screen -> workspace -> minutes_short */
+"screen.workspace.minutes_short" = "mins";
+/* screen -> workspace -> day_off_message */
+"screen.workspace.day_off_message" = "En este día tu salón está cerrado";
+/* screen -> workspace -> go_to_schedule_settings */
+"screen.workspace.go_to_schedule_settings" = "Ir a la configuración del horario";
+/* screen -> schedule -> workspace_schedule */
+"screen.schedule.workspace_schedule" = "Horario del salón";
+/* screen -> schedule -> select_masters */
+"screen.schedule.select_masters" = "Seleccionar especialistas";
+/* screen -> schedule -> hide_master */
+"screen.schedule.hide_master" = "Ocultar especialista";
+/* screen -> schedule -> open_hours */
+"screen.schedule.open_hours" = "Horario de trabajo";
+/* screen -> schedule -> break_hours */
+"screen.schedule.break_hours" = "Pausa";
+/* screen -> schedule -> start */
+"screen.schedule.start" = "Inicio";
+/* screen -> schedule -> end */
+"screen.schedule.end" = "Fin";
+/* screen -> schedule -> dayoff */
+"screen.schedule.dayoff" = "Día libre";
+/* screen -> schedule -> dayoff_short */
+"screen.schedule.dayoff_short" = "Libre";
+/* screen -> schedule -> make_it_dayoff */
+"screen.schedule.make_it_dayoff" = "Marcar como día libre";
+/* screen -> schedule -> alert_title_dayoff */
+"screen.schedule.alert_title_dayoff" = "¡Atención!";
+/* screen -> schedule -> message_title_dayoff */
+"screen.schedule.message_title_dayoff" = "Tu salón está cerrado este día";
+/* screen -> schedule -> vacation */
+"screen.schedule.vacation" = "Vacaciones";
+/* screen -> schedule -> setup_vacation */
+"screen.schedule.setup_vacation" = "Configurar vacaciones";
+/* screen -> schedule -> delete_vacation */
+"screen.schedule.delete_vacation" = "Eliminar vacaciones";
+/* screen -> schedule -> add_break */
+"screen.schedule.add_break" = "Agregar pausa";
+/* screen -> schedule -> settings_vacation */
+"screen.schedule.settings_vacation" = "Configuración de vacaciones";
+/* screen -> schedule -> setup_schedule */
+"screen.schedule.setup_schedule" = "Configurar horario";
+/* screen -> schedule -> daily_schedule */
+"screen.schedule.daily_schedule" = "Horario diario";
+/* screen -> schedule -> shift_schedule */
+"screen.schedule.shift_schedule" = "Horario por turnos";
+/* screen -> schedule -> weekly_schedule */
+"screen.schedule.weekly_schedule" = "Plantilla semanal";
+/* screen -> schedule -> select_several */
+"screen.schedule.select_several" = "Seleccionar varios";
+/* screen -> schedule -> edit_days -> one */
+"screen.schedule.edit_days.one" = "Editar %{days} día";
+/* screen -> schedule -> edit_days -> other */
+"screen.schedule.edit_days.other" = "Editar %{days} días";
+/* screen -> schedule -> view_mode */
+"screen.schedule.view_mode" = "Modo de vista";
+/* screen -> schedule -> rounded */
+"screen.schedule.rounded" = "Redondeado";
+/* screen -> schedule -> rectangular */
+"screen.schedule.rectangular" = "Rectangular";
+/* screen -> schedule -> work_time */
+"screen.schedule.work_time" = "Tiempo de trabajo";
+/* screen -> schedule -> schedule_text -> day_off */
+"screen.schedule.schedule_text.day_off" = " - Día libre";
+/* screen -> schedule -> schedule_text -> everyday */
+"screen.schedule.schedule_text.everyday" = "Todos los días: ";
+/* screen -> schedule -> schedule_text -> day_index */
+"screen.schedule.schedule_text.day_index" = "Día %{index}: ";
+/* screen -> schedule -> schedule_text -> breaks */
+"screen.schedule.schedule_text.breaks" = "Pausas: ";
+/* screen -> catalog_management -> title */
+"screen.catalog_management.title" = "Servicios";
+/* screen -> catalog_management -> all_title */
+"screen.catalog_management.all_title" = "Todos los servicios";
+/* screen -> catalog_management -> add_service */
+"screen.catalog_management.add_service" = "Agregar nuevo servicio";
+/* screen -> catalog_management -> complexs */
+"screen.catalog_management.complexs" = "Complejos";
+/* screen -> catalog_management -> complex_placeholder */
+"screen.catalog_management.complex_placeholder" = "Para crear un complejo, combina varios procedimientos";
+/* screen -> catalog_management -> procedures */
+"screen.catalog_management.procedures" = "Procedimientos";
+/* screen -> catalog_management -> procedure_placeholder */
+"screen.catalog_management.procedure_placeholder" = "Para comenzar a trabajar con el salón, crea un procedimiento";
+/* screen -> catalog_management -> procedure_info */
+"screen.catalog_management.procedure_info" = "Información";
+/* screen -> catalog_management -> procedure_add_executor */
+"screen.catalog_management.procedure_add_executor" = "Agregar especialista";
+/* screen -> catalog_management -> procedure_union_complex */
+"screen.catalog_management.procedure_union_complex" = "Combinar en complejo";
+/* screen -> catalog_management -> executor_edit */
+"screen.catalog_management.executor_edit" = "Editar";
+/* screen -> catalog_management -> executor_booking */
+"screen.catalog_management.executor_booking" = "Reservar";
+/* screen -> catalog_management -> search */
+"screen.catalog_management.search" = "Buscar";
+/* screen -> catalog_management -> service_search */
+"screen.catalog_management.service_search" = "Buscar servicio";
+/* screen -> employees -> title */
+"screen.employees.title" = "Empleados";
+/* screen -> employees -> all_title */
+"screen.employees.all_title" = "Todos los empleados";
+/* screen -> employees -> filter -> active */
+"screen.employees.filter.active" = "Activos";
+/* screen -> employees -> filter -> invite */
+"screen.employees.filter.invite" = "Invitaciones";
+/* screen -> employees -> filter -> with_service */
+"screen.employees.filter.with_service" = "Ofrecen servicios";
+/* screen -> employees -> filter -> without_service */
+"screen.employees.filter.without_service" = "No ofrecen servicios";
+/* screen -> employees -> filter -> create_employee */
+"screen.employees.filter.create_employee" = "Agregar empleado";
+/* screen -> employees -> filter -> remove_position */
+"screen.employees.filter.remove_position" = "Eliminar puesto";
+/* screen -> employees -> filter -> reorder */
+"screen.employees.filter.reorder" = "Cambiar orden";
+/* screen -> employees -> invite */
+"screen.employees.invite" = "Invitar";
+/* screen -> employees -> add_employee */
+"screen.employees.add_employee" = "Agregar empleado";
+/* screen -> employees -> assignment */
+"screen.employees.assignment" = "Citas";
+/* screen -> employees -> add_assignment */
+"screen.employees.add_assignment" = "Reservar cliente";
+/* screen -> employees -> service */
+"screen.employees.service" = "Servicios";
+/* screen -> employees -> danger_zone -> title */
+"screen.employees.danger_zone.title" = "Administración";
+/* screen -> employees -> danger_zone -> fire */
+"screen.employees.danger_zone.fire" = "Despedir";
+/* screen -> employees -> danger_zone -> fire_an_employee */
+"screen.employees.danger_zone.fire_an_employee" = "Despedir empleado";
+/* screen -> employees -> danger_zone -> fire_hint */
+"screen.employees.danger_zone.fire_hint" = "El empleado no debe tener citas activas";
+/* screen -> employees -> danger_zone -> fire_alert_title */
+"screen.employees.danger_zone.fire_alert_title" = "Despedir empleado";
+/* screen -> employees -> danger_zone -> fire_alert_message */
+"screen.employees.danger_zone.fire_alert_message" = "Por favor, introduce el nombre del empleado para confirmar";
+/* screen -> employees -> danger_zone -> fire_alert_placeholder */
+"screen.employees.danger_zone.fire_alert_placeholder" = "Nombre del empleado";
+/* screen -> employees -> danger_zone -> cancel_title */
+"screen.employees.danger_zone.cancel_title" = "Cancelar invitación";
+/* screen -> employees -> danger_zone -> cancel_hint */
+"screen.employees.danger_zone.cancel_hint" = "El especialista no podrá conectarse mediante el enlace";
+/* screen -> employees -> danger_zone -> cancel_alert_title */
+"screen.employees.danger_zone.cancel_alert_title" = "Cancelar invitación";
+/* screen -> employees -> danger_zone -> cancel_alert_message */
+"screen.employees.danger_zone.cancel_alert_message" = "El empleado no podrá unirse usando el enlace enviado";
+/* screen -> employees -> no_employees */
+"screen.employees.no_employees" = "Sin empleados";
+/* screen -> employees -> master_search */
+"screen.employees.master_search" = "Buscar especialista";
+/* screen -> position -> title */
+"screen.position.title" = "Puestos";
+/* screen -> position -> action */
+"screen.position.action" = "Crear puesto";
+/* screen -> position -> appointments */
+"screen.position.appointments" = "Acceso a citas";
+/* screen -> position -> contact */
+"screen.position.contact" = "Acceso a contactos";
+/* screen -> position -> employee */
+"screen.position.employee" = "Acceso a empleados";
+/* screen -> position -> finance */
+"screen.position.finance" = "Acceso a finanzas";
+/* screen -> position -> notifications */
+"screen.position.notifications" = "Acceso a notificaciones";
+/* screen -> position -> owner */
+"screen.position.owner" = "Propietario";
+/* screen -> position -> position */
+"screen.position.position" = "Acceso a puestos";
+/* screen -> position -> procedure */
+"screen.position.procedure" = "Acceso a procedimientos";
+/* screen -> position -> salary -> terms_not_add */
+"screen.position.salary.terms_not_add" = "Términos no añadidos";
+/* screen -> position -> salary -> profit_percentage */
+"screen.position.salary.profit_percentage" = "Porcentaje de ganancia";
+/* screen -> position -> salon */
+"screen.position.salon" = "Acceso a salones";
+/* screen -> position -> statistic */
+"screen.position.statistic" = "Acceso a estadísticas";
+/* screen -> position -> timetable */
+"screen.position.timetable" = "Acceso a horarios";
+/* screen -> position -> permission -> access_rules */
+"screen.position.permission.access_rules" = "Permisos de acceso";
+/* screen -> position -> permission -> terms_of_remu */
+"screen.position.permission.terms_of_remu" = "Condiciones de pago";
+/* screen -> position -> fix_price -> fixed_payment */
+"screen.position.fix_price.fixed_payment" = "Pago fijo";
+/* screen -> position -> fix_price -> choose_type */
+"screen.position.fix_price.choose_type" = "Elegir tipo";
+/* screen -> position -> fix_price -> hourly_rate */
+"screen.position.fix_price.hourly_rate" = "Pago por hora";
+/* screen -> position -> fix_price -> daily_salary */
+"screen.position.fix_price.daily_salary" = "Pago diario";
+/* screen -> position -> fix_price -> monthly_salary */
+"screen.position.fix_price.monthly_salary" = "Pago mensual";
+/* screen -> position -> payments_part -> part_of_work */
+"screen.position.payments_part.part_of_work" = "Pago por parte del trabajo";
+/* screen -> position -> payments_part -> add_condition */
+"screen.position.payments_part.add_condition" = "Agregar condición";
+/* screen -> position -> percent -> percent */
+"screen.position.percent.percent" = "Porcentaje";
+/* screen -> position -> percent -> percent_of_salary */
+"screen.position.percent.percent_of_salary" = "Porcentaje de ganancia";
+/* screen -> position -> danger_zone -> delete_title */
+"screen.position.danger_zone.delete_title" = "Eliminar puesto";
+/* screen -> position -> sheet -> permission -> access */
+"screen.position.sheet.permission.access" = "Acceso";
+/* screen -> position -> sheet -> permission -> choose_all */
+"screen.position.sheet.permission.choose_all" = "Seleccionar todo";
+/* screen -> position -> sheet -> salary_content -> payroll_custm */
+"screen.position.sheet.salary_content.payroll_custm" = "Configuración salarial";
+/* screen -> permissions -> title */
+"screen.permissions.title" = "Acceso";
+/* screen -> permissions -> client_cred_title */
+"screen.permissions.client_cred_title" = "Acceso a la base de datos de clientes";
+/* screen -> permissions -> client_cred_edit */
+"screen.permissions.client_cred_edit" = "Puede editar";
+/* screen -> permissions -> client_cred_visible_base_info */
+"screen.permissions.client_cred_visible_base_info" = "Información básica visible";
+/* screen -> permissions -> client_cred_visible_contacts */
+"screen.permissions.client_cred_visible_contacts" = "Contactos visibles";
+/* screen -> permissions -> employee_cred_title */
+"screen.permissions.employee_cred_title" = "Acceso a empleados";
+/* screen -> permissions -> employee_cred_edit */
+"screen.permissions.employee_cred_edit" = "Puede editar";
+/* screen -> permissions -> employee_cred_visible */
+"screen.permissions.employee_cred_visible" = "Empleados visibles";
+/* screen -> permissions -> procedure_cred_title */
+"screen.permissions.procedure_cred_title" = "Acceso a servicios";
+/* screen -> permissions -> cred_own_edit */
+"screen.permissions.cred_own_edit" = "Puede editar propios";
+/* screen -> permissions -> cred_other_edit */
+"screen.permissions.cred_other_edit" = "Puede editar todos";
+/* screen -> permissions -> worktime_cred_title */
+"screen.permissions.worktime_cred_title" = "Acceso a horarios";
+/* screen -> permissions -> position_cred_title */
+"screen.permissions.position_cred_title" = "Acceso a puestos";
+/* screen -> permissions -> salon_cred_title */
+"screen.permissions.salon_cred_title" = "Acceso a la información del salón";
+/* screen -> permissions -> appointment_cred_title */
+"screen.permissions.appointment_cred_title" = "Acceso a citas";
+/* screen -> permissions -> statistic_cred_title */
+"screen.permissions.statistic_cred_title" = "Acceso a estadísticas";
+/* screen -> permissions -> notify_cred_title */
+"screen.permissions.notify_cred_title" = "Acceso a notificaciones";
+/* screen -> permissions -> finance_cred_title */
+"screen.permissions.finance_cred_title" = "Acceso a finanzas";
+/* screen -> permissions -> salary_cred_title */
+"screen.permissions.salary_cred_title" = "Acceso al salario";
+/* screen -> permissions -> owner_toggle_title */
+"screen.permissions.owner_toggle_title" = "Copropietario";
+/* screen -> permissions -> owner_toggle_description */
+"screen.permissions.owner_toggle_description" = "Dar este acceso otorga control total sobre el espacio de trabajo";
+/* screen -> salary -> title */
+"screen.salary.title" = "Salario";
+/* screen -> salary -> wage_title */
+"screen.salary.wage_title" = "Pago fijo";
+/* screen -> salary -> percent_title */
+"screen.salary.percent_title" = "Porcentaje";
+/* screen -> salary -> select_type */
+"screen.salary.select_type" = "Elegir tipo";
+/* screen -> salary -> percentage_of_profit */
+"screen.salary.percentage_of_profit" = "Porcentaje de ganancia";
+/* screen -> salary -> piecework_title */
+"screen.salary.piecework_title" = "Pago por trabajo realizado";
+/* screen -> salary -> alert_title */
+"screen.salary.alert_title" = "Introducir valor";
+/* screen -> clients -> title */
+"screen.clients.title" = "Todos los clientes";
+/* screen -> clients -> search */
+"screen.clients.search" = "Buscar";
+/* screen -> clients -> find_client */
+"screen.clients.find_client" = "Buscar cliente";
+/* screen -> clients -> action */
+"screen.clients.action" = "Agregar cliente";
+/* screen -> clients -> create_client */
+"screen.clients.create_client" = "Agregar nuevo cliente";
+/* screen -> clients -> history_client */
+"screen.clients.history_client" = "Historial del cliente";
+/* screen -> clients -> add_history_client */
+"screen.clients.add_history_client" = "Agregar cita";
+/* screen -> settings -> current_plan */
+"screen.settings.current_plan" = "Plan actual";
+/* screen -> settings -> salon_type -> individual */
+"screen.settings.salon_type.individual" = "Individual";
+/* screen -> settings -> salon_type -> salon */
+"screen.settings.salon_type.salon" = "Salón";
+/* screen -> settings -> salon_type -> chain */
+"screen.settings.salon_type.chain" = "Cadena";
+/* screen -> settings -> salon_type -> franchise */
+"screen.settings.salon_type.franchise" = "Franquicia";
+/* screen -> settings -> description -> title */
+"screen.settings.description.title" = "Descripción";
+/* screen -> settings -> description -> hide */
+"screen.settings.description.hide" = "Ocultar";
+/* screen -> settings -> description -> show_more */
+"screen.settings.description.show_more" = "Mostrar más";
+/* screen -> settings -> geo -> select_app */
+"screen.settings.geo.select_app" = "Elegir aplicación";
+/* screen -> settings -> geo -> message */
+"screen.settings.geo.message" = "¿Quieres pedir un taxi o trazar una ruta? Elige el servicio que deseas usar";
+/* screen -> settings -> danger_zone -> title */
+"screen.settings.danger_zone.title" = "Zona de peligro";
+/* screen -> settings -> danger_zone -> activate */
+"screen.settings.danger_zone.activate" = "Activar";
+/* screen -> settings -> danger_zone -> activate_hint */
+"screen.settings.danger_zone.activate_hint" = "Reanudar funcionamiento del salón";
+/* screen -> settings -> danger_zone -> activate_title */
+"screen.settings.danger_zone.activate_title" = "Activar salón";
+/* screen -> settings -> danger_zone -> deactivate */
+"screen.settings.danger_zone.deactivate" = "Desactivar";
+/* screen -> settings -> danger_zone -> deactivate_hint */
+"screen.settings.danger_zone.deactivate_hint" = "Detener el salón, eliminar de la búsqueda";
+/* screen -> settings -> danger_zone -> deactivate_title */
+"screen.settings.danger_zone.deactivate_title" = "Desactivar salón";
+/* screen -> settings -> danger_zone -> delete_title */
+"screen.settings.danger_zone.delete_title" = "Eliminar usuario";
+/* screen -> settings -> danger_zone -> delete_hint */
+"screen.settings.danger_zone.delete_hint" = "Esta acción no se puede deshacer";
+/* screen -> settings -> danger_zone -> delete_title_alert */
+"screen.settings.danger_zone.delete_title_alert" = "La acción no se puede deshacer. ¿Estás seguro de que deseas eliminar?";
+/* screen -> settings -> danger_zone -> delete_message_alert */
+"screen.settings.danger_zone.delete_message_alert" = "Para confirmar, introduce el nombre del salón en el campo a continuación";
+/* screen -> settings -> danger_zone -> delete_placeholder */
+"screen.settings.danger_zone.delete_placeholder" = "Nombre del salón";
+/* screen -> appointment -> executor */
+"screen.appointment.executor" = "Profesional";
+/* screen -> appointment -> state_customera_time_out */
+"screen.appointment.state_customera_time_out" = "Tiempo expirado";
+/* screen -> appointment -> state_customer_waiting */
+"screen.appointment.state_customer_waiting" = "En espera";
+/* screen -> appointment -> state_customer_approved */
+"screen.appointment.state_customer_approved" = "Aprobado";
+/* screen -> appointment -> state_customer_reject */
+"screen.appointment.state_customer_reject" = "Rechazado";
+/* screen -> appointment -> state_customer_canсeled */
+"screen.appointment.state_customer_canсeled" = "Cancelado";
+/* screen -> appointment -> state_accept */
+"screen.appointment.state_accept" = "Confirmar cita";
+/* screen -> appointment -> no_appointments */
+"screen.appointment.no_appointments" = "Aún no tienes citas";
+/* screen -> appointment -> add_to_calendar */
+"screen.appointment.add_to_calendar" = "Agregar al calendario";
+/* screen -> appointment -> alert -> success */
+"screen.appointment.alert.success" = "Éxito";
+/* screen -> appointment -> alert -> added_to_calendar */
+"screen.appointment.alert.added_to_calendar" = "Cita agregada al calendario";
+/* screen -> appointment -> alert -> add_error */
+"screen.appointment.alert.add_error" = "No se pudo agregar la cita al calendario";
+/* screen -> catalog -> placeholder */
+"screen.catalog.placeholder" = "No hay servicios disponibles";
+/* screen -> catalog -> complex_header */
+"screen.catalog.complex_header" = "Complejos";
+/* screen -> catalog -> procedure_header */
+"screen.catalog.procedure_header" = "Procedimientos";
+/* screen -> catalog -> service_search */
+"screen.catalog.service_search" = "Buscar servicio";
+/* screen -> history -> title */
+"screen.history.title" = "Historial";
+/* screen -> history -> placeholder */
+"screen.history.placeholder" = "Aún no tienes citas";
+/* screen -> main -> history_title */
+"screen.main.history_title" = "Mis citas";
+/* screen -> main -> history_action */
+"screen.main.history_action" = "Abrir";
+/* screen -> main -> map_button */
+"screen.main.map_button" = "Mapa";
+/* screen -> main -> no_favorites */
+"screen.main.no_favorites" = "Aún no hay favoritos";
+/* screen -> search -> not_found */
+"screen.search.not_found" = "Nada encontrado";
+/* screen -> search -> placeholder */
+"screen.search.placeholder" = "Buscar %{tag}";
+/* screen -> search -> search_bar_field */
+"screen.search.search_bar_field" = "Buscar";
+/* screen -> search -> no_salons */
+"screen.search.no_salons" = "No hay salones cerca";
+/* screen -> search -> list */
+"screen.search.list" = "Lista";
+/* screen -> search -> map */
+"screen.search.map" = "Mapa";
+/* screen -> search -> client_search */
+"screen.search.client_search" = "Buscar cliente";
+/* screen -> map -> search_button */
+"screen.map.search_button" = "Buscar en esta región";
+/* screen -> map -> search_button_warning */
+"screen.map.search_button_warning" = "Necesitas acercar el zoom para buscar";
+/* screen -> map -> enable_geo */
+"screen.map.enable_geo" = "Habilita la geolocalización en los ajustes";
+/* screen -> salon -> action */
+"screen.salon.action" = "Reservar";
+/* screen -> salon -> description -> title */
+"screen.salon.description.title" = "Descripción";
+/* screen -> salon -> description -> hide */
+"screen.salon.description.hide" = "Ocultar";
+/* screen -> salon -> description -> show_more */
+"screen.salon.description.show_more" = "Mostrar más";
+/* screen -> salon -> master -> title */
+"screen.salon.master.title" = "Especialistas";
+/* screen -> salon -> master -> action */
+"screen.salon.master.action" = "Todos";
+/* screen -> salon -> catalog -> title */
+"screen.salon.catalog.title" = "Catálogo de servicios";
+/* screen -> salon -> catalog -> action */
+"screen.salon.catalog.action" = "Abrir";
+/* screen -> profile_editing -> name */
+"screen.profile_editing.name" = "Nombre";
+/* screen -> profile_editing -> your_name */
+"screen.profile_editing.your_name" = "Tu nombre";
+/* screen -> profile_editing -> profile_photo */
+"screen.profile_editing.profile_photo" = "Foto de perfil";
+/* screen -> profile_editing -> choose_from_gallery */
+"screen.profile_editing.choose_from_gallery" = "Elegir de la galería";
+/* screen -> profile_editing -> edit_image */
+"screen.profile_editing.edit_image" = "Editar";
+/* screen -> main_customer_search -> customer_search */
+"screen.main_customer_search.customer_search" = "Buscar cliente";
+/* screen -> main_customer_list_search -> map */
+"screen.main_customer_list_search.map" = "Mapa";
+/* screen -> main_customer_map_search -> list */
+"screen.main_customer_map_search.list" = "Lista";
+/* screen -> main_customer -> appointments */
+"screen.main_customer.appointments" = "Citas";
+/* screen -> client_editable -> name */
+"screen.client_editable.name" = "Nombre";
+/* screen -> client_editable -> your_name */
+"screen.client_editable.your_name" = "Tu nombre";
+/* screen -> employee_editable -> name */
+"screen.employee_editable.name" = "Nombre";
+/* screen -> employee_editable -> your_name */
+"screen.employee_editable.your_name" = "Tu nombre";
+/* screen -> workplace_editing -> name */
+"screen.workplace_editing.name" = "Nombre";
+/* screen -> workplace_editing -> your_name */
+"screen.workplace_editing.your_name" = "Tu nombre";
+/* screen -> workplace_editing -> profile_photo */
+"screen.workplace_editing.profile_photo" = "Foto de perfil";
+/* screen -> workplace_editing -> choose_from_gallery */
+"screen.workplace_editing.choose_from_gallery" = "Elegir de la galería";
+/* screen -> workplace_editing -> salon_type */
+"screen.workplace_editing.salon_type" = "Tipo de salón";
+/* screen -> workplace_editing -> salon */
+"screen.workplace_editing.salon" = "Salón";
+/* screen -> workplace_editing -> salon_chain */
+"screen.workplace_editing.salon_chain" = "Cadena de salones";
+/* screen -> workplace_editing -> individual */
+"screen.workplace_editing.individual" = "Especialista individual";
+/* screen -> workplace_editing -> salon_description */
+"screen.workplace_editing.salon_description" = "Descripción del salón";
+/* screen -> workplace_editing -> your_description */
+"screen.workplace_editing.your_description" = "Tu descripción";
+/* screen -> position_editable -> name */
+"screen.position_editable.name" = "Nombre";
+/* screen -> position_editable -> your_name */
+"screen.position_editable.your_name" = "Tu nombre";
+/* screen -> day_schedule_update -> worktime */
+"screen.day_schedule_update.worktime" = "Horario de trabajo";
+/* screen -> day_schedule_update -> day_off */
+"screen.day_schedule_update.day_off" = "Día libre";
+/* screen -> day_schedule_update -> duration */
+"screen.day_schedule_update.duration" = "Duración";
+/* screen -> day_schedule_update -> start_time */
+"screen.day_schedule_update.start_time" = "Hora de inicio";
+/* screen -> day_schedule_update -> end_time */
+"screen.day_schedule_update.end_time" = "Hora de fin";
+/* screen -> complex_chunks -> selected_procedures */
+"screen.complex_chunks.selected_procedures" = "Procedimientos seleccionados";
+/* screen -> complex_chunks -> procedures_not_found */
+"screen.complex_chunks.procedures_not_found" = "No se encontraron procedimientos";
+/* screen -> complex_chunks -> change_executors */
+"screen.complex_chunks.change_executors" = "Cambiar especialistas";
+/* screen -> procedure_editing -> service_update */
+"screen.procedure_editing.service_update" = "Actualizar servicio";
+/* screen -> procedure_editing -> service_name */
+"screen.procedure_editing.service_name" = "Nombre del servicio";
+/* screen -> procedure_editing -> your_name */
+"screen.procedure_editing.your_name" = "Tu nombre";
+/* screen -> procedure_editing -> service_description */
+"screen.procedure_editing.service_description" = "Descripción del servicio";
+/* screen -> procedure_editing -> your_description */
+"screen.procedure_editing.your_description" = "Tu descripción";
+/* screen -> procedure_editing -> service_duration */
+"screen.procedure_editing.service_duration" = "Duración del servicio";
+/* screen -> procedure_editing -> service_price */
+"screen.procedure_editing.service_price" = "Precio del servicio";
+/* screen -> services -> search */
+"screen.services.search" = "Buscar servicio";
+/* screen -> knowledge_base -> title */
+"screen.knowledge_base.title" = "Base de conocimientos";
+/* screen -> knowledge_base -> position_setup */
+"screen.knowledge_base.position_setup" = "Configuración de posición";
+/* screen -> knowledge_base -> workplace_setup */
+"screen.knowledge_base.workplace_setup" = "Configurar su espacio de trabajo";
+/* screen -> knowledge_base -> schedule_setup */
+"screen.knowledge_base.schedule_setup" = "Establecer un horario";
+/* screen -> knowledge_base -> employees */
+"screen.knowledge_base.employees" = "Empleados";
+/* screen -> knowledge_base -> clients */
+"screen.knowledge_base.clients" = "Clientela";
+/* screen -> knowledge_base -> appointments */
+"screen.knowledge_base.appointments" = "Citas";
+/* screen -> paywall -> title */
+"screen.paywall.title" = "Elimina las limitaciones";
+/* screen -> paywall -> terms_and_conditions */
+"screen.paywall.terms_and_conditions" = "Términos y condiciones";
+/* screen -> paywall -> gift */
+"screen.paywall.gift" = "+2 meses";
+/* screen -> paywall -> button_text */
+"screen.paywall.button_text" = "Conectar";
+/* screen -> paywall -> month */
+"screen.paywall.month" = "Mes";
+/* screen -> paywall -> year */
+"screen.paywall.year" = "Año";
+/* screen -> paywall -> tariff -> start */
+"screen.paywall.tariff.start" = "Inicial";
+/* screen -> paywall -> tariff -> base */
+"screen.paywall.tariff.base" = "Básico";
+/* screen -> paywall -> tariff -> advanced */
+"screen.paywall.tariff.advanced" = "Avanzado";
+/* screen -> paywall -> tariff -> custom_price */
+"screen.paywall.tariff.custom_price" = "Precio acordado";
+/* screen -> paywall -> action -> connect */
+"screen.paywall.action.connect" = "Conectar";
+/* screen -> paywall -> action -> contact */
+"screen.paywall.action.contact" = "Contactar";
+/* screen -> paywall -> expiration_date */
+"screen.paywall.expiration_date" = "hasta %{date}";
+/* screen -> schedule_setup -> controls -> change */
+"screen.schedule_setup.controls.change" = "Cambiar";
+/* screen -> schedule_setup -> controls -> day_off */
+"screen.schedule_setup.controls.day_off" = "Día libre";
+/* screen -> schedule_setup -> controls -> start */
+"screen.schedule_setup.controls.start" = "Comenzar";
+/* screen -> schedule_setup -> controls -> from_today */
+"screen.schedule_setup.controls.from_today" = "Desde hoy";
+/* widget -> address -> title */
+"widget.address.title" = "Dirección";
+/* widget -> address -> navigation */
+"widget.address.navigation" = "Trazar ruta";
+/* widget -> contacts -> title */
+"widget.contacts.title" = "Contactos";
+/* widget -> contacts -> no_contacts */
+"widget.contacts.no_contacts" = "Sin contactos";
+/* widget -> contacts -> action */
+"widget.contacts.action" = "Agregar contacto";
+/* widget -> contacts -> placeholder */
+"widget.contacts.placeholder" = "No se especificaron métodos de contacto";
+/* widget -> contacts -> delete_confirmation */
+"widget.contacts.delete_confirmation" = "Confirmar eliminación";
+/* widget -> contacts -> connect */
+"widget.contacts.connect" = "Contactar";
+/* widget -> contacts -> saving */
+"widget.contacts.saving" = "Guardando";
+/* widget -> contacts -> select_contact_type */
+"widget.contacts.select_contact_type" = "Selecciona el tipo de contacto";
+/* widget -> contacts -> no_search_results */
+"widget.contacts.no_search_results" = "No se encontraron resultados de búsqueda";
+/* widget -> timetable -> title */
+"widget.timetable.title" = "Horario de trabajo";
+/* widget -> timetable -> break */
+"widget.timetable.break" = "Pausa";
+/* widget -> timetable -> offtimes */
+"widget.timetable.offtimes" = "Tiempos libres";
+/* widget -> catalog -> title */
+"widget.catalog.title" = "Catálogo de servicios";
+/* widget -> catalog -> cosmetology_tag */
+"widget.catalog.cosmetology_tag" = "Косметология";
+/* widget -> danger_zone -> title */
+"widget.danger_zone.title" = "Zona de peligro";
+/* widget -> position -> danger_zone -> delete_title */
+"widget.position.danger_zone.delete_title" = "Eliminar puesto";
+/* widget -> position -> danger_zone -> delete_subtitle */
+"widget.position.danger_zone.delete_subtitle" = "Antes de eliminar, asegúrate de que ningún empleado use este puesto.";
+/* widget -> position -> danger_zone -> position_removal */
+"widget.position.danger_zone.position_removal" = "Eliminación del puesto";
+/* widget -> position -> danger_zone -> confirm_removal */
+"widget.position.danger_zone.confirm_removal" = "Confirmar eliminación";
+/* widget -> dashboard -> danger_zone -> error */
+"widget.dashboard.danger_zone.error" = "Error en la zona de peligro del panel";
+/* widget -> knowledge_base -> title */
+"widget.knowledge_base.title" = "Base de conocimientos";
+/* widget -> knowledge_base -> description */
+"widget.knowledge_base.description" = "Aquí se encuentra toda la información sobre cómo usar la aplicación";
+/* reusable -> ok */
+"reusable.ok" = "Ok";
+/* reusable -> info */
+"reusable.info" = "Información";
+/* reusable -> cancel */
+"reusable.cancel" = "Cancelar";
+/* reusable -> delete */
+"reusable.delete" = "Eliminar";
+/* reusable -> add */
+"reusable.add" = "Agregar";
+/* reusable -> all */
+"reusable.all" = "Todos";
+/* reusable -> warning */
+"reusable.warning" = "Atención";
+/* reusable -> edit */
+"reusable.edit" = "Editar";
+/* reusable -> apply */
+"reusable.apply" = "Aplicar";
+/* reusable -> break */
+"reusable.break" = "Pausa";
+/* reusable -> select */
+"reusable.select" = "Seleccionar";
+/* reusable -> save */
+"reusable.save" = "Guardar";
+/* reusable -> continue */
+"reusable.continue" = "Continuar";
+/* reusable -> make_appointment */
+"reusable.make_appointment" = "Reservar";
+/* reusable -> close */
+"reusable.close" = "Cerrar";
+/* reusable -> repeat */
+"reusable.repeat" = "Repetir";
+/* reusable -> search */
+"reusable.search" = "Buscar";
+/* reusable -> from */
+"reusable.from" = "de";
+/* reusable -> hour */
+"reusable.hour" = "h";
+/* reusable -> minutes */
+"reusable.minutes" = "min";
+/* reusable -> today */
+"reusable.today" = "Hoy";
+/* reusable -> tomorrow */
+"reusable.tomorrow" = "Mañana";
+/* reusable -> submit_button */
+"reusable.submit_button" = "Listo";
+/* reusable -> allow_button */
+"reusable.allow_button" = "Permitir";
+/* reusable -> submit_text */
+"reusable.submit_text" = "Por favor, verifica la información ingresada. Cuando todo esté listo — haz clic en \'Listo\' para guardar";
+/* reusable -> skip */
+"reusable.skip" = "Saltar";
+/* reusable -> copy_button */
+"reusable.copy_button" = "Copiar";
+/* reusable -> invitation_link */
+"reusable.invitation_link" = "Enviar enlace de invitación";
+/* reusable -> not_found */
+"reusable.not_found" = "Nada encontrado";
+/* reusable -> category_enum -> brows */
+"reusable.category_enum.brows" = "Брови";
+/* reusable -> category_enum -> cosmetology */
+"reusable.category_enum.cosmetology" = "Косметология";
+/* reusable -> category_enum -> depilation */
+"reusable.category_enum.depilation" = "Depilación";
+/* reusable -> category_enum -> epilation */
+"reusable.category_enum.epilation" = "Эпиляция";
+/* reusable -> category_enum -> hairdressing */
+"reusable.category_enum.hairdressing" = "Волосы";
+/* reusable -> category_enum -> lashes */
+"reusable.category_enum.lashes" = "Ресницы";
+/* reusable -> category_enum -> makeup */
+"reusable.category_enum.makeup" = "Макияж";
+/* reusable -> category_enum -> massage */
+"reusable.category_enum.massage" = "Массаж";
+/* reusable -> category_enum -> nails */
+"reusable.category_enum.nails" = "Ногти";
+/* reusable -> category_enum -> other */
+"reusable.category_enum.other" = "Otro";
+/* reusable -> category_enum -> piercing */
+"reusable.category_enum.piercing" = "Пирсинг";
+/* reusable -> category_enum -> spa */
+"reusable.category_enum.spa" = "Спа";
+/* reusable -> category_enum -> tattoo */
+"reusable.category_enum.tattoo" = "Tatuaje";
+/* reusable -> alert -> client_confirmation */
+"reusable.alert.client_confirmation" = "Al seguir el enlace se sincronizará tu historial de pedidos. El salón asociado se añadirá a tus favoritos. ¿Confirmas esta acción?";
+/* reusable -> alert -> confirmation */
+"reusable.alert.confirmation" = "Confirmación";
+/* reusable -> alert -> congratulations */
+"reusable.alert.congratulations" = "¡Felicidades!";
+/* reusable -> alert -> error */
+"reusable.alert.error" = "Error";
+/* reusable -> alert -> incomplete_address */
+"reusable.alert.incomplete_address" = "Dirección incompleta";
+/* reusable -> alert -> incomplete_address_message */
+"reusable.alert.incomplete_address_message" = "Por favor, introduce tu dirección completa para continuar";
+/* reusable -> alert -> master_confirmation */
+"reusable.alert.master_confirmation" = "Seguiste un enlace que te conectará como empleado al salón correspondiente. Tras confirmar, podrás ofrecer servicios allí. ¿Confirmas esta acción?";
+/* reusable -> alert -> ok */
+"reusable.alert.ok" = "Ok";
+/* reusable -> unknown */
+"reusable.unknown" = "Desconocido";
+/* reusable -> english */
+"reusable.english" = "Inglés";
+/* reusable -> russian */
+"reusable.russian" = "Ruso";
+/* onboarding -> alert -> learn_workplace -> title */
+"onboarding.alert.learn_workplace.title" = "Capacitación";
+/* onboarding -> alert -> learn_workplace -> subtitle */
+"onboarding.alert.learn_workplace.subtitle" = "Cómo crear un salón";
+/* onboarding -> alert -> setup_workplace -> title */
+"onboarding.alert.setup_workplace.title" = "Completa la configuración del salón";
+/* onboarding -> alert -> setup_workplace -> subtitle */
+"onboarding.alert.setup_workplace.subtitle" = "{completedSteps, plural, one{{completedSteps} de {totalSteps} paso completado} few{{completedSteps} de {totalSteps} pasos completados} many{{completedSteps} de {totalSteps} pasos completados} other{{completedSteps} de {totalSteps} pasos completados} }";
+/* onboarding -> alert -> steps_completed */
+"onboarding.alert.steps_completed" = "%d de %d pasos completados";
+/* onboarding -> alert -> complete_salon_setup */
+"onboarding.alert.complete_salon_setup" = "Completa la configuración del salón";
+/* onboarding -> create_workplace -> title */
+"onboarding.create_workplace.title" = "Crea tu primer salón";
+/* onboarding -> create_workplace -> subtitle */
+"onboarding.create_workplace.subtitle" = "En la pantalla principal, desliza hacia la derecha para abrir el panel auxiliar, luego toca +.";
+/* onboarding -> setup_schedule -> step1 -> title */
+"onboarding.setup_schedule.step1.title" = "Selecciona los días para editar";
+/* onboarding -> setup_schedule -> step1 -> description */
+"onboarding.setup_schedule.step1.description" = "Toca la celda del día para agregarlos a la selección para editar el día";
+/* onboarding -> setup_schedule -> step2 -> title */
+"onboarding.setup_schedule.step2.title" = "Ver información del día";
+/* onboarding -> setup_schedule -> step2 -> description */
+"onboarding.setup_schedule.step2.description" = "Mantén presionado el día para ver información breve sobre él";
+/* onboarding -> invite_employee -> title */
+"onboarding.invite_employee.title" = "Invitar empleado";
+/* onboarding -> invite_employee -> subtitle */
+"onboarding.invite_employee.subtitle" = "En el panel principal, ve a la sección de empleados, luego toca +";
+/* onboarding -> select_services -> title */
+"onboarding.select_services.title" = "Selecciona los servicios que ofreces";
+/* onboarding -> select_services -> subtitle */
+"onboarding.select_services.subtitle" = "Ve a la pestaña de gestión. En la sección de servicios, toca +";
+/* onboarding -> activate -> title */
+"onboarding.activate.title" = "Activar salón";
+/* onboarding -> activate -> subtitle */
+"onboarding.activate.subtitle" = "En la sección de ajustes, desplázate hasta la zona de peligro y pulsa activar";
+/* onboarding -> appointment -> step1 -> title */
+"onboarding.appointment.step1.title" = "Área de trabajo";
+/* onboarding -> appointment -> step1 -> subtitle */
+"onboarding.appointment.step1.subtitle" = "Para abrir el área de trabajo, toca el widget de Citas";
+/* onboarding -> appointment -> step2 -> title */
+"onboarding.appointment.step2.title" = "Crear cita";
+/* onboarding -> appointment -> step2 -> subtitle */
+"onboarding.appointment.step2.subtitle" = "En la pantalla del área de trabajo, toca 􀑎, selecciona cliente y especialista, introduce hora y servicio, luego guarda tocando Crear";
+/* onboarding -> appointment -> step3 -> title */
+"onboarding.appointment.step3.title" = "Mover cita";
+/* onboarding -> appointment -> step3 -> subtitle */
+"onboarding.appointment.step3.subtitle" = "Mantén pulsada la cita y arrástrala a la hora y especialista deseado. Luego confirma tocando Mover";
+/* onboarding -> appointment -> step4 -> title */
+"onboarding.appointment.step4.title" = "Gestionar estado";
+/* onboarding -> appointment -> step4 -> subtitle */
+"onboarding.appointment.step4.subtitle" = "Mantén pulsada la cita, luego elige el estado en el menú que aparece";
+/* onboarding -> client -> step1 -> title */
+"onboarding.client.step1.title" = "Invitar cliente";
+/* onboarding -> client -> step1 -> subtitle */
+"onboarding.client.step1.subtitle" = "En el panel de navegación, ve a la pestaña Salón y pulsa Agregar cliente 􀉯";
+/* onboarding -> client -> step2 -> title */
+"onboarding.client.step2.title" = "Enlace de invitación";
+/* onboarding -> client -> step2 -> subtitle */
+"onboarding.client.step2.subtitle" = "Después de introducir los datos, ve a la sección Mis clientes y envía el enlace al cliente";
+/* onboarding -> employee -> step1 -> title */
+"onboarding.employee.step1.title" = "Invitar especialista";
+/* onboarding -> employee -> step1 -> subtitle */
+"onboarding.employee.step1.subtitle" = "En el panel de navegación, ve a la pestaña Salón y pulsa Agregar especialista 􀉯";
+/* onboarding -> employee -> step2 -> title */
+"onboarding.employee.step2.title" = "Seleccionar puesto";
+/* onboarding -> employee -> step2 -> subtitle */
+"onboarding.employee.step2.subtitle" = "Al asignar el puesto, puedes elegir uno ya creado o añadir uno nuevo";
+/* onboarding -> employee -> step3 -> title */
+"onboarding.employee.step3.title" = "Esperando al especialista";
+/* onboarding -> employee -> step3 -> subtitle */
+"onboarding.employee.step3.subtitle" = "Una vez agregado, su celda aparecerá en la pestaña del puesto. Desde allí puedes enviarle la invitación";
+/* onboarding -> procedure -> step1 -> title */
+"onboarding.procedure.step1.title" = "Crear procedimiento";
+/* onboarding -> procedure -> step1 -> subtitle */
+"onboarding.procedure.step1.subtitle" = "En el panel de navegación, ve a la pestaña Salón y pulsa Agregar nuevo servicio 􁥉";
+/* onboarding -> procedure -> step2 -> title */
+"onboarding.procedure.step2.title" = "Nombre del procedimiento";
+/* onboarding -> procedure -> step2 -> subtitle */
+"onboarding.procedure.step2.subtitle" = "Primero introduce el nombre o elige uno de la lista tocando 􀇷";
+/* onboarding -> procedure -> step3 -> title */
+"onboarding.procedure.step3.title" = "Procedimientos existentes";
+/* onboarding -> procedure -> step3 -> subtitle */
+"onboarding.procedure.step3.subtitle" = "Al tocar 􀇷, selecciona un servicio ya moderado. Se puede configurar y será más fácil que te encuentren";
+/* onboarding -> procedure -> step4 -> title */
+"onboarding.procedure.step4.title" = "Seleccionar especialistas";
+/* onboarding -> procedure -> step4 -> subtitle */
+"onboarding.procedure.step4.subtitle" = "En el último paso, selecciona los profesionales que te prestarán este servicio. Posteriormente los clientes podrán concertar una cita con ellos fácilmente.";
+/* onboarding -> workplace -> step1 -> subtitle */
+"onboarding.workplace.step1.subtitle" = "Para abrir el área de trabajo, toca el widget de Citas";
+/* onboarding -> workplace -> step1 -> title */
+"onboarding.workplace.step1.title" = "Área de trabajo";
+/* onboarding -> workplace -> step2 -> title */
+"onboarding.workplace.step2.title" = "Crear cita";
+/* onboarding -> workplace -> step2 -> subtitle */
+"onboarding.workplace.step2.subtitle" = "Toca 􀑎, asigna cliente y especialista, define hora y servicio, y guarda tocando \'crear\'";
+/* onboarding -> workplace -> step3 -> title */
+"onboarding.workplace.step3.title" = "Mover cita";
+/* onboarding -> workplace -> step3 -> subtitle */
+"onboarding.workplace.step3.subtitle" = "Mantén pulsado y arrástralo a la hora y especialista deseado. Guarda tocando \'mover cita\'";
+/* onboarding -> workplace -> step4 -> title */
+"onboarding.workplace.step4.title" = "Gestionar estado";
+/* onboarding -> workplace -> step4 -> subtitle */
+"onboarding.workplace.step4.subtitle" = "Mantén pulsada la cita, luego elige el estado en el menú que aparece";
+/* onboarding -> salon_creation -> step1 -> title */
+"onboarding.salon_creation.step1.title" = "Creación de salón";
+/* onboarding -> salon_creation -> step1 -> subtitle */
+"onboarding.salon_creation.step1.subtitle" = "Desde la pantalla de inicio, desliza hacia la derecha y pulsa 􀑎";
+/* onboarding -> salon_creation -> step2 -> title */
+"onboarding.salon_creation.step2.title" = "Configurar horario del salón";
+/* onboarding -> salon_creation -> step2 -> subtitle */
+"onboarding.salon_creation.step2.subtitle" = "Al crear, puedes elegir entre tres opciones: semanal, por turnos o diario";
+/* onboarding -> salon_creation -> step3 -> title */
+"onboarding.salon_creation.step3.title" = "Plantilla semanal";
+/* onboarding -> salon_creation -> step3 -> subtitle */
+"onboarding.salon_creation.step3.subtitle" = "Configura cada día de la semana por separado";
+/* onboarding -> salon_creation -> step4 -> title */
+"onboarding.salon_creation.step4.title" = "Horario por turnos";
+/* onboarding -> salon_creation -> step4 -> subtitle */
+"onboarding.salon_creation.step4.subtitle" = "Define cuántos días se trabaja y se descansa. Después configura horarios y pausas";
+/* onboarding -> salon_creation -> step5 -> title */
+"onboarding.salon_creation.step5.title" = "Horario diario";
+/* onboarding -> salon_creation -> step5 -> subtitle */
+"onboarding.salon_creation.step5.subtitle" = "Este horario se repetirá cada día con la misma plantilla";
+/* onboarding -> position -> step1 -> title */
+"onboarding.position.step1.title" = "Configuración de posición";
+/* onboarding -> position -> step1 -> description */
+"onboarding.position.step1.description" = "Abre la pantalla de especialistas, presiona el botón + en la sección de posiciones para crear una nueva posición. Configura todos los campos y confirma la creación de la posición.";
+/* creatable -> salon -> title */
+"creatable.salon.title" = "Creación de salón";
+/* creatable -> salon -> workplace -> salon_name */
+"creatable.salon.workplace.salon_name" = "Nombre del salón";
+/* creatable -> salon -> workplace -> salon_name_placeholder */
+"creatable.salon.workplace.salon_name_placeholder" = "Introduce el nombre...";
+/* creatable -> salon -> workplace -> add_logo */
+"creatable.salon.workplace.add_logo" = "Agregar logotipo";
+/* creatable -> salon -> workplace -> salon_logo */
+"creatable.salon.workplace.salon_logo" = "Logotipo del salón";
+/* creatable -> salon -> workplace -> logo_description */
+"creatable.salon.workplace.logo_description" = "Agrega un logotipo para destacar entre los salones";
+/* creatable -> salon -> workplace -> change_type */
+"creatable.salon.workplace.change_type" = "Cambiar tipo";
+/* creatable -> salon -> workplace -> salon_type */
+"creatable.salon.workplace.salon_type" = "Tipo de salón";
+/* creatable -> salon -> workplace -> salon_description */
+"creatable.salon.workplace.salon_description" = "Descripción del salón";
+/* creatable -> salon -> workplace -> description_placeholder */
+"creatable.salon.workplace.description_placeholder" = "Introduce una descripción...";
+/* creatable -> salon -> workplace -> add_contact */
+"creatable.salon.workplace.add_contact" = "Agregar contacto";
+/* creatable -> salon -> workplace -> contacts */
+"creatable.salon.workplace.contacts" = "Contactos";
+/* creatable -> salon -> workplace -> change_address */
+"creatable.salon.workplace.change_address" = "Cambiar dirección";
+/* creatable -> salon -> workplace -> address */
+"creatable.salon.workplace.address" = "Dirección";
+/* creatable -> salon -> salon_type */
+"creatable.salon.salon_type" = "Comencemos — te ayudaré a configurarlo según tus necesidades. Primero, elige qué tipo de espacio estás creando";
+/* creatable -> salon -> master_type */
+"creatable.salon.master_type" = "Especialista individual";
+/* creatable -> salon -> individual_type */
+"creatable.salon.individual_type" = "Salón de belleza";
+/* creatable -> salon -> chain_type */
+"creatable.salon.chain_type" = "Cadena de salones";
+/* creatable -> salon -> name_enter */
+"creatable.salon.name_enter" = "¡Genial! Ahora introduce el nombre de tu salón — así lo verán los clientes";
+/* creatable -> salon -> name_placeholder */
+"creatable.salon.name_placeholder" = "Introduce el nombre...";
+/* creatable -> salon -> add_contact */
+"creatable.salon.add_contact" = "Agrega un método de contacto — para que los clientes puedan comunicarse fácilmente contigo";
+/* creatable -> salon -> upload_logo */
+"creatable.salon.upload_logo" = "Sube un logotipo — se mostrará en tu perfil y en los resultados de búsqueda";
+/* creatable -> salon -> description_enter */
+"creatable.salon.description_enter" = "Cuéntanos un poco sobre ti y tus servicios — esta información aparecerá en tu página";
+/* creatable -> salon -> description_placeholder */
+"creatable.salon.description_placeholder" = "Introduce una descripción...";
+/* creatable -> salon -> add_address */
+"creatable.salon.add_address" = "¡Perfecto! Ahora añade la dirección para que los clientes puedan encontrarte fácilmente";
+/* creatable -> salon -> address_placeholder */
+"creatable.salon.address_placeholder" = "Introduce la dirección...";
+/* creatable -> salon -> current_address */
+"creatable.salon.current_address" = "Dirección actual";
+/* creatable -> salon -> invalid_address */
+"creatable.salon.invalid_address" = "Dirección inválida";
+/* creatable -> salon -> invalid_address_message */
+"creatable.salon.invalid_address_message" = "Por favor, elige otra dirección";
+/* creatable -> salon -> unable_address */
+"creatable.salon.unable_address" = "Dirección no disponible";
+/* creatable -> salon -> notice_request */
+"creatable.salon.notice_request" = "Para no perder mensajes de clientes, permite las notificaciones";
+/* creatable -> salon -> turn_on_notifications */
+"creatable.salon.turn_on_notifications" = "Desactivaste las notificaciones push en [ajustes](%@), actívalas allí";
+/* creatable -> salon -> unfinished_creatable */
+"creatable.salon.unfinished_creatable" = "¡Hemos encontrado una creación de salón sin finalizar en tu cuenta!";
+/* creatable -> procedure -> title */
+"creatable.procedure.title" = "Crear procedimiento";
+/* creatable -> procedure -> unfinished_title */
+"creatable.procedure.unfinished_title" = "Hemos encontrado una creación de procedimiento sin finalizar";
+/* creatable -> procedure -> field -> select_masters */
+"creatable.procedure.field.select_masters" = "Seleccionar especialistas";
+/* creatable -> procedure -> field -> executors */
+"creatable.procedure.field.executors" = "Ejecutores";
+/* creatable -> procedure -> field -> create_service */
+"creatable.procedure.field.create_service" = "O crear nuevo servicio";
+/* creatable -> procedure -> field -> select_template */
+"creatable.procedure.field.select_template" = "Elegir de plantillas";
+/* creatable -> procedure -> field -> name_title */
+"creatable.procedure.field.name_title" = "Servicio";
+/* creatable -> procedure -> field -> name_placeholder */
+"creatable.procedure.field.name_placeholder" = "Introduce el nombre...";
+/* creatable -> procedure -> field -> set_duration */
+"creatable.procedure.field.set_duration" = "Establecer";
+/* creatable -> procedure -> field -> duration_title */
+"creatable.procedure.field.duration_title" = "Duración del procedimiento";
+/* creatable -> procedure -> field -> description_title */
+"creatable.procedure.field.description_title" = "Descripción del procedimiento";
+/* creatable -> procedure -> field -> description_placeholder */
+"creatable.procedure.field.description_placeholder" = "Introduce una descripción...";
+/* creatable -> procedure -> field -> price_title */
+"creatable.procedure.field.price_title" = "Costo del procedimiento";
+/* creatable -> procedure -> name_enter */
+"creatable.procedure.name_enter" = "Comencemos por el nombre — introdúcelo manualmente o elige de la lista";
+/* creatable -> procedure -> name_hint */
+"creatable.procedure.name_hint" = "Elegir un nombre existente ayudará a que los clientes te encuentren más rápido";
+/* creatable -> procedure -> name_placeholder */
+"creatable.procedure.name_placeholder" = "Introduce el nombre del servicio...";
+/* creatable -> procedure -> category_title */
+"creatable.procedure.category_title" = "Elige una categoría adecuada — ayudará a los clientes a orientarse";
+/* creatable -> procedure -> duration_title */
+"creatable.procedure.duration_title" = "¿Cuánto tiempo dura el procedimiento?";
+/* creatable -> procedure -> description_enter */
+"creatable.procedure.description_enter" = "Describe lo que es importante saber antes del procedimiento";
+/* creatable -> procedure -> description_example */
+"creatable.procedure.description_example" = "Например: «Принести полотенце, прибыть за 10–15 минут, снять украшения, сообщить о противопоказаниях»";
+/* creatable -> procedure -> description_placeholder */
+"creatable.procedure.description_placeholder" = "Introduce una descripción...";
+/* creatable -> procedure -> price_title */
+"creatable.procedure.price_title" = "Especifica el precio — esta información se mostrará en la página del procedimiento";
+/* creatable -> procedure -> price_placeholder */
+"creatable.procedure.price_placeholder" = "Introduce el importe...";
+/* creatable -> procedure -> masters_title */
+"creatable.procedure.masters_title" = "¿Qué especialistas ofrecerán este servicio?";
+/* creatable -> procedure -> missing_duration */
+"creatable.procedure.missing_duration" = "Duración no especificada";
+/* creatable -> procedure -> missing_price */
+"creatable.procedure.missing_price" = "Precio no especificado";
+/* creatable -> procedure -> missing_service_id */
+"creatable.procedure.missing_service_id" = "Falta ID del servicio";
+/* creatable -> procedure -> missing_master */
+"creatable.procedure.missing_master" = "Falta especialista";
+/* creatable -> procedure -> unfinished_creatable */
+"creatable.procedure.unfinished_creatable" = "Hemos encontrado una creación de procedimiento sin finalizar";
+/* creatable -> client -> title */
+"creatable.client.title" = "Nuevo cliente";
+/* creatable -> client -> field -> name_title */
+"creatable.client.field.name_title" = "Nombre";
+/* creatable -> client -> name_placeholder */
+"creatable.client.name_placeholder" = "Introduce el nombre...";
+/* creatable -> client -> unfinished_creatable */
+"creatable.client.unfinished_creatable" = "¡Hemos encontrado una creación de cliente sin finalizar en tu cuenta!";
+/* creatable -> employee -> title */
+"creatable.employee.title" = "Nuevo empleado";
+/* creatable -> employee -> unfinished_title */
+"creatable.employee.unfinished_title" = "Hemos encontrado una creación de empleado sin finalizar";
+/* creatable -> employee -> field -> name_title */
+"creatable.employee.field.name_title" = "Nombre del especialista";
+/* creatable -> employee -> field -> select_position */
+"creatable.employee.field.select_position" = "Elegir puesto";
+/* creatable -> employee -> field -> position_title */
+"creatable.employee.field.position_title" = "Puesto";
+/* creatable -> employee -> field -> setup */
+"creatable.employee.field.setup" = "Configurar";
+/* creatable -> employee -> field -> schedule_title */
+"creatable.employee.field.schedule_title" = "Horario del especialista";
+/* creatable -> employee -> name_enter */
+"creatable.employee.name_enter" = "Introduce el nombre del empleado";
+/* creatable -> employee -> name_placeholder */
+"creatable.employee.name_placeholder" = "Introduce el nombre...";
+/* creatable -> employee -> add_contact */
+"creatable.employee.add_contact" = "Agregar método de contacto";
+/* creatable -> employee -> choose_position */
+"creatable.employee.choose_position" = "Elige un puesto — determinará permisos y método de cálculo salarial";
+/* creatable -> employee -> description_placeholder */
+"creatable.employee.description_placeholder" = "Introduce una descripción...";
+/* creatable -> employee -> enter_master_description */
+"creatable.employee.enter_master_description" = "Cuéntanos un poco sobre el especialista — esto será visible para los clientes";
+/* creatable -> employee -> setup_schedule */
+"creatable.employee.setup_schedule" = "Puedes configurar inmediatamente el horario del especialista invitado";
+/* creatable -> employee -> successfully_created */
+"creatable.employee.successfully_created" = "¡Genial! La invitación al nuevo especialista se ha enviado correctamente";
+/* creatable -> employee -> unfinished_creatable */
+"creatable.employee.unfinished_creatable" = "¡Hemos encontrado una creación de empleado sin finalizar en tu cuenta!";
+/* creatable -> position -> title */
+"creatable.position.title" = "Nuevo puesto";
+/* creatable -> position -> field -> name_title */
+"creatable.position.field.name_title" = "Nombre";
+/* creatable -> position -> field -> salary_button */
+"creatable.position.field.salary_button" = "Salario";
+/* creatable -> position -> field -> salary_title */
+"creatable.position.field.salary_title" = "Introduce el salario";
+/* creatable -> position -> name_enter */
+"creatable.position.name_enter" = "Especifica el nombre del nuevo puesto";
+/* creatable -> position -> placeholder */
+"creatable.position.placeholder" = "Introduce el nombre...";
+/* creatable -> position -> setting_salary */
+"creatable.position.setting_salary" = "Define el salario para este puesto";
+/* creatable -> position -> salary_empty */
+"creatable.position.salary_empty" = "Se ha indicado un ingreso de cero";
+/* creatable -> position -> add_permissions */
+"creatable.position.add_permissions" = "Asigna permisos de acceso para este puesto";
+/* creatable -> position -> unfinished_creatable */
+"creatable.position.unfinished_creatable" = "¡Hemos encontrado una creación de puesto sin finalizar en tu cuenta!";
+/* creatable -> schedule -> title */
+"creatable.schedule.title" = "Crear horario";
+/* creatable -> schedule -> shift_schedule_title */
+"creatable.schedule.shift_schedule_title" = "Horario por turnos";
+/* creatable -> schedule -> week_schedule_title */
+"creatable.schedule.week_schedule_title" = "Plantilla semanal";
+/* creatable -> schedule -> day_schedule_title */
+"creatable.schedule.day_schedule_title" = "Horario diario";
+/* creatable -> schedule -> worktime_uncorrect_error */
+"creatable.schedule.worktime_uncorrect_error" = "La hora de finalización debe ser después de la hora de inicio";
+/* creatable -> schedule -> no_worktime_set_error */
+"creatable.schedule.no_worktime_set_error" = "No se ha establecido el horario de trabajo";
+/* creatable -> schedule -> offtime_duplicates_error */
+"creatable.schedule.offtime_duplicates_error" = "Hay pausas duplicadas";
+/* creatable -> schedule -> offtime_overlapping_error */
+"creatable.schedule.offtime_overlapping_error" = "Hay pausas superpuestas";
+/* creatable -> schedule -> weekly_info */
+"creatable.schedule.weekly_info" = "Crea una plantilla semanal — cada día puede configurarse individualmente";
+/* creatable -> schedule -> daily_info */
+"creatable.schedule.daily_info" = "Horario diario — se aplicará a todos los días";
+/* creatable -> schedule -> cycled_info */
+"creatable.schedule.cycled_info" = "Define la cantidad de días laborales y de descanso. Formato: días laborales primero, luego días libres";
+/* creatable -> schedule -> cycled_example */
+"creatable.schedule.cycled_example" = "Por ejemplo, \'2 trabajo / 2 descanso\', o cualquier combinación: 5/2, 3/1, etc.";
+/* creatable -> schedule -> set_time */
+"creatable.schedule.set_time" = "Elige el horario laboral — así los clientes sabrán cuándo reservar";
+/* creatable -> schedule -> first_day */
+"creatable.schedule.first_day" = "Elige el primer día laboral";
+/* creatable -> schedule -> work_days */
+"creatable.schedule.work_days" = "Días laborales:";
+/* creatable -> schedule -> weekend */
+"creatable.schedule.weekend" = "Días libres:";
+/* creatable -> schedule -> work_time */
+"creatable.schedule.work_time" = "Horario de trabajo:";
+/* creatable -> schedule -> off_time */
+"creatable.schedule.off_time" = "Pausas:";
+/* creatable -> schedule -> missing_timetable */
+"creatable.schedule.missing_timetable" = "Horario faltante";
+/* creatable -> contact -> title */
+"creatable.contact.title" = "Crear contacto";
+/* creatable -> contact -> field -> add_contact */
+"creatable.contact.field.add_contact" = "Agregar contacto";
+/* creatable -> contact -> field -> phone */
+"creatable.contact.field.phone" = "Teléfono";
+/* creatable -> contact -> field -> telegram */
+"creatable.contact.field.telegram" = "Telegram";
+/* creatable -> contact -> field -> instagram */
+"creatable.contact.field.instagram" = "Instagram";
+/* creatable -> contact -> field -> email */
+"creatable.contact.field.email" = "Correo electrónico";
+/* creatable -> contact -> field -> email_placeholder */
+"creatable.contact.field.email_placeholder" = "example@email.com";
+/* creatable -> contact -> contact_type */
+"creatable.contact.contact_type" = "Elige el método de contacto preferido";
+/* creatable -> contact -> instagram */
+"creatable.contact.instagram" = "Instagram";
+/* creatable -> contact -> phone */
+"creatable.contact.phone" = "Teléfono";
+/* creatable -> contact -> telegram */
+"creatable.contact.telegram" = "Telegram";
+/* creatable -> contact -> email */
+"creatable.contact.email" = "Correo electrónico";
+/* creatable -> contact -> enter_email */
+"creatable.contact.enter_email" = "Introduce tu correo electrónico";
+/* creatable -> contact -> enter_instagram */
+"creatable.contact.enter_instagram" = "Comparte tu cuenta de Instagram";
+/* creatable -> contact -> enter_phone_number */
+"creatable.contact.enter_phone_number" = "Introduce tu número de teléfono";
+/* creatable -> contact -> enter_telegram_number */
+"creatable.contact.enter_telegram_number" = "Agrega cuenta de Telegram";
+/* creatable -> appointment -> title */
+"creatable.appointment.title" = "Nueva cita";
+/* creatable -> appointment -> client */
+"creatable.appointment.client" = "Cliente";
+/* creatable -> appointment -> procedure */
+"creatable.appointment.procedure" = "Procedimiento";
+/* creatable -> appointment -> date */
+"creatable.appointment.date" = "Fecha";
+/* creatable -> appointment -> select_procedure_first_message */
+"creatable.appointment.select_procedure_first_message" = "Para seleccionar la fecha primero necesitas elegir el procedimiento";
+/* creatable -> appointment -> choose_customer */
+"creatable.appointment.choose_customer" = "Selecciona el cliente para quien se crea la cita";
+/* creatable -> appointment -> select_procedure */
+"creatable.appointment.select_procedure" = "Elegir servicio";
+/* creatable -> appointment -> select_time */
+"creatable.appointment.select_time" = "Especificar horario conveniente";
+/* creatable -> appointment -> day_unavailable */
+"creatable.appointment.day_unavailable" = "Este día no está disponible para reservar — por favor elige otra fecha";
+/* creatable -> appointment -> night */
+"creatable.appointment.night" = "Noche";
+/* creatable -> appointment -> morning */
+"creatable.appointment.morning" = "Mañana";
+/* creatable -> appointment -> afternoon */
+"creatable.appointment.afternoon" = "Tarde";
+/* creatable -> appointment -> evening */
+"creatable.appointment.evening" = "Noche";
+/* creatable -> auth -> enter_name */
+"creatable.auth.enter_name" = "Introduce tu nombre";
+/* creatable -> auth -> later_logo */
+"creatable.auth.later_logo" = "Si no tienes una foto ahora, puedes agregarla luego en ajustes del perfil.";
+/* creatable -> auth -> placeholder */
+"creatable.auth.placeholder" = "Nombre";
+/* creatable -> auth -> privacy */
+"creatable.auth.privacy" = "Al hacer clic en \'Continuar\', aceptas la [Política de Privacidad](%@) y los [Términos de Servicio](%@)";
+/* creatable -> auth -> title */
+"creatable.auth.title" = "Autorización";
+/* creatable -> auth -> upload_logo */
+"creatable.auth.upload_logo" = "Subamos tu avatar";
+/* creatable -> auth -> welcome_message */
+"creatable.auth.welcome_message" = "Inicia sesión o regístrate para usar el servicio en cualquier dispositivo.";
+/* creatable -> auth -> uncompleted_registration_found */
+"creatable.auth.uncompleted_registration_found" = "¡Hemos encontrado un registro sin finalizar!";
+/* creatable -> auth -> add_recovery_title */
+"creatable.auth.add_recovery_title" = "Agregar método de recuperación";
+/* creatable -> auth -> select_contact_method */
+"creatable.auth.select_contact_method" = "Elige cómo podrán contactarte los especialistas; se mostrará en tu perfil";
+/* creatable -> auth -> add_recovery_description */
+"creatable.auth.add_recovery_description" = "Proporciona tu teléfono o email.
+Esto es necesario para recuperar acceso a tu cuenta";
+/* creatable -> auth -> add_workplace */
+"creatable.auth.add_workplace" = "Agrega un espacio de trabajo para continuar con el registro";
+/* creatable -> service -> missing_tag */
+"creatable.service.missing_tag" = "Falta etiqueta";
+/* creatable -> service -> missing_category */
+"creatable.service.missing_category" = "Falta categoría";
+/* updatable -> employee -> select_position */
+"updatable.employee.select_position" = "Elegir puesto";
+/* updatable -> position -> title */
+"updatable.position.title" = "Nombre";
+/* updatable -> position -> title_placeholder */
+"updatable.position.title_placeholder" = "Tu nombre";
+/* updatable -> profile_update -> enter_name */
+"updatable.profile_update.enter_name" = "Introduce el nuevo apodo";
+/* updatable -> profile_update -> placeholder */
+"updatable.profile_update.placeholder" = "Nombre";
+/* updatable -> profile_update -> save */
+"updatable.profile_update.save" = "Guardar";
+/* updatable -> profile_update -> title */
+"updatable.profile_update.title" = "Actualizar perfil";
+/* updatable -> profile_update -> upload_avatar */
+"updatable.profile_update.upload_avatar" = "Subir nuevo avatar";
+/* updatable -> salon_update -> enter_name */
+"updatable.salon_update.enter_name" = "Introduce un nuevo nombre para tu salón";
+/* updatable -> salon_update -> placeholder */
+"updatable.salon_update.placeholder" = "Nombre";
+/* updatable -> salon_update -> salon_type */
+"updatable.salon_update.salon_type" = "Elige tipo de salón";
+/* updatable -> salon_update -> save */
+"updatable.salon_update.save" = "Guardar";
+/* updatable -> salon_update -> title */
+"updatable.salon_update.title" = "Actualizar salón";
+/* updatable -> salon_update -> upload_logo */
+"updatable.salon_update.upload_logo" = "Subir nuevo logotipo";
+/* error -> error */
+"error.error" = "Error";
+/* error -> default -> register_as_client */
+"error.default.register_as_client" = "Para procesar el enlace, debes registrarte como cliente";
+/* error -> default -> register_as_master */
+"error.default.register_as_master" = "Para procesar el enlace, debes registrarte como especialista";
+/* error -> default -> unknown_error */
+"error.default.unknown_error" = "Error desconocido";
+/* error -> default -> failedToLoadImage */
+"error.default.failedToLoadImage" = "No se pudo cargar la imagen. Verifica tu conexión y vuelve a intentarlo.";
+/* error -> default -> missing_master */
+"error.default.missing_master" = "Falta especialista";
+/* error -> default -> missing_procedures */
+"error.default.missing_procedures" = "Faltan procedimientos";
+/* error -> default -> missing_date_interval */
+"error.default.missing_date_interval" = "Falta intervalo de fechas";
+/* error -> default -> another_timezone_worktime */
+"error.default.another_timezone_worktime" = "El horario se muestra en otra zona horaria";
+/* error -> default -> missing_title */
+"error.default.missing_title" = "Falta título";
+/* error -> default -> image_load_failed */
+"error.default.image_load_failed" = "Error al cargar imagen";
+/* error -> default -> offtime_is_out_of_worktime */
+"error.default.offtime_is_out_of_worktime" = "La pausa está fuera del horario laboral";
+/* error -> default -> missing_type */
+"error.default.missing_type" = "Falta tipo";
+/* error -> default -> missing_description */
+"error.default.missing_description" = "Falta descripción";
+/* error -> default -> missing_client */
+"error.default.missing_client" = "Falta cliente";
+/* error -> default -> missing_client_name */
+"error.default.missing_client_name" = "Falta nombre del cliente";
+/* error -> default -> missing_client_contacts */
+"error.default.missing_client_contacts" = "Faltan contactos del cliente";
+/* error -> default -> missing_permissions */
+"error.default.missing_permissions" = "Faltan permisos";
+/* error -> default -> missing_salary */
+"error.default.missing_salary" = "Falta salario";
+/* error -> http -> bad_gateway */
+"error.http.bad_gateway" = "502 Puerta de enlace incorrecta: el servidor actuando como proxy recibió una respuesta inválida.";
+/* error -> http -> bad_request */
+"error.http.bad_request" = "400 Solicitud incorrecta: sintaxis inválida en la solicitud.";
+/* error -> http -> payment_required */
+"error.http.payment_required" = "Límite de suscripción alcanzado. Por favor actualiza tu plan para continuar.";
+/* error -> http -> conflict */
+"error.http.conflict" = "409 Conflicto: conflicto al procesar la solicitud, como ediciones simultáneas.";
+/* error -> http -> forbidden */
+"error.http.forbidden" = "403 Prohibido: el servidor entiende la solicitud pero se niega a ejecutarla.";
+/* error -> http -> gateway_timeout */
+"error.http.gateway_timeout" = "504 Tiempo de espera agotado: no se recibió respuesta a tiempo del servidor superior.";
+/* error -> http -> internal_server_error */
+"error.http.internal_server_error" = "500 Error interno del servidor: algo salió mal del lado del servidor.";
+/* error -> http -> method_not_allowed */
+"error.http.method_not_allowed" = "405 Método no permitido: el método especificado está prohibido para este recurso.";
+/* error -> http -> not_found */
+"error.http.not_found" = "404 No encontrado: el recurso solicitado no existe.";
+/* error -> http -> service_unavailable */
+"error.http.service_unavailable" = "503 Servicio no disponible: sobrecarga o mantenimiento temporal.";
+/* error -> http -> unauthorized */
+"error.http.unauthorized" = "401 No autorizado: se requiere autenticación.";
+/* error -> workplace -> missing_type */
+"error.workplace.missing_type" = "Elige el tipo de salón";
+/* error -> workplace -> missing_name */
+"error.workplace.missing_name" = "Introduce el nombre del salón";
+/* error -> workplace -> missing_address */
+"error.workplace.missing_address" = "Especifica la dirección del salón";
+/* error -> workplace -> missing_time_zone */
+"error.workplace.missing_time_zone" = "No se pudo determinar la zona horaria";
+/* error -> workplace -> missing_locale */
+"error.workplace.missing_locale" = "No se pudo determinar la región";
+/* error -> workplace -> invalid_address */
+"error.workplace.invalid_address" = "Dirección inválida";
+/* error -> workplace -> upload_failed */
+"error.workplace.upload_failed" = "Error al cargar imagen";
+/* error -> position -> missing_salary */
+"error.position.missing_salary" = "Falta salario";
+/* error -> decoding -> customer_appointment */
+"error.decoding.customer_appointment" = "No se pudo decodificar como Procedure o Complex";
+/* error -> decoding -> employee_appointment */
+"error.decoding.employee_appointment" = "No se pudo decodificar como ProcedureSlots o ComplexSlots";
+"step.complex_chunks.selected_procedures" = "Procedimientos seleccionados";
+/* step -> time_slot -> time_zone_difference */
+"step.time_slot.time_zone_difference" = "Diferencia horaria";
+/* step -> procedures -> procedure_description */
+"step.procedures.procedure_description" = "Descripción";
+/* service -> service_info */
+"service.service_info" = "%{duration} | %{price}";
+"service.shortcut.something_wrong" = "¿Algo salió mal?";
+"service.shortcut.give_feedback" = "Por favor, déjanos tu opinión antes de eliminar la app. Nos ayudará a mejorar.";
+/* service -> shortcut -> mail_body */
+"service.shortcut.mail_body" = "¡Hola!
+Quiero compartir mi opinión sobre la aplicación Maetry. Aquí está mi reseña:";
+/* shortcut -> feedback -> title */
+"shortcut.feedback.title" = "¿Algo salió mal?";
+/* shortcut -> feedback -> subtitle */
+"shortcut.feedback.subtitle" = "Por favor déjanos tu opinión antes de eliminar la app. Nos ayudará...";
+/* shortcut -> mail -> subject */
+"shortcut.mail.subject" = "Opinión sobre la aplicación Maetry";
+/* shortcut -> mail -> body */
+"shortcut.mail.body" = "¡Hola!
+Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continuación está mi reseña:";
+"cell.contact.select_phone_number" = "Seleccionar número";

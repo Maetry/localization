@@ -17,7 +17,6 @@ Thumbs.db
 
 # Swift Package Manager
 .build/
-Packages/
 Package.pins
 Package.resolved
 *.xcodeproj
@@ -61,7 +60,6 @@ build/
 .env.production.local
 
 # Generated files
-generated/
 dist/
 build/
 

@@ -1,0 +1,14 @@
+{
+    "procedure.service_tag.barbershop": "Барбершоп",
+    "procedure.service_tag.nails": "Ногти",
+    "procedure.service_tag.massage": "Массаж",
+    "procedure.service_tag.spa": "Спа",
+    "procedure.service_tag.cosmetology": "Косметология",
+    "procedure.service_tag.hairdressing": "Волосы",
+    "procedure.service_tag.epilation": "Эпиляция",
+    "procedure.service_tag.permanent_makeup": "Перманентный макияж",
+    "procedure.service_tag.piercing": "Пирсинг",
+    "procedure.service_tag.makeup": "Макияж",
+    "procedure.service_tag.brows": "Брови",
+    "procedure.service_tag.lashes": "Ресницы"
+}

@@ -1,0 +1,13 @@
+strings:
+  inputs:
+    - Resources/Base.lproj/Localizable.strings
+    - Resources/Base.lproj/Localizable.stringsdict
+  outputs:
+    templateName: structured-swift5
+    output: Generated/Localization.swift
+    params:
+        bundle: Bundle.module   # критично для SPM
+        enumName: Loc
+        publicAccess: true
+        noComments: true
+        noAllValues: false

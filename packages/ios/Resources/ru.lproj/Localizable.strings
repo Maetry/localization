@@ -1,0 +1,1441 @@
+/* appclip -> welcome_to */
+"appclip.welcome_to" = "Добро пожаловать в";
+/* appclip -> tagline */
+"appclip.tagline" = "Простой инструмент для управления бизнесом";
+/* screen -> invite -> client_title */
+"screen.invite.client_title" = "Вас пригласили в роли клиента";
+/* screen -> invite -> client_enter_missing */
+"screen.invite.client_enter_missing" = "Чтобы принять, введите недостающие символы: ";
+/* screen -> invite -> employee_title */
+"screen.invite.employee_title" = "Вас пригласили в роли сотрудника";
+/* screen -> public -> client_button */
+"screen.public.client_button" = "Продолжить как клиент";
+/* screen -> public -> pro_button */
+"screen.public.pro_button" = "Продолжить как мастер";
+/* screen -> public -> continuation_action */
+"screen.public.continuation_action" = "Для продолжения нажми кнопку";
+/* screen -> public -> welcome */
+"screen.public.welcome" = "Добро пожаловать в Maetry!";
+/* screen -> public -> card1 -> name */
+"screen.public.card1.name" = "Salon Rose";
+/* screen -> public -> card1 -> address */
+"screen.public.card1.address" = "Ул. Толкачева, 2Б";
+/* screen -> public -> card1 -> schedule */
+"screen.public.card1.schedule" = "пн-вс 9:00-21:00";
+/* screen -> public -> card2 -> name */
+"screen.public.card2.name" = "ASTEZIS";
+/* screen -> public -> card2 -> address */
+"screen.public.card2.address" = "Ул. Толкачева, 2Б";
+/* screen -> public -> card2 -> schedule */
+"screen.public.card2.schedule" = "пн-вс 9:00-21:00";
+/* screen -> public -> card3 -> name */
+"screen.public.card3.name" = "Beauty Tutti";
+/* screen -> public -> card3 -> address */
+"screen.public.card3.address" = "Ул. Толкачева, 2Б";
+/* screen -> public -> card3 -> schedule */
+"screen.public.card3.schedule" = "пн-вс 9:00-21:00";
+/* screen -> profile -> title */
+"screen.profile.title" = "Профиль";
+/* screen -> profile -> mode */
+"screen.profile.mode" = "Режим";
+/* screen -> profile -> switch_action */
+"screen.profile.switch_action" = "Переключить";
+/* screen -> profile -> create_action */
+"screen.profile.create_action" = "Создать";
+/* screen -> profile -> switch_to_professional_title */
+"screen.profile.switch_to_professional_title" = "Переключиться на Профессиональный";
+/* screen -> profile -> switch_to_professional_message */
+"screen.profile.switch_to_professional_message" = "Приложение позволяет управлять всеми рабочими пространствами вместе с сотрудниками.";
+/* screen -> profile -> switch_to_customer_title */
+"screen.profile.switch_to_customer_title" = "Переключиться на Клиентский";
+/* screen -> profile -> switch_to_customer_message */
+"screen.profile.switch_to_customer_message" = "Приложение позволяет найти лучших мастеров и заказать услуги";
+/* screen -> profile -> create_workspace_title */
+"screen.profile.create_workspace_title" = "Создать рабочее пространство";
+/* screen -> profile -> create_workspace_message */
+"screen.profile.create_workspace_message" = "Вы также можете создать несколько рабочих пространств для разных салонов.";
+/* screen -> profile -> create_customer_title */
+"screen.profile.create_customer_title" = "Создать клиента";
+/* screen -> profile -> create_customer_message */
+"screen.profile.create_customer_message" = "Вы сможете находить салоны и записываться на услуги";
+/* screen -> profile -> support -> title */
+"screen.profile.support.title" = "Возникли вопросы? Мы рядом!";
+/* screen -> profile -> support -> message */
+"screen.profile.support.message" = "Мы здесь, чтобы помочь тебе! Если у тебя возникли вопросы или проблемы, наша команда технической поддержки всегда готова прийти на помощь";
+/* screen -> profile -> support -> action */
+"screen.profile.support.action" = "Чат с поддержкой";
+/* screen -> profile -> support -> user_message */
+"screen.profile.support.user_message" = "Здравствуйте, мне нужна помощь! Мой id: ";
+/* screen -> profile -> support -> unknown_id */
+"screen.profile.support.unknown_id" = "Неизвестно";
+/* screen -> profile -> support -> not_install */
+"screen.profile.support.not_install" = "Приложение Telegram не найдено";
+/* screen -> profile -> iam -> title */
+"screen.profile.iam.title" = "Выберите режим";
+/* screen -> profile -> iam -> customer */
+"screen.profile.iam.customer" = "Клиент";
+/* screen -> profile -> iam -> customer_register */
+"screen.profile.iam.customer_register" = "Зарегистрируйся как клиент";
+/* screen -> profile -> iam -> pro */
+"screen.profile.iam.pro" = "Мастер";
+/* screen -> profile -> iam -> pro_add_workplace */
+"screen.profile.iam.pro_add_workplace" = "Зарегистрируйся как мастер";
+/* screen -> profile -> app_icon -> title */
+"screen.profile.app_icon.title" = "Иконка приложения";
+/* screen -> profile -> danger_zone -> title */
+"screen.profile.danger_zone.title" = "Опасная зона";
+/* screen -> profile -> danger_zone -> delete_title */
+"screen.profile.danger_zone.delete_title" = "Удалить пользователя";
+/* screen -> profile -> danger_zone -> delete_hint */
+"screen.profile.danger_zone.delete_hint" = "Действие нельзя будет отменить";
+/* screen -> profile -> danger_zone -> delete_title_alert */
+"screen.profile.danger_zone.delete_title_alert" = "Действие невозможно отменить. Ты точно хочешь его удалить?";
+/* screen -> profile -> danger_zone -> delete_message_alert */
+"screen.profile.danger_zone.delete_message_alert" = "Для подтверждения введи свой никнейм в поле ниже";
+/* screen -> profile -> danger_zone -> delete_placeholder */
+"screen.profile.danger_zone.delete_placeholder" = "Никнейм";
+/* screen -> profile -> danger_zone -> logout */
+"screen.profile.danger_zone.logout" = "Выйти";
+/* screen -> profile -> danger_zone -> logout_hint */
+"screen.profile.danger_zone.logout_hint" = "Выйти из учетной записи";
+/* screen -> profile -> danger_zone -> logout_message_alert */
+"screen.profile.danger_zone.logout_message_alert" = "Подтвердите что хотите выйти";
+/* screen -> profile -> danger_zone -> logout_title_alert */
+"screen.profile.danger_zone.logout_title_alert" = "Внимание";
+/* screen -> profile -> danger_zone -> subscription */
+"screen.profile.danger_zone.subscription" = "Подписка";
+/* screen -> profile -> danger_zone -> without_subscription */
+"screen.profile.danger_zone.without_subscription" = "Без подписки ничего не будет работать";
+/* screen -> notice -> title */
+"screen.notice.title" = "Уведомления";
+/* screen -> notice -> placeholder */
+"screen.notice.placeholder" = "Ты еще не получил ни одного уведомления";
+/* screen -> notice -> read_all */
+"screen.notice.read_all" = "Прочитать все";
+/* screen -> sharing -> qr_button */
+"screen.sharing.qr_button" = "Отправить QR-код";
+/* screen -> sharing -> link_button */
+"screen.sharing.link_button" = "Поделиться ссылкой";
+/* screen -> assignment -> title */
+"screen.assignment.title" = "Запись";
+/* screen -> assignment -> executor */
+"screen.assignment.executor" = "Мастер";
+/* screen -> assignment -> invite_executor */
+"screen.assignment.invite_executor" = "Пригласить мастера";
+/* screen -> assignment -> client */
+"screen.assignment.client" = "Клиент";
+/* screen -> assignment -> invite_client */
+"screen.assignment.invite_client" = "Пригласить клиента";
+/* screen -> assignment -> danger_zone -> title */
+"screen.assignment.danger_zone.title" = "Администрирование";
+/* screen -> assignment -> danger_zone -> delete_title */
+"screen.assignment.danger_zone.delete_title" = "Удалить запись";
+/* screen -> assignment -> danger_zone -> delete_description */
+"screen.assignment.danger_zone.delete_description" = "Клиент будет оповещён об удалении записи";
+/* screen -> assignment -> danger_zone -> delete_button */
+"screen.assignment.danger_zone.delete_button" = "Удалить";
+/* screen -> assignment -> danger_zone -> confirm_delete_message */
+"screen.assignment.danger_zone.confirm_delete_message" = "Удалить эту запись без возможности восстановления?";
+/* screen -> workplace -> placeholder_create */
+"screen.workplace.placeholder_create" = "Начни работу с Maetry
+ Создай свой первый салон";
+/* screen -> workplace -> placeholder_select */
+"screen.workplace.placeholder_select" = "Для работы выберите салон";
+/* screen -> workplace -> settings */
+"screen.workplace.settings" = "Настройки";
+/* screen -> workplace -> workspace */
+"screen.workplace.workspace" = "Записи";
+/* screen -> workplace -> schedule */
+"screen.workplace.schedule" = "График";
+/* screen -> workplace -> dashboard */
+"screen.workplace.dashboard" = "Управления";
+/* screen -> workplace -> action -> title */
+"screen.workplace.action.title" = "Быстрые действия";
+/* screen -> workplace -> action -> sharing */
+"screen.workplace.action.sharing" = "Поделится";
+/* screen -> workplace -> action -> invite_employee */
+"screen.workplace.action.invite_employee" = "Добавить сотрудника";
+/* screen -> workplace -> action -> read_all */
+"screen.workplace.action.read_all" = "Пометить прочитанными";
+/* screen -> workplace -> action -> client_mode -> title */
+"screen.workplace.action.client_mode.title" = "Переключится";
+/* screen -> workplace -> action -> client_mode -> subtitle */
+"screen.workplace.action.client_mode.subtitle" = "Режим клиента";
+/* screen -> workspace -> confirmation */
+"screen.workspace.confirmation" = "Внимание!";
+/* screen -> workspace -> collision_message */
+"screen.workspace.collision_message" = "В это время уже есть назначенная запись";
+/* screen -> workspace -> reschedule_button */
+"screen.workspace.reschedule_button" = "Перенести запись";
+/* screen -> workspace -> select_masters */
+"screen.workspace.select_masters" = "Выбрать мастеров";
+/* screen -> workspace -> masters_quantity */
+"screen.workspace.masters_quantity" = "Количество мастеров";
+/* screen -> workspace -> slot_duration */
+"screen.workspace.slot_duration" = "Кратность журнала";
+/* screen -> workspace -> diary_type */
+"screen.workspace.diary_type" = "Ежедневник";
+/* screen -> workspace -> list_type */
+"screen.workspace.list_type" = "Список";
+/* screen -> workspace -> list_empty_placeholder */
+"screen.workspace.list_empty_placeholder" = "На этот день пока никто не записался";
+/* screen -> workspace -> contact_client */
+"screen.workspace.contact_client" = "Cвязаться";
+/* screen -> workspace -> employees_count */
+"screen.workspace.employees_count" = "employee(s)";
+/* screen -> workspace -> minutes_short */
+"screen.workspace.minutes_short" = "mins";
+/* screen -> workspace -> day_off_message */
+"screen.workspace.day_off_message" = "В этот день у вашего салона выходной";
+/* screen -> workspace -> go_to_schedule_settings */
+"screen.workspace.go_to_schedule_settings" = "Перейти к настройке расписания";
+/* screen -> schedule -> workspace_schedule */
+"screen.schedule.workspace_schedule" = "График салона";
+/* screen -> schedule -> select_masters */
+"screen.schedule.select_masters" = "Выбрать мастеров";
+/* screen -> schedule -> hide_master */
+"screen.schedule.hide_master" = "Скрыть мастера";
+/* screen -> schedule -> open_hours */
+"screen.schedule.open_hours" = "Время работы";
+/* screen -> schedule -> break_hours */
+"screen.schedule.break_hours" = "Перерыв";
+/* screen -> schedule -> start */
+"screen.schedule.start" = "Начало";
+/* screen -> schedule -> end */
+"screen.schedule.end" = "Окончание";
+/* screen -> schedule -> dayoff */
+"screen.schedule.dayoff" = "Выходной";
+/* screen -> schedule -> dayoff_short */
+"screen.schedule.dayoff_short" = "Вых.";
+/* screen -> schedule -> make_it_dayoff */
+"screen.schedule.make_it_dayoff" = "Сделать выходным";
+/* screen -> schedule -> alert_title_dayoff */
+"screen.schedule.alert_title_dayoff" = "Внимание!";
+/* screen -> schedule -> message_title_dayoff */
+"screen.schedule.message_title_dayoff" = "В этот день у твоего салона выходной";
+/* screen -> schedule -> vacation */
+"screen.schedule.vacation" = "Отпуск";
+/* screen -> schedule -> setup_vacation */
+"screen.schedule.setup_vacation" = "Настроить отпуск";
+/* screen -> schedule -> delete_vacation */
+"screen.schedule.delete_vacation" = "Удалить отпуск";
+/* screen -> schedule -> add_break */
+"screen.schedule.add_break" = "Добавить перерыв";
+/* screen -> schedule -> settings_vacation */
+"screen.schedule.settings_vacation" = "Настройки отпуска";
+/* screen -> schedule -> setup_schedule */
+"screen.schedule.setup_schedule" = "Настроить график";
+/* screen -> schedule -> daily_schedule */
+"screen.schedule.daily_schedule" = "Ежедневный график";
+/* screen -> schedule -> shift_schedule */
+"screen.schedule.shift_schedule" = "Сменный график";
+/* screen -> schedule -> weekly_schedule */
+"screen.schedule.weekly_schedule" = "Шаблон на неделю";
+/* screen -> schedule -> select_several */
+"screen.schedule.select_several" = "Выбрать несколько";
+/* screen -> schedule -> edit_days -> one */
+"screen.schedule.edit_days.one" = "Редактировать %{days} день";
+/* screen -> schedule -> edit_days -> other */
+"screen.schedule.edit_days.other" = "Редактировать %{days} дней";
+/* screen -> schedule -> view_mode */
+"screen.schedule.view_mode" = "Режим отображения";
+/* screen -> schedule -> rounded */
+"screen.schedule.rounded" = "Скругленный";
+/* screen -> schedule -> rectangular */
+"screen.schedule.rectangular" = "Прямоугольный";
+/* screen -> schedule -> work_time */
+"screen.schedule.work_time" = "Рабочее время";
+/* screen -> schedule -> schedule_text -> day_off */
+"screen.schedule.schedule_text.day_off" = " - Выходной";
+/* screen -> schedule -> schedule_text -> everyday */
+"screen.schedule.schedule_text.everyday" = "Каждый день: ";
+/* screen -> schedule -> schedule_text -> day_index */
+"screen.schedule.schedule_text.day_index" = "%{index} день: ";
+/* screen -> schedule -> schedule_text -> breaks */
+"screen.schedule.schedule_text.breaks" = "Перерывы: ";
+/* screen -> catalog_management -> title */
+"screen.catalog_management.title" = "Услуги";
+/* screen -> catalog_management -> all_title */
+"screen.catalog_management.all_title" = "Все услуги";
+/* screen -> catalog_management -> add_service */
+"screen.catalog_management.add_service" = "Добавить новую услугу";
+/* screen -> catalog_management -> complexs */
+"screen.catalog_management.complexs" = "Комплексы";
+/* screen -> catalog_management -> complex_placeholder */
+"screen.catalog_management.complex_placeholder" = "Для создания комплеса объедините несколько процедур";
+/* screen -> catalog_management -> procedures */
+"screen.catalog_management.procedures" = "Процедуры";
+/* screen -> catalog_management -> procedure_placeholder */
+"screen.catalog_management.procedure_placeholder" = "Для начала работы салона создайте процедуру";
+/* screen -> catalog_management -> procedure_info */
+"screen.catalog_management.procedure_info" = "Информация";
+/* screen -> catalog_management -> procedure_add_executor */
+"screen.catalog_management.procedure_add_executor" = "Добавить исполнителя";
+/* screen -> catalog_management -> procedure_union_complex */
+"screen.catalog_management.procedure_union_complex" = "Объединить в комплекс";
+/* screen -> catalog_management -> executor_edit */
+"screen.catalog_management.executor_edit" = "Редактировать";
+/* screen -> catalog_management -> executor_booking */
+"screen.catalog_management.executor_booking" = "Записаться";
+/* screen -> catalog_management -> search */
+"screen.catalog_management.search" = "Поиск";
+/* screen -> catalog_management -> service_search */
+"screen.catalog_management.service_search" = "Search for service";
+/* screen -> employees -> title */
+"screen.employees.title" = "Сотрудники";
+/* screen -> employees -> all_title */
+"screen.employees.all_title" = "Все сотрудники";
+/* screen -> employees -> filter -> active */
+"screen.employees.filter.active" = "Активные";
+/* screen -> employees -> filter -> invite */
+"screen.employees.filter.invite" = "Заявки";
+/* screen -> employees -> filter -> with_service */
+"screen.employees.filter.with_service" = "Оказывают услуги";
+/* screen -> employees -> filter -> without_service */
+"screen.employees.filter.without_service" = "Не оказывают услуги";
+/* screen -> employees -> filter -> create_employee */
+"screen.employees.filter.create_employee" = "Добавить сотрудника";
+/* screen -> employees -> filter -> remove_position */
+"screen.employees.filter.remove_position" = "Удалить должность";
+/* screen -> employees -> filter -> reorder */
+"screen.employees.filter.reorder" = "Изменить порядок";
+/* screen -> employees -> invite */
+"screen.employees.invite" = "Пригласить";
+/* screen -> employees -> add_employee */
+"screen.employees.add_employee" = "Добавить сотрудника";
+/* screen -> employees -> assignment */
+"screen.employees.assignment" = "Записи";
+/* screen -> employees -> add_assignment */
+"screen.employees.add_assignment" = "Записать клиента";
+/* screen -> employees -> service */
+"screen.employees.service" = "Услуги";
+/* screen -> employees -> danger_zone -> title */
+"screen.employees.danger_zone.title" = "Администрирование";
+/* screen -> employees -> danger_zone -> fire */
+"screen.employees.danger_zone.fire" = "Уволить";
+/* screen -> employees -> danger_zone -> fire_an_employee */
+"screen.employees.danger_zone.fire_an_employee" = "Уволить сотрудника";
+/* screen -> employees -> danger_zone -> fire_hint */
+"screen.employees.danger_zone.fire_hint" = "Сотрудник не должен иметь активных записей";
+/* screen -> employees -> danger_zone -> fire_alert_title */
+"screen.employees.danger_zone.fire_alert_title" = "Увольнение сотрудника";
+/* screen -> employees -> danger_zone -> fire_alert_message */
+"screen.employees.danger_zone.fire_alert_message" = "Пожалуйста, укажите имя сотрудника для подтверждения";
+/* screen -> employees -> danger_zone -> fire_alert_placeholder */
+"screen.employees.danger_zone.fire_alert_placeholder" = "Имя сотрудника";
+/* screen -> employees -> danger_zone -> cancel_title */
+"screen.employees.danger_zone.cancel_title" = "Отменить приглашение";
+/* screen -> employees -> danger_zone -> cancel_hint */
+"screen.employees.danger_zone.cancel_hint" = "Мастер не сможет подключиться по ссылке";
+/* screen -> employees -> danger_zone -> cancel_alert_title */
+"screen.employees.danger_zone.cancel_alert_title" = "Отмена приглашения";
+/* screen -> employees -> danger_zone -> cancel_alert_message */
+"screen.employees.danger_zone.cancel_alert_message" = "Сотрудник не сможет присоединиться по отправленной ссылке";
+/* screen -> employees -> no_employees */
+"screen.employees.no_employees" = "Нет сотрудников";
+/* screen -> employees -> master_search */
+"screen.employees.master_search" = "Найти мастера";
+/* screen -> position -> title */
+"screen.position.title" = "Должности";
+/* screen -> position -> action */
+"screen.position.action" = "Создать должность";
+/* screen -> position -> appointments */
+"screen.position.appointments" = "Доступ к записям";
+/* screen -> position -> contact */
+"screen.position.contact" = "Доступ к контактам";
+/* screen -> position -> employee */
+"screen.position.employee" = "Доступ к сотрудникам";
+/* screen -> position -> finance */
+"screen.position.finance" = "Доступ к финансам";
+/* screen -> position -> notifications */
+"screen.position.notifications" = "Доступ к уведомлениям";
+/* screen -> position -> owner */
+"screen.position.owner" = "Владелец";
+/* screen -> position -> position */
+"screen.position.position" = "Доступ к должностям";
+/* screen -> position -> procedure */
+"screen.position.procedure" = "Доступ к процедурам";
+/* screen -> position -> salary -> terms_not_add */
+"screen.position.salary.terms_not_add" = "Условия не добавлены";
+/* screen -> position -> salary -> profit_percentage */
+"screen.position.salary.profit_percentage" = "Процент прибыли";
+/* screen -> position -> salon */
+"screen.position.salon" = "Доступ к салонам";
+/* screen -> position -> statistic */
+"screen.position.statistic" = "Доступ к статистике";
+/* screen -> position -> timetable */
+"screen.position.timetable" = "Доступ к расписанию";
+/* screen -> position -> permission -> access_rules */
+"screen.position.permission.access_rules" = "Права доступа";
+/* screen -> position -> permission -> terms_of_remu */
+"screen.position.permission.terms_of_remu" = "Условия оплаты труда";
+/* screen -> position -> fix_price -> fixed_payment */
+"screen.position.fix_price.fixed_payment" = "Фиксированный платеж";
+/* screen -> position -> fix_price -> choose_type */
+"screen.position.fix_price.choose_type" = "Выберите тип";
+/* screen -> position -> fix_price -> hourly_rate */
+"screen.position.fix_price.hourly_rate" = "Почасовая оплата";
+/* screen -> position -> fix_price -> daily_salary */
+"screen.position.fix_price.daily_salary" = "Ежедневная зарплата";
+/* screen -> position -> fix_price -> monthly_salary */
+"screen.position.fix_price.monthly_salary" = "Ежемесячная зарплата";
+/* screen -> position -> payments_part -> part_of_work */
+"screen.position.payments_part.part_of_work" = "Выплата части работы";
+/* screen -> position -> payments_part -> add_condition */
+"screen.position.payments_part.add_condition" = "Добавить условие";
+/* screen -> position -> percent -> percent */
+"screen.position.percent.percent" = "Процент";
+/* screen -> position -> percent -> percent_of_salary */
+"screen.position.percent.percent_of_salary" = "Процент от прибыли";
+/* screen -> position -> danger_zone -> delete_title */
+"screen.position.danger_zone.delete_title" = "Удалить должность";
+/* screen -> position -> sheet -> permission -> access */
+"screen.position.sheet.permission.access" = "Доступ";
+/* screen -> position -> sheet -> permission -> choose_all */
+"screen.position.sheet.permission.choose_all" = "Выбрать все";
+/* screen -> position -> sheet -> salary_content -> payroll_custm */
+"screen.position.sheet.salary_content.payroll_custm" = "Настройка заработной платы";
+/* screen -> permissions -> title */
+"screen.permissions.title" = "Доступы";
+/* screen -> permissions -> client_cred_title */
+"screen.permissions.client_cred_title" = "Доступ к клиентской базе";
+/* screen -> permissions -> client_cred_edit */
+"screen.permissions.client_cred_edit" = "Может редактировать";
+/* screen -> permissions -> client_cred_visible_base_info */
+"screen.permissions.client_cred_visible_base_info" = "Видна базовая информация";
+/* screen -> permissions -> client_cred_visible_contacts */
+"screen.permissions.client_cred_visible_contacts" = "Видны контакты";
+/* screen -> permissions -> employee_cred_title */
+"screen.permissions.employee_cred_title" = "Доступ к сотрудникам";
+/* screen -> permissions -> employee_cred_edit */
+"screen.permissions.employee_cred_edit" = "Может редактировать";
+/* screen -> permissions -> employee_cred_visible */
+"screen.permissions.employee_cred_visible" = "Видны сотрудники";
+/* screen -> permissions -> procedure_cred_title */
+"screen.permissions.procedure_cred_title" = "Доступ к услугам";
+/* screen -> permissions -> cred_own_edit */
+"screen.permissions.cred_own_edit" = "Может редактировать свое";
+/* screen -> permissions -> cred_other_edit */
+"screen.permissions.cred_other_edit" = "Может редактировать все";
+/* screen -> permissions -> worktime_cred_title */
+"screen.permissions.worktime_cred_title" = "Доступ к расписанию";
+/* screen -> permissions -> position_cred_title */
+"screen.permissions.position_cred_title" = "Доступ к должностям";
+/* screen -> permissions -> salon_cred_title */
+"screen.permissions.salon_cred_title" = "Доступ к свединиям салона";
+/* screen -> permissions -> appointment_cred_title */
+"screen.permissions.appointment_cred_title" = "Доступ к записям";
+/* screen -> permissions -> statistic_cred_title */
+"screen.permissions.statistic_cred_title" = "Доступ к статистике";
+/* screen -> permissions -> notify_cred_title */
+"screen.permissions.notify_cred_title" = "Доступ к уведомлениям";
+/* screen -> permissions -> finance_cred_title */
+"screen.permissions.finance_cred_title" = "Доступ к финансам";
+/* screen -> permissions -> salary_cred_title */
+"screen.permissions.salary_cred_title" = "Доступ к зарплате";
+/* screen -> permissions -> owner_toggle_title */
+"screen.permissions.owner_toggle_title" = "Совладелец";
+/* screen -> permissions -> owner_toggle_description */
+"screen.permissions.owner_toggle_description" = "Предоставление этого доступа даёт человеку полный контроль над рабочим пространством";
+/* screen -> salary -> title */
+"screen.salary.title" = "Зарплата";
+/* screen -> salary -> wage_title */
+"screen.salary.wage_title" = "Фиксированная оплата";
+/* screen -> salary -> percent_title */
+"screen.salary.percent_title" = "Процент";
+/* screen -> salary -> select_type */
+"screen.salary.select_type" = "Выберите тип";
+/* screen -> salary -> percentage_of_profit */
+"screen.salary.percentage_of_profit" = "Процент от прибыли";
+/* screen -> salary -> piecework_title */
+"screen.salary.piecework_title" = "Сдельная оплата";
+/* screen -> salary -> alert_title */
+"screen.salary.alert_title" = "Введите значение";
+/* screen -> clients -> title */
+"screen.clients.title" = "Все клиенты";
+/* screen -> clients -> search */
+"screen.clients.search" = "Поиск";
+/* screen -> clients -> find_client */
+"screen.clients.find_client" = "Найти клиента";
+/* screen -> clients -> action */
+"screen.clients.action" = "Добавить клиента";
+/* screen -> clients -> create_client */
+"screen.clients.create_client" = "Добавить нового клиента";
+/* screen -> clients -> history_client */
+"screen.clients.history_client" = "История клиента";
+/* screen -> clients -> add_history_client */
+"screen.clients.add_history_client" = "Добавить запись";
+/* screen -> settings -> current_plan */
+"screen.settings.current_plan" = "Текущий план";
+/* screen -> settings -> salon_type -> individual */
+"screen.settings.salon_type.individual" = "Индивидуальный";
+/* screen -> settings -> salon_type -> salon */
+"screen.settings.salon_type.salon" = "Салон";
+/* screen -> settings -> salon_type -> chain */
+"screen.settings.salon_type.chain" = "Сеть";
+/* screen -> settings -> salon_type -> franchise */
+"screen.settings.salon_type.franchise" = "Франшиза";
+/* screen -> settings -> description -> title */
+"screen.settings.description.title" = "Описание";
+/* screen -> settings -> description -> hide */
+"screen.settings.description.hide" = "Скрыть";
+/* screen -> settings -> description -> show_more */
+"screen.settings.description.show_more" = "Показать еще";
+/* screen -> settings -> geo -> select_app */
+"screen.settings.geo.select_app" = "Выберите приложение";
+/* screen -> settings -> geo -> message */
+"screen.settings.geo.message" = "Хотите вызвать такси или построить маршрут? Выберите сервис, который хотите использовать";
+/* screen -> settings -> danger_zone -> title */
+"screen.settings.danger_zone.title" = "Опасная зона";
+/* screen -> settings -> danger_zone -> activate */
+"screen.settings.danger_zone.activate" = "Активировать";
+/* screen -> settings -> danger_zone -> activate_hint */
+"screen.settings.danger_zone.activate_hint" = "Восстановить работу салона";
+/* screen -> settings -> danger_zone -> activate_title */
+"screen.settings.danger_zone.activate_title" = "Активировать салон";
+/* screen -> settings -> danger_zone -> deactivate */
+"screen.settings.danger_zone.deactivate" = "Деактивировать";
+/* screen -> settings -> danger_zone -> deactivate_hint */
+"screen.settings.danger_zone.deactivate_hint" = "Остановить салон, убрать из поиска";
+/* screen -> settings -> danger_zone -> deactivate_title */
+"screen.settings.danger_zone.deactivate_title" = "Деактивировать салон";
+/* screen -> settings -> danger_zone -> delete_title */
+"screen.settings.danger_zone.delete_title" = "Удалить салон";
+/* screen -> settings -> danger_zone -> delete_hint */
+"screen.settings.danger_zone.delete_hint" = "Действие нельзя будет отменить";
+/* screen -> settings -> danger_zone -> delete_title_alert */
+"screen.settings.danger_zone.delete_title_alert" = "Действие невозможно отменить. Вы точно хотите удалить?";
+/* screen -> settings -> danger_zone -> delete_message_alert */
+"screen.settings.danger_zone.delete_message_alert" = "Для подтверждения введите название салон в поле ниже";
+/* screen -> settings -> danger_zone -> delete_placeholder */
+"screen.settings.danger_zone.delete_placeholder" = "Название салона";
+/* screen -> appointment -> executor */
+"screen.appointment.executor" = "Мастер";
+/* screen -> appointment -> state_customera_time_out */
+"screen.appointment.state_customera_time_out" = "Время истекло";
+/* screen -> appointment -> state_customer_waiting */
+"screen.appointment.state_customer_waiting" = "В ожидании";
+/* screen -> appointment -> state_customer_approved */
+"screen.appointment.state_customer_approved" = "Подтверждено";
+/* screen -> appointment -> state_customer_reject */
+"screen.appointment.state_customer_reject" = "Отклоненно";
+/* screen -> appointment -> state_customer_canсeled */
+"screen.appointment.state_customer_canсeled" = "Отмененно";
+/* screen -> appointment -> state_accept */
+"screen.appointment.state_accept" = "Подтвердить запись";
+/* screen -> appointment -> no_appointments */
+"screen.appointment.no_appointments" = "Пока у тебя нет записей";
+/* screen -> appointment -> add_to_calendar */
+"screen.appointment.add_to_calendar" = "Добавить в календарь";
+/* screen -> appointment -> alert -> success */
+"screen.appointment.alert.success" = "Успех";
+/* screen -> appointment -> alert -> added_to_calendar */
+"screen.appointment.alert.added_to_calendar" = "Запись добавлена в календарь";
+/* screen -> appointment -> alert -> add_error */
+"screen.appointment.alert.add_error" = "Не удалось добавить запись в календарь";
+/* screen -> catalog -> placeholder */
+"screen.catalog.placeholder" = "Нету ни одной услуги";
+/* screen -> catalog -> complex_header */
+"screen.catalog.complex_header" = "Комплексы";
+/* screen -> catalog -> procedure_header */
+"screen.catalog.procedure_header" = "Процедуры";
+/* screen -> catalog -> service_search */
+"screen.catalog.service_search" = "Find a service";
+/* screen -> history -> title */
+"screen.history.title" = "История";
+/* screen -> history -> placeholder */
+"screen.history.placeholder" = "У вас еще нет записей";
+/* screen -> main -> history_title */
+"screen.main.history_title" = "Мои записи";
+/* screen -> main -> history_action */
+"screen.main.history_action" = "Открыть";
+/* screen -> main -> map_button */
+"screen.main.map_button" = "Карта";
+/* screen -> main -> no_favorites */
+"screen.main.no_favorites" = "В избранных пока ничего нет";
+/* screen -> search -> not_found */
+"screen.search.not_found" = "Ничего не найдено";
+/* screen -> search -> placeholder */
+"screen.search.placeholder" = "Найти %{tag}";
+/* screen -> search -> search_bar_field */
+"screen.search.search_bar_field" = "Поиск";
+/* screen -> search -> no_salons */
+"screen.search.no_salons" = "Нет салонов поблизости";
+/* screen -> search -> list */
+"screen.search.list" = "Список";
+/* screen -> search -> map */
+"screen.search.map" = "Карта";
+/* screen -> search -> client_search */
+"screen.search.client_search" = "Найти клиента";
+/* screen -> map -> search_button */
+"screen.map.search_button" = "Искать в этом регионе";
+/* screen -> map -> search_button_warning */
+"screen.map.search_button_warning" = "Нужно увеличить масштаб для поиска";
+/* screen -> map -> enable_geo */
+"screen.map.enable_geo" = "Включи геолокацию в настройках";
+/* screen -> salon -> action */
+"screen.salon.action" = "Записаться";
+/* screen -> salon -> description -> title */
+"screen.salon.description.title" = "Описание";
+/* screen -> salon -> description -> hide */
+"screen.salon.description.hide" = "Скрыть";
+/* screen -> salon -> description -> show_more */
+"screen.salon.description.show_more" = "Показать еще";
+/* screen -> salon -> master -> title */
+"screen.salon.master.title" = "Мастера";
+/* screen -> salon -> master -> action */
+"screen.salon.master.action" = "Все";
+/* screen -> salon -> catalog -> title */
+"screen.salon.catalog.title" = "Каталог услуг";
+/* screen -> salon -> catalog -> action */
+"screen.salon.catalog.action" = "Открыть";
+/* screen -> profile_editing -> name */
+"screen.profile_editing.name" = "Имя";
+/* screen -> profile_editing -> your_name */
+"screen.profile_editing.your_name" = "Ваше имя";
+/* screen -> profile_editing -> profile_photo */
+"screen.profile_editing.profile_photo" = "Фото профиля";
+/* screen -> profile_editing -> choose_from_gallery */
+"screen.profile_editing.choose_from_gallery" = "Выбрать из галереи";
+/* screen -> profile_editing -> edit_image */
+"screen.profile_editing.edit_image" = "Редактировать";
+/* screen -> main_customer_search -> customer_search */
+"screen.main_customer_search.customer_search" = "Search for customer";
+/* screen -> main_customer_list_search -> map */
+"screen.main_customer_list_search.map" = "Карта";
+/* screen -> main_customer_map_search -> list */
+"screen.main_customer_map_search.list" = "Список";
+/* screen -> main_customer -> appointments */
+"screen.main_customer.appointments" = "Записи";
+/* screen -> client_editable -> name */
+"screen.client_editable.name" = "Название";
+/* screen -> client_editable -> your_name */
+"screen.client_editable.your_name" = "Ваше имя";
+/* screen -> employee_editable -> name */
+"screen.employee_editable.name" = "Название";
+/* screen -> employee_editable -> your_name */
+"screen.employee_editable.your_name" = "Ваше имя";
+/* screen -> workplace_editing -> name */
+"screen.workplace_editing.name" = "Название";
+/* screen -> workplace_editing -> your_name */
+"screen.workplace_editing.your_name" = "Ваше имя";
+/* screen -> workplace_editing -> profile_photo */
+"screen.workplace_editing.profile_photo" = "Фото профиля";
+/* screen -> workplace_editing -> choose_from_gallery */
+"screen.workplace_editing.choose_from_gallery" = "Выбрать из галереи";
+/* screen -> workplace_editing -> salon_type */
+"screen.workplace_editing.salon_type" = "Тип салона";
+/* screen -> workplace_editing -> salon */
+"screen.workplace_editing.salon" = "Салон";
+/* screen -> workplace_editing -> salon_chain */
+"screen.workplace_editing.salon_chain" = "Сеть салонов";
+/* screen -> workplace_editing -> individual */
+"screen.workplace_editing.individual" = "Индивидуальный мастер";
+/* screen -> workplace_editing -> salon_description */
+"screen.workplace_editing.salon_description" = "Описание салона";
+/* screen -> workplace_editing -> your_description */
+"screen.workplace_editing.your_description" = "Ваше описание";
+/* screen -> position_editable -> name */
+"screen.position_editable.name" = "Название";
+/* screen -> position_editable -> your_name */
+"screen.position_editable.your_name" = "Ваше имя";
+/* screen -> day_schedule_update -> worktime */
+"screen.day_schedule_update.worktime" = "Время работы";
+/* screen -> day_schedule_update -> day_off */
+"screen.day_schedule_update.day_off" = "Выходной";
+/* screen -> day_schedule_update -> duration */
+"screen.day_schedule_update.duration" = "Продолжительность";
+/* screen -> day_schedule_update -> start_time */
+"screen.day_schedule_update.start_time" = "Время начала";
+/* screen -> day_schedule_update -> end_time */
+"screen.day_schedule_update.end_time" = "Время окончания";
+/* screen -> complex_chunks -> selected_procedures */
+"screen.complex_chunks.selected_procedures" = "Выбранные процедуры";
+/* screen -> complex_chunks -> procedures_not_found */
+"screen.complex_chunks.procedures_not_found" = "Процедуры не найдены";
+/* screen -> complex_chunks -> change_executors */
+"screen.complex_chunks.change_executors" = "Поменять исполнителей";
+/* screen -> procedure_editing -> service_update */
+"screen.procedure_editing.service_update" = "Обновление услуги";
+/* screen -> procedure_editing -> service_name */
+"screen.procedure_editing.service_name" = "Название услуги";
+/* screen -> procedure_editing -> your_name */
+"screen.procedure_editing.your_name" = "Ваше имя";
+/* screen -> procedure_editing -> service_description */
+"screen.procedure_editing.service_description" = "Описание услуги";
+/* screen -> procedure_editing -> your_description */
+"screen.procedure_editing.your_description" = "Ваше описание";
+/* screen -> procedure_editing -> service_duration */
+"screen.procedure_editing.service_duration" = "Длительность услуги";
+/* screen -> procedure_editing -> service_price */
+"screen.procedure_editing.service_price" = "Цена услуги";
+/* screen -> services -> search */
+"screen.services.search" = "Найти услугу";
+/* screen -> knowledge_base -> title */
+"screen.knowledge_base.title" = "База знаний";
+/* screen -> knowledge_base -> position_setup */
+"screen.knowledge_base.position_setup" = "Настройка позиции";
+/* screen -> knowledge_base -> workplace_setup */
+"screen.knowledge_base.workplace_setup" = "Настройка рабочего пространства";
+/* screen -> knowledge_base -> schedule_setup */
+"screen.knowledge_base.schedule_setup" = "Создание услуги";
+/* screen -> knowledge_base -> employees */
+"screen.knowledge_base.employees" = "Сотрудники";
+/* screen -> knowledge_base -> clients */
+"screen.knowledge_base.clients" = "Клиенты";
+/* screen -> knowledge_base -> appointments */
+"screen.knowledge_base.appointments" = "Записи";
+/* screen -> paywall -> title */
+"screen.paywall.title" = "Избавьтесь от ограничений";
+/* screen -> paywall -> terms_and_conditions */
+"screen.paywall.terms_and_conditions" = "Условия и положения";
+/* screen -> paywall -> gift */
+"screen.paywall.gift" = "+2 мес.";
+/* screen -> paywall -> button_text */
+"screen.paywall.button_text" = "Подключить";
+/* screen -> paywall -> month */
+"screen.paywall.month" = "Месяц";
+/* screen -> paywall -> year */
+"screen.paywall.year" = "Год";
+/* screen -> paywall -> tariff -> start */
+"screen.paywall.tariff.start" = "Начальный";
+/* screen -> paywall -> tariff -> base */
+"screen.paywall.tariff.base" = "Базовый";
+/* screen -> paywall -> tariff -> advanced */
+"screen.paywall.tariff.advanced" = "Продвинутый";
+/* screen -> paywall -> tariff -> custom_price */
+"screen.paywall.tariff.custom_price" = "Договорная";
+/* screen -> paywall -> action -> connect */
+"screen.paywall.action.connect" = "Подключить";
+/* screen -> paywall -> action -> contact */
+"screen.paywall.action.contact" = "Связаться";
+/* screen -> paywall -> expiration_date */
+"screen.paywall.expiration_date" = "до %{date}";
+/* screen -> schedule_setup -> controls -> change */
+"screen.schedule_setup.controls.change" = "Изменить";
+/* screen -> schedule_setup -> controls -> day_off */
+"screen.schedule_setup.controls.day_off" = "Выходной";
+/* screen -> schedule_setup -> controls -> start */
+"screen.schedule_setup.controls.start" = "Начать";
+/* screen -> schedule_setup -> controls -> from_today */
+"screen.schedule_setup.controls.from_today" = "С сегодня";
+/* widget -> address -> title */
+"widget.address.title" = "Адрес";
+/* widget -> address -> navigation */
+"widget.address.navigation" = "Построить маршрут";
+/* widget -> contacts -> title */
+"widget.contacts.title" = "Контакты";
+/* widget -> contacts -> no_contacts */
+"widget.contacts.no_contacts" = "Нет контактов";
+/* widget -> contacts -> action */
+"widget.contacts.action" = "Добавить контакт";
+/* widget -> contacts -> placeholder */
+"widget.contacts.placeholder" = "Способы связи не указаны";
+/* widget -> contacts -> delete_confirmation */
+"widget.contacts.delete_confirmation" = "Подтвердите удаление";
+/* widget -> contacts -> connect */
+"widget.contacts.connect" = "Связаться";
+/* widget -> contacts -> saving */
+"widget.contacts.saving" = "Сохранение";
+/* widget -> contacts -> select_contact_type */
+"widget.contacts.select_contact_type" = "Выберите тип контакта";
+/* widget -> contacts -> no_search_results */
+"widget.contacts.no_search_results" = "Результаты поиска не найдены";
+/* widget -> timetable -> title */
+"widget.timetable.title" = "Рабочие часы";
+/* widget -> timetable -> break */
+"widget.timetable.break" = "Перерыв";
+/* widget -> timetable -> offtimes */
+"widget.timetable.offtimes" = "Перерывы";
+/* widget -> catalog -> title */
+"widget.catalog.title" = "Каталог услуг";
+/* widget -> catalog -> cosmetology_tag */
+"widget.catalog.cosmetology_tag" = "Косметология";
+/* widget -> danger_zone -> title */
+"widget.danger_zone.title" = "Опасная зона";
+/* widget -> position -> danger_zone -> delete_title */
+"widget.position.danger_zone.delete_title" = "Удалить должность";
+/* widget -> position -> danger_zone -> delete_subtitle */
+"widget.position.danger_zone.delete_subtitle" = "Перед удалением убедитесь что все сотрудники уже не используют эту позицию";
+/* widget -> position -> danger_zone -> position_removal */
+"widget.position.danger_zone.position_removal" = "Удаление позиции";
+/* widget -> position -> danger_zone -> confirm_removal */
+"widget.position.danger_zone.confirm_removal" = "Подтвердить удаление";
+/* widget -> dashboard -> danger_zone -> error */
+"widget.dashboard.danger_zone.error" = "Ошибка Dashboard danger zone";
+/* widget -> knowledge_base -> title */
+"widget.knowledge_base.title" = "База знаний";
+/* widget -> knowledge_base -> description */
+"widget.knowledge_base.description" = "Здесь находится вся информация о том, как пользоваться приложением";
+/* reusable -> ok */
+"reusable.ok" = "Ок";
+/* reusable -> info */
+"reusable.info" = "Информация";
+/* reusable -> cancel */
+"reusable.cancel" = "Отмена";
+/* reusable -> delete */
+"reusable.delete" = "Удалить";
+/* reusable -> add */
+"reusable.add" = "Добавить";
+/* reusable -> all */
+"reusable.all" = "Все";
+/* reusable -> warning */
+"reusable.warning" = "Внимание";
+/* reusable -> edit */
+"reusable.edit" = "Редактировать";
+/* reusable -> apply */
+"reusable.apply" = "Применить";
+/* reusable -> break */
+"reusable.break" = "Перерыв";
+/* reusable -> select */
+"reusable.select" = "Выбрать";
+/* reusable -> save */
+"reusable.save" = "Сохранить";
+/* reusable -> continue */
+"reusable.continue" = "Продолжить";
+/* reusable -> make_appointment */
+"reusable.make_appointment" = "Записаться";
+/* reusable -> close */
+"reusable.close" = "Закрыть";
+/* reusable -> repeat */
+"reusable.repeat" = "Повторить";
+/* reusable -> search */
+"reusable.search" = "Поиск";
+/* reusable -> from */
+"reusable.from" = "от";
+/* reusable -> hour */
+"reusable.hour" = "ч";
+/* reusable -> minutes */
+"reusable.minutes" = "мин";
+/* reusable -> today */
+"reusable.today" = "Сегодня";
+/* reusable -> tomorrow */
+"reusable.tomorrow" = "Завтра";
+/* reusable -> submit_button */
+"reusable.submit_button" = "Готово";
+/* reusable -> allow_button */
+"reusable.allow_button" = "Разрешить";
+/* reusable -> submit_text */
+"reusable.submit_text" = "Пожалуйста, проверьте введённую информацию. Когда всё будет готово — нажмите «Готово», чтобы сохранить";
+/* reusable -> skip */
+"reusable.skip" = "Пропустить";
+/* reusable -> copy_button */
+"reusable.copy_button" = "Скопировать";
+/* reusable -> invitation_link */
+"reusable.invitation_link" = "Отправьте ссылку-приглашение";
+/* reusable -> not_found */
+"reusable.not_found" = "Ничего не найдено";
+/* reusable -> category_enum -> brows */
+"reusable.category_enum.brows" = "Брови";
+/* reusable -> category_enum -> cosmetology */
+"reusable.category_enum.cosmetology" = "Косметология";
+/* reusable -> category_enum -> depilation */
+"reusable.category_enum.depilation" = "Депиляция";
+/* reusable -> category_enum -> epilation */
+"reusable.category_enum.epilation" = "Эпиляция";
+/* reusable -> category_enum -> hairdressing */
+"reusable.category_enum.hairdressing" = "Волосы";
+/* reusable -> category_enum -> lashes */
+"reusable.category_enum.lashes" = "Ресницы";
+/* reusable -> category_enum -> makeup */
+"reusable.category_enum.makeup" = "Макияж";
+/* reusable -> category_enum -> massage */
+"reusable.category_enum.massage" = "Массаж";
+/* reusable -> category_enum -> nails */
+"reusable.category_enum.nails" = "Ногти";
+/* reusable -> category_enum -> other */
+"reusable.category_enum.other" = "Другое";
+/* reusable -> category_enum -> piercing */
+"reusable.category_enum.piercing" = "Пирсинг";
+/* reusable -> category_enum -> spa */
+"reusable.category_enum.spa" = "Спа";
+/* reusable -> category_enum -> tattoo */
+"reusable.category_enum.tattoo" = "Тату";
+/* reusable -> alert -> client_confirmation */
+"reusable.alert.client_confirmation" = "Переход по ссылке для синхронизации твоей истории заказов. Салон, связанный с этой ссылкой, будет добавлен в твой список избранных. Подтверждаешь это действие?";
+/* reusable -> alert -> confirmation */
+"reusable.alert.confirmation" = "Подтверждение";
+/* reusable -> alert -> congratulations */
+"reusable.alert.congratulations" = "Поздравляем";
+/* reusable -> alert -> error */
+"reusable.alert.error" = "Ошибка";
+/* reusable -> alert -> incomplete_address */
+"reusable.alert.incomplete_address" = "Неполный адрес";
+/* reusable -> alert -> incomplete_address_message */
+"reusable.alert.incomplete_address_message" = "Напиши свой полный адрес, чтобы двигаться дальше";
+/* reusable -> alert -> master_confirmation */
+"reusable.alert.master_confirmation" = "Ты перешел по ссылке, которая привязывает тебя как работника к салону, связанному с этой ссылкой. После подтверждения ты сможешь предоставлять услуги в этом салоне. Подтверждаешь это действие?";
+/* reusable -> alert -> ok */
+"reusable.alert.ok" = "Ок";
+/* reusable -> unknown */
+"reusable.unknown" = "Неизвестный";
+/* reusable -> english */
+"reusable.english" = "Английский";
+/* reusable -> russian */
+"reusable.russian" = "Русский";
+/* onboarding -> alert -> learn_workplace -> title */
+"onboarding.alert.learn_workplace.title" = "Обучение";
+/* onboarding -> alert -> learn_workplace -> subtitle */
+"onboarding.alert.learn_workplace.subtitle" = "Как создать салон";
+/* onboarding -> alert -> setup_workplace -> title */
+"onboarding.alert.setup_workplace.title" = "Завершите настройку салона";
+/* onboarding -> alert -> setup_workplace -> subtitle */
+"onboarding.alert.setup_workplace.subtitle" = "{completedSteps, plural, one{{completedSteps} из {totalSteps} шаг завершён} few{{completedSteps} из {totalSteps} шага завершено} many{{completedSteps} из {totalSteps} шагов завершено} other{{completedSteps} из {totalSteps} шагов завершено} }";
+/* onboarding -> alert -> steps_completed */
+"onboarding.alert.steps_completed" = "%d из %d шагов завершено";
+/* onboarding -> alert -> complete_salon_setup */
+"onboarding.alert.complete_salon_setup" = "Завершите настройку салона";
+/* onboarding -> create_workplace -> title */
+"onboarding.create_workplace.title" = "Создать свой первый салон";
+/* onboarding -> create_workplace -> subtitle */
+"onboarding.create_workplace.subtitle" = "На главном экране потяните вправо, чтобы открыть вспомогательную панель, затем коснитесь +.";
+/* onboarding -> setup_schedule -> step1 -> title */
+"onboarding.setup_schedule.step1.title" = "Выберите дни для редактирования";
+/* onboarding -> setup_schedule -> step1 -> description */
+"onboarding.setup_schedule.step1.description" = "Нажмите на ячейку дня, чтобы добавить их в выбор для редактирования дня";
+/* onboarding -> setup_schedule -> step2 -> title */
+"onboarding.setup_schedule.step2.title" = "Просмотр информации о дне";
+/* onboarding -> setup_schedule -> step2 -> description */
+"onboarding.setup_schedule.step2.description" = "Долгое нажатие на день для просмотра краткой информации о нем";
+/* onboarding -> invite_employee -> title */
+"onboarding.invite_employee.title" = "Пригласить сотрудника";
+/* onboarding -> invite_employee -> subtitle */
+"onboarding.invite_employee.subtitle" = "На экране dashboard перейти в раздел сотрудники, затем коснитесь +";
+/* onboarding -> select_services -> title */
+"onboarding.select_services.title" = "Выберите услуги, которые вы отказываете";
+/* onboarding -> select_services -> subtitle */
+"onboarding.select_services.subtitle" = "Перейдите на вкладку управления. В раздел услуги коснитесь +";
+/* onboarding -> activate -> title */
+"onboarding.activate.title" = "Активируйте салон";
+/* onboarding -> activate -> subtitle */
+"onboarding.activate.subtitle" = "В раздел настройки, пролистайте вниз до Опасной зоны и нажмите активировать";
+/* onboarding -> appointment -> step1 -> title */
+"onboarding.appointment.step1.title" = "Рабочее пространство";
+/* onboarding -> appointment -> step1 -> subtitle */
+"onboarding.appointment.step1.subtitle" = "Чтобы открыть рабочее пространство, коснитесь виджета “Записи”";
+/* onboarding -> appointment -> step2 -> title */
+"onboarding.appointment.step2.title" = "Создание записи";
+/* onboarding -> appointment -> step2 -> subtitle */
+"onboarding.appointment.step2.subtitle" = "На экране рабочего пространства коснитесь 􀑎, выберите клиента и мастера, укажите время и процедуру, а затем сохраните запись, нажав кнопку создать";
+/* onboarding -> appointment -> step3 -> title */
+"onboarding.appointment.step3.title" = "Перенос записи";
+/* onboarding -> appointment -> step3 -> subtitle */
+"onboarding.appointment.step3.subtitle" = "Удерживайте запись, и потяните в сторону, на нужное вам время и мастера. Затем сохраните выбор, коснувшись перенести запись.";
+/* onboarding -> appointment -> step4 -> title */
+"onboarding.appointment.step4.title" = "Управление статусами";
+/* onboarding -> appointment -> step4 -> subtitle */
+"onboarding.appointment.step4.subtitle" = "Коснитесь записи и удерживайте ее, в открывшемся меню, выберите нужный статус.";
+/* onboarding -> client -> step1 -> title */
+"onboarding.client.step1.title" = "Приглашение клиента";
+/* onboarding -> client -> step1 -> subtitle */
+"onboarding.client.step1.subtitle" = "В панеле навигации перейдите во вкладку\nСалон и нажмите Добавить клиента 􀉯";
+/* onboarding -> client -> step2 -> title */
+"onboarding.client.step2.title" = "Ссылка-приглашение";
+/* onboarding -> client -> step2 -> subtitle */
+"onboarding.client.step2.subtitle" = "После внесения всех данных, перейдите в раздел Мои клиенты и отправьте клиенту ссылку для приглашения в салон.";
+/* onboarding -> employee -> step1 -> title */
+"onboarding.employee.step1.title" = "Приглашение мастера";
+/* onboarding -> employee -> step1 -> subtitle */
+"onboarding.employee.step1.subtitle" = "В панели навигации перейдите во вкладку\nСалон и нажмите Добавить мастера 􀉯";
+/* onboarding -> employee -> step2 -> title */
+"onboarding.employee.step2.title" = "Выбор должности";
+/* onboarding -> employee -> step2 -> subtitle */
+"onboarding.employee.step2.subtitle" = "На этапе выбора позиции для мастера вы можете выбрать должность, созданную ранее, или добавить новую.";
+/* onboarding -> employee -> step3 -> title */
+"onboarding.employee.step3.title" = "Ожидание мастера";
+/* onboarding -> employee -> step3 -> subtitle */
+"onboarding.employee.step3.subtitle" = "После добавления мастера его ячейка появится во вкладке выбранной должности. Оттуда вы сможете отправить ему приглашение присоединиться к вашему салону.";
+/* onboarding -> procedure -> step1 -> title */
+"onboarding.procedure.step1.title" = "Создание процедуры";
+/* onboarding -> procedure -> step1 -> subtitle */
+"onboarding.procedure.step1.subtitle" = "В панеле навигации перейдите во вкладку\nСалон и нажмите Добавить новую услугу 􁥉";
+/* onboarding -> procedure -> step2 -> title */
+"onboarding.procedure.step2.title" = "Название процедуры";
+/* onboarding -> procedure -> step2 -> subtitle */
+"onboarding.procedure.step2.subtitle" = "На первом этапе создания укажите название своей услуги, либо выберите название из предложенного списка, коснувшись 􀇷";
+/* onboarding -> procedure -> step3 -> title */
+"onboarding.procedure.step3.title" = "Существующие процедуры";
+/* onboarding -> procedure -> step3 -> subtitle */
+"onboarding.procedure.step3.subtitle" = "Коснувшись 􀇷, из предложенного списка выберите услугу, которая прошла проверку модерацией сервиса. Такие услуги можно гибко настроить, и клиенты смогут проще вас находить";
+/* onboarding -> procedure -> step4 -> title */
+"onboarding.procedure.step4.title" = "Выбор мастеров";
+/* onboarding -> procedure -> step4 -> subtitle */
+"onboarding.procedure.step4.subtitle" = "На последнем шаге выберите мастеров, которые будут оказывать эту услугу. После этого клиенты смогут легко к ним записаться";
+/* onboarding -> workplace -> step1 -> subtitle */
+"onboarding.workplace.step1.subtitle" = "Чтобы открыть рабочее пространство, коснитесь виджета “Записи”.";
+/* onboarding -> workplace -> step1 -> title */
+"onboarding.workplace.step1.title" = "Рабочее пространство";
+/* onboarding -> workplace -> step2 -> title */
+"onboarding.workplace.step2.title" = "Создание записи";
+/* onboarding -> workplace -> step2 -> subtitle */
+"onboarding.workplace.step2.subtitle" = "В рабочем пространстве коснитесь 􀑎, затем назначьте клиента и мастера, настройте время и процедуру, и сохраните запись, нажав кнопку “создать”.";
+/* onboarding -> workplace -> step3 -> title */
+"onboarding.workplace.step3.title" = "Перенос записи";
+/* onboarding -> workplace -> step3 -> subtitle */
+"onboarding.workplace.step3.subtitle" = "Удерживайте запись, и потяните в сторону, на нужное вам время и мастера. Затем сохраните выбор, коснувшись “перенести запись”.";
+/* onboarding -> workplace -> step4 -> title */
+"onboarding.workplace.step4.title" = "Управление статусами";
+/* onboarding -> workplace -> step4 -> subtitle */
+"onboarding.workplace.step4.subtitle" = "Коснитесь записи и удерживайте ее, в открывшемся меню, выберите нужный статус.";
+/* onboarding -> salon_creation -> step1 -> title */
+"onboarding.salon_creation.step1.title" = "Создание салона";
+/* onboarding -> salon_creation -> step1 -> subtitle */
+"onboarding.salon_creation.step1.subtitle" = "На главном экране потяните вправо, чтобы открыть вспомогательную панель, затем коснитесь 􀑎.";
+/* onboarding -> salon_creation -> step2 -> title */
+"onboarding.salon_creation.step2.title" = "Настройка графика салона";
+/* onboarding -> salon_creation -> step2 -> subtitle */
+"onboarding.salon_creation.step2.subtitle" = "На этапе создания вам будет предложено 3 варианта графика салона: недельный, сменный и ежедневный.";
+/* onboarding -> salon_creation -> step3 -> title */
+"onboarding.salon_creation.step3.title" = "Шаблон на неделю";
+/* onboarding -> salon_creation -> step3 -> subtitle */
+"onboarding.salon_creation.step3.subtitle" = "График подразумевает отдельную настройку каждого для недели.";
+/* onboarding -> salon_creation -> step4 -> title */
+"onboarding.salon_creation.step4.title" = "Сменный график";
+/* onboarding -> salon_creation -> step4 -> subtitle */
+"onboarding.salon_creation.step4.subtitle" = "Выберите количество рабочих и выходных дней, которые будут циклично идти друг за другом. И после этого настройте часы и перерывы в рабочие дни.";
+/* onboarding -> salon_creation -> step5 -> title */
+"onboarding.salon_creation.step5.title" = "Ежедневный график";
+/* onboarding -> salon_creation -> step5 -> subtitle */
+"onboarding.salon_creation.step5.subtitle" = "В случае ежедневного графика вы настраиваете один шаблон, по которому салон будет работать каждый день.";
+/* onboarding -> position -> step1 -> title */
+"onboarding.position.step1.title" = "Настройка позиции";
+/* onboarding -> position -> step1 -> description */
+"onboarding.position.step1.description" = "Откройте экран мастеров, нажмите кнопку + в разделе позиций для создания новой позиции. Настройте все поля и подтвердите создание позиции.";
+/* creatable -> salon -> title */
+"creatable.salon.title" = "Создание салона";
+/* creatable -> salon -> workplace -> salon_name */
+"creatable.salon.workplace.salon_name" = "Название салона";
+/* creatable -> salon -> workplace -> salon_name_placeholder */
+"creatable.salon.workplace.salon_name_placeholder" = "Введите название...";
+/* creatable -> salon -> workplace -> add_logo */
+"creatable.salon.workplace.add_logo" = "Добавить логотип";
+/* creatable -> salon -> workplace -> salon_logo */
+"creatable.salon.workplace.salon_logo" = "Логотип салона";
+/* creatable -> salon -> workplace -> logo_description */
+"creatable.salon.workplace.logo_description" = "Добавьте логотип, чтобы выделиться среди салонов";
+/* creatable -> salon -> workplace -> change_type */
+"creatable.salon.workplace.change_type" = "Изменить тип";
+/* creatable -> salon -> workplace -> salon_type */
+"creatable.salon.workplace.salon_type" = "Тип салона";
+/* creatable -> salon -> workplace -> salon_description */
+"creatable.salon.workplace.salon_description" = "Описание салона";
+/* creatable -> salon -> workplace -> description_placeholder */
+"creatable.salon.workplace.description_placeholder" = "Введите описание...";
+/* creatable -> salon -> workplace -> add_contact */
+"creatable.salon.workplace.add_contact" = "Добавить контакт";
+/* creatable -> salon -> workplace -> contacts */
+"creatable.salon.workplace.contacts" = "Контакты";
+/* creatable -> salon -> workplace -> change_address */
+"creatable.salon.workplace.change_address" = "Изменить адрес";
+/* creatable -> salon -> workplace -> address */
+"creatable.salon.workplace.address" = "Адрес";
+/* creatable -> salon -> salon_type */
+"creatable.salon.salon_type" = "Давайте начнём — помогу вам настроить всё под ваши задачи. Для начала выберите, какое пространство вы создаёте";
+/* creatable -> salon -> master_type */
+"creatable.salon.master_type" = "Индивидуальный мастер";
+/* creatable -> salon -> individual_type */
+"creatable.salon.individual_type" = "Салон красоты";
+/* creatable -> salon -> chain_type */
+"creatable.salon.chain_type" = "Сеть салонов красоты";
+/* creatable -> salon -> name_enter */
+"creatable.salon.name_enter" = "Отлично! Теперь введите название вашего салона — так, как его будут видеть клиенты";
+/* creatable -> salon -> name_placeholder */
+"creatable.salon.name_placeholder" = "Введите название...";
+/* creatable -> salon -> add_contact */
+"creatable.salon.add_contact" = "Добавьте способ связи — так клиенты смогут легко с вами связаться";
+/* creatable -> salon -> upload_logo */
+"creatable.salon.upload_logo" = "Загрузите логотип — он будет отображаться в вашем профиле и в результатах поиска";
+/* creatable -> salon -> description_enter */
+"creatable.salon.description_enter" = "Расскажите немного о себе и ваших услугах — эта информация будет отображаться на вашей странице";
+/* creatable -> salon -> description_placeholder */
+"creatable.salon.description_placeholder" = "Введите описание...";
+/* creatable -> salon -> add_address */
+"creatable.salon.add_address" = "Отлично! Теперь добавьте адрес вашего пространства, чтобы клиентам было проще вас найти";
+/* creatable -> salon -> address_placeholder */
+"creatable.salon.address_placeholder" = "Введите адрес...";
+/* creatable -> salon -> current_address */
+"creatable.salon.current_address" = "Текущий адрес";
+/* creatable -> salon -> invalid_address */
+"creatable.salon.invalid_address" = "Неправильный адрес";
+/* creatable -> salon -> invalid_address_message */
+"creatable.salon.invalid_address_message" = "Пожалуйста, выберите другой адрес";
+/* creatable -> salon -> unable_address */
+"creatable.salon.unable_address" = "Недоступный адрес";
+/* creatable -> salon -> notice_request */
+"creatable.salon.notice_request" = "Чтобы не пропустить сообщения от клиентов, разрешите уведомления";
+/* creatable -> salon -> turn_on_notifications */
+"creatable.salon.turn_on_notifications" = "Вы отключили push уведомления в [настройках](%@), включите их там же";
+/* creatable -> salon -> unfinished_creatable */
+"creatable.salon.unfinished_creatable" = "Мы нашли у вас не завершенное создание салона!";
+/* creatable -> procedure -> title */
+"creatable.procedure.title" = "Создание процедуры";
+/* creatable -> procedure -> unfinished_title */
+"creatable.procedure.unfinished_title" = "Мы нашли у вас незавершенное создание процедуры";
+/* creatable -> procedure -> field -> select_masters */
+"creatable.procedure.field.select_masters" = "Выбрать мастеров";
+/* creatable -> procedure -> field -> executors */
+"creatable.procedure.field.executors" = "Исполнители";
+/* creatable -> procedure -> field -> create_service */
+"creatable.procedure.field.create_service" = "Или создать новую услугу";
+/* creatable -> procedure -> field -> select_template */
+"creatable.procedure.field.select_template" = "Выбрать из шаблонов";
+/* creatable -> procedure -> field -> name_title */
+"creatable.procedure.field.name_title" = "Услуга";
+/* creatable -> procedure -> field -> name_placeholder */
+"creatable.procedure.field.name_placeholder" = "Введите название...";
+/* creatable -> procedure -> field -> set_duration */
+"creatable.procedure.field.set_duration" = "Установить";
+/* creatable -> procedure -> field -> duration_title */
+"creatable.procedure.field.duration_title" = "Продолжительность процедуры";
+/* creatable -> procedure -> field -> description_title */
+"creatable.procedure.field.description_title" = "Описание процедуры";
+/* creatable -> procedure -> field -> description_placeholder */
+"creatable.procedure.field.description_placeholder" = "Введите описание...";
+/* creatable -> procedure -> field -> price_title */
+"creatable.procedure.field.price_title" = "Стоимость процедуры";
+/* creatable -> procedure -> name_enter */
+"creatable.procedure.name_enter" = "Давайте начнём с названия — введите его вручную или выберите из списка";
+/* creatable -> procedure -> name_hint */
+"creatable.procedure.name_hint" = "Выбор уже существующего названия поможет клиентам быстрее вас найти";
+/* creatable -> procedure -> name_placeholder */
+"creatable.procedure.name_placeholder" = "Введите название услуги...";
+/* creatable -> procedure -> category_title */
+"creatable.procedure.category_title" = "Выберите подходящую категорию — так клиентам будет проще сориентироваться";
+/* creatable -> procedure -> duration_title */
+"creatable.procedure.duration_title" = "Сколько времени занимает процедура?";
+/* creatable -> procedure -> description_enter */
+"creatable.procedure.description_enter" = "Расскажите, что важно знать перед процедурой";
+/* creatable -> procedure -> description_example */
+"creatable.procedure.description_example" = "Например: «Принести полотенце, прибыть за 10–15 минут, снять украшения, сообщить о противопоказаниях»";
+/* creatable -> procedure -> description_placeholder */
+"creatable.procedure.description_placeholder" = "Введите описание...";
+/* creatable -> procedure -> price_title */
+"creatable.procedure.price_title" = "Укажите стоимость — эта информация отобразится на странице процедуры";
+/* creatable -> procedure -> price_placeholder */
+"creatable.procedure.price_placeholder" = "Введите сумму...";
+/* creatable -> procedure -> masters_title */
+"creatable.procedure.masters_title" = "Кто из мастеров будет выполнять эту услугу?";
+/* creatable -> procedure -> missing_duration */
+"creatable.procedure.missing_duration" = "Отсутствует продолжительность";
+/* creatable -> procedure -> missing_price */
+"creatable.procedure.missing_price" = "Отсутствует цена";
+/* creatable -> procedure -> missing_service_id */
+"creatable.procedure.missing_service_id" = "Отсутствует ID сервиса";
+/* creatable -> procedure -> missing_master */
+"creatable.procedure.missing_master" = "Отсутствует мастер";
+/* creatable -> procedure -> unfinished_creatable */
+"creatable.procedure.unfinished_creatable" = "Мы обнаружили незавершенную процедуру создания";
+/* creatable -> client -> title */
+"creatable.client.title" = "Новый клиент";
+/* creatable -> client -> field -> name_title */
+"creatable.client.field.name_title" = "Имя";
+/* creatable -> client -> name_placeholder */
+"creatable.client.name_placeholder" = "Введите имя...";
+/* creatable -> client -> unfinished_creatable */
+"creatable.client.unfinished_creatable" = "Мы нашли у вас не завершенное создание клиента!";
+/* creatable -> employee -> title */
+"creatable.employee.title" = "Новый сотрудник";
+/* creatable -> employee -> unfinished_title */
+"creatable.employee.unfinished_title" = "Мы нашли незавершенное создание сотрудника";
+/* creatable -> employee -> field -> name_title */
+"creatable.employee.field.name_title" = "Имя мастера";
+/* creatable -> employee -> field -> select_position */
+"creatable.employee.field.select_position" = "Выбрать должность";
+/* creatable -> employee -> field -> position_title */
+"creatable.employee.field.position_title" = "Должность";
+/* creatable -> employee -> field -> setup */
+"creatable.employee.field.setup" = "Настроить";
+/* creatable -> employee -> field -> schedule_title */
+"creatable.employee.field.schedule_title" = "График мастера";
+/* creatable -> employee -> name_enter */
+"creatable.employee.name_enter" = "Введите имя сотрудника";
+/* creatable -> employee -> name_placeholder */
+"creatable.employee.name_placeholder" = "Введите имя...";
+/* creatable -> employee -> add_contact */
+"creatable.employee.add_contact" = "Добавьте способ связи";
+/* creatable -> employee -> choose_position */
+"creatable.employee.choose_position" = "Выберите должность — от неё зависят доступы и способ расчёта зарплаты нового мастера";
+/* creatable -> employee -> description_placeholder */
+"creatable.employee.description_placeholder" = "Введите описание...";
+/* creatable -> employee -> enter_master_description */
+"creatable.employee.enter_master_description" = "Расскажите немного о мастере — это увидят клиенты";
+/* creatable -> employee -> setup_schedule */
+"creatable.employee.setup_schedule" = "Вы можете сразу настроить расписание для приглашённого мастера";
+/* creatable -> employee -> successfully_created */
+"creatable.employee.successfully_created" = "Отлично! Приглашение для нового мастера успешно отправлено";
+/* creatable -> employee -> unfinished_creatable */
+"creatable.employee.unfinished_creatable" = "We found an unfinished employee creation on your site!";
+/* creatable -> position -> title */
+"creatable.position.title" = "Новая должность";
+/* creatable -> position -> field -> name_title */
+"creatable.position.field.name_title" = "Имя";
+/* creatable -> position -> field -> salary_button */
+"creatable.position.field.salary_button" = "Зарплата";
+/* creatable -> position -> field -> salary_title */
+"creatable.position.field.salary_title" = "Введите зарплату";
+/* creatable -> position -> name_enter */
+"creatable.position.name_enter" = "Укажите название новой должности";
+/* creatable -> position -> placeholder */
+"creatable.position.placeholder" = "Введите название...";
+/* creatable -> position -> setting_salary */
+"creatable.position.setting_salary" = "Установите размер заработной платы для этой должности";
+/* creatable -> position -> salary_empty */
+"creatable.position.salary_empty" = "Указан нулевой доход";
+/* creatable -> position -> add_permissions */
+"creatable.position.add_permissions" = "Назначьте права доступа для этой должности";
+/* creatable -> position -> unfinished_creatable */
+"creatable.position.unfinished_creatable" = "We found an unfinished position creation on your site!";
+/* creatable -> schedule -> title */
+"creatable.schedule.title" = "Создание расписания";
+/* creatable -> schedule -> shift_schedule_title */
+"creatable.schedule.shift_schedule_title" = "Сменный график";
+/* creatable -> schedule -> week_schedule_title */
+"creatable.schedule.week_schedule_title" = "Шаблон на неделю";
+/* creatable -> schedule -> day_schedule_title */
+"creatable.schedule.day_schedule_title" = "Ежедневный график";
+/* creatable -> schedule -> worktime_uncorrect_error */
+"creatable.schedule.worktime_uncorrect_error" = "Время окончания должно быть после времени начала";
+/* creatable -> schedule -> no_worktime_set_error */
+"creatable.schedule.no_worktime_set_error" = "Рабочее время не установлено";
+/* creatable -> schedule -> offtime_duplicates_error */
+"creatable.schedule.offtime_duplicates_error" = "Есть дублирующиеся перерывы";
+/* creatable -> schedule -> offtime_overlapping_error */
+"creatable.schedule.offtime_overlapping_error" = "Есть пересекающиеся перерывы";
+/* creatable -> schedule -> weekly_info */
+"creatable.schedule.weekly_info" = "Создайте шаблон на неделю — каждый день можно настроить индивидуально";
+/* creatable -> schedule -> daily_info */
+"creatable.schedule.daily_info" = "Ежедневный график — заданное расписание применится ко всем дням недели";
+/* creatable -> schedule -> cycled_info */
+"creatable.schedule.cycled_info" = "Укажите количество рабочих и выходных дней Формат — сначала рабочие, потом выходные.";
+/* creatable -> schedule -> cycled_example */
+"creatable.schedule.cycled_example" = "Например, «2 через 2» или любая другая комбинация: 5/2, 3/1 и так далее";
+/* creatable -> schedule -> set_time */
+"creatable.schedule.set_time" = "Выберите часы работы — чтобы клиенты знали, когда к вам можно записаться";
+/* creatable -> schedule -> first_day */
+"creatable.schedule.first_day" = "Выберите первый рабочий день";
+/* creatable -> schedule -> work_days */
+"creatable.schedule.work_days" = "Рабочие дни:";
+/* creatable -> schedule -> weekend */
+"creatable.schedule.weekend" = "Выходные:";
+/* creatable -> schedule -> work_time */
+"creatable.schedule.work_time" = "Рабочее время:";
+/* creatable -> schedule -> off_time */
+"creatable.schedule.off_time" = "Перерывы:";
+/* creatable -> schedule -> missing_timetable */
+"creatable.schedule.missing_timetable" = "Отсутствует расписание";
+/* creatable -> contact -> title */
+"creatable.contact.title" = "Создание контакта";
+/* creatable -> contact -> field -> add_contact */
+"creatable.contact.field.add_contact" = "Добавить контакт";
+/* creatable -> contact -> field -> phone */
+"creatable.contact.field.phone" = "Телефон";
+/* creatable -> contact -> field -> telegram */
+"creatable.contact.field.telegram" = "Telegram";
+/* creatable -> contact -> field -> instagram */
+"creatable.contact.field.instagram" = "Instagram";
+/* creatable -> contact -> field -> email */
+"creatable.contact.field.email" = "Электронная почта";
+/* creatable -> contact -> field -> email_placeholder */
+"creatable.contact.field.email_placeholder" = "example@email.com";
+/* creatable -> contact -> contact_type */
+"creatable.contact.contact_type" = "Выберите предпочтительный способ связи";
+/* creatable -> contact -> instagram */
+"creatable.contact.instagram" = "Instagram";
+/* creatable -> contact -> phone */
+"creatable.contact.phone" = "Телефон";
+/* creatable -> contact -> telegram */
+"creatable.contact.telegram" = "Телеграм";
+/* creatable -> contact -> email */
+"creatable.contact.email" = "Электронная почта";
+/* creatable -> contact -> enter_email */
+"creatable.contact.enter_email" = "Введите ваш адрес электронной почты";
+/* creatable -> contact -> enter_instagram */
+"creatable.contact.enter_instagram" = "Поделитесь своим аккаунтом в Instagram";
+/* creatable -> contact -> enter_phone_number */
+"creatable.contact.enter_phone_number" = "Укажите ваш номер телефона";
+/* creatable -> contact -> enter_telegram_number */
+"creatable.contact.enter_telegram_number" = "Добавьте аккаунт в Telegram";
+/* creatable -> appointment -> title */
+"creatable.appointment.title" = "Новая запись";
+/* creatable -> appointment -> client */
+"creatable.appointment.client" = "Клиент";
+/* creatable -> appointment -> procedure */
+"creatable.appointment.procedure" = "Процедура";
+/* creatable -> appointment -> date */
+"creatable.appointment.date" = "Дата";
+/* creatable -> appointment -> select_procedure_first_message */
+"creatable.appointment.select_procedure_first_message" = "Для выбора даты сначала нужно выбрать процедуру";
+/* creatable -> appointment -> choose_customer */
+"creatable.appointment.choose_customer" = "Пожалуйста, выберите клиента, для которого создаётся запись";
+/* creatable -> appointment -> select_procedure */
+"creatable.appointment.select_procedure" = "Выберите услугу";
+/* creatable -> appointment -> select_time */
+"creatable.appointment.select_time" = "Укажите удобное время для визита";
+/* creatable -> appointment -> day_unavailable */
+"creatable.appointment.day_unavailable" = "В этот день, к сожалению, запись недоступна — выберите другую дату";
+/* creatable -> appointment -> night */
+"creatable.appointment.night" = "Ночь";
+/* creatable -> appointment -> morning */
+"creatable.appointment.morning" = "Утро";
+/* creatable -> appointment -> afternoon */
+"creatable.appointment.afternoon" = "После обеда";
+/* creatable -> appointment -> evening */
+"creatable.appointment.evening" = "Вечер";
+/* creatable -> auth -> enter_name */
+"creatable.auth.enter_name" = "Введите ваше имя";
+/* creatable -> auth -> later_logo */
+"creatable.auth.later_logo" = "Если у тебе нет подходящего фото сейчас. Ты всегда сможете добавить его позже в настройках профиля.";
+/* creatable -> auth -> placeholder */
+"creatable.auth.placeholder" = "Имя";
+/* creatable -> auth -> privacy */
+"creatable.auth.privacy" = "Нажимая \"Продолжить\", ты соглашаешься с [Политикой конфиденциальности](%@) и [Пользовательским соглашением](%@)";
+/* creatable -> auth -> title */
+"creatable.auth.title" = "Авторизация";
+/* creatable -> auth -> upload_logo */
+"creatable.auth.upload_logo" = "Давай загрузим твою аватарку";
+/* creatable -> auth -> welcome_message */
+"creatable.auth.welcome_message" = "Войди или зарегистрируйся чтобы использовать сервис на любом устройстве.";
+/* creatable -> auth -> uncompleted_registration_found */
+"creatable.auth.uncompleted_registration_found" = "Мы нашли у вас не законченную регистрацию!";
+/* creatable -> auth -> add_recovery_title */
+"creatable.auth.add_recovery_title" = "Добавьте способ восстановления";
+/* creatable -> auth -> select_contact_method */
+"creatable.auth.select_contact_method" = "Укажи способ связи с тобой для мастеров, он будет отображаться в профиле";
+/* creatable -> auth -> add_recovery_description */
+"creatable.auth.add_recovery_description" = "Укажи номер телефона или email.\nЭто нужно, чтобы ты всегда мог восстановить доступ к аккаунту.";
+/* creatable -> auth -> add_workplace */
+"creatable.auth.add_workplace" = "Добавьте рабочее место для продолжения регистрации";
+/* creatable -> service -> missing_tag */
+"creatable.service.missing_tag" = "Отсутствует тег";
+/* creatable -> service -> missing_category */
+"creatable.service.missing_category" = "Отсутствует категория";
+/* updatable -> employee -> select_position */
+"updatable.employee.select_position" = "Выбрать должность";
+/* updatable -> position -> title */
+"updatable.position.title" = "Название";
+/* updatable -> position -> title_placeholder */
+"updatable.position.title_placeholder" = "Ваше название";
+/* updatable -> profile_update -> enter_name */
+"updatable.profile_update.enter_name" = "Введите новый никнейм";
+/* updatable -> profile_update -> placeholder */
+"updatable.profile_update.placeholder" = "Имя";
+/* updatable -> profile_update -> save */
+"updatable.profile_update.save" = "Сохранить";
+/* updatable -> profile_update -> title */
+"updatable.profile_update.title" = "Обновление профиля";
+/* updatable -> profile_update -> upload_avatar */
+"updatable.profile_update.upload_avatar" = "Загрузи новый аватар";
+/* updatable -> salon_update -> enter_name */
+"updatable.salon_update.enter_name" = "Введи новое название для твоего салона";
+/* updatable -> salon_update -> placeholder */
+"updatable.salon_update.placeholder" = "Название";
+/* updatable -> salon_update -> salon_type */
+"updatable.salon_update.salon_type" = "Выбери тип салона";
+/* updatable -> salon_update -> save */
+"updatable.salon_update.save" = "Сохранить";
+/* updatable -> salon_update -> title */
+"updatable.salon_update.title" = "Обновление салона";
+/* updatable -> salon_update -> upload_logo */
+"updatable.salon_update.upload_logo" = "Загрузи новый логотип";
+/* error -> error */
+"error.error" = "Ошибка";
+/* error -> default -> register_as_client */
+"error.default.register_as_client" = "Для обработки ссылки необходимо зарегистрироваться как клиент";
+/* error -> default -> register_as_master */
+"error.default.register_as_master" = "Для обработки ссылки необходимо зарегистрироваться как мастер";
+/* error -> default -> unknown_error */
+"error.default.unknown_error" = "Неизвестная ошибка";
+/* error -> default -> failedToLoadImage */
+"error.default.failedToLoadImage" = "Не удалось загрузить изображение. Проверьте подключение к сети и попробуйте снова.";
+/* error -> default -> missing_master */
+"error.default.missing_master" = "Отсутствует мастер";
+/* error -> default -> missing_procedures */
+"error.default.missing_procedures" = "Отсутствуют процедуры";
+/* error -> default -> missing_date_interval */
+"error.default.missing_date_interval" = "Отсутствует интервал дат";
+/* error -> default -> another_timezone_worktime */
+"error.default.another_timezone_worktime" = "Время работы указано в другой часовой зоне";
+/* error -> default -> missing_title */
+"error.default.missing_title" = "Отсутствует название";
+/* error -> default -> image_load_failed */
+"error.default.image_load_failed" = "Произошла ошибка при загрузке изображений";
+/* error -> default -> offtime_is_out_of_worktime */
+"error.default.offtime_is_out_of_worktime" = "Нерабочее время выходит за рамки рабочего времени.";
+/* error -> default -> missing_type */
+"error.default.missing_type" = "Отсутствует тип";
+/* error -> default -> missing_description */
+"error.default.missing_description" = "Отсутствует описание";
+/* error -> default -> missing_client */
+"error.default.missing_client" = "Отсутствует клиент";
+/* error -> default -> missing_client_name */
+"error.default.missing_client_name" = "Отсутствует имя клиента";
+/* error -> default -> missing_client_contacts */
+"error.default.missing_client_contacts" = "Отсутствуют контакты клиента";
+/* error -> default -> missing_permissions */
+"error.default.missing_permissions" = "Отсутствуют разрешения";
+/* error -> default -> missing_salary */
+"error.default.missing_salary" = "Отсутствует зарплата";
+/* error -> http -> bad_gateway */
+"error.http.bad_gateway" = "502 Плохой шлюз: Сервер, действующий как шлюз или прокси, получил недопустимый ответ от вышестоящего сервера.";
+/* error -> http -> bad_request */
+"error.http.bad_request" = "400 Неправильный запрос: Сервер не понимает запрос из-за неверного синтаксиса.";
+/* error -> http -> payment_required */
+"error.http.payment_required" = "Subscription limit reached. Please upgrade your plan to continue.";
+/* error -> http -> conflict */
+"error.http.conflict" = "409 Конфликт: Запрос не может быть обработан из-за конфликта в запросе, например, конфликта редактирования между несколькими одновременными обновлениями.";
+/* error -> http -> forbidden */
+"error.http.forbidden" = "403 Запрещено: У сервера есть понимание запроса, но он отказывается его выполнить. Обычно это связано с отсутствием прав доступа.";
+/* error -> http -> gateway_timeout */
+"error.http.gateway_timeout" = "504 Шлюз не отвечает: Сервер, действующий как шлюз или прокси, не получил своевременный ответ от вышестоящего сервера.";
+/* error -> http -> internal_server_error */
+"error.http.internal_server_error" = "500 Внутренняя ошибка сервера: Общая ошибка сервера. Обычно означает, что что-то пошло не так на стороне сервера.";
+/* error -> http -> method_not_allowed */
+"error.http.method_not_allowed" = "405 Метод не разрешен: Метод, указанный в запросе, запрещен для данного ресурса.";
+/* error -> http -> not_found */
+"error.http.not_found" = "404 Не найдено: Сервер не может найти запрашиваемый ресурс. Это самая распространенная ошибка, указывающая на несуществующую страницу.";
+/* error -> http -> service_unavailable */
+"error.http.service_unavailable" = "503 Сервис недоступен: Сервер не может обработать запрос из-за временной перегрузки или обслуживания.";
+/* error -> http -> unauthorized */
+"error.http.unauthorized" = "401 Неавторизован: Требуется аутентификация. Пользователь должен залогиниться для доступа.";
+/* error -> workplace -> missing_type */
+"error.workplace.missing_type" = "Выберите тип салона";
+/* error -> workplace -> missing_name */
+"error.workplace.missing_name" = "Введите название салона";
+/* error -> workplace -> missing_address */
+"error.workplace.missing_address" = "Укажите адрес салона";
+/* error -> workplace -> missing_time_zone */
+"error.workplace.missing_time_zone" = "Не удалось определить часовой пояс";
+/* error -> workplace -> missing_locale */
+"error.workplace.missing_locale" = "Не удалось определить регион";
+/* error -> workplace -> invalid_address */
+"error.workplace.invalid_address" = "Неверный адрес";
+/* error -> workplace -> upload_failed */
+"error.workplace.upload_failed" = "Ошибка загрузки изображения";
+/* error -> position -> missing_salary */
+"error.position.missing_salary" = "Отсутствует зарплата";
+/* error -> decoding -> customer_appointment */
+"error.decoding.customer_appointment" = "Не удалось декодировать как Procedure или Complex";
+/* error -> decoding -> employee_appointment */
+"error.decoding.employee_appointment" = "Не удалось декодировать как ProcedureSlots или ComplexSlots";
+"step.complex_chunks.selected_procedures" = "Выбранные процедуры";
+/* step -> time_slot -> time_zone_difference */
+"step.time_slot.time_zone_difference" = "Разница в часовом поясе";
+/* step -> procedures -> procedure_description */
+"step.procedures.procedure_description" = "Описание";
+/* service -> service_info */
+"service.service_info" = "%{duration} | %{price}";
+"service.shortcut.something_wrong" = "Что-то не так?";
+"service.shortcut.give_feedback" = "Пожалуйста, оставьте нам отзыв перед удалением приложения. Это будет...";
+/* service -> shortcut -> mail_body */
+"service.shortcut.mail_body" = "Здравствуйте!
+Пишу, чтобы поделиться своим отзывом о приложении Maetry. Ниже мой отзыв:";
+/* shortcut -> feedback -> title */
+"shortcut.feedback.title" = "Something wrong?";
+/* shortcut -> feedback -> subtitle */
+"shortcut.feedback.subtitle" = "Please leave us feedback before app deletion. It will...";
+/* shortcut -> mail -> subject */
+"shortcut.mail.subject" = "Обратная связь о приложении Maetry";
+/* shortcut -> mail -> body */
+"shortcut.mail.body" = "Hello!
+I am writing to share my review of the Maetry application. Below is my review:";
+"cell.contact.select_phone_number" = "Выбрать номер";

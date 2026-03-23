@@ -1,0 +1,20 @@
+{
+    "procedure.errors.procedure_exists": "Процедура существует",
+    "procedure.errors.not_found_procedure": "Процедура не найдена",
+    "procedure.errors.not_found_service": "Сервис не найден",
+    "procedure.errors.service_verified": "Сервис проверенный",
+    "procedure.errors.not_found_complex": "Комплекс не найден",
+    "procedure.errors.empty_procedure_list": "Список процедур пуст",
+    "procedure.errors.not_found_all_procedures": "Не нашли какую-то из процедур",
+    "procedure.errors.complex_exists": "Компекс существует",
+    "procedure.errors.not_found_maestri_permissions": "Не найдено Maestri разрешение",
+    "procedure.errors.procedures_in_any_salons": "Процедуры находятся в разных салонах",
+    "procedure.errors.not_found_employee": "Сотрудник не найден",
+    "procedure.errors.not_credentials": "Недостаточно прав",
+    "procedure.errors.not_delete_complex_procedure": "Процедура в комплексе, вы не можете удалить ее",
+    "procedure.errors.bad_case_id": "Плохой айди кейса",
+    "procedure.errors.bad_parameter_id": "Плохой айди параметра",
+    "procedure.errors.should_be_one_service_in_chunk": "в чанке могут быть только процедуры из одного сервиса",
+    "procedure.errors.bad_chunk_id": "Плохой идентификатор чанка",
+    "procedure.errors.oops": "Маестри заболел :("
+}

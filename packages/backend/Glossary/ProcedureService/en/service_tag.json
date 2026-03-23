@@ -1,0 +1,14 @@
+{
+    "procedure.service_tag.barbershop": "Barbershop",
+    "procedure.service_tag.nails": "Nails",
+    "procedure.service_tag.massage": "Massage",
+    "procedure.service_tag.spa": "Spa",
+    "procedure.service_tag.cosmetology": "Cosmetology",
+    "procedure.service_tag.hairdressing": "Hairdressing",
+    "procedure.service_tag.epilation": "Epilation",
+    "procedure.service_tag.permanent_makeup": "Permanent Makeup",
+    "procedure.service_tag.piercing": "Piercing",
+    "procedure.service_tag.makeup": "Makeup",
+    "procedure.service_tag.brows": "Brows",
+    "procedure.service_tag.lashes": "Lashes"
+}
