@@ -1,65 +1,57 @@
 import Foundation
 
-struct JsonParser: ILocalizationParser {
-    let expectedKeyCount = 100
-    
-    /// - throws: `JsonParser.ParseError`
-    func getKnowledge(pathToGlossary: String) async throws -> LocalizeKnowledge {
-        
-        let glossaryPath = URL(fileURLWithPath: pathToGlossary)
-            .deletingLastPathComponent()
-            .appendingPathComponent("Glossary")
-        
-        var jsonKnowledge = LocalizeKnowledge(minimumCapacity: expectedKeyCount)
-        
-        for module in LocalizationModules.allCases {
-            for lang in Lang.allCases {
-                for children in module.childrenFilesNames {
-                    
-                    let childrenPath = glossaryPath
-                        .appendingPathComponent(module.directoryName)
-                        .appendingPathComponent(lang.rawValue)
-                        .appendingPathComponent(children)
-                        
-                    let localizedDict = try dirLocalize(path: childrenPath)
-                    
-                    for (key, value) in localizedDict {
-                        if jsonKnowledge[key] == nil {
-                            jsonKnowledge[key] = Dictionary(minimumCapacity: Lang.allCases.count)
-                        }
-                        
-                        guard jsonKnowledge[key]?[lang] == nil else {
-                            throw ParseError.duplicateKey(key: key, lang: lang)
-                        }
-                        
-                        jsonKnowledge[key]?[lang] = value
-                    }
-                }
-            }
+public protocol LocalizationResourceLoading: Sendable {
+    func availableLocales() throws -> Set<LocaleID>
+    func load(locale: LocaleID) throws -> [String: String]
+}
+
+protocol LocalizationLocaleParsing: Sendable {
+    func parse(data: Data, source: URL) throws -> [String: String]
+}
+
+struct JsonParser: LocalizationLocaleParsing {
+    func parse(data: Data, source: URL) throws -> [String: String] {
+        do {
+            return try JSONDecoder().decode([String: String].self, from: data)
+        } catch {
+            throw ParseError.unparseableData(path: source, error: error)
         }
-        
-        return jsonKnowledge
     }
-                                            
-    private func dirLocalize(path: URL) throws -> [String: String] {
-        let decoder = JSONDecoder()
-        
-        guard let localizeFileData = try? Data(contentsOf: path) else {
-            throw ParseError.fileNotFound(path: path)
+}
+
+struct BundleLocalizationLoader: LocalizationResourceLoading {
+    let localesRoot: URL
+    let parser: any LocalizationLocaleParsing
+
+    func availableLocales() throws -> Set<LocaleID> {
+        let entries = try FileManager.default.contentsOfDirectory(
+            at: localesRoot,
+            includingPropertiesForKeys: nil
+        )
+
+        return Set(entries.compactMap { url in
+            guard url.pathExtension == "json" else {
+                return nil
+            }
+
+            return LocaleID(url.deletingPathExtension().lastPathComponent)
+        })
+    }
+
+    func load(locale: LocaleID) throws -> [String: String] {
+        let fileURL = localesRoot.appendingPathComponent("\(locale.rawValue).json")
+        guard let data = try? Data(contentsOf: fileURL) else {
+            throw JsonParser.ParseError.fileNotFound(path: fileURL)
         }
-        
-        guard let localizedDict = try? decoder.decode([String: String].self, from: localizeFileData) else {
-            throw ParseError.unparseableData(path: path)
-        }
-        
-        return localizedDict
+
+        return try parser.parse(data: data, source: fileURL)
     }
 }
 
 extension JsonParser {
     enum ParseError: Error {
+        case resourceNotFound(resource: String)
         case fileNotFound(path: URL)
-        case unparseableData(path: URL)
-        case duplicateKey(key: String, lang: Lang)
+        case unparseableData(path: URL, error: Error)
     }
 }

@@ -114,3 +114,10 @@ jspm_packages/
 
 # Crowdin
 crowdin.yml
+/Derived
+
+# Localization automation outputs
+/reports/*.json
+/reports/*.csv
+/reports/*.md
+!/reports/.gitkeep

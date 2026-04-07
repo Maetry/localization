@@ -1,0 +1,31 @@
+{
+  "scanIgnoreGlobs": [
+    "Derived/**",
+    "build/**",
+    ".build/**",
+    "**/Tests/**"
+  ],
+  "ignoredPathGlobs": [
+    "IOS/Application/Services/AppIconService.swift",
+    "IOS/Console/Services/AppIconService.swift"
+  ],
+  "manualReviewPathGlobs": [
+    "IOS/AppControls/**",
+    "IOS/Packages/AuthKit/**",
+    "IOS/Packages/ContactsKit/**",
+    "IOS/Packages/LoggerKit/**",
+    "IOS/Packages/MirrorKit/**",
+    "IOS/Packages/PersistenceKit/**"
+  ],
+  "ignoredLiteralPatterns": [
+    "^AppIcon(Dark|Light)$",
+    "^Analytics event$",
+    "^Analytics screen$",
+    "^Analytics user property$",
+    "^Analytics user id updated$",
+    "^10%$",
+    "^15%$",
+    "^20%$",
+    "^25%$"
+  ]
+}

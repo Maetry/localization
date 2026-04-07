@@ -134,6 +134,16 @@
 "screen.assignment.danger_zone.delete_description" = "El cliente será notificado sobre la eliminación de la cita";
 /* screen -> assignment -> danger_zone -> delete_button */
 "screen.assignment.danger_zone.delete_button" = "Eliminar";
+/* screen -> assignment -> danger_zone -> cancel_action */
+"screen.assignment.danger_zone.cancel_action" = "Cancelar";
+/* screen -> assignment -> danger_zone -> cancel_description */
+"screen.assignment.danger_zone.cancel_description" = "Cancelar la cita y notificar al cliente";
+/* screen -> assignment -> danger_zone -> cancel_title */
+"screen.assignment.danger_zone.cancel_title" = "Cancelar cita";
+/* screen -> assignment -> danger_zone -> cancel_confirm_title */
+"screen.assignment.danger_zone.cancel_confirm_title" = "¿Cancelar cita?";
+/* screen -> assignment -> danger_zone -> cancel_confirm_message */
+"screen.assignment.danger_zone.cancel_confirm_message" = "El cliente recibirá una notificación sobre la cancelación.";
 /* screen -> assignment -> danger_zone -> confirm_delete_message */
 "screen.assignment.danger_zone.confirm_delete_message" = "¿Eliminar esta cita sin posibilidad de recuperación?";
 /* screen -> workplace -> placeholder_create */
@@ -553,6 +563,7 @@
 "screen.main.map_button" = "Mapa";
 /* screen -> main -> no_favorites */
 "screen.main.no_favorites" = "Aún no hay favoritos";
+"screen.main.no_favorites_description" = "Empieza a explorar: guarda a tus profesionales favoritos para acceder rápido";
 /* screen -> search -> not_found */
 "screen.search.not_found" = "Nada encontrado";
 /* screen -> search -> placeholder */
@@ -816,7 +827,7 @@
 /* reusable -> allow_button */
 "reusable.allow_button" = "Permitir";
 /* reusable -> submit_text */
-"reusable.submit_text" = "Por favor, verifica la información ingresada. Cuando todo esté listo — haz clic en \'Listo\' para guardar";
+"reusable.submit_text" = "Por favor, verifica la información ingresada. Cuando todo esté listo — haz clic en \\'Listo\\' para guardar";
 /* reusable -> skip */
 "reusable.skip" = "Saltar";
 /* reusable -> copy_button */
@@ -968,11 +979,11 @@
 /* onboarding -> workplace -> step2 -> title */
 "onboarding.workplace.step2.title" = "Crear cita";
 /* onboarding -> workplace -> step2 -> subtitle */
-"onboarding.workplace.step2.subtitle" = "Toca 􀑎, asigna cliente y especialista, define hora y servicio, y guarda tocando \'crear\'";
+"onboarding.workplace.step2.subtitle" = "Toca 􀑎, asigna cliente y especialista, define hora y servicio, y guarda tocando \\'crear\\'";
 /* onboarding -> workplace -> step3 -> title */
 "onboarding.workplace.step3.title" = "Mover cita";
 /* onboarding -> workplace -> step3 -> subtitle */
-"onboarding.workplace.step3.subtitle" = "Mantén pulsado y arrástralo a la hora y especialista deseado. Guarda tocando \'mover cita\'";
+"onboarding.workplace.step3.subtitle" = "Mantén pulsado y arrástralo a la hora y especialista deseado. Guarda tocando \\'mover cita\\'";
 /* onboarding -> workplace -> step4 -> title */
 "onboarding.workplace.step4.title" = "Gestionar estado";
 /* onboarding -> workplace -> step4 -> subtitle */
@@ -1208,7 +1219,7 @@
 /* creatable -> schedule -> cycled_info */
 "creatable.schedule.cycled_info" = "Define la cantidad de días laborales y de descanso. Formato: días laborales primero, luego días libres";
 /* creatable -> schedule -> cycled_example */
-"creatable.schedule.cycled_example" = "Por ejemplo, \'2 trabajo / 2 descanso\', o cualquier combinación: 5/2, 3/1, etc.";
+"creatable.schedule.cycled_example" = "Por ejemplo, \\'2 trabajo / 2 descanso\\', o cualquier combinación: 5/2, 3/1, etc.";
 /* creatable -> schedule -> set_time */
 "creatable.schedule.set_time" = "Elige el horario laboral — así los clientes sabrán cuándo reservar";
 /* creatable -> schedule -> first_day */
@@ -1288,7 +1299,7 @@
 /* creatable -> auth -> placeholder */
 "creatable.auth.placeholder" = "Nombre";
 /* creatable -> auth -> privacy */
-"creatable.auth.privacy" = "Al hacer clic en \'Continuar\', aceptas la [Política de Privacidad](%@) y los [Términos de Servicio](%@)";
+"creatable.auth.privacy" = "Al hacer clic en \\'Continuar\\', aceptas la [Política de Privacidad](%@) y los [Términos de Servicio](%@)";
 /* creatable -> auth -> title */
 "creatable.auth.title" = "Autorización";
 /* creatable -> auth -> upload_logo */
@@ -1440,3 +1451,242 @@ Quiero compartir mi opinión sobre la aplicación Maetry. Aquí está mi reseña
 "shortcut.mail.body" = "¡Hola!
 Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continuación está mi reseña:";
 "cell.contact.select_phone_number" = "Seleccionar número";
+
+"creatable.auth.add_recovery_description" = "Proporciona tu teléfono o email.\nEsto es necesario para recuperar acceso a tu cuenta";
+"screen.workplace.placeholder_create" = "Comienza a trabajar con Maetry\n Crea tu primer salón";
+"service.shortcut.mail_body" = "¡Hola!\nQuiero compartir mi opinión sobre la aplicación Maetry. Aquí está mi reseña:";
+"shortcut.mail.body" = "¡Hola!\nEstoy escribiendo para compartir mi reseña de la aplicación Maetry. A continuación está mi reseña:";
+
+"booking.status.cancelled" = "Cancelled";
+"booking.status.confirmed" = "Confirmed";
+"booking.status.pending_client" = "Pending your confirmation";
+"booking.status.pending_master" = "Pending professional confirmation";
+"screen.payments.terminal_checkout.cash_title" = "Cash";
+"screen.payments.terminal_checkout.tap_to_pay_title" = "Tap to Pay";
+"screen.payments.terminal_checkout.unavailable_payment_method_message" = "This payment method is not available yet.";
+"visit.status.cancelled" = "Cancelled";
+"visit.status.completed" = "Completed";
+"visit.status.confirmed" = "Confirmed";
+"visit.status.expired" = "Expired";
+"visit.status.in_progress" = "In progress";
+"visit.status.no_show" = "No-show";
+"visit.status.pending_client" = "Pending your confirmation";
+"visit.status.pending_master" = "Pending salon confirmation";
+
+"app_intent.open_mirror.description" = "Opens the Mirror screen";
+"app_intent.open_mirror.title" = "Open Mirror";
+"reusable.retry" = "Retry";
+"screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
+"screen.continuation.client_invite.verified_match" = "Verified match";
+"screen.continuation.client_invite.no_match_message" = "No pudimos encontrar una cuenta que coincida con este cliente.";
+"screen.model_profile.create_title" = "Crear perfil";
+"screen.model_profile.edit_title" = "Editar perfil";
+"screen.model_profile.personal_section_title" = "Datos personales";
+"screen.model_profile.photos_title" = "Fotos (1-6)";
+"screen.model_profile.photos_hint" = "Sube fotos: retrato, perfil y cuerpo completo";
+"screen.model_profile.gender_title" = "Género";
+"screen.model_profile.gender.unspecified" = "No especificado";
+"screen.model_profile.gender.female" = "Femenino";
+"screen.model_profile.gender.male" = "Masculino";
+"screen.model_profile.birthdate_title" = "Fecha de nacimiento";
+"screen.model_profile.search_area_title" = "Zona de búsqueda";
+"screen.model_profile.change_address_action" = "Cambiar dirección";
+"screen.model_profile.search_area_placeholder" = "Selecciona una dirección para configurar la zona de búsqueda";
+"screen.model_profile.search_radius_label" = "Radio de búsqueda";
+"screen.model_profile.availability_title" = "Disponibilidad";
+"screen.model_profile.availability.weekdays" = "Días laborables";
+"screen.model_profile.availability.weekends" = "Fines de semana";
+"screen.model_profile.availability.favorites_only" = "Solo salones favoritos";
+"screen.model_profile.availability.favorites_only_hint" = "Solo los salones que agregaste a favoritos";
+"screen.model_profile.legal_title" = "Consentimientos legales";
+"screen.model_profile.legal.shooting_materials" = "Acepto la filmación y el uso de materiales";
+"screen.model_profile.legal.platform_rules" = "Acepto las reglas de la plataforma";
+"screen.model_profile.become_model_action" = "Convertirme en modelo";
+"screen.model_profile.offers_action" = "Ofertas";
+"screen.model_profile.offers_title" = "Ofertas para modelos";
+"screen.model_profile.offers_description" = "Aquí aparecerán citas gratuitas de salones que coincidan con tu perfil de modelo";
+"screen.model_profile.widget.invite_title" = "Convertirme en modelo";
+"screen.model_profile.widget.invite_description" = "Recibe citas gratuitas de salones";
+"screen.model_profile.widget.title" = "Perfil de modelo";
+"screen.model_profile.status.active" = "Activo";
+"screen.model_profile.status.suspended" = "Suspendido";
+"screen.model_profile.status.title" = "Estado del perfil";
+"screen.model_profile.action.suspend" = "Suspender";
+"screen.model_profile.action.activate" = "Activar";
+"screen.mirror.camera_access_title" = "Sin acceso a la cámara";
+"screen.mirror.camera_access_message" = "Permite el acceso a la cámara frontal para que el espejo funcione.";
+"screen.force_update.title" = "Actualización requerida";
+"screen.force_update.message" = "Para seguir usando la app, actualízala a la última versión.";
+"screen.force_update.action" = "Abrir App Store";
+"shortcut.feedback.entry_hint" = "Shake your phone to open the feedback menu.";
+"widget.mirror.description" = "Quick access to the Maetry mirror.";
+"widget.mirror.title" = "Mirror";
+"reusable.create" = "Crear";
+"reusable.join" = "Unirse";
+"reusable.none" = "Ninguno";
+/* reusable -> manual */
+"reusable.manual" = "Manual";
+/* reusable -> from_phone_book */
+"reusable.from_phone_book" = "Desde la agenda";
+"reusable.selected" = "seleccionados";
+"screen.workspace.creation.create_appointment.title" = "Crear cita";
+"screen.workspace.creation.create_appointment.subtitle" = "Crear una reserva de cliente";
+"screen.workspace.creation.reserve_time.title" = "Reservar tiempo";
+"screen.workspace.creation.reserve_time.subtitle" = "Bloquear tiempo en el horario";
+"screen.workspace.filter.title" = "Filtros";
+"screen.workspace.filter.booking_status" = "Estado de la reserva";
+"screen.workspace.filter.pending" = "Pendiente";
+"screen.workspace.filter.confirmed" = "Confirmada";
+"screen.workspace.filter.cancelled" = "Cancelada";
+"screen.workspace.layout.title" = "Diseño";
+"screen.workspace.layout.visible_specialists" = "Especialistas visibles";
+"screen.workspace.layout.visible_days" = "Días visibles";
+"screen.workspace.layout.time_scale" = "Escala de tiempo";
+"screen.workspace.view_mode.title" = "Modo de vista";
+"screen.workplace.menu.create_workplace" = "Crear salón";
+"screen.workplace.menu.join_workplace" = "Unirse al salón";
+"screen.workplace.empty_state.title" = "Aún no hay salones";
+"screen.workplace.empty_state.message" = "Crea tu propio salón o únete a uno existente";
+"screen.workplace.selection_state.title" = "Selecciona un salón";
+"screen.workplace.selection_state.message" = "Elige el salón en el que quieres trabajar";
+"screen.workplace_join.title" = "Unirse al salón";
+"screen.workplace_join.description" = "Pega el código de invitación o el enlace completo de invitación.";
+"screen.workplace_join.code_placeholder" = "Código de invitación";
+"screen.settings.billing.title" = "Facturación";
+"screen.settings.billing.current_title" = "Facturación actual";
+"screen.settings.billing.open_action" = "Abrir facturación";
+"screen.settings.billing.managed_on_web" = "Se gestiona en la web";
+"screen.settings.billing.managed_on_web_title" = "La facturación se gestiona en la web";
+"screen.settings.billing.full_details_hint" = "Abre la facturación para ver todos los detalles";
+"screen.settings.billing.no_active_plan" = "No hay un plan activo";
+"screen.settings.billing.pricing_hint" = "Abre la facturación para ver los precios";
+"screen.settings.billing.renews_on_prefix" = "Se renueva el";
+"screen.offtime.title" = "Reservar tiempo";
+"screen.offtime.employee" = "Empleado";
+"screen.offtime.reason" = "Motivo";
+"screen.offtime.reason_placeholder" = "Motivo (opcional)";
+"screen.offtime.current_employee" = "Empleado actual";
+/* reusable -> call */
+"reusable.call" = "Llamar";
+/* reusable -> chat */
+"reusable.chat" = "Chat";
+/* reusable -> sms */
+"reusable.sms" = "SMS";
+/* reusable -> whats_app */
+"reusable.whats_app" = "WhatsApp";
+/* screen -> side_menu -> action -> create_workplace */
+/* screen -> side_menu -> action -> join_workplace */
+/* screen -> side_menu -> placeholder -> empty_message */
+/* screen -> side_menu -> placeholder -> empty_title */
+/* screen -> side_menu -> placeholder -> select_message */
+/* screen -> side_menu -> placeholder -> select_title */
+/* screen -> workspace -> action -> cancel_booking */
+"screen.workspace.action.cancel_booking" = "Cancelar reserva";
+/* screen -> workspace -> action -> change_duration */
+"screen.workspace.action.change_duration" = "Cambiar duración";
+/* screen -> workspace -> action -> confirm_booking */
+"screen.workspace.action.confirm_booking" = "Confirmar reserva";
+/* screen -> workspace -> action -> decline_booking */
+"screen.workspace.action.decline_booking" = "Rechazar reserva";
+/* screen -> workspace -> action -> mark_as_paid */
+"screen.workspace.action.mark_as_paid" = "Marcar como pagado";
+/* screen -> workspace -> action -> mark_no_show */
+"screen.workspace.action.mark_no_show" = "Marcar como no asistió";
+/* screen -> workspace -> action -> start_appointment */
+"screen.workspace.action.start_appointment" = "Iniciar cita";
+/* screen -> workspace -> contact -> choose_channel */
+"screen.workspace.contact.choose_channel" = "Elige un canal";
+/* screen -> workspace -> creation_menu -> create_appointment -> subtitle */
+/* screen -> workspace -> creation_menu -> create_appointment -> title */
+/* screen -> workspace -> creation_menu -> reserve_time -> subtitle */
+/* screen -> workspace -> creation_menu -> reserve_time -> title */
+/* screen -> workspace -> menu -> booking_status */
+/* screen -> workspace -> menu -> filter */
+/* screen -> workspace -> menu -> filters */
+/* screen -> workspace -> menu -> layout */
+/* screen -> workspace -> menu -> time_scale */
+/* screen -> workspace -> menu -> view_mode */
+/* screen -> workspace -> menu -> visible_days */
+/* screen -> workspace -> menu -> visible_specialists */
+/* screen -> workspace -> section -> editing */
+"screen.workspace.section.editing" = "Edición";
+/* screen -> workspace -> section -> status */
+"screen.workspace.section.status" = "Estado";
+/* screen -> workspace -> selected_count */
+"screen.workspace.selected_count" = "%d seleccionados";
+/* screen -> workspace -> status_filter -> cancelled */
+/* screen -> workspace -> status_filter -> confirmed */
+/* screen -> workspace -> status_filter -> pending */
+/* screen -> workspace -> status_filter -> unknown */
+/* screen -> assignment -> quick_action -> approve -> title */
+"screen.assignment.quick_action.approve.title" = "Confirmar";
+/* screen -> assignment -> quick_action -> approve -> confirm_title */
+"screen.assignment.quick_action.approve.confirm_title" = "¿Confirmar cita?";
+/* screen -> assignment -> quick_action -> approve -> confirm_message */
+"screen.assignment.quick_action.approve.confirm_message" = "El estado de la cita se actualizará de inmediato.";
+/* screen -> assignment -> quick_action -> approve -> button_title */
+"screen.assignment.quick_action.approve.button_title" = "Confirmar";
+/* screen -> assignment -> quick_action -> reject -> title */
+"screen.assignment.quick_action.reject.title" = "Rechazar";
+/* screen -> assignment -> quick_action -> reject -> confirm_title */
+"screen.assignment.quick_action.reject.confirm_title" = "¿Rechazar cita?";
+/* screen -> assignment -> quick_action -> reject -> confirm_message */
+"screen.assignment.quick_action.reject.confirm_message" = "La cita será rechazada.";
+/* screen -> assignment -> quick_action -> reject -> button_title */
+"screen.assignment.quick_action.reject.button_title" = "Rechazar";
+/* screen -> assignment -> quick_action -> no_show -> title */
+"screen.assignment.quick_action.no_show.title" = "No asistió";
+/* screen -> assignment -> quick_action -> no_show -> confirm_title */
+"screen.assignment.quick_action.no_show.confirm_title" = "¿Marcar inasistencia?";
+/* screen -> assignment -> quick_action -> no_show -> confirm_message */
+"screen.assignment.quick_action.no_show.confirm_message" = "La visita se marcará como inasistencia.";
+/* screen -> assignment -> quick_action -> no_show -> button_title */
+"screen.assignment.quick_action.no_show.button_title" = "Marcar";
+/* screen -> assignment -> quick_action -> start -> title */
+"screen.assignment.quick_action.start.title" = "Iniciar";
+/* screen -> assignment -> quick_action -> start -> confirm_title */
+"screen.assignment.quick_action.start.confirm_title" = "¿Iniciar visita?";
+/* screen -> assignment -> quick_action -> start -> confirm_message */
+"screen.assignment.quick_action.start.confirm_message" = "La visita pasará al estado En curso.";
+/* screen -> assignment -> quick_action -> start -> button_title */
+"screen.assignment.quick_action.start.button_title" = "Iniciar";
+/* screen -> assignment -> quick_action -> complete -> title */
+"screen.assignment.quick_action.complete.title" = "Finalizar";
+/* screen -> assignment -> quick_action -> complete -> confirm_title */
+"screen.assignment.quick_action.complete.confirm_title" = "¿Finalizar visita?";
+/* screen -> assignment -> quick_action -> complete -> confirm_message */
+"screen.assignment.quick_action.complete.confirm_message" = "La visita se marcará como finalizada.";
+/* screen -> assignment -> quick_action -> complete -> button_title */
+"screen.assignment.quick_action.complete.button_title" = "Finalizar";
+/* screen -> assignment -> quick_action -> reschedule -> title */
+"screen.assignment.quick_action.reschedule.title" = "Reprogramar";
+/* screen -> assignment -> quick_action -> reschedule -> confirm_title */
+"screen.assignment.quick_action.reschedule.confirm_title" = "¿Cambiar hora?";
+/* screen -> assignment -> quick_action -> reschedule -> confirm_message */
+"screen.assignment.quick_action.reschedule.confirm_message" = "Se abrirá el editor de horario.";
+/* screen -> assignment -> quick_action -> reschedule -> button_title */
+"screen.assignment.quick_action.reschedule.button_title" = "Cambiar";
+/* creatable -> procedure -> field -> executors_hint */
+"creatable.procedure.field.executors_hint" = "Selecciona los especialistas que podrán realizar este servicio";
+/* creatable -> procedure -> field -> executors_placeholder */
+"creatable.procedure.field.executors_placeholder" = "Aún no se han seleccionado especialistas";
+/* creatable -> procedure -> field -> service_hint */
+"creatable.procedure.field.service_hint" = "Primero selecciona una plantilla del catálogo o crea un nuevo servicio en la categoría adecuada";
+/* creatable -> procedure -> field -> chosen_service_hint */
+"creatable.procedure.field.chosen_service_hint" = "Se utilizará un servicio existente del catálogo";
+/* creatable -> procedure -> field -> create_service_hint */
+"creatable.procedure.field.create_service_hint" = "Se creará un nuevo servicio en las categorías seleccionadas";
+/* creatable -> procedure -> field -> service_placeholder */
+"creatable.procedure.field.service_placeholder" = "Aún no se ha seleccionado ninguna plantilla ni servicio nuevo";
+/* creatable -> procedure -> field -> duration_hint */
+"creatable.procedure.field.duration_hint" = "Indica cuánto dura el servicio para los especialistas seleccionados";
+/* creatable -> procedure -> field -> description_hint */
+"creatable.procedure.field.description_hint" = "Describe qué incluye el servicio y qué debe saber el cliente antes de reservar";
+/* creatable -> procedure -> field -> price_hint */
+"creatable.procedure.field.price_hint" = "Este precio se utilizará en el catálogo y al reservar al cliente";
+/* reusable -> filter_tag_count */
+"reusable.filter_tag_count" = "%1$@ (%2$d)";
+/* reusable -> character_count */
+"reusable.character_count" = "%1$d/%2$d";
+"creatable.product.photo.primary_badge" = "Foto principal";
+"screen.marketing.unsupported_metric_message" = "El gráfico solo está disponible para clics y citas";

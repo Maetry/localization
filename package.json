@@ -12,11 +12,14 @@
     "build:ios": "cd packages/ios && swift build",
     "build:android": "cd packages/android && ./gradlew build",
     "build:web": "cd packages/web && npm run build",
-    "swiftgen": "swiftgen config run --config swiftgen.yml",
+    "swiftgen": "cd packages/ios && swiftgen config run --config swiftgen.yml",
     "crowdin:init": "node tools/scripts/initial-crowdin-upload.js",
     "crowdin:download": "crowdin download",
     "crowdin:sync": "node tools/scripts/crowdin-sync.js",
-    "publish": "node tools/scripts/publish-packages.js"
+    "publish": "node tools/scripts/publish-packages.js",
+    "ios:audit": "node tools/scripts/ios-localization.js audit",
+    "ios:migrate": "node tools/scripts/ios-localization.js migrate",
+    "ios:verify": "node tools/scripts/ios-localization.js verify"
   },
   "devDependencies": {
     "js-yaml": "^4.1.0",

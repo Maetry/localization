@@ -27,6 +27,9 @@ let package = Package(
             name: "LocalizationKit",
             dependencies: [],
             path: "packages/ios",
+            exclude: [
+                "swiftgen.yml"
+            ],
             resources: [
                 .process("Resources")
             ]
@@ -40,14 +43,22 @@ let package = Package(
             dependencies: [
                 .product(name: "NIO", package: "swift-nio"),
             ],
-            path: "packages/backend"
-//          ,
-//            resources: [
-//                .copy("Resources")
-//            ],
+            path: "packages/backend",
+            exclude: [
+                "Glossary",
+                "Tests"
+            ],
+            resources: [
+                .copy("Resources")
+            ]
 //            swiftSettings: [
 //                .swiftLanguageMode(.v6)
 //            ]
+        ),
+        .testTarget(
+            name: "LocalizationServiceTests",
+            dependencies: ["LocalizationService"],
+            path: "packages/backend/Tests"
         )
     ]
 )
