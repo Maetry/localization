@@ -1,0 +1,25 @@
+key	base
+creatable.product.field.amount_placeholder	0.00
+creatable.product.field.barcode_placeholder	UPC, EAN, GTIN
+screen.payments.terminal_checkout.cash_description	Cash payment is recorded in this first iteration.
+screen.payments.terminal_checkout.collect_with_tap_to_pay	Collect with Tap to Pay
+screen.payments.terminal_checkout.complete_with_cash	Complete with cash
+screen.payments.terminal_checkout.payment_method	Payment method
+screen.payments.terminal_checkout.service_amount	Service amount
+screen.payments.terminal_checkout.service_amount_footnote	This amount comes from the current booking.
+screen.payments.terminal_checkout.subtitle	Review the final amount and finish the visit.
+screen.payments.terminal_checkout.summary	Summary
+screen.payments.terminal_checkout.tap_to_pay_description	Tap to Pay will be added in a later iteration.
+screen.payments.terminal_checkout.tip	Tip
+screen.payments.terminal_checkout.title	Collect payment
+screen.payments.terminal_checkout.total_to_collect	Total to collect
+screen.payments.tip_selection.continue_to_payment	Continue to payment
+screen.payments.tip_selection.custom_subtitle	enter your own amount
+screen.payments.tip_selection.custom_tip	Custom
+screen.payments.tip_selection.custom_tip_amount	Custom tip amount
+screen.payments.tip_selection.no_tip	No tip
+screen.payments.tip_selection.none_subtitle	continue without tip
+screen.payments.tip_selection.percent_subtitle	of service total
+screen.payments.tip_selection.subtitle	Choose a percentage or enter a custom amount.
+screen.payments.tip_selection.title	Add a tip
+screen.products.field.no_value	-

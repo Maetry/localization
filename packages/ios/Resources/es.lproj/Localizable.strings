@@ -126,6 +126,24 @@
 "screen.assignment.client" = "Cliente";
 /* screen -> assignment -> invite_client */
 "screen.assignment.invite_client" = "Invitar cliente";
+/* screen -> assignment -> status -> scheduled */
+"screen.assignment.status.scheduled" = "Programada";
+/* screen -> assignment -> status -> in_progress */
+"screen.assignment.status.in_progress" = "En curso";
+/* screen -> assignment -> status -> completed */
+"screen.assignment.status.completed" = "Completada";
+/* screen -> assignment -> status -> cancelled */
+"screen.assignment.status.cancelled" = "Cancelada";
+/* screen -> assignment -> status -> no_show */
+"screen.assignment.status.no_show" = "No asistió";
+/* screen -> assignment -> status -> pending */
+"screen.assignment.status.pending" = "Pendiente de confirmación";
+/* screen -> assignment -> status -> confirmed */
+"screen.assignment.status.confirmed" = "Confirmada";
+/* screen -> assignment -> status -> closed */
+"screen.assignment.status.closed" = "Cerrada";
+/* screen -> assignment -> status -> no_status */
+"screen.assignment.status.no_status" = "Sin estado";
 /* screen -> assignment -> danger_zone -> title */
 "screen.assignment.danger_zone.title" = "Administración";
 /* screen -> assignment -> danger_zone -> delete_title */
@@ -1475,10 +1493,18 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 "app_intent.open_mirror.description" = "Opens the Mirror screen";
 "app_intent.open_mirror.title" = "Open Mirror";
+"widget.recovery_methods.title" = "Métodos de recuperación";
+"reusable.primary" = "Principal";
 "reusable.retry" = "Retry";
+"reusable.send" = "Enviar";
+"reusable.sign_in_with_google" = "Iniciar sesión con Google";
 "screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
 "screen.continuation.client_invite.verified_match" = "Verified match";
 "screen.continuation.client_invite.no_match_message" = "No pudimos encontrar una cuenta que coincida con este cliente.";
+"screen.continuation.client_invite.confirm_link" = "Vincular cuenta";
+"screen.continuation.client_invite.confidence.low" = "Baja confianza";
+"screen.continuation.client_invite.confidence.medium" = "Confianza media";
+"screen.continuation.client_invite.confidence.high" = "Alta confianza";
 "screen.model_profile.create_title" = "Crear perfil";
 "screen.model_profile.edit_title" = "Editar perfil";
 "screen.model_profile.personal_section_title" = "Datos personales";
@@ -1487,6 +1513,67 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.model_profile.gender_title" = "Género";
 "screen.model_profile.gender.unspecified" = "No especificado";
 "screen.model_profile.gender.female" = "Femenino";
+"screen.feedback_composer.title" = "Reportar un problema";
+"screen.feedback_composer.type_section_title" = "Tipo";
+"screen.feedback_composer.type_picker_title" = "Tipo";
+"screen.feedback_composer.description_section_title" = "¿Qué pasó?";
+"screen.feedback_composer.description_placeholder" = "Describe el problema y lo que esperabas que ocurriera.";
+"screen.feedback_composer.privacy_hint" = "Incluye solo los datos personales que quieras compartir.";
+"screen.debug.tab_logger" = "Logger";
+"screen.debug.tab_database" = "BD";
+"screen.debug.tab_toggles" = "Interruptores";
+"screen.debug.tab_device_info" = "Información del dispositivo";
+"screen.debug.server_url_section_title" = "URL del servidor";
+"screen.debug.server_url_picker_title" = "Base";
+"screen.debug.feature_flags_section_title" = "Flags de funciones";
+"screen.debug.complex_activate_toggle" = "Activar complejos";
+"screen.debug.dashboard_product_toggle" = "Producto del panel";
+"screen.debug.other_settings_section_title" = "Otros ajustes";
+"screen.debug.hide_help_banner_toggle" = "Ocultar banner de ayuda";
+"screen.debug.random_background_toggle" = "Fondo aleatorio";
+"screen.debug.network_request_overlay_toggle" = "Superposición de solicitudes";
+"screen.debug.tip_kit_section_title" = "TipKit";
+"screen.debug.reset_feedback_tip_action" = "Restablecer consejo de feedback";
+"screen.debug.error_generator.section_title" = "Generación de errores";
+"screen.debug.error_generator.simulate_network_error" = "Simular NetworkError";
+"screen.debug.error_generator.simulate_unauthorized" = "Simular 401 Unauthorized";
+"screen.debug.error_generator.simulate_payment_required" = "Simular 402 Payment Required";
+"screen.debug.error_generator.generate_crash_action" = "Generar crash para Sentry";
+"screen.debug.error_generator.confirm_crash_title" = "¿Generar crash?";
+"screen.debug.error_generator.crash_action" = "Crash";
+"screen.debug.error_generator.confirm_crash_message" = "La app se cerrará de inmediato. Úsalo solo para verificar el envío del crash a Sentry.";
+"screen.debug.database.section_title" = "Base de datos";
+"screen.debug.database.path_label" = "Ruta";
+"screen.debug.database.open_readonly_error" = "No se pudo abrir la base SQLite en la ruta: %1$@";
+"screen.debug.database.missing_file_error" = "No se encontró el archivo de base de datos en la ruta: %1$@";
+"screen.debug.database.prepare_export_error" = "No se pudieron preparar los archivos para exportar.";
+"screen.debug.database.open_readwrite_error" = "No se pudo abrir la base SQLite para limpiarla en la ruta: %1$@";
+"screen.debug.database.blob_value" = "<BLOB: %1$d bytes>";
+"screen.debug.database.null_value" = "NULL";
+"screen.debug.database.unknown_value" = "<UNKNOWN>";
+"screen.debug.database.sqlite_execution_error" = "Error de ejecución de SQLite";
+"screen.debug.database.sqlite_error" = "Error de SQLite";
+"screen.debug.database.status_label" = "Estado";
+"screen.debug.database.available" = "Disponible";
+"screen.debug.database.not_found" = "No encontrado";
+"screen.debug.database.file_size_label" = "Tamaño del archivo";
+"screen.debug.database.tables_title" = "Tablas (%d)";
+"screen.debug.database.no_tables_found" = "No se encontraron tablas.";
+"screen.debug.database.open_data_screen_hint" = "Abre primero cualquier pantalla con datos para llenar la caché.";
+"screen.debug.database.preview_rows" = "Vista previa: %d fila(s)";
+"screen.debug.database.navigation_title" = "SQLite DB";
+"screen.debug.database.clear_action" = "Limpiar";
+"screen.debug.database.export_action" = "Exportar";
+"screen.debug.database.clear_alert_title" = "¿Limpiar la base de datos local?";
+"screen.debug.database.clear_alert_message" = "Se eliminarán todas las filas en caché local. Esta acción no se puede deshacer.";
+"screen.debug.database.export_only_on_ios_message" = "La exportación solo está disponible en iOS.";
+"screen.debug.database.summary_section_title" = "Resumen";
+"screen.debug.database.rows_total_label" = "Filas (total)";
+"screen.debug.database.rows_preview_label" = "Filas (vista previa)";
+"screen.debug.database.no_rows_to_display" = "No hay filas para mostrar.";
+"screen.debug.database.row_number" = "Fila #%d";
+"screen.debug.database.rows_section_title" = "Filas";
+"screen.debug.database.showing_first_rows" = "Mostrando las primeras %d filas.";
 "screen.model_profile.gender.male" = "Masculino";
 "screen.model_profile.birthdate_title" = "Fecha de nacimiento";
 "screen.model_profile.search_area_title" = "Zona de búsqueda";
@@ -1526,6 +1613,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "reusable.none" = "Ninguno";
 /* reusable -> manual */
 "reusable.manual" = "Manual";
+"reusable.nickname" = "Apodo";
 /* reusable -> from_phone_book */
 "reusable.from_phone_book" = "Desde la agenda";
 "reusable.selected" = "seleccionados";
@@ -1541,6 +1629,10 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workspace.layout.title" = "Diseño";
 "screen.workspace.layout.visible_specialists" = "Especialistas visibles";
 "screen.workspace.layout.visible_days" = "Días visibles";
+"screen.workspace.layout.visible_days_one" = "1 día";
+"screen.workspace.layout.visible_days_three" = "3 días";
+"screen.workspace.layout.visible_days_five" = "5 días";
+"screen.workspace.layout.visible_days_seven" = "7 días";
 "screen.workspace.layout.time_scale" = "Escala de tiempo";
 "screen.workspace.view_mode.title" = "Modo de vista";
 "screen.workplace.menu.create_workplace" = "Crear salón";
@@ -1561,6 +1653,36 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.settings.billing.no_active_plan" = "No hay un plan activo";
 "screen.settings.billing.pricing_hint" = "Abre la facturación para ver los precios";
 "screen.settings.billing.renews_on_prefix" = "Se renueva el";
+"screen.settings.billing.launch_promotion" = "%1$d%% de descuento durante los primeros %2$d ciclos mensuales";
+"screen.settings.billing.sms_pack_title" = "%1$d créditos SMS";
+"screen.settings.billing.plan.start" = "Start";
+"screen.settings.billing.plan.grow" = "Grow";
+"screen.settings.billing.plan.scale" = "Scale";
+"screen.settings.billing.plan.start_summary" = "Ideal para salones pequeños que necesitan agenda, gestión de equipo y crecimiento simple.";
+"screen.settings.billing.plan.grow_summary" = "Para equipos ocupados que necesitan mejor automatización, más control y margen para crecer.";
+"screen.settings.billing.plan.scale_summary" = "Para salones consolidados con más puestos y operaciones avanzadas.";
+"screen.settings.billing.interval.monthly" = "Mensual";
+"screen.settings.billing.interval.yearly" = "Anual";
+"screen.settings.billing.period.month" = "mes";
+"screen.settings.billing.period.year" = "año";
+/* screen -> executor_editing -> danger_zone_title */
+"screen.executor_editing.danger_zone_title" = "Zona de peligro";
+/* screen -> executor_editing -> duration_title */
+"screen.executor_editing.duration_title" = "Duración";
+/* screen -> executor_editing -> price_title */
+"screen.executor_editing.price_title" = "Precio";
+/* screen -> executor_editing -> stop_providing_confirm_message */
+"screen.executor_editing.stop_providing_confirm_message" = "El especialista permanecerá en el equipo y solo se eliminará de este servicio";
+/* screen -> executor_editing -> stop_providing_confirm_title */
+"screen.executor_editing.stop_providing_confirm_title" = "¿Eliminar del servicio?";
+/* screen -> executor_editing -> stop_providing_hint */
+"screen.executor_editing.stop_providing_hint" = "El especialista permanecerá en el equipo";
+/* screen -> executor_editing -> stop_providing_title */
+"screen.executor_editing.stop_providing_title" = "Eliminar del servicio";
+/* screen -> executor_editing -> title */
+"screen.executor_editing.title" = "Especialista";
+/* screen -> executor_editing -> unsupported_execution_message */
+"screen.executor_editing.unsupported_execution_message" = "La edición puntual del especialista aún no es compatible con la API. Se necesita un endpoint independiente para la ejecución.";
 "screen.offtime.title" = "Reservar tiempo";
 "screen.offtime.employee" = "Empleado";
 "screen.offtime.reason" = "Motivo";
@@ -1666,6 +1788,68 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.assignment.quick_action.reschedule.confirm_message" = "Se abrirá el editor de horario.";
 /* screen -> assignment -> quick_action -> reschedule -> button_title */
 "screen.assignment.quick_action.reschedule.button_title" = "Cambiar";
+/* reusable -> add_to */
+"reusable.add_to" = "Agregar a";
+/* reusable -> calendar */
+"reusable.calendar" = "Calendario";
+/* reusable -> email */
+"reusable.email" = "Correo";
+/* reusable -> instagram */
+"reusable.instagram" = "Instagram";
+/* reusable -> telegram */
+"reusable.telegram" = "Telegram";
+/* screen -> unit_economic -> title */
+"screen.unit_economic.title" = "Economía unitaria";
+/* screen -> unit_economic -> no_campaigns */
+"screen.unit_economic.no_campaigns" = "No hay campañas";
+/* screen -> unit_economic -> no_data */
+"screen.unit_economic.no_data" = "Sin datos";
+/* screen -> unit_economic -> metric_clicks */
+"screen.unit_economic.metric_clicks" = "Clics";
+/* screen -> unit_economic -> metric_appointments */
+"screen.unit_economic.metric_appointments" = "Citas";
+/* screen -> unit_economic -> max_campaigns_reached */
+"screen.unit_economic.max_campaigns_reached" = "Se pueden agregar como máximo 5 campañas al gráfico";
+/* screen -> unit_economic -> unsupported_metric_message */
+"screen.unit_economic.unsupported_metric_message" = "El gráfico solo está disponible para clics y citas";
+/* screen -> unit_economic -> campaign_type -> share */
+"screen.unit_economic.campaign_type.share" = "Compartir";
+/* screen -> unit_economic -> campaign_type -> walk_in_qr */
+"screen.unit_economic.campaign_type.walk_in_qr" = "QR para walk-in";
+/* screen -> unit_economic -> campaign_type -> affiliate */
+"screen.unit_economic.campaign_type.affiliate" = "Afiliado";
+/* screen -> unit_economic -> campaign_type -> media */
+"screen.unit_economic.campaign_type.media" = "Media";
+/* screen -> unit_economic -> chart -> date_axis */
+"screen.unit_economic.chart.date_axis" = "Fecha";
+/* screen -> unit_economic -> chart -> value_axis */
+"screen.unit_economic.chart.value_axis" = "Valor";
+/* screen -> unit_economic -> chart -> campaign_series */
+"screen.unit_economic.chart.campaign_series" = "Campaña";
+/* screen -> unit_economic -> chart -> metric_series */
+"screen.unit_economic.chart.metric_series" = "Métrica";
+/* screen -> unit_economic -> campaign_detail -> stats_section */
+"screen.unit_economic.campaign_detail.stats_section" = "Estadísticas";
+/* screen -> unit_economic -> campaign_detail -> sharing_section */
+"screen.unit_economic.campaign_detail.sharing_section" = "Compartir";
+/* screen -> unit_economic -> campaign_detail -> total_clicks */
+"screen.unit_economic.campaign_detail.total_clicks" = "Clics totales";
+/* screen -> unit_economic -> campaign_detail -> total_appointments */
+"screen.unit_economic.campaign_detail.total_appointments" = "Citas totales";
+/* screen -> unit_economic -> campaign_detail -> conversion_rate */
+"screen.unit_economic.campaign_detail.conversion_rate" = "Conversión";
+/* screen -> unit_economic -> campaign_detail -> copied */
+"screen.unit_economic.campaign_detail.copied" = "Copiado";
+/* screen -> unit_economic -> campaign_detail -> copy_link */
+"screen.unit_economic.campaign_detail.copy_link" = "Copiar";
+/* screen -> unit_economic -> campaign_detail -> share_qr */
+"screen.unit_economic.campaign_detail.share_qr" = "Compartir QR";
+/* screen -> unit_economic -> campaign_detail -> qr_title */
+"screen.unit_economic.campaign_detail.qr_title" = "Código QR";
+/* screen -> unit_economic -> campaign_detail -> share_link */
+"screen.unit_economic.campaign_detail.share_link" = "Compartir enlace";
+/* screen -> unit_economic -> campaign_detail -> link_title */
+"screen.unit_economic.campaign_detail.link_title" = "Enlace de invitación";
 /* creatable -> procedure -> field -> executors_hint */
 "creatable.procedure.field.executors_hint" = "Selecciona los especialistas que podrán realizar este servicio";
 /* creatable -> procedure -> field -> executors_placeholder */
@@ -1688,5 +1872,299 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "reusable.filter_tag_count" = "%1$@ (%2$d)";
 /* reusable -> character_count */
 "reusable.character_count" = "%1$d/%2$d";
+"creatable.complex.total_duration_summary" = "%1$@: %2$@";
+"creatable.complex.selected_procedure_meta" = "%1$@ • %2$@";
+"creatable.complex.execution_meta" = "%1$@ | %2$@";
 "creatable.product.photo.primary_badge" = "Foto principal";
-"screen.marketing.unsupported_metric_message" = "El gráfico solo está disponible para clics y citas";
+"assignment.edit.client_title" = "Cliente";
+"assignment.edit.description" = "Cambiar el servicio, el profesional o la hora";
+"assignment.edit.price_title" = "Precio";
+"assignment.edit.save_action" = "Guardar cambios";
+"assignment.edit.screen_title" = "Editar cita";
+"assignment.edit.title" = "Editar cita";
+"assignment.settlement.action" = "Cobrar";
+"assignment.timeline.cancelled" = "Cita cancelada";
+"assignment.timeline.cancelled_by_client" = "El cliente canceló la cita";
+"assignment.timeline.cancelled_by_salon" = "El salón canceló la cita";
+"assignment.timeline.cancelled_by_system" = "La cita fue cancelada por el sistema";
+"assignment.timeline.completed" = "Visita finalizada";
+"assignment.timeline.created" = "Cita creada";
+"assignment.timeline.empty" = "Los eventos de esta cita aparecerán aquí cuando se confirme o se modifique.";
+"assignment.timeline.expired" = "La cita ha caducado";
+"assignment.timeline.new_time_label" = "Nueva hora";
+"assignment.timeline.no_show" = "El cliente no asistió";
+"assignment.timeline.pending" = "Pendiente de confirmación";
+"assignment.timeline.pending_client" = "Pendiente de confirmación del cliente";
+"assignment.timeline.pending_description" = "La cita está esperando la siguiente acción y todavía no tiene historial de visita.";
+"assignment.timeline.pending_staff" = "Pendiente de confirmación del salón";
+"assignment.timeline.rejected" = "Cita rechazada";
+"assignment.timeline.rescheduled" = "Cita reprogramada";
+"assignment.timeline.services_label" = "Servicios";
+"assignment.timeline.started" = "Visita iniciada";
+"assignment.timeline.time_label" = "Hora";
+"assignment.timeline.title" = "Historial de la cita";
+"creatable.appointment.additional_fields_placeholder" = "Aquí aparecerán el descuento y otros parámetros.";
+"creatable.appointment.client_selection_title" = "Selección de cliente";
+"creatable.appointment.collapse_fields_action" = "Ocultar campos adicionales";
+"creatable.appointment.create_action" = "Crear";
+"creatable.appointment.creating_action" = "Creando...";
+"creatable.appointment.custom_duration_title" = "Duración";
+"creatable.appointment.expand_fields_action" = "Campos adicionales";
+"creatable.appointment.extended_create_action" = "Creación avanzada";
+"creatable.appointment.manual_date_title" = "Introducir fecha manualmente";
+"creatable.appointment.not_selected" = "No seleccionado";
+"creatable.appointment.quick_create_action" = "Creación rápida";
+"creatable.appointment.select_executor_title" = "Selecciona un profesional";
+"creatable.appointment.service_selection_title" = "Selección de servicio y profesional";
+"creatable.appointment.time_selection_title" = "Hora";
+"creatable.booking.field.procedure_title" = "Servicio";
+"creatable.booking.field.salon_title" = "Salón";
+"creatable.booking.field.select_time_slot" = "Elegir hora";
+"creatable.booking.field.service_title" = "Servicio";
+"creatable.booking.field.time_slot_title" = "Hora";
+"creatable.booking.select_procedure_first_message" = "Primero selecciona un servicio o un paquete";
+"creatable.booking.service.change" = "Cambiar";
+"creatable.booking.service.master" = "Profesional";
+"creatable.booking.service.master_not_selected" = "Profesional no seleccionado";
+"creatable.booking.service.not_selected" = "No seleccionado";
+"creatable.booking.service.nothing_selected" = "Nada seleccionado";
+"creatable.booking.service.select_service_for_booking" = "Selecciona un servicio para la cita";
+"creatable.booking.time_slot.change" = "Cambiar";
+"creatable.booking.time_slot.not_selected" = "No seleccionado";
+"creatable.booking.time_slot.title" = "Hora";
+"creatable.booking.title" = "Cita";
+"creatable.complex.access.independent_from_gender" = "Independiente del género";
+"creatable.complex.access.men_only" = "Solo para hombres";
+"creatable.complex.access.women_only" = "Solo para mujeres";
+"creatable.complex.action.change_executors" = "Cambiar profesionales";
+"creatable.complex.action.move_down" = "Mover abajo";
+"creatable.complex.action.move_up" = "Mover arriba";
+"creatable.complex.booking_type.parallel" = "Los servicios se reservan en paralelo";
+"creatable.complex.booking_type.sequential" = "Los servicios se reservan de forma secuencial";
+"creatable.complex.field.access_settings_title" = "Configuración de acceso";
+"creatable.complex.field.add_service" = "Añadir servicio";
+"creatable.complex.field.all_executors" = "Todos los profesionales";
+"creatable.complex.field.booking_type_hint" = "Elige si los servicios del paquete se prestarán de forma secuencial o en paralelo.";
+"creatable.complex.field.booking_type_title" = "Tipo de reserva";
+"creatable.complex.field.choose_procedures_hint" = "Añade los servicios que deben formar parte de este paquete";
+"creatable.complex.field.choose_procedures_title" = "Selecciona los servicios";
+"creatable.complex.field.description_hint" = "Describe el valor del paquete y los detalles que el cliente debe conocer antes de reservar";
+"creatable.complex.field.description_placeholder" = "Añade una descripción de este paquete";
+"creatable.complex.field.description_title" = "Descripción (opcional)";
+"creatable.complex.field.executors_missing" = "No se han seleccionado profesionales";
+"creatable.complex.field.executors_sheet_hint" = "Selecciona los profesionales que pueden realizar este servicio dentro del paquete";
+"creatable.complex.field.name_hint" = "El nombre debe explicar de inmediato qué incluye el paquete y por qué le conviene al cliente";
+"creatable.complex.field.name_placeholder" = "Por ejemplo, manicura a 4 manos";
+"creatable.complex.field.name_title" = "Nombre del paquete";
+"creatable.complex.field.no_discount" = "No se aplica descuento";
+"creatable.complex.field.online_booking_enabled" = "Act.";
+"creatable.complex.field.online_booking_hint" = "Permite que los clientes reserven este paquete online a través de Maetry, redes sociales y enlaces directos";
+"creatable.complex.field.online_booking_title" = "Reserva online";
+"creatable.complex.field.percent_discount_placeholder" = "Introduce el descuento en %";
+"creatable.complex.field.percent_discount_title" = "Porcentaje de descuento";
+"creatable.complex.field.price_hint" = "Elige cómo calcular el precio del paquete: por suma de servicios, precio especial o descuento";
+"creatable.complex.field.price_type_title" = "Tipo de precio";
+"creatable.complex.field.procedures_not_found" = "No se encontraron servicios";
+"creatable.complex.field.read_more" = "Más información...";
+"creatable.complex.field.retail_price_title" = "Precio de venta";
+"creatable.complex.field.selected_procedures_summary_title" = "Servicios seleccionados:";
+"creatable.complex.field.services_description" = "Selecciona los servicios incluidos en el paquete y, si es necesario, configura los profesionales para cada uno";
+"creatable.complex.field.tags_hint" = "El paquete hereda las etiquetas de los servicios seleccionados y puede pertenecer a varias etiquetas a la vez";
+"creatable.complex.field.tags_placeholder" = "Las etiquetas aparecerán después de seleccionar los servicios";
+"creatable.complex.field.tags_title" = "Etiquetas";
+"creatable.complex.field.total_duration" = "Duración total";
+"creatable.complex.missing_price" = "Indica el precio del paquete";
+"creatable.complex.price_type.free" = "Gratis";
+"creatable.complex.price_type.percent_discount" = "Descuento porcentual";
+"creatable.complex.price_type.special_price" = "Precio especial";
+"creatable.complex.price_type.total_services" = "Precio de todos los servicios";
+"creatable.complex.section.main" = "Información principal";
+"creatable.complex.section.price" = "Precio";
+"creatable.complex.section.services" = "Servicios";
+"creatable.complex.title" = "Nuevo paquete";
+"creatable.complex.unfinished_title" = "Creación de paquete sin terminar";
+"creatable.marketing_campaign.field.description_placeholder" = "Descripción de la campaña (opcional)";
+"creatable.marketing_campaign.field.description_title" = "Descripción";
+"creatable.marketing_campaign.field.name_placeholder" = "Introduce el nombre de la campaña";
+"creatable.marketing_campaign.field.name_title" = "Nombre";
+"creatable.marketing_campaign.field.select_type" = "Seleccionar tipo";
+"creatable.marketing_campaign.field.select_type_title" = "Selecciona el tipo de campaña";
+"creatable.marketing_campaign.field.type_title" = "Tipo de campaña";
+"creatable.marketing_campaign.missing_name" = "Indica el nombre de la campaña";
+"creatable.marketing_campaign.missing_type" = "Selecciona el tipo de campaña";
+"creatable.marketing_campaign.title" = "Crear campaña";
+"creatable.marketing_campaign.unfinished_title" = "Campaña sin terminar";
+"creatable.product.action.add_sku" = "Añadir otro código SKU";
+"creatable.product.action.clear_photos" = "Borrar fotos";
+"creatable.product.action.generate_sku" = "Generar código SKU";
+"creatable.product.action.manage_photo" = "Gestionar fotos";
+"creatable.product.action.select_tax" = "Seleccionar impuesto";
+"creatable.product.action.select_unit" = "Seleccionar unidad";
+"creatable.product.action.use_demo_photos" = "Usar fotos de demostración";
+"creatable.product.create_title" = "Añadir productos nuevos";
+"creatable.product.edit_title" = "Editar producto";
+"creatable.product.field.amount" = "Cantidad";
+"creatable.product.field.amount_placeholder" = "0.00";
+"creatable.product.field.amount_unit" = "Unidad de medida";
+"creatable.product.field.barcode" = "Código de barras del producto (opcional)";
+"creatable.product.field.barcode_placeholder" = "UPC, EAN, GTIN";
+"creatable.product.field.brand" = "Marca del producto";
+"creatable.product.field.brand_placeholder" = "Por ejemplo, Lui Philipo";
+"creatable.product.field.category" = "Categoría del producto";
+"creatable.product.field.category_placeholder" = "Por ejemplo, Uñas";
+"creatable.product.field.commission_description" = "Calcula la comisión del miembro del equipo al vender el producto.";
+"creatable.product.field.commission_percent" = "Comisión, %";
+"creatable.product.field.commission_toggle" = "Activar comisión para miembros del equipo";
+"creatable.product.field.current_stock" = "Stock actual";
+"creatable.product.field.description" = "Descripción del producto";
+"creatable.product.field.description_placeholder" = "Añade la descripción del producto";
+"creatable.product.field.low_stock_description" = "Fresha te avisará y completará automáticamente la cantidad definida para el nuevo pedido.";
+"creatable.product.field.low_stock_notification_toggle" = "Recibir alertas de stock bajo";
+"creatable.product.field.low_stock_threshold" = "Nivel bajo de stock";
+"creatable.product.field.low_stock_toggle" = "Stock bajo y nuevo pedido";
+"creatable.product.field.margin" = "Margen";
+"creatable.product.field.name" = "Nombre del producto";
+"creatable.product.field.name_placeholder" = "Introduce el nombre del producto";
+"creatable.product.field.reorder_quantity" = "Cantidad de reposición";
+"creatable.product.field.retail_description" = "Permite vender este producto en caja.";
+"creatable.product.field.retail_price" = "Precio de venta";
+"creatable.product.field.retail_toggle" = "Activar ventas minoristas";
+"creatable.product.field.short_description" = "Descripción breve";
+"creatable.product.field.short_description_placeholder" = "Descripción breve del producto";
+"creatable.product.field.sku" = "SKU (unidad de mantenimiento de stock)";
+"creatable.product.field.stock_toggle" = "Controlar el stock disponible";
+"creatable.product.field.supplier" = "Proveedor";
+"creatable.product.field.supplier_placeholder" = "Por ejemplo, Lui Nikita";
+"creatable.product.field.supply_price" = "Precio de compra";
+"creatable.product.field.tax" = "Impuesto";
+"creatable.product.field.tax_select" = "Selecciona un impuesto";
+"creatable.product.missing_title" = "Introduce el nombre del producto";
+"creatable.product.section.basic_info" = "Información principal";
+"creatable.product.section.commission" = "Comisión del miembro del equipo";
+"creatable.product.section.inventory" = "Inventario";
+"creatable.product.section.photo" = "Fotos del producto";
+"creatable.product.section.price" = "Precio";
+"creatable.product.section.reorder" = "Stock bajo y reposición";
+"creatable.product.section.retail_sales" = "Ventas minoristas";
+"creatable.product.section.stock" = "Stock disponible";
+"screen.appointment.add_to_calendar_action" = "Al calendario";
+"screen.appointment.calendar_access_message" = "Permite el acceso al calendario para añadir la cita.";
+"screen.appointment.calendar_access_title" = "Acceso al calendario";
+"screen.appointment.calendar_no_default_calendar_message" = "No se pudo encontrar el calendario predeterminado.";
+"screen.appointment.calendar_save_error_message" = "Comprueba el acceso al calendario e inténtalo de nuevo.";
+"screen.appointment.calendar_save_error_title" = "No se pudo añadir";
+"screen.appointment.contact_salon" = "Contactar con el salón";
+"screen.appointment.description_title" = "Preparación";
+"screen.appointment.edit_description" = "Cambiar el servicio, el profesional o la hora";
+"screen.appointment.edit_title" = "Editar cita";
+"screen.appointment_actions.cancel_action" = "Cancelar";
+"screen.appointment_actions.contact_action" = "Contactar";
+"screen.appointment_actions.repeat_action" = "Reservar de nuevo";
+"screen.booking.add_to_wallet_reminder" = "Añádelo a Apple Wallet para no olvidar la cita";
+"screen.booking.confirm_action" = "Confirmar";
+"screen.booking.contact_salon" = "Contactar con el salón";
+"screen.booking.danger_zone_description" = "Cancelar la cita y avisar al profesional";
+"screen.booking.danger_zone_title" = "Cancelación de la cita";
+"screen.booking.delete_message" = "La cita se eliminará y el profesional recibirá una notificación de cancelación.";
+"screen.booking.delete_title" = "¿Cancelar cita?";
+"screen.booking.expired" = "Caducada";
+"screen.booking.pending_confirmation" = "Pendiente de confirmación del salón";
+"screen.booking.save_action" = "Guardar cambios";
+"screen.booking.title" = "Aprobación de la cita";
+"screen.complex_editing.title" = "Edición del paquete";
+"screen.complex_editing.unsupported_settings_message" = "La API todavía no admite la configuración de reserva online y acceso para paquetes. Se ha enviado una solicitud para ampliar OpenAPI/SDK.";
+"screen.employees.dismissed_filter" = "Despedidos";
+"screen.employees.dismissed_title" = "Empleados despedidos";
+"screen.employees.no_dismissed_employees" = "No hay empleados despedidos";
+"screen.payments.terminal_checkout.cash_description" = "El pago en efectivo se registra en esta primera iteración.";
+"screen.payments.terminal_checkout.collect_with_tap_to_pay" = "Cobrar con Tap to Pay";
+"screen.payments.terminal_checkout.complete_with_cash" = "Completar con efectivo";
+"screen.payments.terminal_checkout.payment_method" = "Método de pago";
+"screen.payments.terminal_checkout.service_amount" = "Importe del servicio";
+"screen.payments.terminal_checkout.service_amount_footnote" = "Este importe proviene de la cita actual.";
+"screen.payments.terminal_checkout.subtitle" = "Revisa el importe final y termina la visita.";
+"screen.payments.terminal_checkout.summary" = "Resumen";
+"screen.payments.terminal_checkout.tap_to_pay_description" = "Tap to Pay se añadirá en una iteración posterior.";
+"screen.payments.terminal_checkout.tip" = "Propina";
+"screen.payments.terminal_checkout.title" = "Cobrar pago";
+"screen.payments.terminal_checkout.total_to_collect" = "Total a cobrar";
+"screen.payments.tip_selection.continue_to_payment" = "Continuar al pago";
+"screen.payments.tip_selection.custom_subtitle" = "introduce tu propio importe";
+"screen.payments.tip_selection.custom_tip" = "Personalizada";
+"screen.payments.tip_selection.custom_tip_amount" = "Importe de propina personalizada";
+"screen.payments.tip_selection.no_tip" = "Sin propina";
+"screen.payments.tip_selection.none_subtitle" = "continuar sin propina";
+"screen.payments.tip_selection.percent_subtitle" = "del total del servicio";
+"screen.payments.tip_selection.subtitle" = "Elige un porcentaje o introduce un importe personalizado.";
+"screen.payments.tip_selection.title" = "Añadir propina";
+"screen.products.actions" = "Acciones";
+"screen.products.add_action" = "Añadir producto";
+"screen.products.delete_message" = "Esta acción no se puede deshacer.";
+"screen.products.delete_title" = "¿Eliminar producto?";
+"screen.products.edit" = "Editar";
+"screen.products.empty_placeholder" = "No se encontraron productos";
+"screen.products.field.amount" = "Cantidad";
+"screen.products.field.average_price" = "Precio medio";
+"screen.products.field.barcode" = "Código de barras";
+"screen.products.field.brand" = "Marca";
+"screen.products.field.category" = "Categoría";
+"screen.products.field.description" = "Descripción del producto";
+"screen.products.field.no_value" = "-";
+"screen.products.field.retail_price" = "Precio de venta";
+"screen.products.field.short_description" = "Descripción breve";
+"screen.products.field.sku" = "SKU principal";
+"screen.products.field.stock_quantity" = "Producto en stock";
+"screen.products.field.supplier" = "Proveedor";
+"screen.products.field.supply_price" = "Precio de compra";
+"screen.products.field.total_cost" = "Coste total";
+"screen.products.field.total_retail_price" = "Precio total de venta";
+"screen.products.field.total_supply_price" = "Coste total de compra";
+"screen.products.in_stock_suffix" = "en stock";
+"screen.products.search_placeholder" = "Buscar productos";
+"screen.products.section.basic_info" = "Información principal";
+"screen.products.section.description" = "Descripción";
+"screen.products.section.stock_info" = "Información de stock";
+"screen.products.tax.none" = "Predeterminado: Sin impuesto";
+"screen.products.tax.vat10" = "IVA 10%";
+"screen.products.tax.vat20" = "IVA 20%";
+"screen.products.title" = "Productos";
+"screen.products.unit.grams" = "Gramos (g)";
+"screen.products.unit.milliliters" = "Mililitros (ml)";
+"screen.products.unit.pieces" = "Unidades (uds.)";
+"screen.profile.language.action" = "Abrir ajustes de idioma";
+"screen.profile.language.message" = "Abriremos los ajustes del sistema de la app, donde podrás elegir el idioma de la interfaz.";
+"screen.profile.language.title" = "Idioma de la app";
+"screen.service_editing.access_settings_title" = "Configuración de acceso";
+"screen.service_editing.access_type_title" = "Acceso para clientes";
+"screen.service_editing.archive_procedure_action" = "Archivar";
+"screen.service_editing.archive_procedure_confirm_message" = "El servicio dejará de estar disponible para reserva y edición";
+"screen.service_editing.archive_procedure_confirm_title" = "¿Archivar servicio?";
+"screen.service_editing.archive_procedure_hint" = "El servicio se eliminará del catálogo";
+"screen.service_editing.archive_procedure_title" = "Dejar de prestar el servicio";
+"screen.service_editing.break_not_set" = "Sin pausa";
+"screen.service_editing.change_access_type" = "Cambiar la configuración de acceso";
+"screen.service_editing.danger_zone_title" = "Zona de peligro";
+"screen.service_editing.online_booking_hint" = "Permite que los clientes reserven este servicio online a través del marketplace, redes sociales y enlaces directos";
+"screen.service_editing.online_booking_title" = "Reserva online";
+"screen.service_editing.post_service_break_hint" = "Después de terminar el servicio, una nueva reserva empezará solo tras el intervalo indicado";
+"screen.service_editing.post_service_break_title" = "Pausa después de la cita (opcional)";
+"screen.service_editing.set_break_duration" = "Establecer pausa";
+"screen.service_editing.unsupported_settings_message" = "La API todavía no admite la configuración de reserva online, acceso y pausa. Se ha enviado una solicitud para ampliar OpenAPI/SDK.";
+"screen.visit.add_to_wallet_reminder" = "Añádelo a Apple Wallet para no olvidar la visita";
+"screen.visit.cancel_message" = "La visita se cancelará y el salón recibirá una notificación.";
+"screen.visit.cancel_title" = "¿Cancelar visita?";
+"screen.visit.fallback_title" = "Cita";
+"screen.visit.note_placeholder" = "Escribe una nota para el salón";
+"screen.visit.note_title" = "Nota";
+"screen.visit.title" = "Visita";
+"screen.visits.action_required" = "Requieren acción";
+"screen.visits.focused_filter" = "En foco";
+"screen.visits.placeholder_all" = "No hay visitas";
+"screen.visits.placeholder_focused" = "No hay próximas visitas";
+"screen.visits.title" = "Visitas";
+"screen.visits.unscheduled" = "Sin fecha";
+"screen.visits.visit_fallback_title" = "Cita";
+"widget.client_danger_zone.delete_alert_message" = "Esta acción no se puede deshacer.";
+"widget.client_danger_zone.delete_alert_title" = "¿Eliminar cliente?";
+"widget.client_danger_zone.delete_hint" = "Esta acción es irreversible. Se eliminarán la ficha del cliente y sus contactos.";
+"widget.client_danger_zone.delete_title" = "Eliminar cliente";

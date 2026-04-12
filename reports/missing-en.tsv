@@ -1,0 +1,269 @@
+key	base
+assignment.edit.client_title	Клиент
+assignment.edit.description	Изменить процедуру, мастера или время
+assignment.edit.price_title	Цена
+assignment.edit.save_action	Сохранить изменения
+assignment.edit.screen_title	Редактирование записи
+assignment.edit.title	Редактировать запись
+assignment.settlement.action	Рассчитать
+assignment.timeline.cancelled	Запись отменена
+assignment.timeline.cancelled_by_client	Запись отменил клиент
+assignment.timeline.cancelled_by_salon	Запись отменил салон
+assignment.timeline.cancelled_by_system	Запись отменена системой
+assignment.timeline.completed	Визит завершён
+assignment.timeline.created	Запись создана
+assignment.timeline.empty	События по этой записи появятся здесь, когда она будет подтверждена или изменена.
+assignment.timeline.expired	Срок записи истёк
+assignment.timeline.new_time_label	Новое время
+assignment.timeline.no_show	Клиент не пришёл
+assignment.timeline.pending	Ожидает подтверждения
+assignment.timeline.pending_client	Ожидает подтверждения клиента
+assignment.timeline.pending_description	Сейчас запись ожидает следующего действия и ещё не имеет истории визита.
+assignment.timeline.pending_staff	Ожидает подтверждения салона
+assignment.timeline.rejected	Запись отклонена
+assignment.timeline.rescheduled	Запись перенесена
+assignment.timeline.services_label	Услуги
+assignment.timeline.started	Визит начат
+assignment.timeline.time_label	Время
+assignment.timeline.title	История записи
+creatable.appointment.additional_fields_placeholder	Здесь появятся скидка и другие параметры.
+creatable.appointment.client_selection_title	Выбор клиента
+creatable.appointment.collapse_fields_action	Скрыть дополнительные поля
+creatable.appointment.create_action	Создать
+creatable.appointment.creating_action	Создание...
+creatable.appointment.custom_duration_title	Длительность
+creatable.appointment.expand_fields_action	Дополнительные поля
+creatable.appointment.extended_create_action	Расширенное создание
+creatable.appointment.manual_date_title	Ввести дату вручную
+creatable.appointment.not_selected	Не выбрано
+creatable.appointment.quick_create_action	Быстрое создание
+creatable.appointment.select_executor_title	Выберите мастера
+creatable.appointment.service_selection_title	Выбор услуги и мастера
+creatable.appointment.time_selection_title	Время
+creatable.booking.field.procedure_title	Услуга
+creatable.booking.field.salon_title	Салон
+creatable.booking.field.select_time_slot	Выбрать время
+creatable.booking.field.service_title	Услуга
+creatable.booking.field.time_slot_title	Время
+creatable.booking.select_procedure_first_message	Сначала выберите процедуру или комплекс
+creatable.booking.service.change	Изменить
+creatable.booking.service.master	Мастер
+creatable.booking.service.master_not_selected	Мастер не выбран
+creatable.booking.service.not_selected	Не выбран
+creatable.booking.service.nothing_selected	Не выбрано
+creatable.booking.service.select_service_for_booking	Выберите услугу для записи
+creatable.booking.time_slot.change	Изменить
+creatable.booking.time_slot.not_selected	Не выбрано
+creatable.booking.time_slot.title	Время
+creatable.booking.title	Запись
+creatable.complex.access.independent_from_gender	Независимо от пола
+creatable.complex.access.men_only	Только для мужчин
+creatable.complex.access.women_only	Только для женщин
+creatable.complex.action.change_executors	Изменить исполнителей
+creatable.complex.action.move_down	Переместить ниже
+creatable.complex.action.move_up	Переместить выше
+creatable.complex.booking_type.parallel	Услуги бронируются параллельно
+creatable.complex.booking_type.sequential	Услуги бронируются последовательно
+creatable.complex.field.access_settings_title	Настройки доступа
+creatable.complex.field.add_service	Добавить услугу
+creatable.complex.field.all_executors	Все исполнители
+creatable.complex.field.booking_type_hint	Выберите, будут ли услуги набора предоставляться последовательно или параллельно.
+creatable.complex.field.booking_type_title	Тип бронирования
+creatable.complex.field.choose_procedures_hint	Добавьте процедуры, которые должны входить в этот набор
+creatable.complex.field.choose_procedures_title	Выберите услуги
+creatable.complex.field.description_hint	Опишите ценность набора и детали, которые важно знать до записи
+creatable.complex.field.description_placeholder	Добавьте описание этого набора
+creatable.complex.field.description_title	Описание (необязательно)
+creatable.complex.field.executors_missing	Исполнители не выбраны
+creatable.complex.field.executors_sheet_hint	Выберите исполнителей, которые могут выполнять эту процедуру внутри набора
+creatable.complex.field.name_hint	Название должно сразу объяснять, что входит в набор и чем он полезен клиенту
+creatable.complex.field.name_placeholder	Например, маникюр в 4 руки
+creatable.complex.field.name_title	Название набора
+creatable.complex.field.no_discount	Скидка не применяется
+creatable.complex.field.online_booking_enabled	Вкл.
+creatable.complex.field.online_booking_hint	Позвольте клиентам бронировать этот набор онлайн через Maetry, соцсети и прямые ссылки для записи
+creatable.complex.field.online_booking_title	Онлайн-запись
+creatable.complex.field.percent_discount_placeholder	Введите скидку в %
+creatable.complex.field.percent_discount_title	Процент скидки
+creatable.complex.field.price_hint	Выберите, как считать цену набора: по сумме услуг, спеццене или скидке
+creatable.complex.field.price_type_title	Тип цены
+creatable.complex.field.procedures_not_found	Процедуры не найдены
+creatable.complex.field.read_more	Подробнее...
+creatable.complex.field.retail_price_title	Розничная цена
+creatable.complex.field.selected_procedures_summary_title	Выбранные процедуры:
+creatable.complex.field.services_description	Выберите процедуры, которые входят в набор, и при необходимости настройте исполнителей для каждой из них
+creatable.complex.field.tags_hint	Набор наследует теги выбранных процедур и может относиться сразу к нескольким тегам
+creatable.complex.field.tags_placeholder	Теги появятся после выбора процедур
+creatable.complex.field.tags_title	Теги
+creatable.complex.field.total_duration	Общая длительность
+creatable.complex.missing_price	Укажите цену набора
+creatable.complex.price_type.free	Бесплатно
+creatable.complex.price_type.percent_discount	Процентная скидка
+creatable.complex.price_type.special_price	Специальная цена
+creatable.complex.price_type.total_services	Цена всех услуг
+creatable.complex.section.main	Основная информация
+creatable.complex.section.price	Цена
+creatable.complex.section.services	Услуги
+creatable.complex.title	Новый набор
+creatable.complex.unfinished_title	Незавершенное создание набора
+creatable.marketing_campaign.field.description_placeholder	Описание кампании (необязательно)
+creatable.marketing_campaign.field.description_title	Описание
+creatable.marketing_campaign.field.name_placeholder	Введите название кампании
+creatable.marketing_campaign.field.name_title	Название
+creatable.marketing_campaign.field.select_type	Выбрать тип
+creatable.marketing_campaign.field.select_type_title	Выберите тип кампании
+creatable.marketing_campaign.field.type_title	Тип кампании
+creatable.marketing_campaign.missing_name	Укажите название кампании
+creatable.marketing_campaign.missing_type	Выберите тип кампании
+creatable.marketing_campaign.title	Создать кампанию
+creatable.marketing_campaign.unfinished_title	Незавершенная кампания
+creatable.product.action.add_sku	Добавить еще один код SKU
+creatable.product.action.clear_photos	Очистить фото
+creatable.product.action.generate_sku	Сгенерировать код SKU
+creatable.product.action.manage_photo	Управление фото
+creatable.product.action.select_tax	Выбрать налог
+creatable.product.action.select_unit	Выбрать единицу
+creatable.product.action.use_demo_photos	Использовать демо-фото
+creatable.product.create_title	Добавить новые товары
+creatable.product.edit_title	Изменить товар
+creatable.product.field.amount	Сумма
+creatable.product.field.amount_unit	Единица измерения
+creatable.product.field.barcode	Штрихкод товара (необязательно)
+creatable.product.field.brand	Бренд товара
+creatable.product.field.brand_placeholder	Например, Lui Philipo
+creatable.product.field.category	Категория товара
+creatable.product.field.category_placeholder	Например, Ногти
+creatable.product.field.commission_description	Рассчитывайте комиссию участника команды при продаже товара.
+creatable.product.field.commission_percent	Комиссия, %
+creatable.product.field.commission_toggle	Включить комиссию участников команды
+creatable.product.field.current_stock	Текущее количество в наличии
+creatable.product.field.description	Описание товара
+creatable.product.field.description_placeholder	Добавьте описание товара
+creatable.product.field.low_stock_description	Fresha уведомит вас и автоматически заполнит заданное количество для повторного заказа.
+creatable.product.field.low_stock_notification_toggle	Получать уведомления о низком уровне запасов
+creatable.product.field.low_stock_threshold	Низкий уровень запасов
+creatable.product.field.low_stock_toggle	Низкий уровень запасов и повторный заказ
+creatable.product.field.margin	Наценка
+creatable.product.field.name	Название товара
+creatable.product.field.name_placeholder	Введите название товара
+creatable.product.field.reorder_quantity	Количество повторного заказа
+creatable.product.field.retail_description	Разрешите продавать этот товар на кассе.
+creatable.product.field.retail_price	Розничная цена
+creatable.product.field.retail_toggle	Включить розничные продажи
+creatable.product.field.short_description	Краткое описание
+creatable.product.field.short_description_placeholder	Короткое описание товара
+creatable.product.field.sku	SKU (единица складского учета)
+creatable.product.field.stock_toggle	Отслеживать количество в наличии
+creatable.product.field.supplier	Поставщик
+creatable.product.field.supplier_placeholder	Например, Lui Nikita
+creatable.product.field.supply_price	Цена поставки
+creatable.product.field.tax	Налог
+creatable.product.field.tax_select	Выберите налог
+creatable.product.missing_title	Введите название товара
+creatable.product.section.basic_info	Основная информация
+creatable.product.section.commission	Комиссия участника команды
+creatable.product.section.inventory	Ассортимент
+creatable.product.section.photo	Фото товара
+creatable.product.section.price	Цена
+creatable.product.section.reorder	Низкий уровень запасов и повторный заказ
+creatable.product.section.retail_sales	Розничные продажи
+creatable.product.section.stock	Количество в наличии
+screen.appointment.add_to_calendar_action	В календарь
+screen.appointment.calendar_access_message	Разрешите доступ к календарю, чтобы добавить запись.
+screen.appointment.calendar_access_title	Доступ к календарю
+screen.appointment.calendar_no_default_calendar_message	Не удалось найти календарь по умолчанию.
+screen.appointment.calendar_save_error_message	Проверьте доступ к календарю и попробуйте снова.
+screen.appointment.calendar_save_error_title	Не удалось добавить
+screen.appointment.contact_salon	Связаться с салоном
+screen.appointment.description_title	Подготовка
+screen.appointment.edit_description	Изменить процедуру, мастера или время
+screen.appointment.edit_title	Редактировать запись
+screen.appointment_actions.cancel_action	Отменить
+screen.appointment_actions.contact_action	Связаться
+screen.appointment_actions.repeat_action	Повторная запись
+screen.booking.add_to_wallet_reminder	Добавьте в Apple Wallet, чтобы не забыть о записи
+screen.booking.confirm_action	Подтвердить
+screen.booking.contact_salon	Связаться с салоном
+screen.booking.danger_zone_description	Отменить запись и уведомить мастера
+screen.booking.danger_zone_title	Отмена записи
+screen.booking.delete_message	Запись будет удалена и мастер получит уведомление об отмене.
+screen.booking.delete_title	Отменить запись?
+screen.booking.expired	Истекло
+screen.booking.pending_confirmation	Ожидает подтверждения салона
+screen.booking.save_action	Сохранить изменения
+screen.booking.title	Согласование записи
+screen.complex_editing.title	Редактирование набора
+screen.complex_editing.unsupported_settings_message	Настройки онлайн-записи и доступа для наборов пока не поддерживаются API. Отправлен запрос на расширение OpenAPI/SDK.
+screen.employees.dismissed_filter	Уволенные
+screen.employees.dismissed_title	Уволенные сотрудники
+screen.employees.no_dismissed_employees	Нет уволенных сотрудников
+screen.products.actions	Действия
+screen.products.add_action	Добавить товар
+screen.products.delete_message	Это действие нельзя отменить.
+screen.products.delete_title	Удалить товар?
+screen.products.edit	Изменить
+screen.products.empty_placeholder	Товары не найдены
+screen.products.field.amount	Сумма
+screen.products.field.average_price	Средняя стоимость
+screen.products.field.barcode	Штрихкод товара
+screen.products.field.brand	Бренд
+screen.products.field.category	Категория товара
+screen.products.field.description	Описание товара
+screen.products.field.retail_price	Розничная цена
+screen.products.field.short_description	Краткое описание
+screen.products.field.sku	Основной артикул
+screen.products.field.stock_quantity	Товар в наличии
+screen.products.field.supplier	Поставщик
+screen.products.field.supply_price	Цена поставки
+screen.products.field.total_cost	Общая стоимость
+screen.products.field.total_retail_price	Общая розничная стоимость
+screen.products.field.total_supply_price	Общая стоимость поставки
+screen.products.in_stock_suffix	в наличии
+screen.products.search_placeholder	Искать товары
+screen.products.section.basic_info	Основная информация
+screen.products.section.description	Описание
+screen.products.section.stock_info	Информация о запасах
+screen.products.tax.none	По умолчанию: Без налога
+screen.products.tax.vat10	НДС 10%
+screen.products.tax.vat20	НДС 20%
+screen.products.title	Товары
+screen.products.unit.grams	Граммы (g)
+screen.products.unit.milliliters	Миллилитры (ml)
+screen.products.unit.pieces	Штуки (pcs)
+screen.profile.language.action	Открыть настройки языка
+screen.profile.language.message	Откроем системные настройки приложения, где можно выбрать язык интерфейса
+screen.profile.language.title	Язык приложения
+screen.service_editing.access_settings_title	Настройки доступа
+screen.service_editing.access_type_title	Доступ для клиентов
+screen.service_editing.archive_procedure_action	Архивировать
+screen.service_editing.archive_procedure_confirm_message	Услуга перестанет быть доступной для записи и редактирования
+screen.service_editing.archive_procedure_confirm_title	Архивировать услугу?
+screen.service_editing.archive_procedure_hint	Услуга будет удалена из каталога
+screen.service_editing.archive_procedure_title	Перестать оказывать услугу
+screen.service_editing.break_not_set	Без перерыва
+screen.service_editing.change_access_type	Изменить настройки доступа
+screen.service_editing.danger_zone_title	Опасная зона
+screen.service_editing.online_booking_hint	Позвольте клиентам записываться на услугу онлайн через маркетплейс, соцсети и прямые ссылки
+screen.service_editing.online_booking_title	Онлайн-запись
+screen.service_editing.post_service_break_hint	После завершения услуги новое бронирование начнётся только через указанный интервал
+screen.service_editing.post_service_break_title	Перерыв после записи (необязательно)
+screen.service_editing.set_break_duration	Задать перерыв
+screen.service_editing.unsupported_settings_message	Настройки онлайн-записи, доступа и перерыва пока не поддерживаются API. Отправлен запрос на расширение OpenAPI/SDK.
+screen.visit.add_to_wallet_reminder	Добавьте в Apple Wallet, чтобы не забыть о визите
+screen.visit.cancel_message	Визит будет отменен и салон получит уведомление.
+screen.visit.cancel_title	Отменить визит?
+screen.visit.fallback_title	Запись
+screen.visit.note_placeholder	Напишите заметку для салона
+screen.visit.note_title	Заметка
+screen.visit.title	Визит
+screen.visits.action_required	Требуют действия
+screen.visits.focused_filter	В фокусе
+screen.visits.placeholder_all	Нет визитов
+screen.visits.placeholder_focused	Нет предстоящих визитов
+screen.visits.title	Визиты
+screen.visits.unscheduled	Без даты
+screen.visits.visit_fallback_title	Запись
+widget.client_danger_zone.delete_alert_message	Это действие нельзя отменить.
+widget.client_danger_zone.delete_alert_title	Удалить клиента?
+widget.client_danger_zone.delete_hint	Действие необратимо. Карточка клиента и его контакты будут удалены.
+widget.client_danger_zone.delete_title	Удалить клиента

@@ -126,6 +126,24 @@
 "screen.assignment.client" = "Клиент";
 /* screen -> assignment -> invite_client */
 "screen.assignment.invite_client" = "Пригласить клиента";
+/* screen -> assignment -> status -> scheduled */
+"screen.assignment.status.scheduled" = "Запланировано";
+/* screen -> assignment -> status -> in_progress */
+"screen.assignment.status.in_progress" = "В процессе";
+/* screen -> assignment -> status -> completed */
+"screen.assignment.status.completed" = "Завершено";
+/* screen -> assignment -> status -> cancelled */
+"screen.assignment.status.cancelled" = "Отменено";
+/* screen -> assignment -> status -> no_show */
+"screen.assignment.status.no_show" = "Не пришёл";
+/* screen -> assignment -> status -> pending */
+"screen.assignment.status.pending" = "Ожидает подтверждения";
+/* screen -> assignment -> status -> confirmed */
+"screen.assignment.status.confirmed" = "Подтверждена";
+/* screen -> assignment -> status -> closed */
+"screen.assignment.status.closed" = "Закрыта";
+/* screen -> assignment -> status -> no_status */
+"screen.assignment.status.no_status" = "Без статуса";
 /* screen -> assignment -> danger_zone -> title */
 "screen.assignment.danger_zone.title" = "Администрирование";
 /* screen -> assignment -> danger_zone -> delete_title */
@@ -1548,6 +1566,9 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.complex.field.tags_placeholder" = "Теги появятся после выбора процедур";
 "creatable.complex.field.tags_title" = "Теги";
 "creatable.complex.field.total_duration" = "Общая длительность";
+"creatable.complex.total_duration_summary" = "%1$@: %2$@";
+"creatable.complex.selected_procedure_meta" = "%1$@ • %2$@";
+"creatable.complex.execution_meta" = "%1$@ | %2$@";
 "creatable.complex.missing_price" = "Укажите цену набора";
 "creatable.complex.price_type.free" = "Бесплатно";
 "creatable.complex.price_type.percent_discount" = "Процентная скидка";
@@ -1579,8 +1600,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.product.create_title" = "Добавить новые товары";
 "creatable.product.edit_title" = "Изменить товар";
 "creatable.product.field.amount" = "Сумма";
+"creatable.product.field.amount_placeholder" = "0.00";
 "creatable.product.field.amount_unit" = "Единица измерения";
 "creatable.product.field.barcode" = "Штрихкод товара (необязательно)";
+"creatable.product.field.barcode_placeholder" = "UPC, EAN, GTIN";
 "creatable.product.field.brand" = "Бренд товара";
 "creatable.product.field.brand_placeholder" = "Например, Lui Philipo";
 "creatable.product.field.category" = "Категория товара";
@@ -1659,37 +1682,6 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.executor_editing.stop_providing_title" = "Удалить из услуги";
 "screen.executor_editing.title" = "Исполнитель";
 "screen.executor_editing.unsupported_execution_message" = "Точечное изменение исполнителя пока не поддерживается API. Нужен отдельный endpoint для execution.";
-"screen.marketing.add_to_chart" = "Добавить на график";
-"screen.marketing.campaign_detail.conversion_rate" = "Конверсия";
-"screen.marketing.campaign_detail.copied" = "Скопировано";
-"screen.marketing.campaign_detail.copy_link" = "Копировать";
-"screen.marketing.campaign_detail.description" = "Описание";
-"screen.marketing.campaign_detail.link_section" = "Ссылка";
-"screen.marketing.campaign_detail.link_title" = "Ссылка для приглашения";
-"screen.marketing.campaign_detail.name" = "Название";
-"screen.marketing.campaign_detail.qr_title" = "QR-код";
-"screen.marketing.campaign_detail.share_link" = "Поделиться ссылкой";
-"screen.marketing.campaign_detail.share_qr" = "Поделиться QR";
-"screen.marketing.campaign_detail.sharing_section" = "Поделиться";
-"screen.marketing.campaign_detail.stats_section" = "Статистика";
-"screen.marketing.campaign_detail.title" = "Маркетинговая кампания";
-"screen.marketing.campaign_detail.total_appointments" = "Всего записей";
-"screen.marketing.campaign_detail.total_clicks" = "Всего кликов";
-"screen.marketing.campaigns_title" = "Маркетинговые кампании";
-"screen.marketing.chart_title" = "Статистика";
-"screen.marketing.max_campaigns_reached" = "Максимум можно добавить 5 кампаний на график";
-"screen.marketing.metric_appointments" = "Записи";
-"screen.marketing.metric_clicks" = "Клики";
-"screen.marketing.no_campaigns" = "Нет кампаний";
-"screen.marketing.no_data" = "Нет данных";
-"screen.marketing.remove_from_chart" = "Убрать с графика";
-"screen.marketing.select_campaigns_for_chart" = "Выберите кампании для отображения статистики";
-"screen.marketing.title" = "Маркетинг";
-"screen.marketing.total_appointments" = "Записи";
-"screen.marketing.total_clicks" = "Клики";
-"screen.marketing.total_clients" = "Клиенты";
-"screen.marketing.total_revenue" = "Доход";
-"screen.marketing.unsupported_metric_message" = "График доступен только для кликов и записей";
 "screen.products.actions" = "Действия";
 "screen.products.add_action" = "Добавить товар";
 "screen.products.delete_message" = "Это действие нельзя отменить.";
@@ -1702,6 +1694,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.products.field.brand" = "Бренд";
 "screen.products.field.category" = "Категория товара";
 "screen.products.field.description" = "Описание товара";
+"screen.products.field.no_value" = "-";
 "screen.products.field.retail_price" = "Розничная цена";
 "screen.products.field.short_description" = "Краткое описание";
 "screen.products.field.sku" = "Основной артикул";
@@ -1768,9 +1761,30 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "booking.status.confirmed" = "Подтверждено";
 "booking.status.pending_client" = "Ожидает вашего подтверждения";
 "booking.status.pending_master" = "Ожидает подтверждения мастера";
+"screen.payments.terminal_checkout.cash_description" = "Оплата наличными фиксируется в этой первой итерации.";
+"screen.payments.terminal_checkout.collect_with_tap_to_pay" = "Принять оплату через Tap to Pay";
+"screen.payments.terminal_checkout.complete_with_cash" = "Завершить с оплатой наличными";
+"screen.payments.terminal_checkout.payment_method" = "Способ оплаты";
+"screen.payments.terminal_checkout.service_amount" = "Стоимость услуги";
+"screen.payments.terminal_checkout.service_amount_footnote" = "Эта сумма берется из текущей записи.";
+"screen.payments.terminal_checkout.subtitle" = "Проверьте итоговую сумму и завершите визит.";
+"screen.payments.terminal_checkout.summary" = "Сводка";
+"screen.payments.terminal_checkout.tap_to_pay_description" = "Tap to Pay будет добавлен в одной из следующих итераций.";
+"screen.payments.terminal_checkout.tip" = "Чаевые";
+"screen.payments.terminal_checkout.title" = "Принять оплату";
+"screen.payments.terminal_checkout.total_to_collect" = "Итого к оплате";
 "screen.payments.terminal_checkout.cash_title" = "Наличные";
 "screen.payments.terminal_checkout.tap_to_pay_title" = "Tap to Pay";
 "screen.payments.terminal_checkout.unavailable_payment_method_message" = "Этот способ оплаты пока недоступен.";
+"screen.payments.tip_selection.continue_to_payment" = "Перейти к оплате";
+"screen.payments.tip_selection.custom_subtitle" = "введите свою сумму";
+"screen.payments.tip_selection.custom_tip" = "Свои";
+"screen.payments.tip_selection.custom_tip_amount" = "Сумма своих чаевых";
+"screen.payments.tip_selection.no_tip" = "Без чаевых";
+"screen.payments.tip_selection.none_subtitle" = "продолжить без чаевых";
+"screen.payments.tip_selection.percent_subtitle" = "от стоимости услуги";
+"screen.payments.tip_selection.subtitle" = "Выберите процент или введите свою сумму.";
+"screen.payments.tip_selection.title" = "Добавить чаевые";
 "visit.status.cancelled" = "Отменено";
 "visit.status.completed" = "Завершено";
 "visit.status.confirmed" = "Подтверждено";
@@ -1786,6 +1800,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.continuation.client_invite.selection_hint" = "Выберите аккаунт, который соответствует клиенту этого салона. Показаны только скрытые контакты.";
 "screen.continuation.client_invite.verified_match" = "Подтвержденное совпадение";
 "screen.continuation.client_invite.no_match_message" = "Мы не нашли подходящий аккаунт для этого клиента.";
+"screen.continuation.client_invite.confirm_link" = "Связать аккаунт";
+"screen.continuation.client_invite.confidence.low" = "Низкая уверенность";
+"screen.continuation.client_invite.confidence.medium" = "Средняя уверенность";
+"screen.continuation.client_invite.confidence.high" = "Высокая уверенность";
 "screen.model_profile.create_title" = "Создать профиль";
 "screen.model_profile.edit_title" = "Редактировать профиль";
 "screen.model_profile.personal_section_title" = "Персональные данные";
@@ -1822,19 +1840,85 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.model_profile.action.activate" = "Активировать";
 "screen.mirror.camera_access_title" = "Нет доступа к камере";
 "screen.mirror.camera_access_message" = "Разреши доступ к фронтальной камере, чтобы зеркало заработало.";
+"screen.feedback_composer.title" = "Сообщить о проблеме";
+"screen.feedback_composer.type_section_title" = "Тип";
+"screen.feedback_composer.type_picker_title" = "Тип";
+"screen.feedback_composer.description_section_title" = "Что произошло?";
+"screen.feedback_composer.description_placeholder" = "Опишите проблему и что вы ожидали увидеть.";
+"screen.feedback_composer.privacy_hint" = "Указывайте только те персональные данные, которыми хотите поделиться.";
+"screen.debug.tab_logger" = "Логи";
+"screen.debug.tab_database" = "БД";
+"screen.debug.tab_toggles" = "Тогглы";
+"screen.debug.tab_device_info" = "Информация об устройстве";
+"screen.debug.server_url_section_title" = "URL сервера";
+"screen.debug.server_url_picker_title" = "База";
+"screen.debug.feature_flags_section_title" = "Фича-флаги";
+"screen.debug.complex_activate_toggle" = "Активировать комплексы";
+"screen.debug.dashboard_product_toggle" = "Продукты на дашборде";
+"screen.debug.other_settings_section_title" = "Другие настройки";
+"screen.debug.hide_help_banner_toggle" = "Скрыть баннер помощи";
+"screen.debug.random_background_toggle" = "Случайный фон";
+"screen.debug.network_request_overlay_toggle" = "Оверлей сетевых запросов";
+"screen.debug.tip_kit_section_title" = "TipKit";
+"screen.debug.reset_feedback_tip_action" = "Сбросить подсказку feedback";
+"screen.debug.error_generator.section_title" = "Генерация ошибок";
+"screen.debug.error_generator.simulate_network_error" = "Симулировать NetworkError";
+"screen.debug.error_generator.simulate_unauthorized" = "Симулировать 401 Unauthorized";
+"screen.debug.error_generator.simulate_payment_required" = "Симулировать 402 Payment Required";
+"screen.debug.error_generator.generate_crash_action" = "Сгенерировать crash для Sentry";
+"screen.debug.error_generator.confirm_crash_title" = "Сгенерировать crash?";
+"screen.debug.error_generator.crash_action" = "Crash";
+"screen.debug.error_generator.confirm_crash_message" = "Приложение будет аварийно завершено. Используй это только для проверки отправки crash в Sentry.";
+"screen.debug.database.section_title" = "База данных";
+"screen.debug.database.path_label" = "Путь";
+"screen.debug.database.open_readonly_error" = "Не удалось открыть базу SQLite по пути: %1$@";
+"screen.debug.database.missing_file_error" = "Файл базы данных не найден по пути: %1$@";
+"screen.debug.database.prepare_export_error" = "Не удалось подготовить файлы для экспорта.";
+"screen.debug.database.open_readwrite_error" = "Не удалось открыть базу SQLite для очистки по пути: %1$@";
+"screen.debug.database.blob_value" = "<BLOB: %1$d байт>";
+"screen.debug.database.null_value" = "NULL";
+"screen.debug.database.unknown_value" = "<UNKNOWN>";
+"screen.debug.database.sqlite_execution_error" = "Ошибка выполнения SQLite";
+"screen.debug.database.sqlite_error" = "Ошибка SQLite";
+"screen.debug.database.status_label" = "Статус";
+"screen.debug.database.available" = "Доступна";
+"screen.debug.database.not_found" = "Не найдена";
+"screen.debug.database.file_size_label" = "Размер файла";
+"screen.debug.database.tables_title" = "Таблицы (%d)";
+"screen.debug.database.no_tables_found" = "Таблицы не найдены.";
+"screen.debug.database.open_data_screen_hint" = "Сначала открой любой экран с данными, чтобы заполнить кэш.";
+"screen.debug.database.preview_rows" = "Превью: %d строк";
+"screen.debug.database.navigation_title" = "SQLite DB";
+"screen.debug.database.clear_action" = "Очистить";
+"screen.debug.database.export_action" = "Экспорт";
+"screen.debug.database.clear_alert_title" = "Очистить локальную базу данных?";
+"screen.debug.database.clear_alert_message" = "Все локально закэшированные строки будут удалены. Это действие нельзя отменить.";
+"screen.debug.database.export_only_on_ios_message" = "Экспорт доступен только на iOS.";
+"screen.debug.database.summary_section_title" = "Сводка";
+"screen.debug.database.rows_total_label" = "Строки (всего)";
+"screen.debug.database.rows_preview_label" = "Строки (превью)";
+"screen.debug.database.no_rows_to_display" = "Нет строк для отображения.";
+"screen.debug.database.row_number" = "Строка #%d";
+"screen.debug.database.rows_section_title" = "Строки";
+"screen.debug.database.showing_first_rows" = "Показаны первые %d строк.";
 "screen.force_update.title" = "Требуется обновление";
 "screen.force_update.message" = "Чтобы продолжить пользоваться приложением, обновите его до последней версии.";
 "screen.force_update.action" = "Открыть App Store";
 "shortcut.feedback.entry_hint" = "Встряхните телефон, чтобы открыть меню обратной связи.";
 "widget.mirror.description" = "Быстрый доступ к зеркалу Maetry.";
 "widget.mirror.title" = "Зеркало";
+"widget.recovery_methods.title" = "Способы восстановления";
 "reusable.create" = "Создать";
 "reusable.join" = "Присоединиться";
 "reusable.none" = "Нет";
+"reusable.primary" = "Основной";
 /* reusable -> manual */
 "reusable.manual" = "Вручную";
+"reusable.nickname" = "Никнейм";
 /* reusable -> from_phone_book */
 "reusable.from_phone_book" = "Из телефонной книги";
+"reusable.send" = "Отправить";
+"reusable.sign_in_with_google" = "Войти через Google";
 "reusable.selected" = "выбрано";
 "screen.workspace.creation.create_appointment.title" = "Создать запись";
 "screen.workspace.creation.create_appointment.subtitle" = "Создать запись клиента";
@@ -1848,6 +1932,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.layout.title" = "Расположение";
 "screen.workspace.layout.visible_specialists" = "Видимые специалисты";
 "screen.workspace.layout.visible_days" = "Видимые дни";
+"screen.workspace.layout.visible_days_one" = "1 день";
+"screen.workspace.layout.visible_days_three" = "3 дня";
+"screen.workspace.layout.visible_days_five" = "5 дней";
+"screen.workspace.layout.visible_days_seven" = "7 дней";
 "screen.workspace.layout.time_scale" = "Масштаб времени";
 "screen.workspace.view_mode.title" = "Режим просмотра";
 "screen.workplace.menu.create_workplace" = "Создать салон";
@@ -1868,6 +1956,18 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.billing.no_active_plan" = "Нет активного плана";
 "screen.settings.billing.pricing_hint" = "Откройте биллинг, чтобы посмотреть цены";
 "screen.settings.billing.renews_on_prefix" = "Продлевается";
+"screen.settings.billing.launch_promotion" = "%1$d%% скидка на первые %2$d ежемесячных платежных цикла";
+"screen.settings.billing.sms_pack_title" = "%1$d SMS-кредитов";
+"screen.settings.billing.plan.start" = "Start";
+"screen.settings.billing.plan.grow" = "Grow";
+"screen.settings.billing.plan.scale" = "Scale";
+"screen.settings.billing.plan.start_summary" = "Для небольших салонов, которым нужны запись, управление командой и базовый рост.";
+"screen.settings.billing.plan.grow_summary" = "Для загруженных команд, которым нужна более сильная автоматизация, лучший контроль и запас для роста.";
+"screen.settings.billing.plan.scale_summary" = "Для зрелых салонов с большим числом рабочих мест и продвинутыми операциями.";
+"screen.settings.billing.interval.monthly" = "Ежемесячно";
+"screen.settings.billing.interval.yearly" = "Ежегодно";
+"screen.settings.billing.period.month" = "месяц";
+"screen.settings.billing.period.year" = "год";
 "screen.offtime.title" = "Зарезервировать время";
 "screen.offtime.employee" = "Сотрудник";
 "screen.offtime.reason" = "Причина";
@@ -1973,6 +2073,68 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.assignment.quick_action.reschedule.confirm_message" = "Будет открыто редактирование времени.";
 /* screen -> assignment -> quick_action -> reschedule -> button_title */
 "screen.assignment.quick_action.reschedule.button_title" = "Изменить";
+/* reusable -> add_to */
+"reusable.add_to" = "Добавить в";
+/* reusable -> calendar */
+"reusable.calendar" = "Календарь";
+/* reusable -> email */
+"reusable.email" = "Email";
+/* reusable -> instagram */
+"reusable.instagram" = "Instagram";
+/* reusable -> telegram */
+"reusable.telegram" = "Telegram";
+/* screen -> unit_economic -> title */
+"screen.unit_economic.title" = "Юнит-экономика";
+/* screen -> unit_economic -> no_campaigns */
+"screen.unit_economic.no_campaigns" = "Нет кампаний";
+/* screen -> unit_economic -> no_data */
+"screen.unit_economic.no_data" = "Нет данных";
+/* screen -> unit_economic -> metric_clicks */
+"screen.unit_economic.metric_clicks" = "Клики";
+/* screen -> unit_economic -> metric_appointments */
+"screen.unit_economic.metric_appointments" = "Записи";
+/* screen -> unit_economic -> max_campaigns_reached */
+"screen.unit_economic.max_campaigns_reached" = "Максимум можно добавить 5 кампаний на график";
+/* screen -> unit_economic -> unsupported_metric_message */
+"screen.unit_economic.unsupported_metric_message" = "График доступен только для кликов и записей";
+/* screen -> unit_economic -> campaign_type -> share */
+"screen.unit_economic.campaign_type.share" = "Поделиться";
+/* screen -> unit_economic -> campaign_type -> walk_in_qr */
+"screen.unit_economic.campaign_type.walk_in_qr" = "QR для walk-in";
+/* screen -> unit_economic -> campaign_type -> affiliate */
+"screen.unit_economic.campaign_type.affiliate" = "Блогер";
+/* screen -> unit_economic -> campaign_type -> media */
+"screen.unit_economic.campaign_type.media" = "Media";
+/* screen -> unit_economic -> chart -> date_axis */
+"screen.unit_economic.chart.date_axis" = "Дата";
+/* screen -> unit_economic -> chart -> value_axis */
+"screen.unit_economic.chart.value_axis" = "Значение";
+/* screen -> unit_economic -> chart -> campaign_series */
+"screen.unit_economic.chart.campaign_series" = "Кампания";
+/* screen -> unit_economic -> chart -> metric_series */
+"screen.unit_economic.chart.metric_series" = "Метрика";
+/* screen -> unit_economic -> campaign_detail -> stats_section */
+"screen.unit_economic.campaign_detail.stats_section" = "Статистика";
+/* screen -> unit_economic -> campaign_detail -> sharing_section */
+"screen.unit_economic.campaign_detail.sharing_section" = "Поделиться";
+/* screen -> unit_economic -> campaign_detail -> total_clicks */
+"screen.unit_economic.campaign_detail.total_clicks" = "Всего кликов";
+/* screen -> unit_economic -> campaign_detail -> total_appointments */
+"screen.unit_economic.campaign_detail.total_appointments" = "Всего записей";
+/* screen -> unit_economic -> campaign_detail -> conversion_rate */
+"screen.unit_economic.campaign_detail.conversion_rate" = "Конверсия";
+/* screen -> unit_economic -> campaign_detail -> copied */
+"screen.unit_economic.campaign_detail.copied" = "Скопировано";
+/* screen -> unit_economic -> campaign_detail -> copy_link */
+"screen.unit_economic.campaign_detail.copy_link" = "Копировать";
+/* screen -> unit_economic -> campaign_detail -> share_qr */
+"screen.unit_economic.campaign_detail.share_qr" = "Поделиться QR";
+/* screen -> unit_economic -> campaign_detail -> qr_title */
+"screen.unit_economic.campaign_detail.qr_title" = "QR-код";
+/* screen -> unit_economic -> campaign_detail -> share_link */
+"screen.unit_economic.campaign_detail.share_link" = "Поделиться ссылкой";
+/* screen -> unit_economic -> campaign_detail -> link_title */
+"screen.unit_economic.campaign_detail.link_title" = "Ссылка для приглашения";
 /* creatable -> procedure -> field -> executors_hint */
 "creatable.procedure.field.executors_hint" = "Выберите исполнителей, которые смогут выполнять эту услугу";
 /* creatable -> procedure -> field -> executors_placeholder */

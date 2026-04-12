@@ -102,6 +102,67 @@ function hasAlphabetic(value) {
   return /[A-Za-zА-Яа-яЁё]/.test(value);
 }
 
+function stripInterpolations(value) {
+  return value.replace(/\\\([^)]*\)/g, '');
+}
+
+function hasMeaningfulLiteralText(value) {
+  return hasAlphabetic(stripInterpolations(value));
+}
+
+function previewMaskedLines(lines) {
+  const masked = new Set();
+  let previewDepth = null;
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const rawLine = lines[index];
+    const trimmed = rawLine.trim();
+
+    if (previewDepth === null && trimmed.startsWith('#Preview')) {
+      masked.add(index);
+      previewDepth = countChar(rawLine, '{') - countChar(rawLine, '}');
+      if (previewDepth <= 0) {
+        previewDepth = null;
+      }
+      continue;
+    }
+
+    if (previewDepth !== null) {
+      masked.add(index);
+      previewDepth += countChar(rawLine, '{') - countChar(rawLine, '}');
+      if (previewDepth <= 0) {
+        previewDepth = null;
+      }
+    }
+  }
+
+  return masked;
+}
+
+function commentMaskedLines(lines) {
+  const masked = new Set();
+  let blockCommentDepth = 0;
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const rawLine = lines[index];
+    const trimmed = rawLine.trim();
+
+    if (blockCommentDepth > 0 || trimmed.startsWith('//') || trimmed.startsWith('/*') || trimmed.startsWith('*') || trimmed.startsWith('*/')) {
+      masked.add(index);
+    }
+
+    const opens = (rawLine.match(/\/\*/g) || []).length;
+    const closes = (rawLine.match(/\*\//g) || []).length;
+    blockCommentDepth += opens - closes;
+
+    if (blockCommentDepth > 0) {
+      masked.add(index);
+    }
+  }
+
+  return masked;
+}
+
 function snakeCase(value) {
   const normalized = value
     .replace(/([a-z0-9])([A-Z])/g, '$1_$2')
@@ -259,6 +320,23 @@ function loadLocalizationState(localizationRoot) {
     localeMaps,
     duplicateValues,
     reusableValueIndex
+  };
+}
+
+function collectLocaleCoverage(localizationState) {
+  const baseKeys = [...localizationState.localeMaps.Base.keys()];
+  const missingKeysByLocale = {};
+  const missingCountsByLocale = {};
+
+  for (const locale of SUPPORTED_LOCALES.filter((item) => item !== 'Base')) {
+    const missingKeys = baseKeys.filter((key) => !localizationState.localeMaps[locale].has(key));
+    missingKeysByLocale[locale] = missingKeys;
+    missingCountsByLocale[locale] = missingKeys.length;
+  }
+
+  return {
+    missingKeysByLocale,
+    missingCountsByLocale
   };
 }
 
@@ -529,6 +607,23 @@ function buildCandidate({
   localizationState,
   ignoreConfig
 }) {
+  if (literal && shouldIgnoreByPattern(literal, ignoreConfig.ignoredLiteralPatterns)) {
+    return {
+      sourcePath,
+      line,
+      classification,
+      status: 'ignored',
+      literal,
+      expression,
+      bindingName,
+      callSite,
+      suggestedKey: null,
+      existingKey: null,
+      symbolPath: null,
+      reason: 'ignored_literal_pattern'
+    };
+  }
+
   const pathRule = classifyPath(sourcePath, ignoreConfig);
   if (pathRule) {
     return {
@@ -544,23 +639,6 @@ function buildCandidate({
       existingKey: null,
       symbolPath: null,
       reason: pathRule.reason
-    };
-  }
-
-  if (literal && shouldIgnoreByPattern(literal, ignoreConfig.ignoredLiteralPatterns)) {
-    return {
-      sourcePath,
-      line,
-      classification,
-      status: 'ignored',
-      literal,
-      expression,
-      bindingName,
-      callSite,
-      suggestedKey: null,
-      existingKey: null,
-      symbolPath: null,
-      reason: 'ignored_literal_pattern'
     };
   }
 
@@ -595,6 +673,8 @@ function scanGeneralSwiftFile(filePath, iosRoot, localizationState, ignoreConfig
   const sourcePath = toPosix(path.relative(path.dirname(iosRoot), filePath));
   const content = fs.readFileSync(filePath, 'utf8');
   const lines = content.split('\n');
+  const maskedPreviewLines = previewMaskedLines(lines);
+  const maskedCommentLines = commentMaskedLines(lines);
   const candidates = [];
 
   const pushUnique = (candidate) => {
@@ -604,8 +684,31 @@ function scanGeneralSwiftFile(filePath, iosRoot, localizationState, ignoreConfig
     }
   };
 
+  const shouldSkipLine = (lineContent, index) => {
+    if (maskedPreviewLines.has(index) || maskedCommentLines.has(index)) {
+      return true;
+    }
+
+    if (lineContent.includes('@available(') && lineContent.includes('deprecated')) {
+      return true;
+    }
+
+    if (lineContent.includes('SentrySDK.capture(message:')) {
+      return true;
+    }
+
+    if (lineContent.includes('logger.') && lineContent.includes('message:')) {
+      return true;
+    }
+
+    return false;
+  };
+
   LOCALIZED_STRING_PATTERNS.forEach(({ classification, regex }) => {
     lines.forEach((lineContent, index) => {
+      if (shouldSkipLine(lineContent, index)) {
+        return;
+      }
       let match;
       while ((match = regex.exec(lineContent)) !== null) {
         const bindingMatch = lineContent.match(/(?:static|let|var)\s+([A-Za-z_][A-Za-z0-9_]*)\s*=/);
@@ -626,12 +729,15 @@ function scanGeneralSwiftFile(filePath, iosRoot, localizationState, ignoreConfig
 
   UI_LITERAL_PATTERNS.forEach(({ name, regex }) => {
     lines.forEach((lineContent, index) => {
+      if (shouldSkipLine(lineContent, index)) {
+        return;
+      }
       if (lineContent.includes('Loc.') || lineContent.includes('NSLocalizedString(') || lineContent.includes('String(localized:')) {
         return;
       }
       let match;
       while ((match = regex.exec(lineContent)) !== null) {
-        if (!hasAlphabetic(match[1])) {
+        if (!hasMeaningfulLiteralText(match[1])) {
           continue;
         }
         const bindingMatch = lineContent.match(/(?:static|let|var)\s+([A-Za-z_][A-Za-z0-9_]*)\s*=/);
@@ -652,8 +758,14 @@ function scanGeneralSwiftFile(filePath, iosRoot, localizationState, ignoreConfig
 
   INTERPOLATION_PATTERNS.forEach(({ name, regex }) => {
     lines.forEach((lineContent, index) => {
+      if (shouldSkipLine(lineContent, index)) {
+        return;
+      }
       let match;
       while ((match = regex.exec(lineContent)) !== null) {
+        if (!hasMeaningfulLiteralText(match[1])) {
+          continue;
+        }
         pushUnique(buildCandidate({
           sourcePath,
           line: index + 1,
@@ -750,6 +862,7 @@ function buildSummary(scan) {
     const content = fs.readFileSync(swiftFile, 'utf8');
     localizedViaLocCallSites += content.split('Loc.').length - 1;
   }
+  const localeCoverage = collectLocaleCoverage(scan.localizationState);
   return {
     totalCandidates: scan.candidates.length,
     byClassification,
@@ -758,6 +871,7 @@ function buildSummary(scan) {
     xcstringsFiles: scan.xcstringsReports.length,
     xcstringsEntries: scan.xcstringsReports.reduce((total, report) => total + report.entryCount, 0),
     duplicateValueGroups: scan.localizationState.duplicateValues.size,
+    localeMissingCounts: localeCoverage.missingCountsByLocale,
     localizedViaLocCallSites,
     stringLocalizedCallSites,
     localizedStringResourceCallSites
@@ -778,6 +892,8 @@ function buildMarkdownReport(scan, summary, localizationRoot, iosRoot) {
   lines.push(`- Duplicate base-value groups in Localization: ${summary.duplicateValueGroups}`);
   lines.push(`- xcstrings files: ${summary.xcstringsFiles}`);
   lines.push(`- xcstrings entries: ${summary.xcstringsEntries}`);
+  Object.entries(summary.localeMissingCounts || {})
+    .forEach(([locale, count]) => lines.push(`- Missing keys in ${locale}.lproj vs Base.lproj: ${count}`));
   lines.push(`- Loc call sites: ${summary.localizedViaLocCallSites}`);
   lines.push(`- String(localized:) call sites: ${summary.stringLocalizedCallSites}`);
   lines.push(`- LocalizedStringResource call sites: ${summary.localizedStringResourceCallSites}`);
@@ -851,11 +967,13 @@ function buildCSVReport(scan) {
 }
 
 function serializeAudit(scan, summary, localizationRoot, iosRoot) {
+  const localeCoverage = collectLocaleCoverage(scan.localizationState);
   return {
     generatedAt: new Date().toISOString(),
     localizationRoot: toPosix(localizationRoot),
     iosRoot: toPosix(iosRoot),
     summary,
+    localeCoverage,
     duplicateValueGroups: [...scan.localizationState.duplicateValues.entries()].map(([normalizedValue, keys]) => ({
       normalizedValue,
       keys
@@ -910,6 +1028,7 @@ async function runAudit(options) {
   const paths = await writeAuditArtifacts(serialized, localizationRoot, markdown, csv);
 
   if (options.writeBaseline) {
+    const localeCoverage = collectLocaleCoverage(scan.localizationState);
     const baseline = {
       generatedAt: new Date().toISOString(),
       fingerprints: scan.candidates
@@ -919,7 +1038,11 @@ async function runAudit(options) {
       xcstringsFingerprints: scan.xcstringsReports
         .flatMap((report) => report.entries.map((entry) => `${report.sourcePath}::${entry.key}`))
         .sort(),
-      suggestedKeyCollisionKeys: collectSuggestedKeyCollisionKeys(scan.candidates)
+      suggestedKeyCollisionKeys: collectSuggestedKeyCollisionKeys(scan.candidates),
+      localeMissingKeys: Object.fromEntries(
+        Object.entries(localeCoverage.missingKeysByLocale)
+          .map(([locale, keys]) => [locale, [...keys].sort()])
+      )
     };
     await fs.writeJson(baselinePath(localizationRoot), baseline, { spaces: 2 });
   }
@@ -1091,6 +1214,11 @@ async function runVerify(options) {
   const baselineFingerprints = new Set(baseline.fingerprints || []);
   const baselineXcstrings = new Set(baseline.xcstringsFingerprints || []);
   const baselineCollisionKeys = new Set(baseline.suggestedKeyCollisionKeys || []);
+  const baselineLocaleMissingKeys = Object.fromEntries(
+    SUPPORTED_LOCALES
+      .filter((locale) => locale !== 'Base')
+      .map((locale) => [locale, new Set((baseline.localeMissingKeys || {})[locale] || [])])
+  );
   const currentFingerprints = new Set(
     scan.candidates
       .filter((candidate) => candidate.status !== 'ignored')
@@ -1104,6 +1232,11 @@ async function runVerify(options) {
   const newXcstringsEntries = [...currentXcstrings].filter((fingerprint) => !baselineXcstrings.has(fingerprint));
   const currentCollisionKeys = collectSuggestedKeyCollisionKeys(scan.candidates);
   const newCollisionKeys = currentCollisionKeys.filter((key) => !baselineCollisionKeys.has(key));
+  const localeCoverage = collectLocaleCoverage(scan.localizationState);
+  const newLocaleMissingKeys = Object.fromEntries(
+    Object.entries(localeCoverage.missingKeysByLocale)
+      .map(([locale, keys]) => [locale, keys.filter((key) => !baselineLocaleMissingKeys[locale].has(key))])
+  );
 
   const failures = [];
   if (newCandidates.length > 0) {
@@ -1114,6 +1247,11 @@ async function runVerify(options) {
   }
   if (newCollisionKeys.length > 0) {
     failures.push(`new suggested key collisions: ${newCollisionKeys.length}`);
+  }
+  for (const locale of Object.keys(newLocaleMissingKeys)) {
+    if (newLocaleMissingKeys[locale].length > 0) {
+      failures.push(`new missing keys in ${locale}.lproj: ${newLocaleMissingKeys[locale].length}`);
+    }
   }
   const generatedKeys = new Set(
     [...loadLocalizationState(localizationRoot).localeMaps.Base.keys()]
@@ -1138,6 +1276,9 @@ async function runVerify(options) {
   console.log(chalk.gray(`Candidates checked: ${scan.candidates.length}`));
   console.log(chalk.gray(`Baseline fingerprints: ${baselineFingerprints.size}`));
   console.log(chalk.gray(`Baseline collision groups: ${baselineCollisionKeys.size}`));
+  Object.entries(localeCoverage.missingCountsByLocale).forEach(([locale, count]) => {
+    console.log(chalk.gray(`Missing keys in ${locale}.lproj vs Base.lproj: ${count}`));
+  });
 }
 
 function configureProgram() {

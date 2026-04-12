@@ -59,9 +59,9 @@
 /* screen -> profile -> create_customer_message */
 "screen.profile.create_customer_message" = "You will be able to find salons and book services";
 /* screen -> profile -> support -> title */
-"screen.profile.support.title" = "Have Questions? We\\'re Here!";
+"screen.profile.support.title" = "Have Questions? We're Here!";
 /* screen -> profile -> support -> message */
-"screen.profile.support.message" = "We\\'re here to help! If you have any questions or issues, our support team is always ready to assist you";
+"screen.profile.support.message" = "We're here to help! If you have any questions or issues, our support team is always ready to assist you";
 /* screen -> profile -> support -> action */
 "screen.profile.support.action" = "Live chat support";
 /* screen -> profile -> support -> user_message */
@@ -109,7 +109,7 @@
 /* screen -> notice -> title */
 "screen.notice.title" = "Notifications";
 /* screen -> notice -> placeholder */
-"screen.notice.placeholder" = "You haven\\'t received any notifications yet";
+"screen.notice.placeholder" = "You haven't received any notifications yet";
 /* screen -> notice -> read_all */
 "screen.notice.read_all" = "Read all";
 /* screen -> sharing -> qr_button */
@@ -126,6 +126,24 @@
 "screen.assignment.client" = "Customer";
 /* screen -> assignment -> invite_client */
 "screen.assignment.invite_client" = "Invite client";
+/* screen -> assignment -> status -> scheduled */
+"screen.assignment.status.scheduled" = "Scheduled";
+/* screen -> assignment -> status -> in_progress */
+"screen.assignment.status.in_progress" = "In progress";
+/* screen -> assignment -> status -> completed */
+"screen.assignment.status.completed" = "Completed";
+/* screen -> assignment -> status -> cancelled */
+"screen.assignment.status.cancelled" = "Cancelled";
+/* screen -> assignment -> status -> no_show */
+"screen.assignment.status.no_show" = "No-show";
+/* screen -> assignment -> status -> pending */
+"screen.assignment.status.pending" = "Awaiting confirmation";
+/* screen -> assignment -> status -> confirmed */
+"screen.assignment.status.confirmed" = "Confirmed";
+/* screen -> assignment -> status -> closed */
+"screen.assignment.status.closed" = "Closed";
+/* screen -> assignment -> status -> no_status */
+"screen.assignment.status.no_status" = "No status";
 /* screen -> assignment -> danger_zone -> title */
 "screen.assignment.danger_zone.title" = "Administration";
 /* screen -> assignment -> danger_zone -> delete_title */
@@ -330,21 +348,39 @@
 /* screen -> employees -> danger_zone -> fire_alert_title */
 "screen.employees.danger_zone.fire_alert_title" = "Fire employee";
 /* screen -> employees -> danger_zone -> fire_alert_message */
-"screen.employees.danger_zone.fire_alert_message" = "Please enter the employee\\'s name to confirm";
+"screen.employees.danger_zone.fire_alert_message" = "Please enter the employee's name to confirm";
 /* screen -> employees -> danger_zone -> fire_alert_placeholder */
 "screen.employees.danger_zone.fire_alert_placeholder" = "Employee name";
 /* screen -> employees -> danger_zone -> cancel_title */
 "screen.employees.danger_zone.cancel_title" = "Cancel invitation";
 /* screen -> employees -> danger_zone -> cancel_hint */
-"screen.employees.danger_zone.cancel_hint" = "Specialist won\\'t be able to connect via link";
+"screen.employees.danger_zone.cancel_hint" = "Specialist won't be able to connect via link";
 /* screen -> employees -> danger_zone -> cancel_alert_title */
 "screen.employees.danger_zone.cancel_alert_title" = "Cancel invitation";
 /* screen -> employees -> danger_zone -> cancel_alert_message */
-"screen.employees.danger_zone.cancel_alert_message" = "Employee won\\'t be able to join using the sent link";
+"screen.employees.danger_zone.cancel_alert_message" = "Employee won't be able to join using the sent link";
 /* screen -> employees -> no_employees */
 "screen.employees.no_employees" = "No employees";
 /* screen -> employees -> master_search */
 "screen.employees.master_search" = "Search for master";
+/* screen -> executor_editing -> danger_zone_title */
+"screen.executor_editing.danger_zone_title" = "Danger zone";
+/* screen -> executor_editing -> duration_title */
+"screen.executor_editing.duration_title" = "Duration";
+/* screen -> executor_editing -> price_title */
+"screen.executor_editing.price_title" = "Price";
+/* screen -> executor_editing -> stop_providing_confirm_message */
+"screen.executor_editing.stop_providing_confirm_message" = "The specialist will remain on the team and will only be removed from this service";
+/* screen -> executor_editing -> stop_providing_confirm_title */
+"screen.executor_editing.stop_providing_confirm_title" = "Remove from service?";
+/* screen -> executor_editing -> stop_providing_hint */
+"screen.executor_editing.stop_providing_hint" = "The specialist will remain on the team";
+/* screen -> executor_editing -> stop_providing_title */
+"screen.executor_editing.stop_providing_title" = "Remove from service";
+/* screen -> executor_editing -> title */
+"screen.executor_editing.title" = "Specialist";
+/* screen -> executor_editing -> unsupported_execution_message */
+"screen.executor_editing.unsupported_execution_message" = "Per-execution editing is not yet supported by the API. A dedicated endpoint for execution is required.";
 /* screen -> position -> title */
 "screen.position.title" = "Positions";
 /* screen -> position -> action */
@@ -534,7 +570,7 @@
 /* screen -> appointment -> state_accept */
 "screen.appointment.state_accept" = "Confirm appointment";
 /* screen -> appointment -> no_appointments */
-"screen.appointment.no_appointments" = "You don\\'t have any appointments yet";
+"screen.appointment.no_appointments" = "You don't have any appointments yet";
 /* screen -> appointment -> add_to_calendar */
 "screen.appointment.add_to_calendar" = "Add to calendar";
 /* screen -> appointment -> alert -> success */
@@ -554,7 +590,7 @@
 /* screen -> history -> title */
 "screen.history.title" = "History";
 /* screen -> history -> placeholder */
-"screen.history.placeholder" = "You don\\'t have any appointments yet";
+"screen.history.placeholder" = "You don't have any appointments yet";
 /* screen -> main -> history_title */
 "screen.main.history_title" = "My appointments";
 /* screen -> main -> history_action */
@@ -827,7 +863,7 @@
 /* reusable -> allow_button */
 "reusable.allow_button" = "Allow";
 /* reusable -> submit_text */
-"reusable.submit_text" = "Please check the entered information. When everything is ready — click \\'Done\\' to save";
+"reusable.submit_text" = "Please check the entered information. When everything is ready — click 'Done' to save";
 /* reusable -> skip */
 "reusable.skip" = "Skip";
 /* reusable -> copy_button */
@@ -875,7 +911,7 @@
 /* reusable -> alert -> incomplete_address_message */
 "reusable.alert.incomplete_address_message" = "Please enter your full address to continue";
 /* reusable -> alert -> master_confirmation */
-"reusable.alert.master_confirmation" = "You\\'ve followed a link that will connect you as an employee to the salon associated with this link. After confirmation, you\\'ll be able to provide services at this salon. Do you confirm this action?";
+"reusable.alert.master_confirmation" = "You've followed a link that will connect you as an employee to the salon associated with this link. After confirmation, you'll be able to provide services at this salon. Do you confirm this action?";
 /* reusable -> alert -> ok */
 "reusable.alert.ok" = "Ok";
 /* reusable -> unknown */
@@ -969,7 +1005,7 @@
 /* onboarding -> procedure -> step3 -> subtitle */
 "onboarding.procedure.step3.subtitle" = "By tapping 􀇷, select a service from the list that has passed the service moderation check. Such services can be flexibly configured, and customers will be able to find you more easily";
 /* onboarding -> procedure -> step4 -> title */
-"onboarding.procedure.step4.title" = "Masters\\' Choice";
+"onboarding.procedure.step4.title" = "Masters' Choice";
 /* onboarding -> procedure -> step4 -> subtitle */
 "onboarding.procedure.step4.subtitle" = "In the last step, select the masters who will provide this service. After that, clients will be able to easily make an appointment with them.";
 /* onboarding -> workplace -> step1 -> subtitle */
@@ -1041,7 +1077,7 @@
 /* creatable -> salon -> workplace -> address */
 "creatable.salon.workplace.address" = "Address";
 /* creatable -> salon -> salon_type */
-"creatable.salon.salon_type" = "Let\\'s start — I\\'ll help you set everything up for your needs. First, choose what kind of space you\\'re creating";
+"creatable.salon.salon_type" = "Let's start — I'll help you set everything up for your needs. First, choose what kind of space you're creating";
 /* creatable -> salon -> master_type */
 "creatable.salon.master_type" = "Individual specialist";
 /* creatable -> salon -> individual_type */
@@ -1049,7 +1085,7 @@
 /* creatable -> salon -> chain_type */
 "creatable.salon.chain_type" = "Beauty salon chain";
 /* creatable -> salon -> name_enter */
-"creatable.salon.name_enter" = "Great! Now enter your salon\\'s name — as clients will see it";
+"creatable.salon.name_enter" = "Great! Now enter your salon's name — as clients will see it";
 /* creatable -> salon -> name_placeholder */
 "creatable.salon.name_placeholder" = "Enter name...";
 /* creatable -> salon -> add_contact */
@@ -1061,7 +1097,7 @@
 /* creatable -> salon -> description_placeholder */
 "creatable.salon.description_placeholder" = "Enter description...";
 /* creatable -> salon -> add_address */
-"creatable.salon.add_address" = "Great! Now add your space\\'s address so clients can find you easily";
+"creatable.salon.add_address" = "Great! Now add your space's address so clients can find you easily";
 /* creatable -> salon -> address_placeholder */
 "creatable.salon.address_placeholder" = "Enter address...";
 /* creatable -> salon -> current_address */
@@ -1075,7 +1111,7 @@
 /* creatable -> salon -> notice_request */
 "creatable.salon.notice_request" = "To not miss messages from clients, allow notifications";
 /* creatable -> salon -> turn_on_notifications */
-"creatable.salon.turn_on_notifications" = "You\\'ve disabled push notifications in [settings](%@), enable them there";
+"creatable.salon.turn_on_notifications" = "You've disabled push notifications in [settings](%@), enable them there";
 /* creatable -> salon -> unfinished_creatable */
 "creatable.salon.unfinished_creatable" = "We found an unfinished salon creation on your site!";
 /* creatable -> procedure -> title */
@@ -1105,7 +1141,7 @@
 /* creatable -> procedure -> field -> price_title */
 "creatable.procedure.field.price_title" = "Procedure price";
 /* creatable -> procedure -> name_enter */
-"creatable.procedure.name_enter" = "Let\\'s start with the name — enter it manually or choose from the list";
+"creatable.procedure.name_enter" = "Let's start with the name — enter it manually or choose from the list";
 /* creatable -> procedure -> name_hint */
 "creatable.procedure.name_hint" = "Choosing an existing name will help clients find you faster";
 /* creatable -> procedure -> name_placeholder */
@@ -1115,7 +1151,7 @@
 /* creatable -> procedure -> duration_title */
 "creatable.procedure.duration_title" = "How long does the procedure take?";
 /* creatable -> procedure -> description_enter */
-"creatable.procedure.description_enter" = "Tell us what\\'s important to know before the procedure";
+"creatable.procedure.description_enter" = "Tell us what's important to know before the procedure";
 /* creatable -> procedure -> description_example */
 "creatable.procedure.description_example" = "For example: “Bring a towel, arrive 10-15 minutes early, remove jewelry, inform about contraindications”";
 /* creatable -> procedure -> description_placeholder */
@@ -1149,7 +1185,7 @@
 /* creatable -> employee -> unfinished_title */
 "creatable.employee.unfinished_title" = "We found an unfinished employee creation";
 /* creatable -> employee -> field -> name_title */
-"creatable.employee.field.name_title" = "Specialist\\'s name";
+"creatable.employee.field.name_title" = "Specialist's name";
 /* creatable -> employee -> field -> select_position */
 "creatable.employee.field.select_position" = "Select position";
 /* creatable -> employee -> field -> position_title */
@@ -1157,9 +1193,9 @@
 /* creatable -> employee -> field -> setup */
 "creatable.employee.field.setup" = "Setup";
 /* creatable -> employee -> field -> schedule_title */
-"creatable.employee.field.schedule_title" = "Specialist\\'s schedule";
+"creatable.employee.field.schedule_title" = "Specialist's schedule";
 /* creatable -> employee -> name_enter */
-"creatable.employee.name_enter" = "Enter employee\\'s name";
+"creatable.employee.name_enter" = "Enter employee's name";
 /* creatable -> employee -> name_placeholder */
 "creatable.employee.name_placeholder" = "Enter name...";
 /* creatable -> employee -> add_contact */
@@ -1219,7 +1255,7 @@
 /* creatable -> schedule -> cycled_info */
 "creatable.schedule.cycled_info" = "Specify the number of working and off days. Format — working days first, then off days.";
 /* creatable -> schedule -> cycled_example */
-"creatable.schedule.cycled_example" = "For example, \\'2 on 2 off\\' or any other combination: 5/2, 3/1, etc.";
+"creatable.schedule.cycled_example" = "For example, '2 on 2 off' or any other combination: 5/2, 3/1, etc.";
 /* creatable -> schedule -> set_time */
 "creatable.schedule.set_time" = "Choose working hours — so clients know when they can book";
 /* creatable -> schedule -> first_day */
@@ -1295,15 +1331,15 @@
 /* creatable -> auth -> enter_name */
 "creatable.auth.enter_name" = "Enter your name";
 /* creatable -> auth -> later_logo */
-"creatable.auth.later_logo" = "If you don\\'t have a suitable photo now. You can always add it later in profile settings.";
+"creatable.auth.later_logo" = "If you don't have a suitable photo now. You can always add it later in profile settings.";
 /* creatable -> auth -> placeholder */
 "creatable.auth.placeholder" = "Name";
 /* creatable -> auth -> privacy */
-"creatable.auth.privacy" = "By clicking \\'Continue\\', you agree to the [Privacy Policy](%@) and [Terms of Service](%@)";
+"creatable.auth.privacy" = "By clicking 'Continue', you agree to the [Privacy Policy](%@) and [Terms of Service](%@)";
 /* creatable -> auth -> title */
 "creatable.auth.title" = "Authorization";
 /* creatable -> auth -> upload_logo */
-"creatable.auth.upload_logo" = "Let\\'s upload your avatar";
+"creatable.auth.upload_logo" = "Let's upload your avatar";
 /* creatable -> auth -> welcome_message */
 "creatable.auth.welcome_message" = "Sign in or register to use the service on any device.";
 /* creatable -> auth -> uncompleted_registration_found */
@@ -1479,7 +1515,6 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace.placeholder_create" = "Start working with Maetry\n Create your first salon";
 "service.shortcut.mail_body" = "Hello!\nI am writing to share my review of the Maetry application. Below is my review:";
 "shortcut.mail.body" = "Hello!\nI am writing to share my review of the Maetry application. Below is my review:";
-"screen.marketing.unsupported_metric_message" = "Chart is available only for clicks and appointments";
 
 "booking.status.cancelled" = "Cancelled";
 "booking.status.confirmed" = "Confirmed";
@@ -1499,10 +1534,18 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "app_intent.open_mirror.description" = "Opens the Mirror screen";
 "app_intent.open_mirror.title" = "Open Mirror";
+"widget.recovery_methods.title" = "Recovery Methods";
+"reusable.primary" = "Primary";
 "reusable.retry" = "Retry";
+"reusable.send" = "Send";
+"reusable.sign_in_with_google" = "Sign in with Google";
 "screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
 "screen.continuation.client_invite.verified_match" = "Verified match";
 "screen.continuation.client_invite.no_match_message" = "We couldn't find a matching account for this client.";
+"screen.continuation.client_invite.confirm_link" = "Link account";
+"screen.continuation.client_invite.confidence.low" = "Low confidence";
+"screen.continuation.client_invite.confidence.medium" = "Medium confidence";
+"screen.continuation.client_invite.confidence.high" = "High confidence";
 "screen.model_profile.create_title" = "Create profile";
 "screen.model_profile.edit_title" = "Edit profile";
 "screen.model_profile.personal_section_title" = "Personal details";
@@ -1511,6 +1554,67 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.model_profile.gender_title" = "Gender";
 "screen.model_profile.gender.unspecified" = "Not specified";
 "screen.model_profile.gender.female" = "Female";
+"screen.feedback_composer.title" = "Report a Problem";
+"screen.feedback_composer.type_section_title" = "Type";
+"screen.feedback_composer.type_picker_title" = "Type";
+"screen.feedback_composer.description_section_title" = "What happened?";
+"screen.feedback_composer.description_placeholder" = "Describe the issue and what you expected to happen.";
+"screen.feedback_composer.privacy_hint" = "Only include personal details you want to share.";
+"screen.debug.tab_logger" = "Logger";
+"screen.debug.tab_database" = "DB";
+"screen.debug.tab_toggles" = "Toggles";
+"screen.debug.tab_device_info" = "Device info";
+"screen.debug.server_url_section_title" = "Server URL";
+"screen.debug.server_url_picker_title" = "Base";
+"screen.debug.feature_flags_section_title" = "Feature Flags";
+"screen.debug.complex_activate_toggle" = "Complex activate";
+"screen.debug.dashboard_product_toggle" = "Dashboard Product";
+"screen.debug.other_settings_section_title" = "Other Settings";
+"screen.debug.hide_help_banner_toggle" = "Hide Help Banner";
+"screen.debug.random_background_toggle" = "Random Background";
+"screen.debug.network_request_overlay_toggle" = "Network Request Overlay";
+"screen.debug.tip_kit_section_title" = "TipKit";
+"screen.debug.reset_feedback_tip_action" = "Reset Feedback Tip";
+"screen.debug.error_generator.section_title" = "Error Generation";
+"screen.debug.error_generator.simulate_network_error" = "Simulate NetworkError";
+"screen.debug.error_generator.simulate_unauthorized" = "Simulate 401 Unauthorized";
+"screen.debug.error_generator.simulate_payment_required" = "Simulate 402 Payment Required";
+"screen.debug.error_generator.generate_crash_action" = "Generate crash for Sentry";
+"screen.debug.error_generator.confirm_crash_title" = "Generate crash?";
+"screen.debug.error_generator.crash_action" = "Crash";
+"screen.debug.error_generator.confirm_crash_message" = "The app will terminate immediately. Use this only to verify crash delivery to Sentry.";
+"screen.debug.database.section_title" = "Database";
+"screen.debug.database.path_label" = "Path";
+"screen.debug.database.open_readonly_error" = "Could not open SQLite database at path: %1$@";
+"screen.debug.database.missing_file_error" = "Database file not found at path: %1$@";
+"screen.debug.database.prepare_export_error" = "Could not prepare export files.";
+"screen.debug.database.open_readwrite_error" = "Could not open SQLite database for clearing at path: %1$@";
+"screen.debug.database.blob_value" = "<BLOB: %1$d bytes>";
+"screen.debug.database.null_value" = "NULL";
+"screen.debug.database.unknown_value" = "<UNKNOWN>";
+"screen.debug.database.sqlite_execution_error" = "SQLite execution error";
+"screen.debug.database.sqlite_error" = "SQLite error";
+"screen.debug.database.status_label" = "Status";
+"screen.debug.database.available" = "Available";
+"screen.debug.database.not_found" = "Not Found";
+"screen.debug.database.file_size_label" = "File Size";
+"screen.debug.database.tables_title" = "Tables (%d)";
+"screen.debug.database.no_tables_found" = "No tables found.";
+"screen.debug.database.open_data_screen_hint" = "Open any data screen first to populate cache.";
+"screen.debug.database.preview_rows" = "Preview: %d row(s)";
+"screen.debug.database.navigation_title" = "SQLite DB";
+"screen.debug.database.clear_action" = "Clear";
+"screen.debug.database.export_action" = "Export";
+"screen.debug.database.clear_alert_title" = "Clear local database?";
+"screen.debug.database.clear_alert_message" = "All local cached rows will be deleted. This action cannot be undone.";
+"screen.debug.database.export_only_on_ios_message" = "Export is available only on iOS.";
+"screen.debug.database.summary_section_title" = "Summary";
+"screen.debug.database.rows_total_label" = "Rows (total)";
+"screen.debug.database.rows_preview_label" = "Rows (preview)";
+"screen.debug.database.no_rows_to_display" = "No rows to display.";
+"screen.debug.database.row_number" = "Row #%d";
+"screen.debug.database.rows_section_title" = "Rows";
+"screen.debug.database.showing_first_rows" = "Showing first %d rows.";
 "screen.model_profile.gender.male" = "Male";
 "screen.model_profile.birthdate_title" = "Birth date";
 "screen.model_profile.search_area_title" = "Search area";
@@ -1550,6 +1654,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.none" = "None";
 /* reusable -> manual */
 "reusable.manual" = "Manually";
+"reusable.nickname" = "Nickname";
 /* reusable -> from_phone_book */
 "reusable.from_phone_book" = "From phone book";
 "reusable.selected" = "selected";
@@ -1565,6 +1670,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.layout.title" = "Layout";
 "screen.workspace.layout.visible_specialists" = "Visible specialists";
 "screen.workspace.layout.visible_days" = "Visible days";
+"screen.workspace.layout.visible_days_one" = "1 day";
+"screen.workspace.layout.visible_days_three" = "3 days";
+"screen.workspace.layout.visible_days_five" = "5 days";
+"screen.workspace.layout.visible_days_seven" = "7 days";
 "screen.workspace.layout.time_scale" = "Time scale";
 "screen.workspace.view_mode.title" = "View mode";
 "screen.workplace.menu.create_workplace" = "Create salon";
@@ -1585,6 +1694,18 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.billing.no_active_plan" = "No active plan";
 "screen.settings.billing.pricing_hint" = "Open billing for pricing";
 "screen.settings.billing.renews_on_prefix" = "Renews on";
+"screen.settings.billing.launch_promotion" = "%1$d%% off for the first %2$d monthly billing cycles";
+"screen.settings.billing.sms_pack_title" = "%1$d SMS credits";
+"screen.settings.billing.plan.start" = "Start";
+"screen.settings.billing.plan.grow" = "Grow";
+"screen.settings.billing.plan.scale" = "Scale";
+"screen.settings.billing.plan.start_summary" = "Best for small salons that need scheduling, staff management, and simple growth.";
+"screen.settings.billing.plan.grow_summary" = "For busy teams that need stronger automation, better controls, and more room to scale.";
+"screen.settings.billing.plan.scale_summary" = "For established salons running higher seat counts and advanced operations.";
+"screen.settings.billing.interval.monthly" = "Monthly";
+"screen.settings.billing.interval.yearly" = "Yearly";
+"screen.settings.billing.period.month" = "month";
+"screen.settings.billing.period.year" = "year";
 "screen.offtime.title" = "Reserve time";
 "screen.offtime.employee" = "Employee";
 "screen.offtime.reason" = "Reason";
@@ -1690,6 +1811,68 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.assignment.quick_action.reschedule.confirm_message" = "The time editor will be opened.";
 /* screen -> assignment -> quick_action -> reschedule -> button_title */
 "screen.assignment.quick_action.reschedule.button_title" = "Change";
+/* reusable -> add_to */
+"reusable.add_to" = "Add to";
+/* reusable -> calendar */
+"reusable.calendar" = "Calendar";
+/* reusable -> email */
+"reusable.email" = "Email";
+/* reusable -> instagram */
+"reusable.instagram" = "Instagram";
+/* reusable -> telegram */
+"reusable.telegram" = "Telegram";
+/* screen -> unit_economic -> title */
+"screen.unit_economic.title" = "Unit Economics";
+/* screen -> unit_economic -> no_campaigns */
+"screen.unit_economic.no_campaigns" = "No campaigns";
+/* screen -> unit_economic -> no_data */
+"screen.unit_economic.no_data" = "No data";
+/* screen -> unit_economic -> metric_clicks */
+"screen.unit_economic.metric_clicks" = "Clicks";
+/* screen -> unit_economic -> metric_appointments */
+"screen.unit_economic.metric_appointments" = "Appointments";
+/* screen -> unit_economic -> max_campaigns_reached */
+"screen.unit_economic.max_campaigns_reached" = "A maximum of 5 campaigns can be added to the chart";
+/* screen -> unit_economic -> unsupported_metric_message */
+"screen.unit_economic.unsupported_metric_message" = "Chart is available only for clicks and appointments";
+/* screen -> unit_economic -> campaign_type -> share */
+"screen.unit_economic.campaign_type.share" = "Share";
+/* screen -> unit_economic -> campaign_type -> walk_in_qr */
+"screen.unit_economic.campaign_type.walk_in_qr" = "Walk-in QR";
+/* screen -> unit_economic -> campaign_type -> affiliate */
+"screen.unit_economic.campaign_type.affiliate" = "Affiliate";
+/* screen -> unit_economic -> campaign_type -> media */
+"screen.unit_economic.campaign_type.media" = "Media";
+/* screen -> unit_economic -> chart -> date_axis */
+"screen.unit_economic.chart.date_axis" = "Date";
+/* screen -> unit_economic -> chart -> value_axis */
+"screen.unit_economic.chart.value_axis" = "Value";
+/* screen -> unit_economic -> chart -> campaign_series */
+"screen.unit_economic.chart.campaign_series" = "Campaign";
+/* screen -> unit_economic -> chart -> metric_series */
+"screen.unit_economic.chart.metric_series" = "Metric";
+/* screen -> unit_economic -> campaign_detail -> stats_section */
+"screen.unit_economic.campaign_detail.stats_section" = "Statistics";
+/* screen -> unit_economic -> campaign_detail -> sharing_section */
+"screen.unit_economic.campaign_detail.sharing_section" = "Share";
+/* screen -> unit_economic -> campaign_detail -> total_clicks */
+"screen.unit_economic.campaign_detail.total_clicks" = "Total clicks";
+/* screen -> unit_economic -> campaign_detail -> total_appointments */
+"screen.unit_economic.campaign_detail.total_appointments" = "Total appointments";
+/* screen -> unit_economic -> campaign_detail -> conversion_rate */
+"screen.unit_economic.campaign_detail.conversion_rate" = "Conversion";
+/* screen -> unit_economic -> campaign_detail -> copied */
+"screen.unit_economic.campaign_detail.copied" = "Copied";
+/* screen -> unit_economic -> campaign_detail -> copy_link */
+"screen.unit_economic.campaign_detail.copy_link" = "Copy";
+/* screen -> unit_economic -> campaign_detail -> share_qr */
+"screen.unit_economic.campaign_detail.share_qr" = "Share QR";
+/* screen -> unit_economic -> campaign_detail -> qr_title */
+"screen.unit_economic.campaign_detail.qr_title" = "QR code";
+/* screen -> unit_economic -> campaign_detail -> share_link */
+"screen.unit_economic.campaign_detail.share_link" = "Share link";
+/* screen -> unit_economic -> campaign_detail -> link_title */
+"screen.unit_economic.campaign_detail.link_title" = "Invitation link";
 /* creatable -> procedure -> field -> executors_hint */
 "creatable.procedure.field.executors_hint" = "Select the specialists who will be able to provide this service";
 /* creatable -> procedure -> field -> executors_placeholder */
@@ -1712,3 +1895,542 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.filter_tag_count" = "%1$@ (%2$d)";
 /* reusable -> character_count */
 "reusable.character_count" = "%1$d/%2$d";
+"creatable.complex.total_duration_summary" = "%1$@: %2$@";
+"creatable.complex.selected_procedure_meta" = "%1$@ • %2$@";
+"creatable.complex.execution_meta" = "%1$@ | %2$@";
+/* assignment -> edit -> client_title */
+"assignment.edit.client_title" = "Client";
+/* assignment -> edit -> description */
+"assignment.edit.description" = "Change the service, specialist, or time";
+/* assignment -> edit -> price_title */
+"assignment.edit.price_title" = "Price";
+/* assignment -> edit -> save_action */
+"assignment.edit.save_action" = "Save changes";
+/* assignment -> edit -> screen_title */
+"assignment.edit.screen_title" = "Edit Appointment";
+/* assignment -> edit -> title */
+"assignment.edit.title" = "Edit Appointment";
+/* assignment -> settlement -> action */
+"assignment.settlement.action" = "Check out";
+/* assignment -> timeline -> cancelled */
+"assignment.timeline.cancelled" = "Appointment canceled";
+/* assignment -> timeline -> cancelled_by_client */
+"assignment.timeline.cancelled_by_client" = "Canceled by client";
+/* assignment -> timeline -> cancelled_by_salon */
+"assignment.timeline.cancelled_by_salon" = "Canceled by salon";
+/* assignment -> timeline -> cancelled_by_system */
+"assignment.timeline.cancelled_by_system" = "Canceled by system";
+/* assignment -> timeline -> completed */
+"assignment.timeline.completed" = "Visit completed";
+/* assignment -> timeline -> created */
+"assignment.timeline.created" = "Appointment created";
+/* assignment -> timeline -> empty */
+"assignment.timeline.empty" = "Events for this appointment will appear here once it is confirmed or updated.";
+/* assignment -> timeline -> expired */
+"assignment.timeline.expired" = "Appointment expired";
+/* assignment -> timeline -> new_time_label */
+"assignment.timeline.new_time_label" = "New time";
+/* assignment -> timeline -> no_show */
+"assignment.timeline.no_show" = "Client did not show";
+/* assignment -> timeline -> pending */
+"assignment.timeline.pending" = "Awaiting confirmation";
+/* assignment -> timeline -> pending_client */
+"assignment.timeline.pending_client" = "Awaiting client confirmation";
+/* assignment -> timeline -> pending_description */
+"assignment.timeline.pending_description" = "This appointment is waiting for the next action and does not have any visit history yet.";
+/* assignment -> timeline -> pending_staff */
+"assignment.timeline.pending_staff" = "Awaiting salon confirmation";
+/* assignment -> timeline -> rejected */
+"assignment.timeline.rejected" = "Appointment declined";
+/* assignment -> timeline -> rescheduled */
+"assignment.timeline.rescheduled" = "Appointment rescheduled";
+/* assignment -> timeline -> services_label */
+"assignment.timeline.services_label" = "Services";
+/* assignment -> timeline -> started */
+"assignment.timeline.started" = "Visit started";
+/* assignment -> timeline -> time_label */
+"assignment.timeline.time_label" = "Time";
+/* assignment -> timeline -> title */
+"assignment.timeline.title" = "Appointment History";
+/* creatable -> appointment -> additional_fields_placeholder */
+"creatable.appointment.additional_fields_placeholder" = "Discounts and other options will appear here.";
+/* creatable -> appointment -> client_selection_title */
+"creatable.appointment.client_selection_title" = "Select Client";
+/* creatable -> appointment -> collapse_fields_action */
+"creatable.appointment.collapse_fields_action" = "Hide additional fields";
+/* creatable -> appointment -> create_action */
+"creatable.appointment.create_action" = "Create";
+/* creatable -> appointment -> creating_action */
+"creatable.appointment.creating_action" = "Creating...";
+/* creatable -> appointment -> custom_duration_title */
+"creatable.appointment.custom_duration_title" = "Duration";
+/* creatable -> appointment -> expand_fields_action */
+"creatable.appointment.expand_fields_action" = "Additional fields";
+/* creatable -> appointment -> extended_create_action */
+"creatable.appointment.extended_create_action" = "Extended create";
+/* creatable -> appointment -> manual_date_title */
+"creatable.appointment.manual_date_title" = "Enter date manually";
+/* creatable -> appointment -> not_selected */
+"creatable.appointment.not_selected" = "Not selected";
+/* creatable -> appointment -> quick_create_action */
+"creatable.appointment.quick_create_action" = "Quick create";
+/* creatable -> appointment -> select_executor_title */
+"creatable.appointment.select_executor_title" = "Select a specialist";
+/* creatable -> appointment -> service_selection_title */
+"creatable.appointment.service_selection_title" = "Select Service and Specialist";
+/* creatable -> appointment -> time_selection_title */
+"creatable.appointment.time_selection_title" = "Time";
+/* creatable -> booking -> field -> procedure_title */
+"creatable.booking.field.procedure_title" = "Service";
+/* creatable -> booking -> field -> salon_title */
+"creatable.booking.field.salon_title" = "Salon";
+/* creatable -> booking -> field -> select_time_slot */
+"creatable.booking.field.select_time_slot" = "Select time";
+/* creatable -> booking -> field -> service_title */
+"creatable.booking.field.service_title" = "Service";
+/* creatable -> booking -> field -> time_slot_title */
+"creatable.booking.field.time_slot_title" = "Time";
+/* creatable -> booking -> select_procedure_first_message */
+"creatable.booking.select_procedure_first_message" = "Select a service or package first";
+/* creatable -> booking -> service -> change */
+"creatable.booking.service.change" = "Change";
+/* creatable -> booking -> service -> master */
+"creatable.booking.service.master" = "Specialist";
+/* creatable -> booking -> service -> master_not_selected */
+"creatable.booking.service.master_not_selected" = "No specialist selected";
+/* creatable -> booking -> service -> not_selected */
+"creatable.booking.service.not_selected" = "Not selected";
+/* creatable -> booking -> service -> nothing_selected */
+"creatable.booking.service.nothing_selected" = "Nothing selected";
+/* creatable -> booking -> service -> select_service_for_booking */
+"creatable.booking.service.select_service_for_booking" = "Select a service for the booking";
+/* creatable -> booking -> time_slot -> change */
+"creatable.booking.time_slot.change" = "Change";
+/* creatable -> booking -> time_slot -> not_selected */
+"creatable.booking.time_slot.not_selected" = "Not selected";
+/* creatable -> booking -> time_slot -> title */
+"creatable.booking.time_slot.title" = "Time";
+/* creatable -> booking -> title */
+"creatable.booking.title" = "Booking";
+/* creatable -> complex -> access -> independent_from_gender */
+"creatable.complex.access.independent_from_gender" = "Available to everyone";
+/* creatable -> complex -> access -> men_only */
+"creatable.complex.access.men_only" = "Men only";
+/* creatable -> complex -> access -> women_only */
+"creatable.complex.access.women_only" = "Women only";
+/* creatable -> complex -> action -> change_executors */
+"creatable.complex.action.change_executors" = "Change specialists";
+/* creatable -> complex -> action -> move_down */
+"creatable.complex.action.move_down" = "Move down";
+/* creatable -> complex -> action -> move_up */
+"creatable.complex.action.move_up" = "Move up";
+/* creatable -> complex -> booking_type -> parallel */
+"creatable.complex.booking_type.parallel" = "Services are booked in parallel";
+/* creatable -> complex -> booking_type -> sequential */
+"creatable.complex.booking_type.sequential" = "Services are booked sequentially";
+/* creatable -> complex -> field -> access_settings_title */
+"creatable.complex.field.access_settings_title" = "Access settings";
+/* creatable -> complex -> field -> add_service */
+"creatable.complex.field.add_service" = "Add service";
+/* creatable -> complex -> field -> all_executors */
+"creatable.complex.field.all_executors" = "All specialists";
+/* creatable -> complex -> field -> booking_type_hint */
+"creatable.complex.field.booking_type_hint" = "Choose whether the services in this package are provided one after another or at the same time.";
+/* creatable -> complex -> field -> booking_type_title */
+"creatable.complex.field.booking_type_title" = "Booking type";
+/* creatable -> complex -> field -> choose_procedures_hint */
+"creatable.complex.field.choose_procedures_hint" = "Add the services that should be included in this package";
+/* creatable -> complex -> field -> choose_procedures_title */
+"creatable.complex.field.choose_procedures_title" = "Select services";
+/* creatable -> complex -> field -> description_hint */
+"creatable.complex.field.description_hint" = "Describe the value of this package and anything clients should know before booking";
+/* creatable -> complex -> field -> description_placeholder */
+"creatable.complex.field.description_placeholder" = "Add a description for this package";
+/* creatable -> complex -> field -> description_title */
+"creatable.complex.field.description_title" = "Description (optional)";
+/* creatable -> complex -> field -> executors_missing */
+"creatable.complex.field.executors_missing" = "No specialists selected";
+/* creatable -> complex -> field -> executors_sheet_hint */
+"creatable.complex.field.executors_sheet_hint" = "Choose the specialists who can perform this service inside the package";
+/* creatable -> complex -> field -> name_hint */
+"creatable.complex.field.name_hint" = "The name should clearly explain what is included and why clients would want it";
+/* creatable -> complex -> field -> name_placeholder */
+"creatable.complex.field.name_placeholder" = "For example, Four-Hand Manicure";
+/* creatable -> complex -> field -> name_title */
+"creatable.complex.field.name_title" = "Package name";
+/* creatable -> complex -> field -> no_discount */
+"creatable.complex.field.no_discount" = "No discount applied";
+/* creatable -> complex -> field -> online_booking_enabled */
+"creatable.complex.field.online_booking_enabled" = "On";
+/* creatable -> complex -> field -> online_booking_hint */
+"creatable.complex.field.online_booking_hint" = "Let clients book this package online through Maetry, social media, and direct booking links";
+/* creatable -> complex -> field -> online_booking_title */
+"creatable.complex.field.online_booking_title" = "Online booking";
+/* creatable -> complex -> field -> percent_discount_placeholder */
+"creatable.complex.field.percent_discount_placeholder" = "Enter discount in %";
+/* creatable -> complex -> field -> percent_discount_title */
+"creatable.complex.field.percent_discount_title" = "Discount percentage";
+/* creatable -> complex -> field -> price_hint */
+"creatable.complex.field.price_hint" = "Choose how to calculate the package price: service total, special price, or discount";
+/* creatable -> complex -> field -> price_type_title */
+"creatable.complex.field.price_type_title" = "Price type";
+/* creatable -> complex -> field -> procedures_not_found */
+"creatable.complex.field.procedures_not_found" = "No services found";
+/* creatable -> complex -> field -> read_more */
+"creatable.complex.field.read_more" = "Read more...";
+/* creatable -> complex -> field -> retail_price_title */
+"creatable.complex.field.retail_price_title" = "Retail price";
+/* creatable -> complex -> field -> selected_procedures_summary_title */
+"creatable.complex.field.selected_procedures_summary_title" = "Selected services:";
+/* creatable -> complex -> field -> services_description */
+"creatable.complex.field.services_description" = "Choose the services included in this package and configure specialists for each service if needed";
+/* creatable -> complex -> field -> tags_hint */
+"creatable.complex.field.tags_hint" = "The package inherits tags from the selected services and can belong to multiple tags at once";
+/* creatable -> complex -> field -> tags_placeholder */
+"creatable.complex.field.tags_placeholder" = "Tags will appear after you select services";
+/* creatable -> complex -> field -> tags_title */
+"creatable.complex.field.tags_title" = "Tags";
+/* creatable -> complex -> field -> total_duration */
+"creatable.complex.field.total_duration" = "Total duration";
+/* creatable -> complex -> missing_price */
+"creatable.complex.missing_price" = "Enter the package price";
+/* creatable -> complex -> price_type -> free */
+"creatable.complex.price_type.free" = "Free";
+/* creatable -> complex -> price_type -> percent_discount */
+"creatable.complex.price_type.percent_discount" = "Percentage discount";
+/* creatable -> complex -> price_type -> special_price */
+"creatable.complex.price_type.special_price" = "Special price";
+/* creatable -> complex -> price_type -> total_services */
+"creatable.complex.price_type.total_services" = "Total of all services";
+/* creatable -> complex -> section -> main */
+"creatable.complex.section.main" = "Main information";
+/* creatable -> complex -> section -> price */
+"creatable.complex.section.price" = "Price";
+/* creatable -> complex -> section -> services */
+"creatable.complex.section.services" = "Services";
+/* creatable -> complex -> title */
+"creatable.complex.title" = "New Package";
+/* creatable -> complex -> unfinished_title */
+"creatable.complex.unfinished_title" = "Unfinished Package Creation";
+/* creatable -> marketing_campaign -> field -> description_placeholder */
+"creatable.marketing_campaign.field.description_placeholder" = "Campaign description (optional)";
+/* creatable -> marketing_campaign -> field -> description_title */
+"creatable.marketing_campaign.field.description_title" = "Description";
+/* creatable -> marketing_campaign -> field -> name_placeholder */
+"creatable.marketing_campaign.field.name_placeholder" = "Enter campaign name";
+/* creatable -> marketing_campaign -> field -> name_title */
+"creatable.marketing_campaign.field.name_title" = "Name";
+/* creatable -> marketing_campaign -> field -> select_type */
+"creatable.marketing_campaign.field.select_type" = "Select type";
+/* creatable -> marketing_campaign -> field -> select_type_title */
+"creatable.marketing_campaign.field.select_type_title" = "Select a campaign type";
+/* creatable -> marketing_campaign -> field -> type_title */
+"creatable.marketing_campaign.field.type_title" = "Campaign type";
+/* creatable -> marketing_campaign -> missing_name */
+"creatable.marketing_campaign.missing_name" = "Enter a campaign name";
+/* creatable -> marketing_campaign -> missing_type */
+"creatable.marketing_campaign.missing_type" = "Select a campaign type";
+/* creatable -> marketing_campaign -> title */
+"creatable.marketing_campaign.title" = "Create Campaign";
+/* creatable -> marketing_campaign -> unfinished_title */
+"creatable.marketing_campaign.unfinished_title" = "Unfinished Campaign";
+/* creatable -> product -> action -> add_sku */
+"creatable.product.action.add_sku" = "Add another SKU";
+/* creatable -> product -> action -> clear_photos */
+"creatable.product.action.clear_photos" = "Clear photos";
+/* creatable -> product -> action -> generate_sku */
+"creatable.product.action.generate_sku" = "Generate SKU";
+/* creatable -> product -> action -> manage_photo */
+"creatable.product.action.manage_photo" = "Manage photos";
+/* creatable -> product -> action -> select_tax */
+"creatable.product.action.select_tax" = "Select tax";
+/* creatable -> product -> action -> select_unit */
+"creatable.product.action.select_unit" = "Select unit";
+/* creatable -> product -> action -> use_demo_photos */
+"creatable.product.action.use_demo_photos" = "Use demo photos";
+/* creatable -> product -> create_title */
+"creatable.product.create_title" = "Add New Products";
+/* creatable -> product -> edit_title */
+"creatable.product.edit_title" = "Edit Product";
+/* creatable -> product -> field -> amount */
+"creatable.product.field.amount" = "Amount";
+/* creatable -> product -> field -> amount_unit */
+"creatable.product.field.amount_unit" = "Unit of measure";
+/* creatable -> product -> field -> barcode */
+"creatable.product.field.barcode" = "Product barcode (optional)";
+/* creatable -> product -> field -> brand */
+"creatable.product.field.brand" = "Brand";
+/* creatable -> product -> field -> brand_placeholder */
+"creatable.product.field.brand_placeholder" = "For example, Lui Philipo";
+/* creatable -> product -> field -> category */
+"creatable.product.field.category" = "Category";
+/* creatable -> product -> field -> category_placeholder */
+"creatable.product.field.category_placeholder" = "For example, Nails";
+/* creatable -> product -> field -> commission_description */
+"creatable.product.field.commission_description" = "Calculate a team member commission when this product is sold.";
+/* creatable -> product -> field -> commission_percent */
+"creatable.product.field.commission_percent" = "Commission, %";
+/* creatable -> product -> field -> commission_toggle */
+"creatable.product.field.commission_toggle" = "Enable team member commission";
+/* creatable -> product -> field -> current_stock */
+"creatable.product.field.current_stock" = "Current stock on hand";
+/* creatable -> product -> field -> description */
+"creatable.product.field.description" = "Product description";
+/* creatable -> product -> field -> description_placeholder */
+"creatable.product.field.description_placeholder" = "Add a product description";
+/* creatable -> product -> field -> low_stock_description */
+"creatable.product.field.low_stock_description" = "Maetry will notify you and auto-fill the quantity set for reordering.";
+/* creatable -> product -> field -> low_stock_notification_toggle */
+"creatable.product.field.low_stock_notification_toggle" = "Receive low stock alerts";
+/* creatable -> product -> field -> low_stock_threshold */
+"creatable.product.field.low_stock_threshold" = "Low stock threshold";
+/* creatable -> product -> field -> low_stock_toggle */
+"creatable.product.field.low_stock_toggle" = "Low stock and reorder";
+/* creatable -> product -> field -> margin */
+"creatable.product.field.margin" = "Markup";
+/* creatable -> product -> field -> name */
+"creatable.product.field.name" = "Product name";
+/* creatable -> product -> field -> name_placeholder */
+"creatable.product.field.name_placeholder" = "Enter product name";
+/* creatable -> product -> field -> reorder_quantity */
+"creatable.product.field.reorder_quantity" = "Reorder quantity";
+/* creatable -> product -> field -> retail_description */
+"creatable.product.field.retail_description" = "Allow this product to be sold at checkout.";
+/* creatable -> product -> field -> retail_price */
+"creatable.product.field.retail_price" = "Retail price";
+/* creatable -> product -> field -> retail_toggle */
+"creatable.product.field.retail_toggle" = "Enable retail sales";
+/* creatable -> product -> field -> short_description */
+"creatable.product.field.short_description" = "Short description";
+/* creatable -> product -> field -> short_description_placeholder */
+"creatable.product.field.short_description_placeholder" = "Short product description";
+/* creatable -> product -> field -> sku */
+"creatable.product.field.sku" = "SKU (stock keeping unit)";
+/* creatable -> product -> field -> stock_toggle */
+"creatable.product.field.stock_toggle" = "Track stock on hand";
+/* creatable -> product -> field -> supplier */
+"creatable.product.field.supplier" = "Supplier";
+/* creatable -> product -> field -> supplier_placeholder */
+"creatable.product.field.supplier_placeholder" = "For example, Lui Nikita";
+/* creatable -> product -> field -> supply_price */
+"creatable.product.field.supply_price" = "Supply price";
+/* creatable -> product -> field -> tax */
+"creatable.product.field.tax" = "Tax";
+/* creatable -> product -> field -> tax_select */
+"creatable.product.field.tax_select" = "Select tax";
+/* creatable -> product -> missing_title */
+"creatable.product.missing_title" = "Enter a product name";
+/* creatable -> product -> section -> basic_info */
+"creatable.product.section.basic_info" = "Main information";
+/* creatable -> product -> section -> commission */
+"creatable.product.section.commission" = "Team member commission";
+/* creatable -> product -> section -> inventory */
+"creatable.product.section.inventory" = "Inventory";
+/* creatable -> product -> section -> photo */
+"creatable.product.section.photo" = "Product photos";
+/* creatable -> product -> section -> price */
+"creatable.product.section.price" = "Price";
+/* creatable -> product -> section -> reorder */
+"creatable.product.section.reorder" = "Low stock and reorder";
+/* creatable -> product -> section -> retail_sales */
+"creatable.product.section.retail_sales" = "Retail sales";
+/* creatable -> product -> section -> stock */
+"creatable.product.section.stock" = "Stock on hand";
+/* screen -> appointment -> add_to_calendar_action */
+"screen.appointment.add_to_calendar_action" = "Add to Calendar";
+/* screen -> appointment -> calendar_access_message */
+"screen.appointment.calendar_access_message" = "Allow calendar access to add this appointment.";
+/* screen -> appointment -> calendar_access_title */
+"screen.appointment.calendar_access_title" = "Calendar Access";
+/* screen -> appointment -> calendar_no_default_calendar_message */
+"screen.appointment.calendar_no_default_calendar_message" = "Could not find a default calendar.";
+/* screen -> appointment -> calendar_save_error_message */
+"screen.appointment.calendar_save_error_message" = "Check calendar access and try again.";
+/* screen -> appointment -> calendar_save_error_title */
+"screen.appointment.calendar_save_error_title" = "Could not add";
+/* screen -> appointment -> contact_salon */
+"screen.appointment.contact_salon" = "Contact Salon";
+/* screen -> appointment -> description_title */
+"screen.appointment.description_title" = "Preparation";
+/* screen -> appointment -> edit_description */
+"screen.appointment.edit_description" = "Change the service, specialist, or time";
+/* screen -> appointment -> edit_title */
+"screen.appointment.edit_title" = "Edit Appointment";
+/* screen -> appointment_actions -> cancel_action */
+"screen.appointment_actions.cancel_action" = "Cancel";
+/* screen -> appointment_actions -> contact_action */
+"screen.appointment_actions.contact_action" = "Contact";
+/* screen -> appointment_actions -> repeat_action */
+"screen.appointment_actions.repeat_action" = "Book Again";
+/* screen -> booking -> add_to_wallet_reminder */
+"screen.booking.add_to_wallet_reminder" = "Add it to Apple Wallet so you do not forget the booking";
+/* screen -> booking -> confirm_action */
+"screen.booking.confirm_action" = "Confirm";
+/* screen -> booking -> contact_salon */
+"screen.booking.contact_salon" = "Contact Salon";
+/* screen -> booking -> danger_zone_description */
+"screen.booking.danger_zone_description" = "Cancel the booking and notify the specialist";
+/* screen -> booking -> danger_zone_title */
+"screen.booking.danger_zone_title" = "Booking Cancellation";
+/* screen -> booking -> delete_message */
+"screen.booking.delete_message" = "The booking will be deleted and the specialist will be notified about the cancellation.";
+/* screen -> booking -> delete_title */
+"screen.booking.delete_title" = "Cancel booking?";
+/* screen -> booking -> expired */
+"screen.booking.expired" = "Expired";
+/* screen -> booking -> pending_confirmation */
+"screen.booking.pending_confirmation" = "Awaiting salon confirmation";
+/* screen -> booking -> save_action */
+"screen.booking.save_action" = "Save changes";
+/* screen -> booking -> title */
+"screen.booking.title" = "Booking Approval";
+/* screen -> complex_editing -> title */
+"screen.complex_editing.title" = "Edit Package";
+/* screen -> complex_editing -> unsupported_settings_message */
+"screen.complex_editing.unsupported_settings_message" = "Online booking and access settings for packages are not supported by the API yet. A request has been sent to extend the OpenAPI/SDK.";
+/* screen -> employees -> dismissed_filter */
+"screen.employees.dismissed_filter" = "Dismissed";
+/* screen -> employees -> dismissed_title */
+"screen.employees.dismissed_title" = "Dismissed Employees";
+/* screen -> employees -> no_dismissed_employees */
+"screen.employees.no_dismissed_employees" = "No dismissed employees";
+/* screen -> products -> actions */
+"screen.products.actions" = "Actions";
+/* screen -> products -> add_action */
+"screen.products.add_action" = "Add Product";
+/* screen -> products -> delete_message */
+"screen.products.delete_message" = "This action cannot be undone.";
+/* screen -> products -> delete_title */
+"screen.products.delete_title" = "Delete product?";
+/* screen -> products -> edit */
+"screen.products.edit" = "Edit";
+/* screen -> products -> empty_placeholder */
+"screen.products.empty_placeholder" = "No products found";
+/* screen -> products -> field -> amount */
+"screen.products.field.amount" = "Amount";
+/* screen -> products -> field -> average_price */
+"screen.products.field.average_price" = "Average price";
+/* screen -> products -> field -> barcode */
+"screen.products.field.barcode" = "Product barcode";
+/* screen -> products -> field -> brand */
+"screen.products.field.brand" = "Brand";
+/* screen -> products -> field -> category */
+"screen.products.field.category" = "Product category";
+/* screen -> products -> field -> description */
+"screen.products.field.description" = "Product description";
+/* screen -> products -> field -> retail_price */
+"screen.products.field.retail_price" = "Retail price";
+/* screen -> products -> field -> short_description */
+"screen.products.field.short_description" = "Short description";
+/* screen -> products -> field -> sku */
+"screen.products.field.sku" = "Primary SKU";
+/* screen -> products -> field -> stock_quantity */
+"screen.products.field.stock_quantity" = "Stock on hand";
+/* screen -> products -> field -> supplier */
+"screen.products.field.supplier" = "Supplier";
+/* screen -> products -> field -> supply_price */
+"screen.products.field.supply_price" = "Supply price";
+/* screen -> products -> field -> total_cost */
+"screen.products.field.total_cost" = "Total cost";
+/* screen -> products -> field -> total_retail_price */
+"screen.products.field.total_retail_price" = "Total retail value";
+/* screen -> products -> field -> total_supply_price */
+"screen.products.field.total_supply_price" = "Total supply cost";
+/* screen -> products -> in_stock_suffix */
+"screen.products.in_stock_suffix" = "in stock";
+/* screen -> products -> search_placeholder */
+"screen.products.search_placeholder" = "Search products";
+/* screen -> products -> section -> basic_info */
+"screen.products.section.basic_info" = "Main information";
+/* screen -> products -> section -> description */
+"screen.products.section.description" = "Description";
+/* screen -> products -> section -> stock_info */
+"screen.products.section.stock_info" = "Stock information";
+/* screen -> products -> tax -> none */
+"screen.products.tax.none" = "Default: No tax";
+/* screen -> products -> tax -> vat10 */
+"screen.products.tax.vat10" = "VAT 10%";
+/* screen -> products -> tax -> vat20 */
+"screen.products.tax.vat20" = "VAT 20%";
+/* screen -> products -> title */
+"screen.products.title" = "Products";
+/* screen -> products -> unit -> grams */
+"screen.products.unit.grams" = "Grams (g)";
+/* screen -> products -> unit -> milliliters */
+"screen.products.unit.milliliters" = "Milliliters (ml)";
+/* screen -> products -> unit -> pieces */
+"screen.products.unit.pieces" = "Pieces (pcs)";
+/* screen -> profile -> language -> action */
+"screen.profile.language.action" = "Open language settings";
+/* screen -> profile -> language -> message */
+"screen.profile.language.message" = "We will open the app's system settings, where you can choose the interface language.";
+/* screen -> profile -> language -> title */
+"screen.profile.language.title" = "App Language";
+/* screen -> service_editing -> access_settings_title */
+"screen.service_editing.access_settings_title" = "Access settings";
+/* screen -> service_editing -> access_type_title */
+"screen.service_editing.access_type_title" = "Client access";
+/* screen -> service_editing -> archive_procedure_action */
+"screen.service_editing.archive_procedure_action" = "Archive";
+/* screen -> service_editing -> archive_procedure_confirm_message */
+"screen.service_editing.archive_procedure_confirm_message" = "This service will no longer be available for booking or editing";
+/* screen -> service_editing -> archive_procedure_confirm_title */
+"screen.service_editing.archive_procedure_confirm_title" = "Archive service?";
+/* screen -> service_editing -> archive_procedure_hint */
+"screen.service_editing.archive_procedure_hint" = "The service will be removed from the catalog";
+/* screen -> service_editing -> archive_procedure_title */
+"screen.service_editing.archive_procedure_title" = "Stop offering this service";
+/* screen -> service_editing -> break_not_set */
+"screen.service_editing.break_not_set" = "No break";
+/* screen -> service_editing -> change_access_type */
+"screen.service_editing.change_access_type" = "Change access settings";
+/* screen -> service_editing -> danger_zone_title */
+"screen.service_editing.danger_zone_title" = "Danger zone";
+/* screen -> service_editing -> online_booking_hint */
+"screen.service_editing.online_booking_hint" = "Let clients book this service online through the marketplace, social media, and direct links";
+/* screen -> service_editing -> online_booking_title */
+"screen.service_editing.online_booking_title" = "Online booking";
+/* screen -> service_editing -> post_service_break_hint */
+"screen.service_editing.post_service_break_hint" = "After the service ends, the next booking will start only after the specified interval";
+/* screen -> service_editing -> post_service_break_title */
+"screen.service_editing.post_service_break_title" = "Break after appointment (optional)";
+/* screen -> service_editing -> set_break_duration */
+"screen.service_editing.set_break_duration" = "Set break";
+/* screen -> service_editing -> unsupported_settings_message */
+"screen.service_editing.unsupported_settings_message" = "Online booking, access, and break settings are not supported by the API yet. A request has been sent to extend the OpenAPI/SDK.";
+/* screen -> visit -> add_to_wallet_reminder */
+"screen.visit.add_to_wallet_reminder" = "Add it to Apple Wallet so you do not forget the visit";
+/* screen -> visit -> cancel_message */
+"screen.visit.cancel_message" = "The visit will be canceled and the salon will be notified.";
+/* screen -> visit -> cancel_title */
+"screen.visit.cancel_title" = "Cancel visit?";
+/* screen -> visit -> fallback_title */
+"screen.visit.fallback_title" = "Booking";
+/* screen -> visit -> note_placeholder */
+"screen.visit.note_placeholder" = "Write a note for the salon";
+/* screen -> visit -> note_title */
+"screen.visit.note_title" = "Note";
+/* screen -> visit -> title */
+"screen.visit.title" = "Visit";
+/* screen -> visits -> action_required */
+"screen.visits.action_required" = "Action required";
+/* screen -> visits -> focused_filter */
+"screen.visits.focused_filter" = "Focused";
+/* screen -> visits -> placeholder_all */
+"screen.visits.placeholder_all" = "No visits";
+/* screen -> visits -> placeholder_focused */
+"screen.visits.placeholder_focused" = "No upcoming visits";
+/* screen -> visits -> title */
+"screen.visits.title" = "Visits";
+/* screen -> visits -> unscheduled */
+"screen.visits.unscheduled" = "No date";
+/* screen -> visits -> visit_fallback_title */
+"screen.visits.visit_fallback_title" = "Booking";
+/* widget -> client_danger_zone -> delete_alert_message */
+"widget.client_danger_zone.delete_alert_message" = "This action cannot be undone.";
+/* widget -> client_danger_zone -> delete_alert_title */
+"widget.client_danger_zone.delete_alert_title" = "Delete client?";
+/* widget -> client_danger_zone -> delete_hint */
+"widget.client_danger_zone.delete_hint" = "This action cannot be undone. The client profile and contacts will be deleted.";
+/* widget -> client_danger_zone -> delete_title */
+"widget.client_danger_zone.delete_title" = "Delete client";

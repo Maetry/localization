@@ -185,16 +185,53 @@ Examples of current manual-review-heavy zones:
 Run from `IOS`:
 
 ```bash
+make sync-localization
 make audit-localization
+make baseline-localization
 make migrate-localization
 make verify-localization
+make clean-localization-reports
 ```
 
 Run from `Localization`:
 
 ```bash
+npm run ios:sync
 npm run ios:audit -- --write-baseline
+npm run ios:baseline
 npm run ios:migrate
 npm run ios:migrate -- --apply
 npm run ios:verify
 ```
+
+## Development Flow
+
+For any new iOS product-facing string:
+
+1. Add the new key to `Localization/packages/ios/Resources/*.lproj/Localizable.strings` or `.stringsdict`.
+2. Use the generated accessor from `LocalizationKit` in `IOS/**`. Do not add local `Loc+*.swift`, `String(localized:)`, or target-owned product literals.
+3. Run `make sync-localization` from `IOS`.
+4. If you intentionally changed audit policy or finished a large approved migration batch, run `make baseline-localization`.
+
+Normal day-to-day expectations:
+
+- `make sync-localization` is the default command after adding or editing localized copy.
+- `make verify-localization` is the CI-safe read-only gate.
+- `make audit-localization` is for inspection and debt review.
+- `make migrate-localization` is for controlled bulk migration only.
+- `make clean-localization-reports` removes disposable generated reports; these files are ignored and are not part of the long-term source of truth.
+
+## Safe Deletions
+
+The following are now considered removable or already retired patterns:
+
+- local `Loc+*.swift` shadow localization files in `IOS`
+- direct product-copy literals in Swift when a `Loc.*` key exists
+- direct `String(localized:)` product strings in iOS screens and widgets
+- ad hoc target-owned product copy in `xcstrings`
+
+The following should stay:
+
+- `Localization/tools/scripts/ios-localization.js` as the single CLI entrypoint
+- `Localization/tools/config/ios-localization-baseline.json` as the verify contract
+- generated audit and migration reports only as disposable local artifacts under `Localization/reports`
