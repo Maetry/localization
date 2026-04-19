@@ -879,6 +879,14 @@ public enum Loc {
       public static let serviceSearch = Loc.tr("Localizable", "screen.catalog_management.service_search", fallback: "Search for service")
       public static let title = Loc.tr("Localizable", "screen.catalog_management.title", fallback: "Services")
     }
+    public enum Client {
+      public static let birthdateTitle = Loc.tr("Localizable", "screen.client.birthdate_title", fallback: "Birth date")
+      public static let genderTitle = Loc.tr("Localizable", "screen.client.gender_title", fallback: "Gender")
+      public enum Gender {
+        public static let female = Loc.tr("Localizable", "screen.client.gender.female", fallback: "Female")
+        public static let male = Loc.tr("Localizable", "screen.client.gender.male", fallback: "Male")
+      }
+    }
     public enum ClientEditable {
       public static let name = Loc.tr("Localizable", "screen.client_editable.name", fallback: "Name")
       public static let yourName = Loc.tr("Localizable", "screen.client_editable.your_name", fallback: "Your name")
@@ -1481,6 +1489,11 @@ public enum Loc {
       public enum EditDays {
         public static let one = Loc.tr("Localizable", "screen.schedule.edit_days.one", fallback: "Edit %{days} day")
         public static let other = Loc.tr("Localizable", "screen.schedule.edit_days.other", fallback: "Edit %{days} days")
+      }
+      public enum SalonTemplateTip {
+        public static let action = Loc.tr("Localizable", "screen.schedule.salon_template_tip.action", fallback: "Set up salon template")
+        public static let message = Loc.tr("Localizable", "screen.schedule.salon_template_tip.message", fallback: "Specialists working hours should fall within the salon working hours. Set up the salon schedule template first.")
+        public static let title = Loc.tr("Localizable", "screen.schedule.salon_template_tip.title", fallback: "Salon schedule template is not set")
       }
       public enum ScheduleText {
         public static let breaks = Loc.tr("Localizable", "screen.schedule.schedule_text.breaks", fallback: "Offtimes: ")

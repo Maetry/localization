@@ -273,6 +273,9 @@
 "screen.schedule.rectangular" = "Rectangular";
 /* screen -> schedule -> work_time */
 "screen.schedule.work_time" = "Tiempo de trabajo";
+"screen.schedule.salon_template_tip.action" = "Configurar plantilla del salón";
+"screen.schedule.salon_template_tip.message" = "El horario de los especialistas debe estar dentro del horario de trabajo del salón. Primero configura la plantilla de horario del salón.";
+"screen.schedule.salon_template_tip.title" = "La plantilla de horario del salón no está configurada";
 /* screen -> schedule -> schedule_text -> day_off */
 "screen.schedule.schedule_text.day_off" = " - Día libre";
 /* screen -> schedule -> schedule_text -> everyday */
@@ -646,6 +649,14 @@
 "screen.employee_editable.your_name" = "Tu nombre";
 /* screen -> workplace_editing -> name */
 "screen.workplace_editing.name" = "Nombre";
+/* screen -> client -> gender_title */
+"screen.client.gender_title" = "Género";
+/* screen -> client -> gender -> female */
+"screen.client.gender.female" = "Femenino";
+/* screen -> client -> gender -> male */
+"screen.client.gender.male" = "Masculino";
+/* screen -> client -> birthdate_title */
+"screen.client.birthdate_title" = "Fecha de nacimiento";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Tu nombre";
 /* screen -> workplace_editing -> profile_photo */

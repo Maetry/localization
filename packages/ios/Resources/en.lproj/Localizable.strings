@@ -273,6 +273,9 @@
 "screen.schedule.rectangular" = "Rectangular";
 /* screen -> schedule -> work_time */
 "screen.schedule.work_time" = "Working time";
+"screen.schedule.salon_template_tip.action" = "Set up salon template";
+"screen.schedule.salon_template_tip.message" = "Specialists working hours should fall within the salon working hours. Set up the salon schedule template first.";
+"screen.schedule.salon_template_tip.title" = "Salon schedule template is not set";
 /* screen -> schedule -> schedule_text -> day_off */
 "screen.schedule.schedule_text.day_off" = " - Day off";
 /* screen -> schedule -> schedule_text -> everyday */
@@ -658,6 +661,14 @@
 "screen.client_editable.name" = "Name";
 /* screen -> client_editable -> your_name */
 "screen.client_editable.your_name" = "Your name";
+/* screen -> client -> gender_title */
+"screen.client.gender_title" = "Gender";
+/* screen -> client -> gender -> female */
+"screen.client.gender.female" = "Female";
+/* screen -> client -> gender -> male */
+"screen.client.gender.male" = "Male";
+/* screen -> client -> birthdate_title */
+"screen.client.birthdate_title" = "Birth date";
 /* screen -> employee_editable -> name */
 "screen.employee_editable.name" = "Name";
 /* screen -> employee_editable -> your_name */

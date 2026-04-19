@@ -273,6 +273,9 @@
 "screen.schedule.rectangular" = "Прямоугольный";
 /* screen -> schedule -> work_time */
 "screen.schedule.work_time" = "Рабочее время";
+"screen.schedule.salon_template_tip.action" = "Настроить шаблон салона";
+"screen.schedule.salon_template_tip.message" = "Время работы мастеров должно входить во время работы салона. Сначала настрой шаблон графика салона.";
+"screen.schedule.salon_template_tip.title" = "Шаблон графика салона не настроен";
 /* screen -> schedule -> schedule_text -> day_off */
 "screen.schedule.schedule_text.day_off" = " - Выходной";
 /* screen -> schedule -> schedule_text -> everyday */
@@ -646,6 +649,14 @@
 "screen.employee_editable.your_name" = "Ваше имя";
 /* screen -> workplace_editing -> name */
 "screen.workplace_editing.name" = "Название";
+/* screen -> client -> gender_title */
+"screen.client.gender_title" = "Пол";
+/* screen -> client -> gender -> female */
+"screen.client.gender.female" = "Женский";
+/* screen -> client -> gender -> male */
+"screen.client.gender.male" = "Мужской";
+/* screen -> client -> birthdate_title */
+"screen.client.birthdate_title" = "Дата рождения";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Ваше имя";
 /* screen -> workplace_editing -> profile_photo */
