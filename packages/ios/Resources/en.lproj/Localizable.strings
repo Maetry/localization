@@ -649,6 +649,10 @@
 "screen.profile_editing.choose_from_gallery" = "Choose from gallery";
 /* screen -> profile_editing -> edit_image */
 "screen.profile_editing.edit_image" = "Edit";
+"screen.profile_editing.completion_title" = "Add information";
+"screen.profile_editing.name_validation" = "Your name helps people know how to address you.";
+"screen.profile_editing.recovery_contact_validation" = "Add a recovery contact method.";
+"screen.profile_editing.customer_contact_validation" = "Add a contact method salons can use for bookings.";
 /* screen -> main_customer_search -> customer_search */
 "screen.main_customer_search.customer_search" = "Найти клиента";
 /* screen -> main_customer_list_search -> map */

@@ -1408,9 +1408,13 @@ public enum Loc {
     }
     public enum ProfileEditing {
       public static let chooseFromGallery = Loc.tr("Localizable", "screen.profile_editing.choose_from_gallery", fallback: "Choose from gallery")
+      public static let completionTitle = Loc.tr("Localizable", "screen.profile_editing.completion_title", fallback: "Add information")
+      public static let customerContactValidation = Loc.tr("Localizable", "screen.profile_editing.customer_contact_validation", fallback: "Add a contact method salons can use for bookings.")
       public static let editImage = Loc.tr("Localizable", "screen.profile_editing.edit_image", fallback: "Edit")
       public static let name = Loc.tr("Localizable", "screen.profile_editing.name", fallback: "Name")
+      public static let nameValidation = Loc.tr("Localizable", "screen.profile_editing.name_validation", fallback: "Your name helps people know how to address you.")
       public static let profilePhoto = Loc.tr("Localizable", "screen.profile_editing.profile_photo", fallback: "Profile name")
+      public static let recoveryContactValidation = Loc.tr("Localizable", "screen.profile_editing.recovery_contact_validation", fallback: "Add a recovery contact method.")
       public static let yourName = Loc.tr("Localizable", "screen.profile_editing.your_name", fallback: "Your name")
     }
     public enum Public {
