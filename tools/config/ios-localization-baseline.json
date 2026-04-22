@@ -2,6 +2,8 @@
   "generatedAt": "2026-04-08T22:50:55.710Z",
   "fingerprints": [],
   "xcstringsFingerprints": [
+    "IOS/Application/Resources/Localizable.xcstrings::%@",
+    "IOS/Application/Resources/Localizable.xcstrings::%@ %@",
     "IOS/Application/Resources/Localizable.xcstrings::Я Этот каталог должен быть пустой",
     "IOS/Console/Resources/Localizable.xcstrings::",
     "IOS/Console/Resources/Localizable.xcstrings::%",

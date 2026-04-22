@@ -1594,8 +1594,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.complex.section.services" = "Услуги";
 "creatable.complex.title" = "Новый набор";
 "creatable.complex.unfinished_title" = "Незавершенное создание набора";
+"creatable.marketing_campaign.field.color_title" = "Цвет";
 "creatable.marketing_campaign.field.description_placeholder" = "Описание кампании (необязательно)";
 "creatable.marketing_campaign.field.description_title" = "Описание";
+"creatable.marketing_campaign.field.icon_title" = "Иконка";
 "creatable.marketing_campaign.field.name_placeholder" = "Введите название кампании";
 "creatable.marketing_campaign.field.name_title" = "Название";
 "creatable.marketing_campaign.field.select_type" = "Выбрать тип";
@@ -2099,7 +2101,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* reusable -> telegram */
 "reusable.telegram" = "Telegram";
 /* screen -> unit_economic -> title */
-"screen.unit_economic.title" = "Юнит-экономика";
+"screen.unit_economic.title" = "Привлечения";
 /* screen -> unit_economic -> no_campaigns */
 "screen.unit_economic.no_campaigns" = "Нет кампаний";
 /* screen -> unit_economic -> no_data */
@@ -2108,10 +2110,42 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.metric_clicks" = "Клики";
 /* screen -> unit_economic -> metric_appointments */
 "screen.unit_economic.metric_appointments" = "Записи";
+/* screen -> unit_economic -> header_subtitle */
+"screen.unit_economic.header_subtitle" = "Обзор того, как клиенты находят вас";
 /* screen -> unit_economic -> max_campaigns_reached */
 "screen.unit_economic.max_campaigns_reached" = "Максимум можно добавить 5 кампаний на график";
 /* screen -> unit_economic -> unsupported_metric_message */
 "screen.unit_economic.unsupported_metric_message" = "График доступен только для кликов и записей";
+/* screen -> unit_economic -> badge -> top_click */
+"screen.unit_economic.badge.top_click" = "Топ по кликам";
+/* screen -> unit_economic -> badge -> best_conversion */
+"screen.unit_economic.badge.best_conversion" = "Лучшая конверсия";
+/* screen -> unit_economic -> badge -> top_booking */
+"screen.unit_economic.badge.top_booking" = "Топ по записям";
+/* screen -> unit_economic -> badge -> top_revenue */
+"screen.unit_economic.badge.top_revenue" = "Топ по выручке";
+/* screen -> unit_economic -> badge -> repeat_booking */
+"screen.unit_economic.badge.repeat_booking" = "Топ по повторным записям";
+/* screen -> unit_economic -> tip -> single_workplace -> title */
+"screen.unit_economic.tip.single_workplace.title" = "Больше компаний, больше охват";
+/* screen -> unit_economic -> tip -> single_workplace -> message */
+"screen.unit_economic.tip.single_workplace.message" = "Делитесь ссылкой чаще, чтобы увеличить число кликов, или создайте ещё одну компанию, чтобы сравнивать результаты.";
+/* screen -> unit_economic -> tip -> single_workplace -> action */
+"screen.unit_economic.tip.single_workplace.action" = "Создать компанию";
+/* screen -> unit_economic -> badge -> top_by_format */
+"screen.unit_economic.badge.top_by_format" = "Топ по %@";
+/* screen -> unit_economic -> badge -> short_click */
+"screen.unit_economic.badge.short_click" = "кликам";
+/* screen -> unit_economic -> badge -> short_booking */
+"screen.unit_economic.badge.short_booking" = "записям";
+/* screen -> unit_economic -> badge -> short_conversion */
+"screen.unit_economic.badge.short_conversion" = "конверсии";
+/* screen -> unit_economic -> campaign_group -> organic */
+"screen.unit_economic.campaign_group.organic" = "Органика";
+/* screen -> unit_economic -> campaign_group -> paid */
+"screen.unit_economic.campaign_group.paid" = "Платный трафик";
+/* screen -> unit_economic -> campaign_group -> influencers */
+"screen.unit_economic.campaign_group.influencers" = "Инфлюенсеры";
 /* screen -> unit_economic -> campaign_type -> share */
 "screen.unit_economic.campaign_type.share" = "Поделиться";
 /* screen -> unit_economic -> campaign_type -> walk_in_qr */
@@ -2128,6 +2162,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.chart.campaign_series" = "Кампания";
 /* screen -> unit_economic -> chart -> metric_series */
 "screen.unit_economic.chart.metric_series" = "Метрика";
+/* screen -> unit_economic -> chart -> average */
+"screen.unit_economic.chart.average" = "Среднее";
 /* screen -> unit_economic -> campaign_detail -> stats_section */
 "screen.unit_economic.campaign_detail.stats_section" = "Статистика";
 /* screen -> unit_economic -> campaign_detail -> sharing_section */

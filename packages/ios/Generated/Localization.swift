@@ -265,8 +265,10 @@ public enum Loc {
       public static let title = Loc.tr("Localizable", "creatable.marketing_campaign.title", fallback: "Создать кампанию")
       public static let unfinishedTitle = Loc.tr("Localizable", "creatable.marketing_campaign.unfinished_title", fallback: "Незавершенная кампания")
       public enum Field {
+        public static let colorTitle = Loc.tr("Localizable", "creatable.marketing_campaign.field.color_title", fallback: "Цвет")
         public static let descriptionPlaceholder = Loc.tr("Localizable", "creatable.marketing_campaign.field.description_placeholder", fallback: "Описание кампании (необязательно)")
         public static let descriptionTitle = Loc.tr("Localizable", "creatable.marketing_campaign.field.description_title", fallback: "Описание")
+        public static let iconTitle = Loc.tr("Localizable", "creatable.marketing_campaign.field.icon_title", fallback: "Иконка")
         public static let namePlaceholder = Loc.tr("Localizable", "creatable.marketing_campaign.field.name_placeholder", fallback: "Введите название кампании")
         public static let nameTitle = Loc.tr("Localizable", "creatable.marketing_campaign.field.name_title", fallback: "Название")
         public static let selectType = Loc.tr("Localizable", "creatable.marketing_campaign.field.select_type", fallback: "Выбрать тип")
@@ -1614,13 +1616,21 @@ public enum Loc {
       public static let qrButton = Loc.tr("Localizable", "screen.sharing.qr_button", fallback: "Send QR code")
     }
     public enum UnitEconomic {
+      public static let headerSubtitle = Loc.tr("Localizable", "screen.unit_economic.header_subtitle", fallback: "Overview of how customers find you")
       public static let maxCampaignsReached = Loc.tr("Localizable", "screen.unit_economic.max_campaigns_reached", fallback: "A maximum of 5 campaigns can be added to the chart")
       public static let metricAppointments = Loc.tr("Localizable", "screen.unit_economic.metric_appointments", fallback: "Appointments")
       public static let metricClicks = Loc.tr("Localizable", "screen.unit_economic.metric_clicks", fallback: "Clicks")
       public static let noCampaigns = Loc.tr("Localizable", "screen.unit_economic.no_campaigns", fallback: "No campaigns")
       public static let noData = Loc.tr("Localizable", "screen.unit_economic.no_data", fallback: "No data")
-      public static let title = Loc.tr("Localizable", "screen.unit_economic.title", fallback: "Unit Economics")
+      public static let title = Loc.tr("Localizable", "screen.unit_economic.title", fallback: "Acquisition")
       public static let unsupportedMetricMessage = Loc.tr("Localizable", "screen.unit_economic.unsupported_metric_message", fallback: "Chart is available only for clicks and appointments")
+      public enum Badge {
+        public static let bestConversion = Loc.tr("Localizable", "screen.unit_economic.badge.best_conversion", fallback: "Best conversion")
+        public static let repeatBooking = Loc.tr("Localizable", "screen.unit_economic.badge.repeat_booking", fallback: "Top repeat booking")
+        public static let topBooking = Loc.tr("Localizable", "screen.unit_economic.badge.top_booking", fallback: "Top booking")
+        public static let topClick = Loc.tr("Localizable", "screen.unit_economic.badge.top_click", fallback: "Top click")
+        public static let topRevenue = Loc.tr("Localizable", "screen.unit_economic.badge.top_revenue", fallback: "Top revenue")
+      }
       public enum CampaignDetail {
         public static let conversionRate = Loc.tr("Localizable", "screen.unit_economic.campaign_detail.conversion_rate", fallback: "Conversion")
         public static let copied = Loc.tr("Localizable", "screen.unit_economic.campaign_detail.copied", fallback: "Copied")
@@ -1634,6 +1644,11 @@ public enum Loc {
         public static let totalAppointments = Loc.tr("Localizable", "screen.unit_economic.campaign_detail.total_appointments", fallback: "Total appointments")
         public static let totalClicks = Loc.tr("Localizable", "screen.unit_economic.campaign_detail.total_clicks", fallback: "Total clicks")
       }
+      public enum CampaignGroup {
+        public static let influencers = Loc.tr("Localizable", "screen.unit_economic.campaign_group.influencers", fallback: "Influencers")
+        public static let organic = Loc.tr("Localizable", "screen.unit_economic.campaign_group.organic", fallback: "Organic")
+        public static let paid = Loc.tr("Localizable", "screen.unit_economic.campaign_group.paid", fallback: "Paid traffic")
+      }
       public enum CampaignType {
         public static let affiliate = Loc.tr("Localizable", "screen.unit_economic.campaign_type.affiliate", fallback: "Affiliate")
         public static let media = Loc.tr("Localizable", "screen.unit_economic.campaign_type.media", fallback: "Media")
@@ -1641,10 +1656,18 @@ public enum Loc {
         public static let walkInQr = Loc.tr("Localizable", "screen.unit_economic.campaign_type.walk_in_qr", fallback: "Walk-in QR")
       }
       public enum Chart {
+        public static let average = Loc.tr("Localizable", "screen.unit_economic.chart.average", fallback: "Average")
         public static let campaignSeries = Loc.tr("Localizable", "screen.unit_economic.chart.campaign_series", fallback: "Campaign")
         public static let dateAxis = Loc.tr("Localizable", "screen.unit_economic.chart.date_axis", fallback: "Date")
         public static let metricSeries = Loc.tr("Localizable", "screen.unit_economic.chart.metric_series", fallback: "Metric")
         public static let valueAxis = Loc.tr("Localizable", "screen.unit_economic.chart.value_axis", fallback: "Value")
+      }
+      public enum Tip {
+        public enum SingleWorkplace {
+          public static let action = Loc.tr("Localizable", "screen.unit_economic.tip.single_workplace.action", fallback: "Create company")
+          public static let message = Loc.tr("Localizable", "screen.unit_economic.tip.single_workplace.message", fallback: "Share your link more often to increase clicks, or create another company to compare performance.")
+          public static let title = Loc.tr("Localizable", "screen.unit_economic.tip.single_workplace.title", fallback: "More companies, more reach")
+        }
       }
     }
     public enum Visit {
