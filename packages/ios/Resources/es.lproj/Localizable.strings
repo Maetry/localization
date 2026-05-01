@@ -1859,14 +1859,22 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.campaign_group.paid" = "Tráfico de pago";
 /* screen -> unit_economic -> campaign_group -> influencers */
 "screen.unit_economic.campaign_group.influencers" = "Influencers";
+/* screen -> unit_economic -> campaign_group -> event_managers */
+"screen.unit_economic.campaign_group.event_managers" = "Organizadores de eventos";
 /* screen -> unit_economic -> campaign_type -> share */
 "screen.unit_economic.campaign_type.share" = "Compartir";
+/* screen -> unit_economic -> campaign_type -> custom */
+"screen.unit_economic.campaign_type.custom" = "Personalizada";
 /* screen -> unit_economic -> campaign_type -> walk_in_qr */
 "screen.unit_economic.campaign_type.walk_in_qr" = "QR para walk-in";
 /* screen -> unit_economic -> campaign_type -> affiliate */
 "screen.unit_economic.campaign_type.affiliate" = "Afiliado";
 /* screen -> unit_economic -> campaign_type -> media */
 "screen.unit_economic.campaign_type.media" = "Media";
+/* screen -> unit_economic -> campaign_type -> event_manager */
+"screen.unit_economic.campaign_type.event_manager" = "Organizador de eventos";
+/* screen -> unit_economic -> campaign_type -> influencer */
+"screen.unit_economic.campaign_type.influencer" = "Influencer";
 /* screen -> unit_economic -> chart -> date_axis */
 "screen.unit_economic.chart.date_axis" = "Fecha";
 /* screen -> unit_economic -> chart -> value_axis */
@@ -1877,8 +1885,30 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.chart.metric_series" = "Métrica";
 /* screen -> unit_economic -> chart -> average */
 "screen.unit_economic.chart.average" = "Promedio";
+/* screen -> unit_economic -> chart -> monthly_title */
+"screen.unit_economic.chart.monthly_title" = "Rendimiento mensual";
+/* screen -> unit_economic -> chart -> month_axis */
+"screen.unit_economic.chart.month_axis" = "Mes";
+/* screen -> unit_economic -> chart -> empty_monthly */
+"screen.unit_economic.chart.empty_monthly" = "Las métricas mensuales aparecerán cuando esta campaña reciba actividad.";
 /* screen -> unit_economic -> campaign_detail -> stats_section */
 "screen.unit_economic.campaign_detail.stats_section" = "Estadísticas";
+/* screen -> unit_economic -> campaign_detail -> setup_section */
+"screen.unit_economic.campaign_detail.setup_section" = "Configuración de campaña";
+/* screen -> unit_economic -> campaign_detail -> campaign_type */
+"screen.unit_economic.campaign_detail.campaign_type" = "Tipo de campaña";
+/* screen -> unit_economic -> campaign_detail -> influencer */
+"screen.unit_economic.campaign_detail.influencer" = "Influencer";
+/* screen -> unit_economic -> campaign_detail -> affiliate */
+"screen.unit_economic.campaign_detail.affiliate" = "Oferta de afiliado";
+/* screen -> unit_economic -> campaign_detail -> ad_tracking */
+"screen.unit_economic.campaign_detail.ad_tracking" = "Seguimiento publicitario";
+/* screen -> unit_economic -> campaign_detail -> tracking_active */
+"screen.unit_economic.campaign_detail.tracking_active" = "Activo";
+/* screen -> unit_economic -> campaign_detail -> planned_budget */
+"screen.unit_economic.campaign_detail.planned_budget" = "Presupuesto planificado";
+/* screen -> unit_economic -> campaign_detail -> remaining_budget */
+"screen.unit_economic.campaign_detail.remaining_budget" = "Presupuesto restante";
 /* screen -> unit_economic -> campaign_detail -> sharing_section */
 "screen.unit_economic.campaign_detail.sharing_section" = "Compartir";
 /* screen -> unit_economic -> campaign_detail -> total_clicks */
@@ -1887,6 +1917,20 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.campaign_detail.total_appointments" = "Citas totales";
 /* screen -> unit_economic -> campaign_detail -> conversion_rate */
 "screen.unit_economic.campaign_detail.conversion_rate" = "Conversión";
+/* screen -> unit_economic -> campaign_detail -> future_metrics */
+"screen.unit_economic.campaign_detail.future_metrics" = "Métricas futuras";
+/* screen -> unit_economic -> campaign_detail -> future_metrics_hint */
+"screen.unit_economic.campaign_detail.future_metrics_hint" = "Las nuevas métricas aparecerán aquí cuando estén listas.";
+/* screen -> unit_economic -> campaign_detail -> cost_per_click */
+"screen.unit_economic.campaign_detail.cost_per_click" = "Costo por clic";
+/* screen -> unit_economic -> campaign_detail -> cost_per_appointment */
+"screen.unit_economic.campaign_detail.cost_per_appointment" = "Costo por cita";
+/* screen -> unit_economic -> campaign_detail -> total_spend */
+"screen.unit_economic.campaign_detail.total_spend" = "Gasto total";
+/* screen -> unit_economic -> campaign_detail -> metric_widgets_section */
+"screen.unit_economic.campaign_detail.metric_widgets_section" = "Métricas clave";
+/* screen -> unit_economic -> campaign_detail -> monthly_chart_section */
+"screen.unit_economic.campaign_detail.monthly_chart_section" = "Métricas mensuales";
 /* screen -> unit_economic -> campaign_detail -> copied */
 "screen.unit_economic.campaign_detail.copied" = "Copiado";
 /* screen -> unit_economic -> campaign_detail -> copy_link */
@@ -1899,6 +1943,36 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.campaign_detail.share_link" = "Compartir enlace";
 /* screen -> unit_economic -> campaign_detail -> link_title */
 "screen.unit_economic.campaign_detail.link_title" = "Enlace de invitación";
+/* screen -> unit_economic -> campaign_detail -> share_button */
+"screen.unit_economic.campaign_detail.share_button" = "Compartir campaña";
+/* screen -> unit_economic -> campaign_detail -> share_sheet_title */
+"screen.unit_economic.campaign_detail.share_sheet_title" = "Compartir campaña";
+/* screen -> unit_economic -> campaign_detail -> share_sheet_message */
+"screen.unit_economic.campaign_detail.share_sheet_message" = "Invita a clientes con este enlace de campaña.";
+/* screen -> unit_economic -> campaign_detail -> connect_event_manager */
+"screen.unit_economic.campaign_detail.connect_event_manager" = "Conectar";
+/* screen -> unit_economic -> campaign_detail -> event_managers_empty */
+"screen.unit_economic.campaign_detail.event_managers_empty" = "Conecta Meta Pixel, Google Ads, TikTok Pixel u otro gestor de eventos para mantener sincronizados los eventos de la campaña.";
+/* screen -> unit_economic -> campaign_detail -> manage_event_managers */
+"screen.unit_economic.campaign_detail.manage_event_managers" = "Gestores de eventos";
+/* screen -> unit_economic -> campaign_detail -> connected_event_managers */
+"screen.unit_economic.campaign_detail.connected_event_managers" = "Conectados";
+/* screen -> unit_economic -> campaign_detail -> new_event_manager */
+"screen.unit_economic.campaign_detail.new_event_manager" = "Nuevo gestor de eventos";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider */
+"screen.unit_economic.campaign_detail.event_manager_provider" = "Proveedor";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider_other */
+"screen.unit_economic.campaign_detail.event_manager_provider_other" = "Otro";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_provider_placeholder" = "Código del proveedor";
+/* screen -> unit_economic -> campaign_detail -> event_manager_external_id_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_external_id_placeholder" = "ID de pixel, etiqueta o contenedor";
+/* screen -> unit_economic -> campaign_detail -> event_manager_display_name_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_display_name_placeholder" = "Nombre visible";
+/* screen -> unit_economic -> campaign_detail -> event_manager_enabled */
+"screen.unit_economic.campaign_detail.event_manager_enabled" = "Activado";
+/* screen -> unit_economic -> campaign_detail -> add_event_manager */
+"screen.unit_economic.campaign_detail.add_event_manager" = "Añadir gestor de eventos";
 /* creatable -> procedure -> field -> executors_hint */
 "creatable.procedure.field.executors_hint" = "Selecciona los especialistas que podrán realizar este servicio";
 /* creatable -> procedure -> field -> executors_placeholder */
@@ -2045,6 +2119,72 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "creatable.marketing_campaign.missing_type" = "Selecciona el tipo de campaña";
 "creatable.marketing_campaign.title" = "Crear campaña";
 "creatable.marketing_campaign.unfinished_title" = "Campaña sin terminar";
+/* creatable -> marketing_lead_source -> title */
+"creatable.marketing_lead_source.title" = "Create Lead Source";
+/* creatable -> marketing_lead_source -> subtitle */
+"creatable.marketing_lead_source.subtitle" = "Choose a scenario before filling in details";
+/* creatable -> marketing_lead_source -> root_title */
+"creatable.marketing_lead_source.root_title" = "Lead source";
+/* creatable -> marketing_lead_source -> root_hint */
+"creatable.marketing_lead_source.root_hint" = "A public short link is generated after creation";
+/* creatable -> marketing_lead_source -> field -> name_title */
+"creatable.marketing_lead_source.field.name_title" = "Source name";
+/* creatable -> marketing_lead_source -> field -> name_placeholder */
+"creatable.marketing_lead_source.field.name_placeholder" = "Enter source name";
+/* creatable -> marketing_lead_source -> field -> destination_url_title */
+"creatable.marketing_lead_source.field.destination_url_title" = "Destination URL";
+/* creatable -> marketing_lead_source -> field -> destination_url_placeholder */
+"creatable.marketing_lead_source.field.destination_url_placeholder" = "https://example.com";
+/* creatable -> marketing_lead_source -> scenario -> title */
+"creatable.marketing_lead_source.scenario.title" = "Choose a source scenario";
+/* creatable -> marketing_lead_source -> scenario -> subtitle */
+"creatable.marketing_lead_source.scenario.subtitle" = "Start with a standalone source, an ad source, or a partner source";
+/* creatable -> marketing_lead_source -> scenario -> basic -> title */
+"creatable.marketing_lead_source.scenario.basic.title" = "Basic Source";
+/* creatable -> marketing_lead_source -> scenario -> basic -> description */
+"creatable.marketing_lead_source.scenario.basic.description" = "Standalone source with no campaign or promoter";
+/* creatable -> marketing_lead_source -> scenario -> ads -> title */
+"creatable.marketing_lead_source.scenario.ads.title" = "Ad Source";
+/* creatable -> marketing_lead_source -> scenario -> ads -> description */
+"creatable.marketing_lead_source.scenario.ads.description" = "Add a campaign extension for paid traffic";
+/* creatable -> marketing_lead_source -> scenario -> partner -> title */
+"creatable.marketing_lead_source.scenario.partner.title" = "Partner Source";
+/* creatable -> marketing_lead_source -> scenario -> partner -> description */
+"creatable.marketing_lead_source.scenario.partner.description" = "Bind an existing promoter or create one later";
+/* creatable -> marketing_lead_source -> campaign -> title */
+"creatable.marketing_lead_source.campaign_title" = "Ads extension";
+/* creatable -> marketing_lead_source -> campaign -> subtitle */
+"creatable.marketing_lead_source.campaign_subtitle" = "Optional campaign details for ad traffic";
+/* creatable -> marketing_lead_source -> partner -> title */
+"creatable.marketing_lead_source.partner_title" = "Partner extension";
+/* creatable -> marketing_lead_source -> partner -> subtitle */
+"creatable.marketing_lead_source.partner_subtitle" = "Bind an existing promoter or leave it open for later";
+/* creatable -> marketing_lead_source -> partner -> mode -> title */
+"creatable.marketing_lead_source.partner.mode.title" = "Promoter setup";
+/* creatable -> marketing_lead_source -> partner -> mode -> existing */
+"creatable.marketing_lead_source.partner.mode.existing" = "Bind existing";
+/* creatable -> marketing_lead_source -> partner -> mode -> new */
+"creatable.marketing_lead_source.partner.mode.new" = "Create new";
+/* creatable -> marketing_lead_source -> partner -> mode -> later */
+"creatable.marketing_lead_source.partner.mode.later" = "Create later";
+/* creatable -> marketing_lead_source -> partner -> empty */
+"creatable.marketing_lead_source.partner.empty" = "No promoters are available yet";
+/* creatable -> marketing_lead_source -> partner -> select_prompt */
+"creatable.marketing_lead_source.partner.select_prompt" = "Choose a promoter";
+/* creatable -> marketing_lead_source -> partner -> display_name_title */
+"creatable.marketing_lead_source.partner.display_name_title" = "Display name";
+/* creatable -> marketing_lead_source -> partner -> display_name_placeholder */
+"creatable.marketing_lead_source.partner.display_name_placeholder" = "Enter promoter name";
+/* creatable -> marketing_lead_source -> error -> missing_name */
+"creatable.marketing_lead_source.error.missing_name" = "Enter a source name";
+/* creatable -> marketing_lead_source -> error -> invalid_url */
+"creatable.marketing_lead_source.error.invalid_url" = "Enter a valid destination URL";
+/* creatable -> marketing_lead_source -> error -> missing_campaign_name */
+"creatable.marketing_lead_source.error.missing_campaign_name" = "Enter a campaign name";
+/* creatable -> marketing_lead_source -> error -> missing_promoter_name */
+"creatable.marketing_lead_source.error.missing_promoter_name" = "Enter a promoter name";
+/* creatable -> marketing_lead_source -> error -> missing_promoter_selection */
+"creatable.marketing_lead_source.error.missing_promoter_selection" = "Select an existing promoter";
 "creatable.product.action.add_sku" = "Añadir otro código SKU";
 "creatable.product.action.clear_photos" = "Borrar fotos";
 "creatable.product.action.generate_sku" = "Generar código SKU";

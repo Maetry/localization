@@ -1607,6 +1607,72 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.marketing_campaign.missing_type" = "Выберите тип кампании";
 "creatable.marketing_campaign.title" = "Создать кампанию";
 "creatable.marketing_campaign.unfinished_title" = "Незавершенная кампания";
+/* creatable -> marketing_lead_source -> title */
+"creatable.marketing_lead_source.title" = "Создать источник";
+/* creatable -> marketing_lead_source -> subtitle */
+"creatable.marketing_lead_source.subtitle" = "Сначала выберите сценарий, затем заполните детали";
+/* creatable -> marketing_lead_source -> root_title */
+"creatable.marketing_lead_source.root_title" = "Источник";
+/* creatable -> marketing_lead_source -> root_hint */
+"creatable.marketing_lead_source.root_hint" = "Публичная короткая ссылка будет создана автоматически";
+/* creatable -> marketing_lead_source -> field -> name_title */
+"creatable.marketing_lead_source.field.name_title" = "Название источника";
+/* creatable -> marketing_lead_source -> field -> name_placeholder */
+"creatable.marketing_lead_source.field.name_placeholder" = "Введите название источника";
+/* creatable -> marketing_lead_source -> field -> destination_url_title */
+"creatable.marketing_lead_source.field.destination_url_title" = "URL назначения";
+/* creatable -> marketing_lead_source -> field -> destination_url_placeholder */
+"creatable.marketing_lead_source.field.destination_url_placeholder" = "https://example.com";
+/* creatable -> marketing_lead_source -> scenario -> title */
+"creatable.marketing_lead_source.scenario.title" = "Выберите сценарий источника";
+/* creatable -> marketing_lead_source -> scenario -> subtitle */
+"creatable.marketing_lead_source.scenario.subtitle" = "Начните с базового источника, рекламы или партнерского сценария";
+/* creatable -> marketing_lead_source -> scenario -> basic -> title */
+"creatable.marketing_lead_source.scenario.basic.title" = "Базовый источник";
+/* creatable -> marketing_lead_source -> scenario -> basic -> description */
+"creatable.marketing_lead_source.scenario.basic.description" = "Самостоятельный источник без кампании и промоутера";
+/* creatable -> marketing_lead_source -> scenario -> ads -> title */
+"creatable.marketing_lead_source.scenario.ads.title" = "Рекламный источник";
+/* creatable -> marketing_lead_source -> scenario -> ads -> description */
+"creatable.marketing_lead_source.scenario.ads.description" = "Добавьте рекламную кампанию как расширение";
+/* creatable -> marketing_lead_source -> scenario -> partner -> title */
+"creatable.marketing_lead_source.scenario.partner.title" = "Партнерский источник";
+/* creatable -> marketing_lead_source -> scenario -> partner -> description */
+"creatable.marketing_lead_source.scenario.partner.description" = "Свяжите существующего промоутера или создайте позже";
+/* creatable -> marketing_lead_source -> campaign -> title */
+"creatable.marketing_lead_source.campaign_title" = "Расширение рекламы";
+/* creatable -> marketing_lead_source -> campaign -> subtitle */
+"creatable.marketing_lead_source.campaign_subtitle" = "Необязательные параметры кампании для рекламного трафика";
+/* creatable -> marketing_lead_source -> partner -> title */
+"creatable.marketing_lead_source.partner_title" = "Партнерское расширение";
+/* creatable -> marketing_lead_source -> partner -> subtitle */
+"creatable.marketing_lead_source.partner_subtitle" = "Свяжите существующего промоутера или оставьте без него";
+/* creatable -> marketing_lead_source -> partner -> mode -> title */
+"creatable.marketing_lead_source.partner.mode.title" = "Настройка промоутера";
+/* creatable -> marketing_lead_source -> partner -> mode -> existing */
+"creatable.marketing_lead_source.partner.mode.existing" = "Связать существующего";
+/* creatable -> marketing_lead_source -> partner -> mode -> new */
+"creatable.marketing_lead_source.partner.mode.new" = "Создать нового";
+/* creatable -> marketing_lead_source -> partner -> mode -> later */
+"creatable.marketing_lead_source.partner.mode.later" = "Создать позже";
+/* creatable -> marketing_lead_source -> partner -> empty */
+"creatable.marketing_lead_source.partner.empty" = "Пока нет доступных промоутеров";
+/* creatable -> marketing_lead_source -> partner -> select_prompt */
+"creatable.marketing_lead_source.partner.select_prompt" = "Выберите промоутера";
+/* creatable -> marketing_lead_source -> partner -> display_name_title */
+"creatable.marketing_lead_source.partner.display_name_title" = "Отображаемое имя";
+/* creatable -> marketing_lead_source -> partner -> display_name_placeholder */
+"creatable.marketing_lead_source.partner.display_name_placeholder" = "Введите имя промоутера";
+/* creatable -> marketing_lead_source -> error -> missing_name */
+"creatable.marketing_lead_source.error.missing_name" = "Укажите название источника";
+/* creatable -> marketing_lead_source -> error -> invalid_url */
+"creatable.marketing_lead_source.error.invalid_url" = "Введите корректный URL назначения";
+/* creatable -> marketing_lead_source -> error -> missing_campaign_name */
+"creatable.marketing_lead_source.error.missing_campaign_name" = "Укажите название кампании";
+/* creatable -> marketing_lead_source -> error -> missing_promoter_name */
+"creatable.marketing_lead_source.error.missing_promoter_name" = "Укажите имя промоутера";
+/* creatable -> marketing_lead_source -> error -> missing_promoter_selection */
+"creatable.marketing_lead_source.error.missing_promoter_selection" = "Выберите существующего промоутера";
 "creatable.product.action.add_sku" = "Добавить еще один код SKU";
 "creatable.product.action.clear_photos" = "Очистить фото";
 "creatable.product.action.generate_sku" = "Сгенерировать код SKU";
@@ -2146,14 +2212,22 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.campaign_group.paid" = "Paid traffic";
 /* screen -> unit_economic -> campaign_group -> influencers */
 "screen.unit_economic.campaign_group.influencers" = "Influencers";
+/* screen -> unit_economic -> campaign_group -> event_managers */
+"screen.unit_economic.campaign_group.event_managers" = "Event managers";
 /* screen -> unit_economic -> campaign_type -> share */
 "screen.unit_economic.campaign_type.share" = "Share";
+/* screen -> unit_economic -> campaign_type -> custom */
+"screen.unit_economic.campaign_type.custom" = "Custom";
 /* screen -> unit_economic -> campaign_type -> walk_in_qr */
 "screen.unit_economic.campaign_type.walk_in_qr" = "Walk-in QR";
 /* screen -> unit_economic -> campaign_type -> affiliate */
 "screen.unit_economic.campaign_type.affiliate" = "Affiliate";
 /* screen -> unit_economic -> campaign_type -> media */
 "screen.unit_economic.campaign_type.media" = "Media";
+/* screen -> unit_economic -> campaign_type -> event_manager */
+"screen.unit_economic.campaign_type.event_manager" = "Event manager";
+/* screen -> unit_economic -> campaign_type -> influencer */
+"screen.unit_economic.campaign_type.influencer" = "Influencer";
 /* screen -> unit_economic -> chart -> date_axis */
 "screen.unit_economic.chart.date_axis" = "Date";
 /* screen -> unit_economic -> chart -> value_axis */
@@ -2164,8 +2238,30 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.chart.metric_series" = "Metric";
 /* screen -> unit_economic -> chart -> average */
 "screen.unit_economic.chart.average" = "Average";
+/* screen -> unit_economic -> chart -> monthly_title */
+"screen.unit_economic.chart.monthly_title" = "Monthly performance";
+/* screen -> unit_economic -> chart -> month_axis */
+"screen.unit_economic.chart.month_axis" = "Month";
+/* screen -> unit_economic -> chart -> empty_monthly */
+"screen.unit_economic.chart.empty_monthly" = "Monthly metrics will appear after this campaign receives activity.";
 /* screen -> unit_economic -> campaign_detail -> stats_section */
 "screen.unit_economic.campaign_detail.stats_section" = "Statistics";
+/* screen -> unit_economic -> campaign_detail -> setup_section */
+"screen.unit_economic.campaign_detail.setup_section" = "Campaign setup";
+/* screen -> unit_economic -> campaign_detail -> campaign_type */
+"screen.unit_economic.campaign_detail.campaign_type" = "Campaign type";
+/* screen -> unit_economic -> campaign_detail -> influencer */
+"screen.unit_economic.campaign_detail.influencer" = "Influencer";
+/* screen -> unit_economic -> campaign_detail -> affiliate */
+"screen.unit_economic.campaign_detail.affiliate" = "Affiliate";
+/* screen -> unit_economic -> campaign_detail -> ad_tracking */
+"screen.unit_economic.campaign_detail.ad_tracking" = "Ad tracking";
+/* screen -> unit_economic -> campaign_detail -> tracking_active */
+"screen.unit_economic.campaign_detail.tracking_active" = "Active";
+/* screen -> unit_economic -> campaign_detail -> planned_budget */
+"screen.unit_economic.campaign_detail.planned_budget" = "Planned budget";
+/* screen -> unit_economic -> campaign_detail -> remaining_budget */
+"screen.unit_economic.campaign_detail.remaining_budget" = "Remaining budget";
 /* screen -> unit_economic -> campaign_detail -> sharing_section */
 "screen.unit_economic.campaign_detail.sharing_section" = "Share";
 /* screen -> unit_economic -> campaign_detail -> total_clicks */
@@ -2174,6 +2270,20 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.campaign_detail.total_appointments" = "Total appointments";
 /* screen -> unit_economic -> campaign_detail -> conversion_rate */
 "screen.unit_economic.campaign_detail.conversion_rate" = "Conversion";
+/* screen -> unit_economic -> campaign_detail -> future_metrics */
+"screen.unit_economic.campaign_detail.future_metrics" = "Future metrics";
+/* screen -> unit_economic -> campaign_detail -> future_metrics_hint */
+"screen.unit_economic.campaign_detail.future_metrics_hint" = "New metrics will appear here when they are ready.";
+/* screen -> unit_economic -> campaign_detail -> cost_per_click */
+"screen.unit_economic.campaign_detail.cost_per_click" = "Cost per click";
+/* screen -> unit_economic -> campaign_detail -> cost_per_appointment */
+"screen.unit_economic.campaign_detail.cost_per_appointment" = "Cost per appointment";
+/* screen -> unit_economic -> campaign_detail -> total_spend */
+"screen.unit_economic.campaign_detail.total_spend" = "Total spend";
+/* screen -> unit_economic -> campaign_detail -> metric_widgets_section */
+"screen.unit_economic.campaign_detail.metric_widgets_section" = "Key metrics";
+/* screen -> unit_economic -> campaign_detail -> monthly_chart_section */
+"screen.unit_economic.campaign_detail.monthly_chart_section" = "Monthly metrics";
 /* screen -> unit_economic -> campaign_detail -> copied */
 "screen.unit_economic.campaign_detail.copied" = "Copied";
 /* screen -> unit_economic -> campaign_detail -> copy_link */
@@ -2186,6 +2296,36 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.campaign_detail.share_link" = "Share link";
 /* screen -> unit_economic -> campaign_detail -> link_title */
 "screen.unit_economic.campaign_detail.link_title" = "Invitation link";
+/* screen -> unit_economic -> campaign_detail -> share_button */
+"screen.unit_economic.campaign_detail.share_button" = "Share campaign";
+/* screen -> unit_economic -> campaign_detail -> share_sheet_title */
+"screen.unit_economic.campaign_detail.share_sheet_title" = "Share campaign";
+/* screen -> unit_economic -> campaign_detail -> share_sheet_message */
+"screen.unit_economic.campaign_detail.share_sheet_message" = "Invite customers with this campaign link.";
+/* screen -> unit_economic -> campaign_detail -> connect_event_manager */
+"screen.unit_economic.campaign_detail.connect_event_manager" = "Connect";
+/* screen -> unit_economic -> campaign_detail -> event_managers_empty */
+"screen.unit_economic.campaign_detail.event_managers_empty" = "Connect Meta Pixel, Google Ads, TikTok Pixel, or another event manager to keep campaign events synchronized.";
+/* screen -> unit_economic -> campaign_detail -> manage_event_managers */
+"screen.unit_economic.campaign_detail.manage_event_managers" = "Event managers";
+/* screen -> unit_economic -> campaign_detail -> connected_event_managers */
+"screen.unit_economic.campaign_detail.connected_event_managers" = "Connected";
+/* screen -> unit_economic -> campaign_detail -> new_event_manager */
+"screen.unit_economic.campaign_detail.new_event_manager" = "New event manager";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider */
+"screen.unit_economic.campaign_detail.event_manager_provider" = "Provider";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider_other */
+"screen.unit_economic.campaign_detail.event_manager_provider_other" = "Other";
+/* screen -> unit_economic -> campaign_detail -> event_manager_provider_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_provider_placeholder" = "Provider code";
+/* screen -> unit_economic -> campaign_detail -> event_manager_external_id_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_external_id_placeholder" = "Pixel, tag, or container ID";
+/* screen -> unit_economic -> campaign_detail -> event_manager_display_name_placeholder */
+"screen.unit_economic.campaign_detail.event_manager_display_name_placeholder" = "Display name";
+/* screen -> unit_economic -> campaign_detail -> event_manager_enabled */
+"screen.unit_economic.campaign_detail.event_manager_enabled" = "Enabled";
+/* screen -> unit_economic -> campaign_detail -> add_event_manager */
+"screen.unit_economic.campaign_detail.add_event_manager" = "Add event manager";
 /* creatable -> procedure -> field -> executors_hint */
 "creatable.procedure.field.executors_hint" = "Select the specialists who will be able to provide this service";
 /* creatable -> procedure -> field -> executors_placeholder */
