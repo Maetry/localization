@@ -14,24 +14,26 @@
 "screen.public.pro_button" = "Продолжить как мастер";
 /* screen -> public -> continuation_action */
 "screen.public.continuation_action" = "Для продолжения нажми кнопку";
+/* screen -> public -> search_action */
+"screen.public.search_action" = "Искать салоны";
 /* screen -> public -> welcome */
 "screen.public.welcome" = "Добро пожаловать в Maetry!";
 /* screen -> public -> card1 -> name */
 "screen.public.card1.name" = "Salon Rose";
 /* screen -> public -> card1 -> address */
-"screen.public.card1.address" = "Ул. Толкачева, 2Б";
+"screen.public.card1.address" = "пр. Независимости, 43";
 /* screen -> public -> card1 -> schedule */
 "screen.public.card1.schedule" = "пн-вс 9:00-21:00";
 /* screen -> public -> card2 -> name */
 "screen.public.card2.name" = "ASTEZIS";
 /* screen -> public -> card2 -> address */
-"screen.public.card2.address" = "Ул. Толкачева, 2Б";
+"screen.public.card2.address" = "ул. Ленина, 25";
 /* screen -> public -> card2 -> schedule */
 "screen.public.card2.schedule" = "пн-вс 9:00-21:00";
 /* screen -> public -> card3 -> name */
 "screen.public.card3.name" = "Beauty Tutti";
 /* screen -> public -> card3 -> address */
-"screen.public.card3.address" = "Ул. Толкачева, 2Б";
+"screen.public.card3.address" = "ул. Красная, 12";
 /* screen -> public -> card3 -> schedule */
 "screen.public.card3.schedule" = "пн-вс 9:00-21:00";
 /* screen -> profile -> title */
@@ -287,9 +289,9 @@
 /* screen -> catalog_management -> title */
 "screen.catalog_management.title" = "Услуги";
 /* screen -> catalog_management -> all_title */
-"screen.catalog_management.all_title" = "Все услуги";
+"screen.catalog_management.all_title" = "Услуги";
 /* screen -> catalog_management -> add_service */
-"screen.catalog_management.add_service" = "Добавить новую услугу";
+"screen.catalog_management.add_service" = "Добавить услугу";
 /* screen -> catalog_management -> complexs */
 "screen.catalog_management.complexs" = "Комплексы";
 /* screen -> catalog_management -> complex_placeholder */
@@ -483,7 +485,7 @@
 /* screen -> salary -> alert_title */
 "screen.salary.alert_title" = "Введите значение";
 /* screen -> clients -> title */
-"screen.clients.title" = "Все клиенты";
+"screen.clients.title" = "Клиенты";
 /* screen -> clients -> search */
 "screen.clients.search" = "Поиск";
 /* screen -> clients -> find_client */
@@ -491,7 +493,7 @@
 /* screen -> clients -> action */
 "screen.clients.action" = "Добавить клиента";
 /* screen -> clients -> create_client */
-"screen.clients.create_client" = "Добавить нового клиента";
+"screen.clients.create_client" = "Добавить клиента";
 /* screen -> clients -> history_client */
 "screen.clients.history_client" = "История клиента";
 /* screen -> clients -> add_history_client */
@@ -587,6 +589,14 @@
 "screen.main.no_favorites_description" = "Начните поиск — сохраняйте любимых специалистов, чтобы быстро возвращаться к ним";
 /* screen -> search -> not_found */
 "screen.search.not_found" = "Ничего не найдено";
+/* screen -> search -> not_found_invite_top */
+"screen.search.not_found_invite_top" = "Не нашли свой любимый салон?";
+/* screen -> search -> not_found_invite_title */
+"screen.search.not_found_invite_title" = "Отправьте им эту ссылку, чтобы они зарегистрировались в Maetry";
+/* screen -> search -> not_found_invite_description */
+"screen.search.not_found_invite_description" = "Так вы сможете записываться к своим мастерам любимого салона прямо в приложении.";
+/* screen -> search -> not_found_invite_link_label */
+"screen.search.not_found_invite_link_label" = "shared link";
 /* screen -> search -> placeholder */
 "screen.search.placeholder" = "Найти %{tag}";
 /* screen -> search -> search_bar_field */
@@ -607,6 +617,8 @@
 "screen.map.enable_geo" = "Включи геолокацию в настройках";
 /* screen -> salon -> action */
 "screen.salon.action" = "Записаться";
+/* screen -> salon -> sign_in_action */
+"screen.salon.sign_in_action" = "Войти, чтобы записаться";
 /* screen -> salon -> description -> title */
 "screen.salon.description.title" = "Описание";
 /* screen -> salon -> description -> hide */
@@ -765,6 +777,8 @@
 "screen.schedule_setup.controls.from_today" = "С сегодня";
 /* widget -> address -> title */
 "widget.address.title" = "Адрес";
+/* widget -> address -> current_location */
+"widget.address.current_location" = "Текущая геопозиция";
 /* widget -> address -> navigation */
 "widget.address.navigation" = "Построить маршрут";
 /* widget -> contacts -> title */
@@ -807,6 +821,19 @@
 "widget.position.danger_zone.confirm_removal" = "Подтвердить удаление";
 /* widget -> dashboard -> danger_zone -> error */
 "widget.dashboard.danger_zone.error" = "Ошибка Dashboard danger zone";
+/* widget -> dashboard -> services -> title */
+"widget.dashboard.services.title" = "Услуги";
+/* widget -> dashboard -> services -> action */
+"widget.dashboard.services.action" = "Добавить услугу";
+/* widget -> dashboard -> staff -> title */
+"widget.dashboard.staff.title" = "Сотрудники";
+/* widget -> dashboard -> staff -> action */
+"widget.dashboard.staff.action" = "Добавить сотрудника";
+/* widget -> dashboard -> clients -> title */
+"widget.dashboard.clients.title" = "Клиенты";
+/* widget -> dashboard -> clients -> action */
+"widget.dashboard.clients.action" = "Добавить клиента";
+"widget.dashboard.marketing.action" = "Новый источник";
 /* widget -> knowledge_base -> title */
 "widget.knowledge_base.title" = "База знаний";
 /* widget -> knowledge_base -> description */
@@ -1021,6 +1048,34 @@
 "onboarding.workplace.step4.title" = "Управление статусами";
 /* onboarding -> workplace -> step4 -> subtitle */
 "onboarding.workplace.step4.subtitle" = "Коснитесь записи и удерживайте ее, в открывшемся меню, выберите нужный статус.";
+/* onboarding -> workplace_progress -> employee -> title */
+"onboarding.workplace_progress.employee.title" = "Добавьте сотрудников";
+/* onboarding -> workplace_progress -> employee -> subtitle */
+"onboarding.workplace_progress.employee.subtitle" = "Добавьте мастеров и администраторов, чтобы назначать услуги, вести расписание и принимать записи.";
+/* onboarding -> workplace_progress -> schedule -> title */
+"onboarding.workplace_progress.schedule.title" = "Настройте график работы";
+/* onboarding -> workplace_progress -> schedule -> subtitle */
+"onboarding.workplace_progress.schedule.subtitle" = "Укажите часы работы салона и настройте, кто и когда работает, чтобы клиенты видели доступное время.";
+/* onboarding -> workplace_progress -> procedure -> title */
+"onboarding.workplace_progress.procedure.title" = "Добавьте услуги салона";
+/* onboarding -> workplace_progress -> procedure -> subtitle */
+"onboarding.workplace_progress.procedure.subtitle" = "Создайте услуги, которые оказывает салон, чтобы их можно было выбрать при онлайн-записи и в расписании.";
+/* onboarding -> workplace_progress -> client -> title */
+"onboarding.workplace_progress.client.title" = "Добавьте клиентов";
+/* onboarding -> workplace_progress -> client -> subtitle */
+"onboarding.workplace_progress.client.subtitle" = "Создайте клиентскую базу, чтобы быстрее оформлять записи и хранить историю посещений.";
+/* onboarding -> workplace_progress -> online_booking_link -> title */
+"onboarding.workplace_progress.online_booking_link.title" = "Получите ссылку для онлайн-записи";
+/* onboarding -> workplace_progress -> online_booking_link -> subtitle */
+"onboarding.workplace_progress.online_booking_link.subtitle" = "Скопируйте ссылку и разместите ее там, где клиентам будет удобно записываться: в соцсетях, мессенджерах и на сайте.";
+/* onboarding -> workplace_progress -> activation -> title */
+"onboarding.workplace_progress.activation.title" = "Активируйте салон";
+/* onboarding -> workplace_progress -> activation -> subtitle */
+"onboarding.workplace_progress.activation.subtitle" = "После активации салон станет доступен для онлайн-записи и появится на маркетплейсе Maetry.";
+/* onboarding -> workplace_progress -> appointment -> title */
+"onboarding.workplace_progress.appointment.title" = "Создайте первую запись";
+/* onboarding -> workplace_progress -> appointment -> subtitle */
+"onboarding.workplace_progress.appointment.subtitle" = "Создайте первую запись, чтобы проверить, что сотрудники, услуги, клиенты и расписание настроены правильно.";
 /* onboarding -> salon_creation -> step1 -> title */
 "onboarding.salon_creation.step1.title" = "Создание салона";
 /* onboarding -> salon_creation -> step1 -> subtitle */
@@ -1099,6 +1154,14 @@
 "creatable.salon.address_placeholder" = "Введите адрес...";
 /* creatable -> salon -> current_address */
 "creatable.salon.current_address" = "Текущий адрес";
+/* creatable -> salon -> address_edit -> pick_on_map */
+"creatable.salon.address_edit.pick_on_map" = "Выбрать на карте";
+/* creatable -> salon -> address_edit -> manual_entry */
+"creatable.salon.address_edit.manual_entry" = "Ввести вручную";
+/* creatable -> salon -> address_edit -> manual_tip -> title */
+"creatable.salon.address_edit.manual_tip.title" = "Нужно ввести адрес вручную?";
+/* creatable -> salon -> address_edit -> manual_tip -> message */
+"creatable.salon.address_edit.manual_tip.message" = "Нажмите на кнопку редактирования, чтобы ввести адрес вручную.";
 /* creatable -> salon -> invalid_address */
 "creatable.salon.invalid_address" = "Неправильный адрес";
 /* creatable -> salon -> invalid_address_message */
@@ -1120,7 +1183,7 @@
 /* creatable -> procedure -> field -> executors */
 "creatable.procedure.field.executors" = "Исполнители";
 /* creatable -> procedure -> field -> create_service */
-"creatable.procedure.field.create_service" = "Или создать новую услугу";
+"creatable.procedure.field.create_service" = "Создать новую услугу";
 /* creatable -> procedure -> field -> select_template */
 "creatable.procedure.field.select_template" = "Выбрать из шаблонов";
 /* creatable -> procedure -> field -> name_title */
@@ -1175,6 +1238,12 @@
 "creatable.client.field.name_title" = "Имя";
 /* creatable -> client -> name_placeholder */
 "creatable.client.name_placeholder" = "Введите имя...";
+/* creatable -> client -> gender_hint */
+"creatable.client.gender_hint" = "Укажите пол клиента, если это необходимо.";
+/* creatable -> client -> birthdate_hint */
+"creatable.client.birthdate_hint" = "Добавьте дату рождения клиента с его согласия.";
+/* creatable -> client -> contacts_hint */
+"creatable.client.contacts_hint" = "Эти контакты будут использоваться для связи с клиентом.";
 /* creatable -> client -> unfinished_creatable */
 "creatable.client.unfinished_creatable" = "Мы нашли у вас не завершенное создание клиента!";
 /* creatable -> employee -> title */
@@ -1182,7 +1251,7 @@
 /* creatable -> employee -> unfinished_title */
 "creatable.employee.unfinished_title" = "Мы нашли незавершенное создание сотрудника";
 /* creatable -> employee -> field -> name_title */
-"creatable.employee.field.name_title" = "Имя мастера";
+"creatable.employee.field.name_title" = "Имя";
 /* creatable -> employee -> field -> select_position */
 "creatable.employee.field.select_position" = "Выбрать должность";
 /* creatable -> employee -> field -> position_title */
@@ -1194,7 +1263,7 @@
 /* creatable -> employee -> name_enter */
 "creatable.employee.name_enter" = "Введите имя сотрудника";
 /* creatable -> employee -> name_placeholder */
-"creatable.employee.name_placeholder" = "Введите имя...";
+"creatable.employee.name_placeholder" = "Введите имя";
 /* creatable -> employee -> add_contact */
 "creatable.employee.add_contact" = "Добавьте способ связи";
 /* creatable -> employee -> choose_position */
@@ -1209,6 +1278,10 @@
 "creatable.employee.successfully_created" = "Отлично! Приглашение для нового мастера успешно отправлено";
 /* creatable -> employee -> unfinished_creatable */
 "creatable.employee.unfinished_creatable" = "We found an unfinished employee creation on your site!";
+/* creatable -> employee -> contacts_hint */
+"creatable.employee.contacts_hint" = "Эти контакты будут использоваться для связи с сотрудником.";
+/* creatable -> employee -> schedule_hint */
+"creatable.employee.schedule_hint" = "Это расписание будет использоваться как рабочий график сотрудника.";
 /* creatable -> position -> title */
 "creatable.position.title" = "Новая должность";
 /* creatable -> position -> field -> name_title */
@@ -1541,6 +1614,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.booking.time_slot.not_selected" = "Не выбрано";
 "creatable.booking.time_slot.title" = "Время";
 "creatable.booking.title" = "Запись";
+"creatable.appointment.bundle_filter" = "Наборы";
+"creatable.appointment.service_selection_empty_title" = "Добавьте первую услугу";
+"creatable.appointment.service_selection_empty_message" = "Чтобы создать запись, сначала добавьте первую услугу, которую вы оказываете.";
+"creatable.appointment.service_selection_empty_action" = "Создать услугу";
 "creatable.complex.access.independent_from_gender" = "Независимо от пола";
 "creatable.complex.access.men_only" = "Только для мужчин";
 "creatable.complex.access.women_only" = "Только для женщин";
@@ -1557,7 +1634,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.complex.field.choose_procedures_hint" = "Добавьте процедуры, которые должны входить в этот набор";
 "creatable.complex.field.choose_procedures_title" = "Выберите услуги";
 "creatable.complex.field.description_hint" = "Опишите ценность набора и детали, которые важно знать до записи";
-"creatable.complex.field.description_placeholder" = "Добавьте описание этого набора";
+"creatable.complex.field.description_placeholder" = "Например: «Что входит в набор, сколько длится каждая часть, как подготовиться и что важно знать перед записью»";
 "creatable.complex.field.description_title" = "Описание (необязательно)";
 "creatable.complex.field.executors_missing" = "Исполнители не выбраны";
 "creatable.complex.field.executors_sheet_hint" = "Выберите исполнителей, которые могут выполнять эту процедуру внутри набора";
@@ -1608,71 +1685,131 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.marketing_campaign.title" = "Создать кампанию";
 "creatable.marketing_campaign.unfinished_title" = "Незавершенная кампания";
 /* creatable -> marketing_lead_source -> title */
-"creatable.marketing_lead_source.title" = "Create Lead Source";
+"creatable.marketing_lead_source.title" = "Создать источник";
 /* creatable -> marketing_lead_source -> subtitle */
-"creatable.marketing_lead_source.subtitle" = "Choose a scenario before filling in details";
+"creatable.marketing_lead_source.subtitle" = "Сначала выберите сценарий, затем заполните детали";
 /* creatable -> marketing_lead_source -> root_title */
-"creatable.marketing_lead_source.root_title" = "Lead source";
+"creatable.marketing_lead_source.root_title" = "Источник";
 /* creatable -> marketing_lead_source -> root_hint */
-"creatable.marketing_lead_source.root_hint" = "A public short link is generated after creation";
+"creatable.marketing_lead_source.root_hint" = "Публичная короткая ссылка будет создана автоматически";
 /* creatable -> marketing_lead_source -> field -> name_title */
-"creatable.marketing_lead_source.field.name_title" = "Source name";
+"creatable.marketing_lead_source.field.name_title" = "Название источника";
 /* creatable -> marketing_lead_source -> field -> name_placeholder */
-"creatable.marketing_lead_source.field.name_placeholder" = "Enter source name";
+"creatable.marketing_lead_source.field.name_placeholder" = "Введите название источника";
 /* creatable -> marketing_lead_source -> field -> destination_url_title */
-"creatable.marketing_lead_source.field.destination_url_title" = "Destination URL";
+"creatable.marketing_lead_source.field.destination_url_title" = "URL назначения";
 /* creatable -> marketing_lead_source -> field -> destination_url_placeholder */
 "creatable.marketing_lead_source.field.destination_url_placeholder" = "https://example.com";
 /* creatable -> marketing_lead_source -> scenario -> title */
-"creatable.marketing_lead_source.scenario.title" = "Choose a source scenario";
+"creatable.marketing_lead_source.scenario.title" = "Выберите сценарий источника";
 /* creatable -> marketing_lead_source -> scenario -> subtitle */
-"creatable.marketing_lead_source.scenario.subtitle" = "Start with a standalone source, an ad source, or a partner source";
+"creatable.marketing_lead_source.scenario.subtitle" = "Начните с базового источника, рекламы или партнерского сценария";
 /* creatable -> marketing_lead_source -> scenario -> basic -> title */
-"creatable.marketing_lead_source.scenario.basic.title" = "Basic Source";
+"creatable.marketing_lead_source.scenario.basic.title" = "Базовый источник";
 /* creatable -> marketing_lead_source -> scenario -> basic -> description */
-"creatable.marketing_lead_source.scenario.basic.description" = "Standalone source with no campaign or promoter";
+"creatable.marketing_lead_source.scenario.basic.description" = "Самостоятельный источник без кампании и промоутера";
 /* creatable -> marketing_lead_source -> scenario -> ads -> title */
-"creatable.marketing_lead_source.scenario.ads.title" = "Ad Source";
+"creatable.marketing_lead_source.scenario.ads.title" = "Рекламный источник";
 /* creatable -> marketing_lead_source -> scenario -> ads -> description */
-"creatable.marketing_lead_source.scenario.ads.description" = "Add a campaign extension for paid traffic";
+"creatable.marketing_lead_source.scenario.ads.description" = "Добавьте рекламную кампанию как расширение";
 /* creatable -> marketing_lead_source -> scenario -> partner -> title */
-"creatable.marketing_lead_source.scenario.partner.title" = "Partner Source";
+"creatable.marketing_lead_source.scenario.partner.title" = "Партнерский источник";
 /* creatable -> marketing_lead_source -> scenario -> partner -> description */
-"creatable.marketing_lead_source.scenario.partner.description" = "Bind an existing promoter or create one later";
+"creatable.marketing_lead_source.scenario.partner.description" = "Свяжите существующего промоутера или создайте позже";
 /* creatable -> marketing_lead_source -> campaign -> title */
-"creatable.marketing_lead_source.campaign_title" = "Ads extension";
+"creatable.marketing_lead_source.campaign_title" = "Расширение рекламы";
 /* creatable -> marketing_lead_source -> campaign -> subtitle */
-"creatable.marketing_lead_source.campaign_subtitle" = "Optional campaign details for ad traffic";
+"creatable.marketing_lead_source.campaign_subtitle" = "Необязательные параметры кампании для рекламного трафика";
 /* creatable -> marketing_lead_source -> partner -> title */
-"creatable.marketing_lead_source.partner_title" = "Partner extension";
+"creatable.marketing_lead_source.partner_title" = "Партнерское расширение";
 /* creatable -> marketing_lead_source -> partner -> subtitle */
-"creatable.marketing_lead_source.partner_subtitle" = "Bind an existing promoter or leave it open for later";
+"creatable.marketing_lead_source.partner_subtitle" = "Свяжите существующего промоутера или оставьте без него";
 /* creatable -> marketing_lead_source -> partner -> mode -> title */
-"creatable.marketing_lead_source.partner.mode.title" = "Promoter setup";
+"creatable.marketing_lead_source.partner.mode.title" = "Настройка промоутера";
 /* creatable -> marketing_lead_source -> partner -> mode -> existing */
-"creatable.marketing_lead_source.partner.mode.existing" = "Bind existing";
+"creatable.marketing_lead_source.partner.mode.existing" = "Связать существующего";
 /* creatable -> marketing_lead_source -> partner -> mode -> new */
-"creatable.marketing_lead_source.partner.mode.new" = "Create new";
+"creatable.marketing_lead_source.partner.mode.new" = "Создать нового";
 /* creatable -> marketing_lead_source -> partner -> mode -> later */
-"creatable.marketing_lead_source.partner.mode.later" = "Create later";
+"creatable.marketing_lead_source.partner.mode.later" = "Создать позже";
 /* creatable -> marketing_lead_source -> partner -> empty */
-"creatable.marketing_lead_source.partner.empty" = "No promoters are available yet";
+"creatable.marketing_lead_source.partner.empty" = "Пока нет доступных промоутеров";
 /* creatable -> marketing_lead_source -> partner -> select_prompt */
-"creatable.marketing_lead_source.partner.select_prompt" = "Choose a promoter";
+"creatable.marketing_lead_source.partner.select_prompt" = "Выберите промоутера";
 /* creatable -> marketing_lead_source -> partner -> display_name_title */
-"creatable.marketing_lead_source.partner.display_name_title" = "Display name";
+"creatable.marketing_lead_source.partner.display_name_title" = "Отображаемое имя";
 /* creatable -> marketing_lead_source -> partner -> display_name_placeholder */
-"creatable.marketing_lead_source.partner.display_name_placeholder" = "Enter promoter name";
+"creatable.marketing_lead_source.partner.display_name_placeholder" = "Введите имя промоутера";
+/* creatable -> marketing_lead_source -> field -> description_title */
+"creatable.marketing_lead_source.field.description_title" = "Описание";
+/* creatable -> marketing_lead_source -> field -> color_title */
+"creatable.marketing_lead_source.field.color_title" = "Цвет";
+/* creatable -> marketing_lead_source -> field -> icon_title */
+"creatable.marketing_lead_source.field.icon_title" = "Иконка";
+/* creatable -> marketing_lead_source -> field -> appearance_hint */
+"creatable.marketing_lead_source.field.appearance_hint" = "Выберите, как источник будет отображаться в маркетинговой панели.";
+/* creatable -> marketing_lead_source -> field -> advertising_information_title */
+"creatable.marketing_lead_source.field.advertising_information_title" = "Рекламная информация";
+/* creatable -> marketing_lead_source -> field -> event_tracking_title */
+"creatable.marketing_lead_source.field.event_tracking_title" = "Трекинг событий";
+/* creatable -> marketing_lead_source -> field -> promoter_title */
+"creatable.marketing_lead_source.field.promoter_title" = "Промоутер";
+/* creatable -> marketing_lead_source -> field -> meta_pixel_id_title */
+"creatable.marketing_lead_source.field.meta_pixel_id_title" = "Meta Pixel ID";
+/* creatable -> marketing_lead_source -> field -> conversions_api_access_token_title */
+"creatable.marketing_lead_source.field.conversions_api_access_token_title" = "Токен доступа Conversions API";
+/* creatable -> marketing_lead_source -> field -> test_event_code_title */
+"creatable.marketing_lead_source.field.test_event_code_title" = "Тестовый код события";
+/* creatable -> marketing_lead_source -> field -> tiktok_pixel_id_title */
+"creatable.marketing_lead_source.field.tiktok_pixel_id_title" = "TikTok Pixel ID";
+/* creatable -> marketing_lead_source -> field -> events_api_access_token_title */
+"creatable.marketing_lead_source.field.events_api_access_token_title" = "Токен доступа Events API";
+/* creatable -> marketing_lead_source -> field -> enable_test_mode */
+"creatable.marketing_lead_source.field.enable_test_mode" = "Включить тестовый режим";
+/* creatable -> marketing_lead_source -> field -> snap_pixel_id_title */
+"creatable.marketing_lead_source.field.snap_pixel_id_title" = "Snap Pixel ID";
+/* creatable -> marketing_lead_source -> field -> tracking_connect_hint */
+"creatable.marketing_lead_source.field.tracking_connect_hint" = "Подключите event manager при создании источника, чтобы трафик и конверсии начали синхронизироваться сразу.";
+/* creatable -> marketing_lead_source -> field -> tracking_google_hint */
+"creatable.marketing_lead_source.field.tracking_google_hint" = "Интеграцию Google Ads можно подключить позже, после создания источника.";
+/* creatable -> marketing_lead_source -> field -> partner_commission_title */
+"creatable.marketing_lead_source.field.partner_commission_title" = "Комиссия партнера";
+/* creatable -> marketing_lead_source -> field -> partner_commission_hint */
+"creatable.marketing_lead_source.field.partner_commission_hint" = "Выберите, какой процент от дохода будет получать партнер за приведенных клиентов.";
+/* creatable -> marketing_lead_source -> field -> partner_commission_duration_title */
+"creatable.marketing_lead_source.field.partner_commission_duration_title" = "Срок действия комиссии";
+/* creatable -> marketing_lead_source -> field -> partner_commission_duration_hint */
+"creatable.marketing_lead_source.field.partner_commission_duration_hint" = "Выберите срок действия, в течение которого партнеру будет выплачиваться комиссия за привлеченных клиентов.";
+/* creatable -> marketing_lead_source -> field -> duration_one_month */
+"creatable.marketing_lead_source.field.duration_one_month" = "1 месяц";
+/* creatable -> marketing_lead_source -> field -> duration_three_months */
+"creatable.marketing_lead_source.field.duration_three_months" = "3 месяца";
+/* creatable -> marketing_lead_source -> field -> duration_six_months */
+"creatable.marketing_lead_source.field.duration_six_months" = "6 месяцев";
+/* creatable -> marketing_lead_source -> field -> duration_twelve_months */
+"creatable.marketing_lead_source.field.duration_twelve_months" = "12 месяцев";
+/* creatable -> marketing_lead_source -> field -> duration_two_years */
+"creatable.marketing_lead_source.field.duration_two_years" = "2 года";
+/* creatable -> marketing_lead_source -> field -> duration_three_years */
+"creatable.marketing_lead_source.field.duration_three_years" = "3 года";
+/* creatable -> marketing_lead_source -> field -> duration_forever */
+"creatable.marketing_lead_source.field.duration_forever" = "Бесконечность";
+/* creatable -> marketing_lead_source -> action -> add_tracking */
+"creatable.marketing_lead_source.action.add_tracking" = "Добавить трекинг";
+/* creatable -> marketing_lead_source -> action -> delete_tracking */
+"creatable.marketing_lead_source.action.delete_tracking" = "Удалить трекинг";
+/* creatable -> marketing_lead_source -> action -> tracking_unavailable */
+"creatable.marketing_lead_source.action.tracking_unavailable" = "Трекинг недоступен";
 /* creatable -> marketing_lead_source -> error -> missing_name */
-"creatable.marketing_lead_source.error.missing_name" = "Enter a source name";
+"creatable.marketing_lead_source.error.missing_name" = "Укажите название источника";
 /* creatable -> marketing_lead_source -> error -> invalid_url */
-"creatable.marketing_lead_source.error.invalid_url" = "Enter a valid destination URL";
+"creatable.marketing_lead_source.error.invalid_url" = "Введите корректный URL назначения";
 /* creatable -> marketing_lead_source -> error -> missing_campaign_name */
-"creatable.marketing_lead_source.error.missing_campaign_name" = "Enter a campaign name";
+"creatable.marketing_lead_source.error.missing_campaign_name" = "Укажите название кампании";
 /* creatable -> marketing_lead_source -> error -> missing_promoter_name */
-"creatable.marketing_lead_source.error.missing_promoter_name" = "Enter a promoter name";
+"creatable.marketing_lead_source.error.missing_promoter_name" = "Укажите имя промоутера";
 /* creatable -> marketing_lead_source -> error -> missing_promoter_selection */
-"creatable.marketing_lead_source.error.missing_promoter_selection" = "Select an existing promoter";
+"creatable.marketing_lead_source.error.missing_promoter_selection" = "Выберите существующего промоутера";
 "creatable.product.action.add_sku" = "Добавить еще один код SKU";
 "creatable.product.action.clear_photos" = "Очистить фото";
 "creatable.product.action.generate_sku" = "Сгенерировать код SKU";
@@ -1956,6 +2093,11 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.debug.database.path_label" = "Путь";
 "screen.debug.database.open_readonly_error" = "Не удалось открыть базу SQLite по пути: %1$@";
 "screen.debug.database.missing_file_error" = "Файл базы данных не найден по пути: %1$@";
+"screen.settings.currency.title" = "Валюта";
+"screen.settings.currency.hint" = "Все новые цены в этом workplace будут использовать эту валюту.";
+"screen.settings.currency.auto_hint" = "Валюта по умолчанию определена по адресу салона, но вы можете её изменить.";
+"screen.settings.currency.locked_hint" = "Выбранную валюту изменить нельзя.";
+"screen.settings.currency.manual_hint" = "Для этого workplace валюта выбрана вручную.";
 "screen.debug.database.prepare_export_error" = "Не удалось подготовить файлы для экспорта.";
 "screen.debug.database.open_readwrite_error" = "Не удалось открыть базу SQLite для очистки по пути: %1$@";
 "screen.debug.database.blob_value" = "<BLOB: %1$d байт>";
@@ -1994,6 +2136,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.create" = "Создать";
 "reusable.join" = "Присоединиться";
 "reusable.none" = "Нет";
+"reusable.pending" = "Ожидает";
 "reusable.primary" = "Основной";
 /* reusable -> manual */
 "reusable.manual" = "Вручную";
@@ -2002,6 +2145,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.from_phone_book" = "Из телефонной книги";
 "reusable.send" = "Отправить";
 "reusable.sign_in_with_google" = "Войти через Google";
+"reusable.verified" = "Подтверждено";
 "reusable.selected" = "выбрано";
 "screen.workspace.creation.create_appointment.title" = "Создать запись";
 "screen.workspace.creation.create_appointment.subtitle" = "Создать запись клиента";
@@ -2021,6 +2165,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.layout.visible_days_seven" = "7 дней";
 "screen.workspace.layout.time_scale" = "Масштаб времени";
 "screen.workspace.view_mode.title" = "Режим просмотра";
+/* screen -> workspace -> tip -> view_mode -> title */
+"screen.workspace.tip.view_mode.title" = "Вид записей";
+/* screen -> workspace -> tip -> view_mode -> message */
+"screen.workspace.tip.view_mode.message" = "Удерживайте вкладку «Записи», чтобы переключаться между режимами «Diary» и «List».";
 "screen.workplace.menu.create_workplace" = "Создать салон";
 "screen.workplace.menu.join_workplace" = "Присоединиться к салону";
 "screen.workplace.empty_state.title" = "Салонов пока нет";
@@ -2331,7 +2479,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* creatable -> procedure -> field -> executors_placeholder */
 "creatable.procedure.field.executors_placeholder" = "Исполнители пока не выбраны";
 /* creatable -> procedure -> field -> service_hint */
-"creatable.procedure.field.service_hint" = "Сначала выберите шаблон из каталога или создайте новую услугу в нужной категории";
+"creatable.procedure.field.service_hint" = "Выберите шаблон из каталога или создайте новую услугу. Лучше выбрать шаблон: так клиентам будет проще находить вас по услуге";
 /* creatable -> procedure -> field -> chosen_service_hint */
 "creatable.procedure.field.chosen_service_hint" = "Будет использована существующая услуга из каталога";
 /* creatable -> procedure -> field -> create_service_hint */

@@ -14,24 +14,26 @@
 "screen.public.pro_button" = "Continue as Specialist";
 /* screen -> public -> continuation_action */
 "screen.public.continuation_action" = "Press the button to continue";
+/* screen -> public -> search_action */
+"screen.public.search_action" = "Search salons";
 /* screen -> public -> welcome */
 "screen.public.welcome" = "Welcome to Maetry!";
 /* screen -> public -> card1 -> name */
 "screen.public.card1.name" = "Salon Rose";
 /* screen -> public -> card1 -> address */
-"screen.public.card1.address" = "Tolkacheva street, 2B";
+"screen.public.card1.address" = "Independence Avenue, 43";
 /* screen -> public -> card1 -> schedule */
 "screen.public.card1.schedule" = "mon-sun 9:00 AM - 9:00 PM";
 /* screen -> public -> card2 -> name */
 "screen.public.card2.name" = "ASTEZIS";
 /* screen -> public -> card2 -> address */
-"screen.public.card2.address" = "Tolkacheva street, 2B";
+"screen.public.card2.address" = "Lenin street, 25";
 /* screen -> public -> card2 -> schedule */
 "screen.public.card2.schedule" = "mon-sun 9:00 AM - 9:00 PM";
 /* screen -> public -> card3 -> name */
 "screen.public.card3.name" = "Beauty Tutti";
 /* screen -> public -> card3 -> address */
-"screen.public.card3.address" = "Tolkacheva street, 2B";
+"screen.public.card3.address" = "Krasnaya street, 12";
 /* screen -> public -> card3 -> schedule */
 "screen.public.card3.schedule" = "mon-sun 9:00 AM - 9:00 PM";
 /* screen -> profile -> title */
@@ -287,9 +289,9 @@
 /* screen -> catalog_management -> title */
 "screen.catalog_management.title" = "Services";
 /* screen -> catalog_management -> all_title */
-"screen.catalog_management.all_title" = "All services";
+"screen.catalog_management.all_title" = "Services";
 /* screen -> catalog_management -> add_service */
-"screen.catalog_management.add_service" = "Add new service";
+"screen.catalog_management.add_service" = "Add service";
 /* screen -> catalog_management -> complexs */
 "screen.catalog_management.complexs" = "Complexes";
 /* screen -> catalog_management -> complex_placeholder */
@@ -313,9 +315,9 @@
 /* screen -> catalog_management -> service_search */
 "screen.catalog_management.service_search" = "Search for service";
 /* screen -> employees -> title */
-"screen.employees.title" = "Employees";
+"screen.employees.title" = "Staff";
 /* screen -> employees -> all_title */
-"screen.employees.all_title" = "All employees";
+"screen.employees.all_title" = "Staff";
 /* screen -> employees -> filter -> active */
 "screen.employees.filter.active" = "Active";
 /* screen -> employees -> filter -> invite */
@@ -333,7 +335,7 @@
 /* screen -> employees -> invite */
 "screen.employees.invite" = "Invite";
 /* screen -> employees -> add_employee */
-"screen.employees.add_employee" = "Add employee";
+"screen.employees.add_employee" = "Add staff member";
 /* screen -> employees -> assignment */
 "screen.employees.assignment" = "Appointments";
 /* screen -> employees -> add_assignment */
@@ -363,7 +365,7 @@
 /* screen -> employees -> danger_zone -> cancel_alert_message */
 "screen.employees.danger_zone.cancel_alert_message" = "Employee won't be able to join using the sent link";
 /* screen -> employees -> no_employees */
-"screen.employees.no_employees" = "No employees";
+"screen.employees.no_employees" = "No staff yet";
 /* screen -> employees -> master_search */
 "screen.employees.master_search" = "Search for master";
 /* screen -> executor_editing -> danger_zone_title */
@@ -501,7 +503,7 @@
 /* screen -> salary -> alert_title */
 "screen.salary.alert_title" = "Enter value";
 /* screen -> clients -> title */
-"screen.clients.title" = "All clients";
+"screen.clients.title" = "Clients";
 /* screen -> clients -> search */
 "screen.clients.search" = "Search";
 /* screen -> clients -> find_client */
@@ -509,7 +511,7 @@
 /* screen -> clients -> action */
 "screen.clients.action" = "Add client";
 /* screen -> clients -> create_client */
-"screen.clients.create_client" = "Add new client";
+"screen.clients.create_client" = "Add client";
 /* screen -> clients -> history_client */
 "screen.clients.history_client" = "Client history";
 /* screen -> clients -> add_history_client */
@@ -605,6 +607,14 @@
 "screen.main.no_favorites_description" = "Start exploring — save your favorite professionals for quick access";
 /* screen -> search -> not_found */
 "screen.search.not_found" = "Nothing found";
+/* screen -> search -> not_found_invite_top */
+"screen.search.not_found_invite_top" = "Didn't find your favorite salon?";
+/* screen -> search -> not_found_invite_title */
+"screen.search.not_found_invite_title" = "Send them this link so they can join Maetry";
+/* screen -> search -> not_found_invite_description */
+"screen.search.not_found_invite_description" = "Then you'll be able to book with your favorite salon right in the app.";
+/* screen -> search -> not_found_invite_link_label */
+"screen.search.not_found_invite_link_label" = "shared link";
 /* screen -> search -> placeholder */
 "screen.search.placeholder" = "Find %{tag}";
 /* screen -> search -> search_bar_field */
@@ -625,6 +635,8 @@
 "screen.map.enable_geo" = "Enable geolocation in settings";
 /* screen -> salon -> action */
 "screen.salon.action" = "Book";
+/* screen -> salon -> sign_in_action */
+"screen.salon.sign_in_action" = "Sign in to book";
 /* screen -> salon -> description -> title */
 "screen.salon.description.title" = "Description";
 /* screen -> salon -> description -> hide */
@@ -783,6 +795,8 @@
 "screen.schedule_setup.controls.from_today" = "From today";
 /* widget -> address -> title */
 "widget.address.title" = "Address";
+/* widget -> address -> current_location */
+"widget.address.current_location" = "Current location";
 /* widget -> address -> navigation */
 "widget.address.navigation" = "Build route";
 /* widget -> contacts -> title */
@@ -825,6 +839,20 @@
 "widget.position.danger_zone.confirm_removal" = "Confirm removal";
 /* widget -> dashboard -> danger_zone -> error */
 "widget.dashboard.danger_zone.error" = "Dashboard danger zone error";
+/* widget -> dashboard -> services -> title */
+"widget.dashboard.services.title" = "Services";
+/* widget -> dashboard -> services -> action */
+"widget.dashboard.services.action" = "Add service";
+/* widget -> dashboard -> staff -> title */
+"widget.dashboard.staff.title" = "Staff";
+/* widget -> dashboard -> staff -> action */
+"widget.dashboard.staff.action" = "Add staff member";
+/* widget -> dashboard -> clients -> title */
+"widget.dashboard.clients.title" = "Clients";
+/* widget -> dashboard -> clients -> action */
+"widget.dashboard.clients.action" = "Add client";
+/* widget -> dashboard -> marketing -> action */
+"widget.dashboard.marketing.action" = "New source";
 /* widget -> knowledge_base -> title */
 "widget.knowledge_base.title" = "Knowledge base";
 /* widget -> knowledge_base -> description */
@@ -1039,6 +1067,34 @@
 "onboarding.workplace.step4.title" = "Status management";
 /* onboarding -> workplace -> step4 -> subtitle */
 "onboarding.workplace.step4.subtitle" = "Touch and hold the entry, in the menu that opens, select the desired status.";
+/* onboarding -> workplace_progress -> employee -> title */
+"onboarding.workplace_progress.employee.title" = "Add staff";
+/* onboarding -> workplace_progress -> employee -> subtitle */
+"onboarding.workplace_progress.employee.subtitle" = "Add specialists and admins so you can assign services, manage schedules, and accept bookings.";
+/* onboarding -> workplace_progress -> schedule -> title */
+"onboarding.workplace_progress.schedule.title" = "Set up the work schedule";
+/* onboarding -> workplace_progress -> schedule -> subtitle */
+"onboarding.workplace_progress.schedule.subtitle" = "Set the salon hours and who works when, so clients can see available time slots.";
+/* onboarding -> workplace_progress -> procedure -> title */
+"onboarding.workplace_progress.procedure.title" = "Add salon services";
+/* onboarding -> workplace_progress -> procedure -> subtitle */
+"onboarding.workplace_progress.procedure.subtitle" = "Create the services your salon offers so clients can choose them when booking online and in the schedule.";
+/* onboarding -> workplace_progress -> client -> title */
+"onboarding.workplace_progress.client.title" = "Add clients";
+/* onboarding -> workplace_progress -> client -> subtitle */
+"onboarding.workplace_progress.client.subtitle" = "Create your client base so you can book visits faster and keep visit history in one place.";
+/* onboarding -> workplace_progress -> online_booking_link -> title */
+"onboarding.workplace_progress.online_booking_link.title" = "Get your online booking link";
+/* onboarding -> workplace_progress -> online_booking_link -> subtitle */
+"onboarding.workplace_progress.online_booking_link.subtitle" = "Copy the link and place it where clients can book easily: social media, messengers, and your website.";
+/* onboarding -> workplace_progress -> activation -> title */
+"onboarding.workplace_progress.activation.title" = "Activate the salon";
+/* onboarding -> workplace_progress -> activation -> subtitle */
+"onboarding.workplace_progress.activation.subtitle" = "After activation, the salon will be available for online booking and visible on the Maetry marketplace.";
+/* onboarding -> workplace_progress -> appointment -> title */
+"onboarding.workplace_progress.appointment.title" = "Create your first booking";
+/* onboarding -> workplace_progress -> appointment -> subtitle */
+"onboarding.workplace_progress.appointment.subtitle" = "Create the first booking to verify that staff, services, clients, and schedule are set up correctly.";
 /* onboarding -> salon_creation -> step1 -> title */
 "onboarding.salon_creation.step1.title" = "Salon creation";
 /* onboarding -> salon_creation -> step1 -> subtitle */
@@ -1117,6 +1173,14 @@
 "creatable.salon.address_placeholder" = "Enter address...";
 /* creatable -> salon -> current_address */
 "creatable.salon.current_address" = "Current address";
+/* creatable -> salon -> address_edit -> pick_on_map */
+"creatable.salon.address_edit.pick_on_map" = "Choose on map";
+/* creatable -> salon -> address_edit -> manual_entry */
+"creatable.salon.address_edit.manual_entry" = "Enter manually";
+/* creatable -> salon -> address_edit -> manual_tip -> title */
+"creatable.salon.address_edit.manual_tip.title" = "Need to enter the address yourself?";
+/* creatable -> salon -> address_edit -> manual_tip -> message */
+"creatable.salon.address_edit.manual_tip.message" = "Tap the edit button to enter the address manually.";
 /* creatable -> salon -> invalid_address */
 "creatable.salon.invalid_address" = "Invalid address";
 /* creatable -> salon -> invalid_address_message */
@@ -1138,7 +1202,7 @@
 /* creatable -> procedure -> field -> executors */
 "creatable.procedure.field.executors" = "Specialists";
 /* creatable -> procedure -> field -> create_service */
-"creatable.procedure.field.create_service" = "Or create a new service";
+"creatable.procedure.field.create_service" = "Create a new service";
 /* creatable -> procedure -> field -> select_template */
 "creatable.procedure.field.select_template" = "Select from templates";
 /* creatable -> procedure -> field -> name_title */
@@ -1196,11 +1260,11 @@
 /* creatable -> client -> unfinished_creatable */
 "creatable.client.unfinished_creatable" = "We found an unfinished client creation on your site!";
 /* creatable -> employee -> title */
-"creatable.employee.title" = "New employee";
+"creatable.employee.title" = "New staff";
 /* creatable -> employee -> unfinished_title */
 "creatable.employee.unfinished_title" = "We found an unfinished employee creation";
 /* creatable -> employee -> field -> name_title */
-"creatable.employee.field.name_title" = "Specialist's name";
+"creatable.employee.field.name_title" = "Name";
 /* creatable -> employee -> field -> select_position */
 "creatable.employee.field.select_position" = "Select position";
 /* creatable -> employee -> field -> position_title */
@@ -1212,7 +1276,7 @@
 /* creatable -> employee -> name_enter */
 "creatable.employee.name_enter" = "Enter employee's name";
 /* creatable -> employee -> name_placeholder */
-"creatable.employee.name_placeholder" = "Enter name...";
+"creatable.employee.name_placeholder" = "Enter name";
 /* creatable -> employee -> add_contact */
 "creatable.employee.add_contact" = "Add a contact method";
 /* creatable -> employee -> choose_position */
@@ -1227,6 +1291,10 @@
 "creatable.employee.successfully_created" = "Great! The invitation for the new specialist has been sent successfully";
 /* creatable -> employee -> unfinished_creatable */
 "creatable.employee.unfinished_creatable" = "We found an unfinished employee creation!";
+/* creatable -> employee -> contacts_hint */
+"creatable.employee.contacts_hint" = "These contact details will be used to reach the staff member.";
+/* creatable -> employee -> schedule_hint */
+"creatable.employee.schedule_hint" = "This schedule will be used for the staff member's working hours.";
 /* creatable -> position -> title */
 "creatable.position.title" = "New position";
 /* creatable -> position -> field -> name_title */
@@ -1550,10 +1618,12 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "app_intent.open_mirror.description" = "Opens the Mirror screen";
 "app_intent.open_mirror.title" = "Open Mirror";
 "widget.recovery_methods.title" = "Recovery Methods";
+"reusable.pending" = "Pending";
 "reusable.primary" = "Primary";
 "reusable.retry" = "Retry";
 "reusable.send" = "Send";
 "reusable.sign_in_with_google" = "Sign in with Google";
+"reusable.verified" = "Verified";
 "screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
 "screen.continuation.client_invite.verified_match" = "Verified match";
 "screen.continuation.client_invite.no_match_message" = "We couldn't find a matching account for this client.";
@@ -1691,6 +1761,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.layout.visible_days_seven" = "7 days";
 "screen.workspace.layout.time_scale" = "Time scale";
 "screen.workspace.view_mode.title" = "View mode";
+/* screen -> workspace -> tip -> view_mode -> title */
+"screen.workspace.tip.view_mode.title" = "Appointments view";
+/* screen -> workspace -> tip -> view_mode -> message */
+"screen.workspace.tip.view_mode.message" = "Press and hold Appointments to switch between Diary and List.";
 "screen.workplace.menu.create_workplace" = "Create salon";
 "screen.workplace.menu.join_workplace" = "Join workplace";
 "screen.workplace.empty_state.title" = "No salons yet";
@@ -1721,6 +1795,11 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.billing.interval.yearly" = "Yearly";
 "screen.settings.billing.period.month" = "month";
 "screen.settings.billing.period.year" = "year";
+"screen.settings.currency.title" = "Currency";
+"screen.settings.currency.hint" = "All new prices in this workplace will use this currency.";
+"screen.settings.currency.auto_hint" = "We detected the default currency from the salon address. You can change it.";
+"screen.settings.currency.locked_hint" = "The selected currency cannot be changed.";
+"screen.settings.currency.manual_hint" = "You selected the currency manually for this workplace.";
 "screen.offtime.title" = "Reserve time";
 "screen.offtime.employee" = "Employee";
 "screen.offtime.reason" = "Reason";
@@ -2001,7 +2080,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* creatable -> procedure -> field -> executors_placeholder */
 "creatable.procedure.field.executors_placeholder" = "No specialists selected yet";
 /* creatable -> procedure -> field -> service_hint */
-"creatable.procedure.field.service_hint" = "First choose a template from the catalog or create a new service in the appropriate category";
+"creatable.procedure.field.service_hint" = "Choose a catalog template or create a new service. Using a template is better because clients can find you by service more easily";
 /* creatable -> procedure -> field -> chosen_service_hint */
 "creatable.procedure.field.chosen_service_hint" = "An existing service from the catalog will be used";
 /* creatable -> procedure -> field -> create_service_hint */
@@ -2135,6 +2214,14 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.booking.time_slot.title" = "Time";
 /* creatable -> booking -> title */
 "creatable.booking.title" = "Booking";
+/* creatable -> appointment -> bundle_filter */
+"creatable.appointment.bundle_filter" = "Bundles";
+/* creatable -> appointment -> service_selection_empty_title */
+"creatable.appointment.service_selection_empty_title" = "Add your first service";
+/* creatable -> appointment -> service_selection_empty_message */
+"creatable.appointment.service_selection_empty_message" = "To create a booking, first add the first service that you provide.";
+/* creatable -> appointment -> service_selection_empty_action */
+"creatable.appointment.service_selection_empty_action" = "Create service";
 /* creatable -> complex -> access -> independent_from_gender */
 "creatable.complex.access.independent_from_gender" = "Available to everyone";
 /* creatable -> complex -> access -> men_only */
@@ -2168,7 +2255,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* creatable -> complex -> field -> description_hint */
 "creatable.complex.field.description_hint" = "Describe the value of this package and anything clients should know before booking";
 /* creatable -> complex -> field -> description_placeholder */
-"creatable.complex.field.description_placeholder" = "Add a description for this package";
+"creatable.complex.field.description_placeholder" = "For example: “What is included, how long each part takes, how to prepare, and what to know before booking”";
 /* creatable -> complex -> field -> description_title */
 "creatable.complex.field.description_title" = "Description (optional)";
 /* creatable -> complex -> field -> executors_missing */
@@ -2317,6 +2404,66 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.marketing_lead_source.partner.display_name_title" = "Display name";
 /* creatable -> marketing_lead_source -> partner -> display_name_placeholder */
 "creatable.marketing_lead_source.partner.display_name_placeholder" = "Enter promoter name";
+/* creatable -> marketing_lead_source -> field -> description_title */
+"creatable.marketing_lead_source.field.description_title" = "Description";
+/* creatable -> marketing_lead_source -> field -> color_title */
+"creatable.marketing_lead_source.field.color_title" = "Color";
+/* creatable -> marketing_lead_source -> field -> icon_title */
+"creatable.marketing_lead_source.field.icon_title" = "Icon";
+/* creatable -> marketing_lead_source -> field -> appearance_hint */
+"creatable.marketing_lead_source.field.appearance_hint" = "Choose how this source appears across the marketing dashboard.";
+/* creatable -> marketing_lead_source -> field -> advertising_information_title */
+"creatable.marketing_lead_source.field.advertising_information_title" = "Advertising information";
+/* creatable -> marketing_lead_source -> field -> event_tracking_title */
+"creatable.marketing_lead_source.field.event_tracking_title" = "Event tracking";
+/* creatable -> marketing_lead_source -> field -> promoter_title */
+"creatable.marketing_lead_source.field.promoter_title" = "Promoter";
+/* creatable -> marketing_lead_source -> field -> meta_pixel_id_title */
+"creatable.marketing_lead_source.field.meta_pixel_id_title" = "Meta pixel ID";
+/* creatable -> marketing_lead_source -> field -> conversions_api_access_token_title */
+"creatable.marketing_lead_source.field.conversions_api_access_token_title" = "Conversions API access token";
+/* creatable -> marketing_lead_source -> field -> test_event_code_title */
+"creatable.marketing_lead_source.field.test_event_code_title" = "Test event code";
+/* creatable -> marketing_lead_source -> field -> tiktok_pixel_id_title */
+"creatable.marketing_lead_source.field.tiktok_pixel_id_title" = "TikTok pixel ID";
+/* creatable -> marketing_lead_source -> field -> events_api_access_token_title */
+"creatable.marketing_lead_source.field.events_api_access_token_title" = "Events API access token";
+/* creatable -> marketing_lead_source -> field -> enable_test_mode */
+"creatable.marketing_lead_source.field.enable_test_mode" = "Enable test mode";
+/* creatable -> marketing_lead_source -> field -> snap_pixel_id_title */
+"creatable.marketing_lead_source.field.snap_pixel_id_title" = "Snap pixel ID";
+/* creatable -> marketing_lead_source -> field -> tracking_connect_hint */
+"creatable.marketing_lead_source.field.tracking_connect_hint" = "Connect the event manager during source creation so traffic and conversions can start syncing immediately.";
+/* creatable -> marketing_lead_source -> field -> tracking_google_hint */
+"creatable.marketing_lead_source.field.tracking_google_hint" = "Google Ads integration can be attached later after the source is created.";
+/* creatable -> marketing_lead_source -> field -> partner_commission_title */
+"creatable.marketing_lead_source.field.partner_commission_title" = "Partner commission";
+/* creatable -> marketing_lead_source -> field -> partner_commission_hint */
+"creatable.marketing_lead_source.field.partner_commission_hint" = "Choose what percentage of revenue the partner will receive for referred clients.";
+/* creatable -> marketing_lead_source -> field -> partner_commission_duration_title */
+"creatable.marketing_lead_source.field.partner_commission_duration_title" = "Commission duration";
+/* creatable -> marketing_lead_source -> field -> partner_commission_duration_hint */
+"creatable.marketing_lead_source.field.partner_commission_duration_hint" = "Choose how long the partner will receive commission payouts for referred clients.";
+/* creatable -> marketing_lead_source -> field -> duration_one_month */
+"creatable.marketing_lead_source.field.duration_one_month" = "1 month";
+/* creatable -> marketing_lead_source -> field -> duration_three_months */
+"creatable.marketing_lead_source.field.duration_three_months" = "3 months";
+/* creatable -> marketing_lead_source -> field -> duration_six_months */
+"creatable.marketing_lead_source.field.duration_six_months" = "6 months";
+/* creatable -> marketing_lead_source -> field -> duration_twelve_months */
+"creatable.marketing_lead_source.field.duration_twelve_months" = "12 months";
+/* creatable -> marketing_lead_source -> field -> duration_two_years */
+"creatable.marketing_lead_source.field.duration_two_years" = "2 years";
+/* creatable -> marketing_lead_source -> field -> duration_three_years */
+"creatable.marketing_lead_source.field.duration_three_years" = "3 years";
+/* creatable -> marketing_lead_source -> field -> duration_forever */
+"creatable.marketing_lead_source.field.duration_forever" = "Forever";
+/* creatable -> marketing_lead_source -> action -> add_tracking */
+"creatable.marketing_lead_source.action.add_tracking" = "Add tracking";
+/* creatable -> marketing_lead_source -> action -> delete_tracking */
+"creatable.marketing_lead_source.action.delete_tracking" = "Delete tracking";
+/* creatable -> marketing_lead_source -> action -> tracking_unavailable */
+"creatable.marketing_lead_source.action.tracking_unavailable" = "Tracking unavailable";
 /* creatable -> marketing_lead_source -> error -> missing_name */
 "creatable.marketing_lead_source.error.missing_name" = "Enter a source name";
 /* creatable -> marketing_lead_source -> error -> invalid_url */
@@ -2484,9 +2631,9 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* screen -> employees -> dismissed_filter */
 "screen.employees.dismissed_filter" = "Dismissed";
 /* screen -> employees -> dismissed_title */
-"screen.employees.dismissed_title" = "Dismissed Employees";
+"screen.employees.dismissed_title" = "Former staff";
 /* screen -> employees -> no_dismissed_employees */
-"screen.employees.no_dismissed_employees" = "No dismissed employees";
+"screen.employees.no_dismissed_employees" = "No former staff";
 /* screen -> products -> actions */
 "screen.products.actions" = "Actions";
 /* screen -> products -> add_action */
