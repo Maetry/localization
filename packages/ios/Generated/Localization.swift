@@ -503,7 +503,6 @@ public enum Loc {
       public static let nameEnter = Loc.tr("Localizable", "creatable.salon.name_enter", fallback: "Great! Now enter your salon's name — as clients will see it")
       public static let namePlaceholder = Loc.tr("Localizable", "creatable.salon.name_placeholder", fallback: "Enter name...")
       public static let noticeRequest = Loc.tr("Localizable", "creatable.salon.notice_request", fallback: "To not miss messages from clients, allow notifications")
-      public static let salonType = Loc.tr("Localizable", "creatable.salon.salon_type", fallback: "Let's start — I'll help you set everything up for your needs. First, choose what kind of space you're creating")
       public static let title = Loc.tr("Localizable", "creatable.salon.title", fallback: "Salon creation")
       public static func turnOnNotifications(_ p1: Any) -> String {
         return Loc.tr("Localizable", "creatable.salon.turn_on_notifications", String(describing: p1), fallback: "You've disabled push notifications in [settings](%@), enable them there")
@@ -524,7 +523,6 @@ public enum Loc {
         public static let addLogo = Loc.tr("Localizable", "creatable.salon.workplace.add_logo", fallback: "Add logo")
         public static let address = Loc.tr("Localizable", "creatable.salon.workplace.address", fallback: "Address")
         public static let changeAddress = Loc.tr("Localizable", "creatable.salon.workplace.change_address", fallback: "Change address")
-        public static let changeType = Loc.tr("Localizable", "creatable.salon.workplace.change_type", fallback: "Change type")
         public static let contacts = Loc.tr("Localizable", "creatable.salon.workplace.contacts", fallback: "Contacts")
         public static let descriptionPlaceholder = Loc.tr("Localizable", "creatable.salon.workplace.description_placeholder", fallback: "Enter description...")
         public static let logoDescription = Loc.tr("Localizable", "creatable.salon.workplace.logo_description", fallback: "Add a logo to stand out among salons")
@@ -532,7 +530,6 @@ public enum Loc {
         public static let salonLogo = Loc.tr("Localizable", "creatable.salon.workplace.salon_logo", fallback: "Salon logo")
         public static let salonName = Loc.tr("Localizable", "creatable.salon.workplace.salon_name", fallback: "Salon name")
         public static let salonNamePlaceholder = Loc.tr("Localizable", "creatable.salon.workplace.salon_name_placeholder", fallback: "Enter name...")
-        public static let salonType = Loc.tr("Localizable", "creatable.salon.workplace.salon_type", fallback: "Salon type")
       }
     }
     public enum Schedule {
@@ -609,7 +606,6 @@ public enum Loc {
       public static let missingLocale = Loc.tr("Localizable", "error.workplace.missing_locale", fallback: "Failed to determine region")
       public static let missingName = Loc.tr("Localizable", "error.workplace.missing_name", fallback: "Enter salon name")
       public static let missingTimeZone = Loc.tr("Localizable", "error.workplace.missing_time_zone", fallback: "Failed to determine time zone")
-      public static let missingType = Loc.tr("Localizable", "error.workplace.missing_type", fallback: "Select salon type")
       public static let uploadFailed = Loc.tr("Localizable", "error.workplace.upload_failed", fallback: "Image upload failed")
     }
   }
@@ -1914,7 +1910,6 @@ public enum Loc {
       public static let salon = Loc.tr("Localizable", "screen.workplace_editing.salon", fallback: "Salon")
       public static let salonChain = Loc.tr("Localizable", "screen.workplace_editing.salon_chain", fallback: "Salon chain")
       public static let salonDescription = Loc.tr("Localizable", "screen.workplace_editing.salon_description", fallback: "Salon description")
-      public static let salonType = Loc.tr("Localizable", "screen.workplace_editing.salon_type", fallback: "Salon type")
       public static let yourDescription = Loc.tr("Localizable", "screen.workplace_editing.your_description", fallback: "Your description")
       public static let yourName = Loc.tr("Localizable", "screen.workplace_editing.your_name", fallback: "Your name")
     }
@@ -1969,6 +1964,7 @@ public enum Loc {
         public static let confirmed = Loc.tr("Localizable", "screen.workspace.filter.confirmed", fallback: "Confirmed")
         public static let pending = Loc.tr("Localizable", "screen.workspace.filter.pending", fallback: "Pending")
         public static let title = Loc.tr("Localizable", "screen.workspace.filter.title", fallback: "Filters")
+        public static let workingToday = Loc.tr("Localizable", "screen.workspace.filter.working_today", fallback: "Only working today")
       }
       public enum Layout {
         public static let timeScale = Loc.tr("Localizable", "screen.workspace.layout.time_scale", fallback: "Time scale")
@@ -2043,7 +2039,6 @@ public enum Loc {
     public enum SalonUpdate {
       public static let enterName = Loc.tr("Localizable", "updatable.salon_update.enter_name", fallback: "Enter new name for your salon")
       public static let placeholder = Loc.tr("Localizable", "updatable.salon_update.placeholder", fallback: "Name")
-      public static let salonType = Loc.tr("Localizable", "updatable.salon_update.salon_type", fallback: "Choose salon type")
       public static let save = Loc.tr("Localizable", "updatable.salon_update.save", fallback: "Save")
       public static let title = Loc.tr("Localizable", "updatable.salon_update.title", fallback: "Update salon")
       public static let uploadLogo = Loc.tr("Localizable", "updatable.salon_update.upload_logo", fallback: "Upload new logo")

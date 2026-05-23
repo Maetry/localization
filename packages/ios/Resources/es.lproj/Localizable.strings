@@ -731,8 +731,6 @@
 "screen.workplace_editing.profile_photo" = "Foto de perfil";
 /* screen -> workplace_editing -> choose_from_gallery */
 "screen.workplace_editing.choose_from_gallery" = "Elegir de la galería";
-/* screen -> workplace_editing -> salon_type */
-"screen.workplace_editing.salon_type" = "Tipo de salón";
 /* screen -> workplace_editing -> salon */
 "screen.workplace_editing.salon" = "Salón";
 /* screen -> workplace_editing -> salon_chain */
@@ -1164,10 +1162,6 @@
 "creatable.salon.workplace.salon_logo" = "Logotipo del salón";
 /* creatable -> salon -> workplace -> logo_description */
 "creatable.salon.workplace.logo_description" = "Agrega un logotipo para destacar entre los salones";
-/* creatable -> salon -> workplace -> change_type */
-"creatable.salon.workplace.change_type" = "Cambiar tipo";
-/* creatable -> salon -> workplace -> salon_type */
-"creatable.salon.workplace.salon_type" = "Tipo de salón";
 /* creatable -> salon -> workplace -> salon_description */
 "creatable.salon.workplace.salon_description" = "Descripción del salón";
 /* creatable -> salon -> workplace -> description_placeholder */
@@ -1180,8 +1174,6 @@
 "creatable.salon.workplace.change_address" = "Cambiar dirección";
 /* creatable -> salon -> workplace -> address */
 "creatable.salon.workplace.address" = "Dirección";
-/* creatable -> salon -> salon_type */
-"creatable.salon.salon_type" = "Comencemos — te ayudaré a configurarlo según tus necesidades. Primero, elige qué tipo de espacio estás creando";
 /* creatable -> salon -> master_type */
 "creatable.salon.master_type" = "Especialista individual";
 /* creatable -> salon -> individual_type */
@@ -1493,8 +1485,6 @@ Esto es necesario para recuperar acceso a tu cuenta";
 "updatable.salon_update.enter_name" = "Introduce un nuevo nombre para tu salón";
 /* updatable -> salon_update -> placeholder */
 "updatable.salon_update.placeholder" = "Nombre";
-/* updatable -> salon_update -> salon_type */
-"updatable.salon_update.salon_type" = "Elige tipo de salón";
 /* updatable -> salon_update -> save */
 "updatable.salon_update.save" = "Guardar";
 /* updatable -> salon_update -> title */
@@ -1561,8 +1551,6 @@ Esto es necesario para recuperar acceso a tu cuenta";
 "error.http.service_unavailable" = "503 Servicio no disponible: sobrecarga o mantenimiento temporal.";
 /* error -> http -> unauthorized */
 "error.http.unauthorized" = "401 No autorizado: se requiere autenticación.";
-/* error -> workplace -> missing_type */
-"error.workplace.missing_type" = "Elige el tipo de salón";
 /* error -> workplace -> missing_name */
 "error.workplace.missing_name" = "Introduce el nombre del salón";
 /* error -> workplace -> missing_address */
@@ -1759,6 +1747,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workspace.creation.reserve_time.subtitle" = "Bloquear tiempo en el horario";
 "screen.workspace.filter.title" = "Filtros";
 "screen.workspace.filter.booking_status" = "Estado de la reserva";
+"screen.workspace.filter.working_today" = "Solo quienes trabajan hoy";
 "screen.workspace.filter.pending" = "Pendiente";
 "screen.workspace.filter.confirmed" = "Confirmada";
 "screen.workspace.filter.cancelled" = "Cancelada";

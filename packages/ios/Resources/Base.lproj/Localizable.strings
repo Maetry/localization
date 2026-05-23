@@ -679,8 +679,6 @@
 "screen.workplace_editing.profile_photo" = "Profile photo";
 /* screen -> workplace_editing -> choose_from_gallery */
 "screen.workplace_editing.choose_from_gallery" = "Choose from gallery";
-/* screen -> workplace_editing -> salon_type */
-"screen.workplace_editing.salon_type" = "Salon type";
 /* screen -> workplace_editing -> salon */
 "screen.workplace_editing.salon" = "Salon";
 /* screen -> workplace_editing -> salon_chain */
@@ -1112,10 +1110,6 @@
 "creatable.salon.workplace.salon_logo" = "Salon logo";
 /* creatable -> salon -> workplace -> logo_description */
 "creatable.salon.workplace.logo_description" = "Add a logo to stand out among salons";
-/* creatable -> salon -> workplace -> change_type */
-"creatable.salon.workplace.change_type" = "Change type";
-/* creatable -> salon -> workplace -> salon_type */
-"creatable.salon.workplace.salon_type" = "Salon type";
 /* creatable -> salon -> workplace -> salon_description */
 "creatable.salon.workplace.salon_description" = "Salon description";
 /* creatable -> salon -> workplace -> description_placeholder */
@@ -1128,8 +1122,6 @@
 "creatable.salon.workplace.change_address" = "Change address";
 /* creatable -> salon -> workplace -> address */
 "creatable.salon.workplace.address" = "Address";
-/* creatable -> salon -> salon_type */
-"creatable.salon.salon_type" = "Let's start — I'll help you set everything up for your needs. First, choose what kind of space you're creating";
 /* creatable -> salon -> master_type */
 "creatable.salon.master_type" = "Individual specialist";
 /* creatable -> salon -> individual_type */
@@ -1446,8 +1438,6 @@
 "updatable.salon_update.enter_name" = "Enter new name for your salon";
 /* updatable -> salon_update -> placeholder */
 "updatable.salon_update.placeholder" = "Name";
-/* updatable -> salon_update -> salon_type */
-"updatable.salon_update.salon_type" = "Choose salon type";
 /* updatable -> salon_update -> save */
 "updatable.salon_update.save" = "Save";
 /* updatable -> salon_update -> title */
@@ -1514,8 +1504,6 @@
 "error.http.service_unavailable" = "503 Service Unavailable: The server cannot process the request due to temporary overload or maintenance.";
 /* error -> http -> unauthorized */
 "error.http.unauthorized" = "401 Unauthorized: Authentication required. User must log in to access.";
-/* error -> workplace -> missing_type */
-"error.workplace.missing_type" = "Select salon type";
 /* error -> workplace -> missing_name */
 "error.workplace.missing_name" = "Enter salon name";
 /* error -> workplace -> missing_address */
@@ -2148,6 +2136,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.creation.reserve_time.subtitle" = "Block time in schedule";
 "screen.workspace.filter.title" = "Filters";
 "screen.workspace.filter.booking_status" = "Booking status";
+"screen.workspace.filter.working_today" = "Only working today";
 "screen.workspace.filter.pending" = "Pending";
 "screen.workspace.filter.confirmed" = "Confirmed";
 "screen.workspace.filter.cancelled" = "Cancelled";

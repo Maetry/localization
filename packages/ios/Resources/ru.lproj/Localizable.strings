@@ -679,8 +679,6 @@
 "screen.workplace_editing.profile_photo" = "Фото профиля";
 /* screen -> workplace_editing -> choose_from_gallery */
 "screen.workplace_editing.choose_from_gallery" = "Выбрать из галереи";
-/* screen -> workplace_editing -> salon_type */
-"screen.workplace_editing.salon_type" = "Тип салона";
 /* screen -> workplace_editing -> salon */
 "screen.workplace_editing.salon" = "Салон";
 /* screen -> workplace_editing -> salon_chain */
@@ -1112,10 +1110,6 @@
 "creatable.salon.workplace.salon_logo" = "Логотип салона";
 /* creatable -> salon -> workplace -> logo_description */
 "creatable.salon.workplace.logo_description" = "Добавьте логотип, чтобы выделиться среди салонов";
-/* creatable -> salon -> workplace -> change_type */
-"creatable.salon.workplace.change_type" = "Изменить тип";
-/* creatable -> salon -> workplace -> salon_type */
-"creatable.salon.workplace.salon_type" = "Тип салона";
 /* creatable -> salon -> workplace -> salon_description */
 "creatable.salon.workplace.salon_description" = "Описание салона";
 /* creatable -> salon -> workplace -> description_placeholder */
@@ -1128,8 +1122,6 @@
 "creatable.salon.workplace.change_address" = "Изменить адрес";
 /* creatable -> salon -> workplace -> address */
 "creatable.salon.workplace.address" = "Адрес";
-/* creatable -> salon -> salon_type */
-"creatable.salon.salon_type" = "Давайте начнём — помогу вам настроить всё под ваши задачи. Для начала выберите, какое пространство вы создаёте";
 /* creatable -> salon -> master_type */
 "creatable.salon.master_type" = "Индивидуальный мастер";
 /* creatable -> salon -> individual_type */
@@ -1446,8 +1438,6 @@
 "updatable.salon_update.enter_name" = "Введи новое название для твоего салона";
 /* updatable -> salon_update -> placeholder */
 "updatable.salon_update.placeholder" = "Название";
-/* updatable -> salon_update -> salon_type */
-"updatable.salon_update.salon_type" = "Выбери тип салона";
 /* updatable -> salon_update -> save */
 "updatable.salon_update.save" = "Сохранить";
 /* updatable -> salon_update -> title */
@@ -1514,8 +1504,6 @@
 "error.http.service_unavailable" = "503 Сервис недоступен: Сервер не может обработать запрос из-за временной перегрузки или обслуживания.";
 /* error -> http -> unauthorized */
 "error.http.unauthorized" = "401 Неавторизован: Требуется аутентификация. Пользователь должен залогиниться для доступа.";
-/* error -> workplace -> missing_type */
-"error.workplace.missing_type" = "Выберите тип салона";
 /* error -> workplace -> missing_name */
 "error.workplace.missing_name" = "Введите название салона";
 /* error -> workplace -> missing_address */
@@ -2153,6 +2141,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.creation.reserve_time.subtitle" = "Заблокировать время в расписании";
 "screen.workspace.filter.title" = "Фильтры";
 "screen.workspace.filter.booking_status" = "Статус записи";
+"screen.workspace.filter.working_today" = "Только работающие сегодня";
 "screen.workspace.filter.pending" = "Ожидает";
 "screen.workspace.filter.confirmed" = "Подтверждена";
 "screen.workspace.filter.cancelled" = "Отменена";
