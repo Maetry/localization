@@ -1192,6 +1192,12 @@
 "creatable.procedure.field.description_placeholder" = "Enter description...";
 /* creatable -> procedure -> field -> price_title */
 "creatable.procedure.field.price_title" = "Procedure price";
+/* creatable -> procedure -> field -> creating_service_hint */
+"creatable.procedure.field.creating_service_hint" = "Enter the name of the service you are creating.";
+/* creatable -> procedure -> field -> selected_service_hint */
+"creatable.procedure.field.selected_service_hint" = "You can change the name shown to clients. The service will still stay linked to the selected catalog item.";
+/* creatable -> procedure -> field -> select_different */
+"creatable.procedure.field.select_different" = "Choose different";
 /* creatable -> procedure -> name_enter */
 "creatable.procedure.name_enter" = "Let's start with the name — enter it manually or choose from the list";
 /* creatable -> procedure -> name_hint */
@@ -1419,6 +1425,10 @@
 /* creatable -> service -> missing_category */
 "creatable.service.missing_category" = "Missing category";
 /* updatable -> employee -> select_position */
+"updatable.client.title" = "Update client";
+
+"updatable.employee.title" = "Update staff";
+
 "updatable.employee.select_position" = "Select position";
 /* updatable -> position -> title */
 "updatable.position.title" = "Name";

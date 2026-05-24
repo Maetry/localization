@@ -1210,6 +1210,12 @@
 "creatable.procedure.description_placeholder" = "Введите описание...";
 /* creatable -> procedure -> price_title */
 "creatable.procedure.price_title" = "Укажите стоимость — эта информация отобразится на странице процедуры";
+/* creatable -> procedure -> field -> creating_service_hint */
+"creatable.procedure.field.creating_service_hint" = "Введите название услуги, которую создаете.";
+/* creatable -> procedure -> field -> selected_service_hint */
+"creatable.procedure.field.selected_service_hint" = "Можно изменить название для клиента. Услуга все равно останется связана с выбранной позицией каталога.";
+/* creatable -> procedure -> field -> select_different */
+"creatable.procedure.field.select_different" = "Выбрать другую";
 /* creatable -> procedure -> price_placeholder */
 "creatable.procedure.price_placeholder" = "Введите сумму...";
 /* creatable -> procedure -> masters_title */
@@ -1419,6 +1425,10 @@
 /* creatable -> service -> missing_category */
 "creatable.service.missing_category" = "Отсутствует категория";
 /* updatable -> employee -> select_position */
+"updatable.client.title" = "Обновление клиента";
+
+"updatable.employee.title" = "Обновление сотрудника";
+
 "updatable.employee.select_position" = "Выбрать должность";
 /* updatable -> position -> title */
 "updatable.position.title" = "Название";

@@ -405,6 +405,7 @@ public enum Loc {
         public static let chosenServiceHint = Loc.tr("Localizable", "creatable.procedure.field.chosen_service_hint", fallback: "An existing service from the catalog will be used")
         public static let createService = Loc.tr("Localizable", "creatable.procedure.field.create_service", fallback: "Create a new service")
         public static let createServiceHint = Loc.tr("Localizable", "creatable.procedure.field.create_service_hint", fallback: "A new service will be created in the selected categories")
+        public static let creatingServiceHint = Loc.tr("Localizable", "creatable.procedure.field.creating_service_hint", fallback: "Enter the name of the service you are creating.")
         public static let descriptionHint = Loc.tr("Localizable", "creatable.procedure.field.description_hint", fallback: "Describe what is included in the service and what the client should know before booking")
         public static let descriptionPlaceholder = Loc.tr("Localizable", "creatable.procedure.field.description_placeholder", fallback: "Enter description...")
         public static let descriptionTitle = Loc.tr("Localizable", "creatable.procedure.field.description_title", fallback: "Procedure description")
@@ -417,8 +418,10 @@ public enum Loc {
         public static let nameTitle = Loc.tr("Localizable", "creatable.procedure.field.name_title", fallback: "Service")
         public static let priceHint = Loc.tr("Localizable", "creatable.procedure.field.price_hint", fallback: "This price will be used in the catalog and when booking the client")
         public static let priceTitle = Loc.tr("Localizable", "creatable.procedure.field.price_title", fallback: "Procedure price")
+        public static let selectDifferent = Loc.tr("Localizable", "creatable.procedure.field.select_different", fallback: "Choose different")
         public static let selectMasters = Loc.tr("Localizable", "creatable.procedure.field.select_masters", fallback: "Select specialists")
         public static let selectTemplate = Loc.tr("Localizable", "creatable.procedure.field.select_template", fallback: "Select from templates")
+        public static let selectedServiceHint = Loc.tr("Localizable", "creatable.procedure.field.selected_service_hint", fallback: "You can change the name shown to clients. The service will still stay linked to the selected catalog item.")
         public static let serviceHint = Loc.tr("Localizable", "creatable.procedure.field.service_hint", fallback: "Choose a catalog template or create a new service. Using a template is better because clients can find you by service more easily")
         public static let servicePlaceholder = Loc.tr("Localizable", "creatable.procedure.field.service_placeholder", fallback: "No template or new service selected yet")
         public static let setDuration = Loc.tr("Localizable", "creatable.procedure.field.set_duration", fallback: "Set")
@@ -2022,8 +2025,12 @@ public enum Loc {
     }
   }
   public enum Updatable {
+    public enum Client {
+      public static let title = Loc.tr("Localizable", "updatable.client.title", fallback: "Update client")
+    }
     public enum Employee {
       public static let selectPosition = Loc.tr("Localizable", "updatable.employee.select_position", fallback: "Select position")
+      public static let title = Loc.tr("Localizable", "updatable.employee.title", fallback: "Update staff")
     }
     public enum Position {
       public static let title = Loc.tr("Localizable", "updatable.position.title", fallback: "Name")

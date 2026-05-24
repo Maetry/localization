@@ -1244,6 +1244,12 @@
 "creatable.procedure.field.description_placeholder" = "Introduce una descripción...";
 /* creatable -> procedure -> field -> price_title */
 "creatable.procedure.field.price_title" = "Costo del procedimiento";
+/* creatable -> procedure -> field -> creating_service_hint */
+"creatable.procedure.field.creating_service_hint" = "Escribe el nombre del servicio que estás creando.";
+/* creatable -> procedure -> field -> selected_service_hint */
+"creatable.procedure.field.selected_service_hint" = "Puedes cambiar el nombre que verán los clientes. El servicio seguirá vinculado al elemento seleccionado del catálogo.";
+/* creatable -> procedure -> field -> select_different */
+"creatable.procedure.field.select_different" = "Elegir otro";
 /* creatable -> procedure -> name_enter */
 "creatable.procedure.name_enter" = "Comencemos por el nombre — introdúcelo manualmente o elige de la lista";
 /* creatable -> procedure -> name_hint */
@@ -1466,6 +1472,10 @@ Esto es necesario para recuperar acceso a tu cuenta";
 /* creatable -> service -> missing_category */
 "creatable.service.missing_category" = "Falta categoría";
 /* updatable -> employee -> select_position */
+"updatable.client.title" = "Actualizar cliente";
+
+"updatable.employee.title" = "Actualizar personal";
+
 "updatable.employee.select_position" = "Elegir puesto";
 /* updatable -> position -> title */
 "updatable.position.title" = "Nombre";
