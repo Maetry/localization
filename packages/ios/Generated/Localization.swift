@@ -190,7 +190,7 @@ public enum Loc {
         public static let chooseProceduresTitle = Loc.tr("Localizable", "creatable.complex.field.choose_procedures_title", fallback: "Выберите услуги")
         public static let descriptionHint = Loc.tr("Localizable", "creatable.complex.field.description_hint", fallback: "Опишите ценность набора и детали, которые важно знать до записи")
         public static let descriptionPlaceholder = Loc.tr("Localizable", "creatable.complex.field.description_placeholder", fallback: "Например: «Что входит в набор, сколько длится каждая часть, как подготовиться и что важно знать перед записью»")
-        public static let descriptionTitle = Loc.tr("Localizable", "creatable.complex.field.description_title", fallback: "Описание (необязательно)")
+        public static let descriptionTitle = Loc.tr("Localizable", "creatable.complex.field.description_title", fallback: "Описание")
         public static let executorsMissing = Loc.tr("Localizable", "creatable.complex.field.executors_missing", fallback: "Исполнители не выбраны")
         public static let executorsSheetHint = Loc.tr("Localizable", "creatable.complex.field.executors_sheet_hint", fallback: "Выберите исполнителей, которые могут выполнять эту процедуру внутри набора")
         public static let nameHint = Loc.tr("Localizable", "creatable.complex.field.name_hint", fallback: "Название должно сразу объяснять, что входит в набор и чем он полезен клиенту")

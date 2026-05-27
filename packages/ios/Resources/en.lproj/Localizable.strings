@@ -2256,7 +2256,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* creatable -> complex -> field -> description_placeholder */
 "creatable.complex.field.description_placeholder" = "For example: “What is included, how long each part takes, how to prepare, and what to know before booking”";
 /* creatable -> complex -> field -> description_title */
-"creatable.complex.field.description_title" = "Description (optional)";
+"creatable.complex.field.description_title" = "Description";
 /* creatable -> complex -> field -> executors_missing */
 "creatable.complex.field.executors_missing" = "No specialists selected";
 /* creatable -> complex -> field -> executors_sheet_hint */

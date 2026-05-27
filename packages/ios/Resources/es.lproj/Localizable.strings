@@ -2206,7 +2206,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "creatable.complex.field.choose_procedures_title" = "Selecciona los servicios";
 "creatable.complex.field.description_hint" = "Describe el valor del paquete y los detalles que el cliente debe conocer antes de reservar";
 "creatable.complex.field.description_placeholder" = "Añade una descripción de este paquete";
-"creatable.complex.field.description_title" = "Descripción (opcional)";
+"creatable.complex.field.description_title" = "Descripción";
 "creatable.complex.field.executors_missing" = "No se han seleccionado profesionales";
 "creatable.complex.field.executors_sheet_hint" = "Selecciona los profesionales que pueden realizar este servicio dentro del paquete";
 "creatable.complex.field.name_hint" = "El nombre debe explicar de inmediato qué incluye el paquete y por qué le conviene al cliente";

@@ -1633,7 +1633,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.complex.field.choose_procedures_title" = "Выберите услуги";
 "creatable.complex.field.description_hint" = "Опишите ценность набора и детали, которые важно знать до записи";
 "creatable.complex.field.description_placeholder" = "Например: «Что входит в набор, сколько длится каждая часть, как подготовиться и что важно знать перед записью»";
-"creatable.complex.field.description_title" = "Описание (необязательно)";
+"creatable.complex.field.description_title" = "Описание";
 "creatable.complex.field.executors_missing" = "Исполнители не выбраны";
 "creatable.complex.field.executors_sheet_hint" = "Выберите исполнителей, которые могут выполнять эту процедуру внутри набора";
 "creatable.complex.field.name_hint" = "Название должно сразу объяснять, что входит в набор и чем он полезен клиенту";
