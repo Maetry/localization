@@ -114,6 +114,8 @@
 "screen.notice.placeholder" = "You haven't received any notifications yet";
 /* screen -> notice -> read_all */
 "screen.notice.read_all" = "Read all";
+/* screen -> notice -> unread */
+"screen.notice.unread" = "Unread";
 /* screen -> sharing -> qr_button */
 "screen.sharing.qr_button" = "Send QR code";
 /* screen -> sharing -> link_button */
@@ -217,6 +219,8 @@
 "screen.workspace.minutes_short" = "mins";
 /* screen -> workspace -> day_off_message */
 "screen.workspace.day_off_message" = "Your salon is closed on this day";
+/* screen -> workspace -> week_off_message */
+"screen.workspace.week_off_message" = "Your salon has no working days this week";
 /* screen -> workspace -> go_to_schedule_settings */
 "screen.workspace.go_to_schedule_settings" = "Go to schedule settings";
 /* screen -> schedule -> workspace_schedule */
@@ -292,8 +296,16 @@
 "screen.catalog_management.all_title" = "Services";
 /* screen -> catalog_management -> add_service */
 "screen.catalog_management.add_service" = "Add service";
+/* screen -> catalog_management -> archive_bundle_action */
+"screen.catalog_management.archive_bundle_action" = "Archive";
+/* screen -> catalog_management -> archive_bundle_hint */
+"screen.catalog_management.archive_bundle_hint" = "The bundle will be removed from the catalog";
+/* screen -> catalog_management -> archive_bundle_title */
+"screen.catalog_management.archive_bundle_title" = "Stop offering bundle";
 /* screen -> catalog_management -> complexs */
-"screen.catalog_management.complexs" = "Complexes";
+"screen.catalog_management.complexs" = "Bundles";
+/* screen -> catalog_management -> manual_booking_only */
+"screen.catalog_management.manual_booking_only" = "Not available for online booking";
 /* screen -> catalog_management -> complex_placeholder */
 "screen.catalog_management.complex_placeholder" = "To create a complex, combine several procedures";
 /* screen -> catalog_management -> procedures */
@@ -707,6 +719,34 @@
 "screen.workplace_editing.salon_description" = "Salon description";
 /* screen -> workplace_editing -> your_description */
 "screen.workplace_editing.your_description" = "Your description";
+/* screen -> workplace_editing -> online_booking_window_title */
+"screen.workplace_editing.online_booking_window_title" = "Booking window";
+/* screen -> workplace_editing -> online_booking_window_hint */
+"screen.workplace_editing.online_booking_window_hint" = "Clients can book only inside this window before the appointment time.";
+/* screen -> workplace_editing -> online_booking_min_advance */
+"screen.workplace_editing.online_booking_min_advance" = "Not earlier than";
+/* screen -> workplace_editing -> online_booking_max_advance */
+"screen.workplace_editing.online_booking_max_advance" = "Not later than";
+/* screen -> workplace_editing -> advance_value_placeholder */
+"screen.workplace_editing.advance_value_placeholder" = "Value";
+/* screen -> workplace_editing -> advance_unit_minutes */
+"screen.workplace_editing.advance_unit_minutes" = "Minutes";
+/* screen -> workplace_editing -> advance_unit_hours */
+"screen.workplace_editing.advance_unit_hours" = "Hours";
+/* screen -> workplace_editing -> advance_unit_days */
+"screen.workplace_editing.advance_unit_days" = "Days";
+/* screen -> workplace_editing -> cancellation_policy_title */
+"screen.workplace_editing.cancellation_policy_title" = "Cancellation policy";
+/* screen -> workplace_editing -> cancellation_policy_placeholder */
+"screen.workplace_editing.cancellation_policy_placeholder" = "Add your cancellation policy";
+/* screen -> workplace_editing -> new_client_welcome_title */
+"screen.workplace_editing.new_client_welcome_title" = "New client note";
+/* screen -> workplace_editing -> new_client_welcome_placeholder */
+"screen.workplace_editing.new_client_welcome_placeholder" = "Add a message for new clients";
+/* screen -> settings -> online_booking -> title */
+"screen.settings.online_booking.title" = "Online booking";
+/* screen -> settings -> online_booking -> empty_value */
+"screen.settings.online_booking.empty_value" = "Not set";
 /* screen -> position_editable -> name */
 "screen.position_editable.name" = "Name";
 /* screen -> position_editable -> your_name */
@@ -2773,3 +2813,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "widget.client_danger_zone.delete_hint" = "This action cannot be undone. The client profile and contacts will be deleted.";
 /* widget -> client_danger_zone -> delete_title */
 "widget.client_danger_zone.delete_title" = "Delete client";
+
+/* creatable -> appointment -> progress_tip -> title */
+"creatable.appointment.progress_tip.title" = "Open the appointment steps";
+/* creatable -> appointment -> progress_tip -> message */
+"creatable.appointment.progress_tip.message" = "This button opens the client, service, time, and price steps for the appointment.";

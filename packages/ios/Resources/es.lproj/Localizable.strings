@@ -174,6 +174,8 @@
 "screen.notice.placeholder" = "Aún no has recibido notificaciones";
 /* screen -> notice -> read_all */
 "screen.notice.read_all" = "Marcar todo como leído";
+/* screen -> notice -> unread */
+"screen.notice.unread" = "No leídas";
 /* screen -> sharing -> qr_button */
 "screen.sharing.qr_button" = "Enviar código QR";
 /* screen -> sharing -> link_button */
@@ -274,9 +276,11 @@
 /* screen -> workspace -> employees_count */
 "screen.workspace.employees_count" = "empleado(s)";
 /* screen -> workspace -> minutes_short */
-"screen.workspace.minutes_short" = "mins";
+"screen.workspace.minutes_short" = "min";
 /* screen -> workspace -> day_off_message */
 "screen.workspace.day_off_message" = "En este día tu salón está cerrado";
+/* screen -> workspace -> week_off_message */
+"screen.workspace.week_off_message" = "Tu salón no tiene días laborables esta semana";
 /* screen -> workspace -> go_to_schedule_settings */
 "screen.workspace.go_to_schedule_settings" = "Ir a la configuración del horario";
 /* screen -> schedule -> workspace_schedule */
@@ -352,8 +356,16 @@
 "screen.catalog_management.all_title" = "Servicios";
 /* screen -> catalog_management -> add_service */
 "screen.catalog_management.add_service" = "Agregar servicio";
+/* screen -> catalog_management -> archive_bundle_action */
+"screen.catalog_management.archive_bundle_action" = "Archivar";
+/* screen -> catalog_management -> archive_bundle_hint */
+"screen.catalog_management.archive_bundle_hint" = "El paquete se eliminará del catálogo";
+/* screen -> catalog_management -> archive_bundle_title */
+"screen.catalog_management.archive_bundle_title" = "Dejar de ofrecer paquete";
 /* screen -> catalog_management -> complexs */
-"screen.catalog_management.complexs" = "Complejos";
+"screen.catalog_management.complexs" = "Paquetes";
+/* screen -> catalog_management -> manual_booking_only */
+"screen.catalog_management.manual_booking_only" = "No disponible para reserva en línea";
 /* screen -> catalog_management -> complex_placeholder */
 "screen.catalog_management.complex_placeholder" = "Para crear un complejo, combina varios procedimientos";
 /* screen -> catalog_management -> procedures */
@@ -741,6 +753,34 @@
 "screen.workplace_editing.salon_description" = "Descripción del salón";
 /* screen -> workplace_editing -> your_description */
 "screen.workplace_editing.your_description" = "Tu descripción";
+/* screen -> workplace_editing -> online_booking_window_title */
+"screen.workplace_editing.online_booking_window_title" = "Ventana de reserva online";
+/* screen -> workplace_editing -> online_booking_window_hint */
+"screen.workplace_editing.online_booking_window_hint" = "Los clientes solo podrán reservar dentro de este intervalo antes del inicio de la cita.";
+/* screen -> workplace_editing -> online_booking_min_advance */
+"screen.workplace_editing.online_booking_min_advance" = "No antes de";
+/* screen -> workplace_editing -> online_booking_max_advance */
+"screen.workplace_editing.online_booking_max_advance" = "No más tarde de";
+/* screen -> workplace_editing -> advance_value_placeholder */
+"screen.workplace_editing.advance_value_placeholder" = "Valor";
+/* screen -> workplace_editing -> advance_unit_minutes */
+"screen.workplace_editing.advance_unit_minutes" = "Minutos";
+/* screen -> workplace_editing -> advance_unit_hours */
+"screen.workplace_editing.advance_unit_hours" = "Horas";
+/* screen -> workplace_editing -> advance_unit_days */
+"screen.workplace_editing.advance_unit_days" = "Días";
+/* screen -> workplace_editing -> cancellation_policy_title */
+"screen.workplace_editing.cancellation_policy_title" = "Política de cancelación";
+/* screen -> workplace_editing -> cancellation_policy_placeholder */
+"screen.workplace_editing.cancellation_policy_placeholder" = "Añade tu política de cancelación";
+/* screen -> workplace_editing -> new_client_welcome_title */
+"screen.workplace_editing.new_client_welcome_title" = "Mensaje para nuevos clientes";
+/* screen -> workplace_editing -> new_client_welcome_placeholder */
+"screen.workplace_editing.new_client_welcome_placeholder" = "Añade un mensaje para nuevos clientes";
+/* screen -> settings -> online_booking -> title */
+"screen.settings.online_booking.title" = "Reserva en línea";
+/* screen -> settings -> online_booking -> empty_value */
+"screen.settings.online_booking.empty_value" = "Sin configurar";
 /* screen -> position_editable -> name */
 "screen.position_editable.name" = "Nombre";
 /* screen -> position_editable -> your_name */
@@ -1773,7 +1813,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 /* screen -> workspace -> tip -> view_mode -> title */
 "screen.workspace.tip.view_mode.title" = "Vista de citas";
 /* screen -> workspace -> tip -> view_mode -> message */
-"screen.workspace.tip.view_mode.message" = "Mantén pulsada la pestaña Citas para cambiar entre Diario y Lista.";
+"screen.workspace.tip.view_mode.message" = "Mantén pulsada la pestaña Citas para cambiar entre las vistas Diario y Lista.";
 "screen.workplace.menu.create_workplace" = "Crear salón";
 "screen.workplace.menu.join_workplace" = "Unirse al salón";
 "screen.workplace.empty_state.title" = "Aún no hay salones";
@@ -2492,3 +2532,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "widget.client_danger_zone.delete_alert_title" = "¿Eliminar cliente?";
 "widget.client_danger_zone.delete_hint" = "Esta acción es irreversible. Se eliminarán la ficha del cliente y sus contactos.";
 "widget.client_danger_zone.delete_title" = "Eliminar cliente";
+
+/* creatable -> appointment -> progress_tip -> title */
+"creatable.appointment.progress_tip.title" = "Abre los pasos de la cita";
+/* creatable -> appointment -> progress_tip -> message */
+"creatable.appointment.progress_tip.message" = "Este botón abre los pasos de cliente, servicio, hora y precio de la cita.";

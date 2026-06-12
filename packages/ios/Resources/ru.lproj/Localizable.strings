@@ -114,6 +114,8 @@
 "screen.notice.placeholder" = "Ты еще не получил ни одного уведомления";
 /* screen -> notice -> read_all */
 "screen.notice.read_all" = "Прочитать все";
+/* screen -> notice -> unread */
+"screen.notice.unread" = "Непрочитанные";
 /* screen -> sharing -> qr_button */
 "screen.sharing.qr_button" = "Отправить QR-код";
 /* screen -> sharing -> link_button */
@@ -212,11 +214,13 @@
 /* screen -> workspace -> contact_client */
 "screen.workspace.contact_client" = "Cвязаться";
 /* screen -> workspace -> employees_count */
-"screen.workspace.employees_count" = "employee(s)";
+"screen.workspace.employees_count" = "сотрудник(и)";
 /* screen -> workspace -> minutes_short */
-"screen.workspace.minutes_short" = "mins";
+"screen.workspace.minutes_short" = "мин";
 /* screen -> workspace -> day_off_message */
 "screen.workspace.day_off_message" = "В этот день у вашего салона выходной";
+/* screen -> workspace -> week_off_message */
+"screen.workspace.week_off_message" = "На этой неделе у вашего салона нет рабочих дней";
 /* screen -> workspace -> go_to_schedule_settings */
 "screen.workspace.go_to_schedule_settings" = "Перейти к настройке расписания";
 /* screen -> schedule -> workspace_schedule */
@@ -292,8 +296,16 @@
 "screen.catalog_management.all_title" = "Услуги";
 /* screen -> catalog_management -> add_service */
 "screen.catalog_management.add_service" = "Добавить услугу";
+/* screen -> catalog_management -> archive_bundle_action */
+"screen.catalog_management.archive_bundle_action" = "Архивировать";
+/* screen -> catalog_management -> archive_bundle_hint */
+"screen.catalog_management.archive_bundle_hint" = "Набор будет удалён из каталога";
+/* screen -> catalog_management -> archive_bundle_title */
+"screen.catalog_management.archive_bundle_title" = "Перестать предлагать набор";
 /* screen -> catalog_management -> complexs */
-"screen.catalog_management.complexs" = "Комплексы";
+"screen.catalog_management.complexs" = "Наборы";
+/* screen -> catalog_management -> manual_booking_only */
+"screen.catalog_management.manual_booking_only" = "Недоступно для онлайн-записи";
 /* screen -> catalog_management -> complex_placeholder */
 "screen.catalog_management.complex_placeholder" = "Для создания комплеса объедините несколько процедур";
 /* screen -> catalog_management -> procedures */
@@ -313,7 +325,7 @@
 /* screen -> catalog_management -> search */
 "screen.catalog_management.search" = "Поиск";
 /* screen -> catalog_management -> service_search */
-"screen.catalog_management.service_search" = "Search for service";
+"screen.catalog_management.service_search" = "Найти услугу";
 /* screen -> employees -> title */
 "screen.employees.title" = "Сотрудники";
 /* screen -> employees -> all_title */
@@ -596,7 +608,7 @@
 /* screen -> search -> not_found_invite_description */
 "screen.search.not_found_invite_description" = "Так вы сможете записываться к своим мастерам любимого салона прямо в приложении.";
 /* screen -> search -> not_found_invite_link_label */
-"screen.search.not_found_invite_link_label" = "shared link";
+"screen.search.not_found_invite_link_label" = "ссылка-приглашение";
 /* screen -> search -> placeholder */
 "screen.search.placeholder" = "Найти %{tag}";
 /* screen -> search -> search_bar_field */
@@ -648,7 +660,7 @@
 "screen.profile_editing.recovery_contact_validation" = "Укажите способ восстановления доступа.";
 "screen.profile_editing.customer_contact_validation" = "Укажите способ связи для салона при записи.";
 /* screen -> main_customer_search -> customer_search */
-"screen.main_customer_search.customer_search" = "Search for customer";
+"screen.main_customer_search.customer_search" = "Найти клиента";
 /* screen -> main_customer_list_search -> map */
 "screen.main_customer_list_search.map" = "Карта";
 /* screen -> main_customer_map_search -> list */
@@ -689,6 +701,34 @@
 "screen.workplace_editing.salon_description" = "Описание салона";
 /* screen -> workplace_editing -> your_description */
 "screen.workplace_editing.your_description" = "Ваше описание";
+/* screen -> workplace_editing -> online_booking_window_title */
+"screen.workplace_editing.online_booking_window_title" = "Окно онлайн-записи";
+/* screen -> workplace_editing -> online_booking_window_hint */
+"screen.workplace_editing.online_booking_window_hint" = "Клиенты смогут записываться только в этом промежутке до начала визита.";
+/* screen -> workplace_editing -> online_booking_min_advance */
+"screen.workplace_editing.online_booking_min_advance" = "Не раньше чем за";
+/* screen -> workplace_editing -> online_booking_max_advance */
+"screen.workplace_editing.online_booking_max_advance" = "Не позднее чем за";
+/* screen -> workplace_editing -> advance_value_placeholder */
+"screen.workplace_editing.advance_value_placeholder" = "Значение";
+/* screen -> workplace_editing -> advance_unit_minutes */
+"screen.workplace_editing.advance_unit_minutes" = "Минуты";
+/* screen -> workplace_editing -> advance_unit_hours */
+"screen.workplace_editing.advance_unit_hours" = "Часы";
+/* screen -> workplace_editing -> advance_unit_days */
+"screen.workplace_editing.advance_unit_days" = "Дни";
+/* screen -> workplace_editing -> cancellation_policy_title */
+"screen.workplace_editing.cancellation_policy_title" = "Политика отмены";
+/* screen -> workplace_editing -> cancellation_policy_placeholder */
+"screen.workplace_editing.cancellation_policy_placeholder" = "Добавьте политику отмены";
+/* screen -> workplace_editing -> new_client_welcome_title */
+"screen.workplace_editing.new_client_welcome_title" = "Сообщение для новых клиентов";
+/* screen -> workplace_editing -> new_client_welcome_placeholder */
+"screen.workplace_editing.new_client_welcome_placeholder" = "Добавьте сообщение для новых клиентов";
+/* screen -> settings -> online_booking -> title */
+"screen.settings.online_booking.title" = "Онлайн-запись";
+/* screen -> settings -> online_booking -> empty_value */
+"screen.settings.online_booking.empty_value" = "Не настроено";
 /* screen -> position_editable -> name */
 "screen.position_editable.name" = "Название";
 /* screen -> position_editable -> your_name */
@@ -1382,10 +1422,14 @@
 "creatable.appointment.select_procedure_first_message" = "Для выбора даты сначала нужно выбрать процедуру";
 /* creatable -> appointment -> choose_customer */
 "creatable.appointment.choose_customer" = "Пожалуйста, выберите клиента, для которого создаётся запись";
+/* creatable -> appointment -> select_client */
+"creatable.appointment.select_client" = "Выберите клиента";
 /* creatable -> appointment -> select_procedure */
 "creatable.appointment.select_procedure" = "Выберите услугу";
 /* creatable -> appointment -> select_time */
 "creatable.appointment.select_time" = "Укажите удобное время для визита";
+/* creatable -> appointment -> select_time_title */
+"creatable.appointment.select_time_title" = "Выберите время";
 /* creatable -> appointment -> day_unavailable */
 "creatable.appointment.day_unavailable" = "В этот день, к сожалению, запись недоступна — выберите другую дату";
 /* creatable -> appointment -> night */
@@ -2167,7 +2211,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* screen -> workspace -> tip -> view_mode -> title */
 "screen.workspace.tip.view_mode.title" = "Вид записей";
 /* screen -> workspace -> tip -> view_mode -> message */
-"screen.workspace.tip.view_mode.message" = "Удерживайте вкладку «Записи», чтобы переключаться между режимами «Diary» и «List».";
+"screen.workspace.tip.view_mode.message" = "Удерживайте вкладку «Записи», чтобы переключаться между режимами «Ежедневник» и «Список».";
 "screen.workplace.menu.create_workplace" = "Создать салон";
 "screen.workplace.menu.join_workplace" = "Присоединиться к салону";
 "screen.workplace.empty_state.title" = "Салонов пока нет";
@@ -2495,3 +2539,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.filter_tag_count" = "%1$@ (%2$d)";
 /* reusable -> character_count */
 "reusable.character_count" = "%1$d/%2$d";
+
+/* creatable -> appointment -> progress_tip -> title */
+"creatable.appointment.progress_tip.title" = "Откройте шаги создания записи";
+/* creatable -> appointment -> progress_tip -> message */
+"creatable.appointment.progress_tip.message" = "Эта кнопка открывает шаги клиента, услуги, времени и стоимости записи.";
