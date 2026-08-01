@@ -1276,6 +1276,12 @@
 "creatable.client.field.name_title" = "Имя";
 /* creatable -> client -> name_placeholder */
 "creatable.client.name_placeholder" = "Введите имя...";
+/* creatable -> client -> sms_consent_title */
+"creatable.client.sms_consent_title" = "Согласие на SMS";
+/* creatable -> client -> transactional_sms_consent */
+"creatable.client.transactional_sms_consent" = "Клиент согласился получать SMS о записях.";
+/* creatable -> client -> marketing_sms_consent */
+"creatable.client.marketing_sms_consent" = "Клиент согласился получать акции и предложения по SMS.";
 /* creatable -> client -> gender_hint */
 "creatable.client.gender_hint" = "Укажите пол клиента, если это необходимо.";
 /* creatable -> client -> birthdate_hint */

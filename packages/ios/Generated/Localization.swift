@@ -152,8 +152,11 @@ public enum Loc {
       public static let birthdateHint = Loc.tr("Localizable", "creatable.client.birthdate_hint", fallback: "Add the client's birth date with their consent.")
       public static let contactsHint = Loc.tr("Localizable", "creatable.client.contacts_hint", fallback: "These contact details will be used to reach the client.")
       public static let genderHint = Loc.tr("Localizable", "creatable.client.gender_hint", fallback: "Specify the client's gender if needed.")
+      public static let marketingSmsConsent = Loc.tr("Localizable", "creatable.client.marketing_sms_consent", fallback: "The client agreed to receive promotions and offers by SMS.")
       public static let namePlaceholder = Loc.tr("Localizable", "creatable.client.name_placeholder", fallback: "Enter name...")
+      public static let smsConsentTitle = Loc.tr("Localizable", "creatable.client.sms_consent_title", fallback: "SMS consent")
       public static let title = Loc.tr("Localizable", "creatable.client.title", fallback: "New client")
+      public static let transactionalSmsConsent = Loc.tr("Localizable", "creatable.client.transactional_sms_consent", fallback: "The client agreed to receive appointment SMS messages.")
       public static let unfinishedCreatable = Loc.tr("Localizable", "creatable.client.unfinished_creatable", fallback: "We found an unfinished client creation on your site!")
       public enum Field {
         public static let nameTitle = Loc.tr("Localizable", "creatable.client.field.name_title", fallback: "Name")

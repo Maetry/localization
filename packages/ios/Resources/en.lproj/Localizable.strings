@@ -1295,6 +1295,12 @@
 "creatable.client.field.name_title" = "Name";
 /* creatable -> client -> name_placeholder */
 "creatable.client.name_placeholder" = "Enter name...";
+/* creatable -> client -> sms_consent_title */
+"creatable.client.sms_consent_title" = "SMS consent";
+/* creatable -> client -> transactional_sms_consent */
+"creatable.client.transactional_sms_consent" = "The client agreed to receive appointment SMS messages.";
+/* creatable -> client -> marketing_sms_consent */
+"creatable.client.marketing_sms_consent" = "The client agreed to receive promotions and offers by SMS.";
 /* creatable -> client -> unfinished_creatable */
 "creatable.client.unfinished_creatable" = "We found an unfinished client creation on your site!";
 /* creatable -> employee -> title */
