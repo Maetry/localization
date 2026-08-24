@@ -109,13 +109,51 @@
 /* screen -> profile -> danger_zone -> without_subscription */
 "screen.profile.danger_zone.without_subscription" = "Без подписки ничего не будет работать";
 /* screen -> notice -> title */
-"screen.notice.title" = "Уведомления";
+"screen.notice.title" = "Активность";
 /* screen -> notice -> placeholder */
 "screen.notice.placeholder" = "Ты еще не получил ни одного уведомления";
 /* screen -> notice -> read_all */
 "screen.notice.read_all" = "Прочитать все";
 /* screen -> notice -> unread */
 "screen.notice.unread" = "Непрочитанные";
+/* screen -> notice -> disabled */
+"screen.notice.disabled" = "Выключены";
+/* activity -> appointment_created -> customer -> title */
+"activity.appointment_created.customer.title" = "Новая запись";
+/* activity -> appointment_created -> customer -> message */
+"activity.appointment_created.customer.message" = "{date} цена: {price}";
+/* activity -> appointment_created -> console -> title */
+"activity.appointment_created.console.title" = "Новое назначение";
+/* activity -> appointment_created -> console -> message */
+"activity.appointment_created.console.message" = "{date} цена: {price}";
+/* activity -> appointment_updated -> customer -> title */
+"activity.appointment_updated.customer.title" = "Запись изменена";
+/* activity -> appointment_updated -> customer -> message */
+"activity.appointment_updated.customer.message" = "Новое время: {date}";
+/* activity -> appointment_updated -> console -> title */
+"activity.appointment_updated.console.title" = "Назначение изменено";
+/* activity -> appointment_updated -> console -> message */
+"activity.appointment_updated.console.message" = "Новое время: {date}";
+/* activity -> appointment_cancelled -> customer -> title */
+"activity.appointment_cancelled.customer.title" = "Запись отменена";
+/* activity -> appointment_cancelled -> customer -> message */
+"activity.appointment_cancelled.customer.message" = "К сожалению, ваша запись была отменена";
+/* activity -> appointment_cancelled -> console -> title */
+"activity.appointment_cancelled.console.title" = "Назначение отменено";
+/* activity -> appointment_cancelled -> console -> message */
+"activity.appointment_cancelled.console.message" = "К сожалению, назначение было отменено";
+/* activity -> booking_requested -> customer -> title */
+"activity.booking_requested.customer.title" = "Заявка отправлена";
+/* activity -> booking_requested -> customer -> message */
+"activity.booking_requested.customer.message" = "{date}";
+/* activity -> booking_requested -> console -> title */
+"activity.booking_requested.console.title" = "Новая заявка на запись";
+/* activity -> booking_requested -> console -> message */
+"activity.booking_requested.console.message" = "{date} цена: {price}";
+/* activity -> unknown -> title */
+"activity.unknown.title" = "Обновление";
+/* activity -> unknown -> message */
+"activity.unknown.message" = "";
 /* screen -> sharing -> qr_button */
 "screen.sharing.qr_button" = "Отправить QR-код";
 /* screen -> sharing -> link_button */
@@ -178,7 +216,7 @@
 /* screen -> workplace -> workspace */
 "screen.workplace.workspace" = "Записи";
 /* screen -> workplace -> schedule */
-"screen.workplace.schedule" = "График";
+"screen.workplace.schedule" = "Смены";
 /* screen -> workplace -> dashboard */
 "screen.workplace.dashboard" = "Управления";
 /* screen -> workplace -> action -> title */
@@ -206,6 +244,9 @@
 /* screen -> workspace -> slot_duration */
 "screen.workspace.slot_duration" = "Кратность журнала";
 /* screen -> workspace -> diary_type */
+/* screen -> workspace -> display -> title */
+"screen.workspace.display.title" = "Отображение";
+/* screen -> workspace -> diary_type */
 "screen.workspace.diary_type" = "Ежедневник";
 /* screen -> workspace -> list_type */
 "screen.workspace.list_type" = "Список";
@@ -225,6 +266,8 @@
 "screen.workspace.go_to_schedule_settings" = "Перейти к настройке расписания";
 /* screen -> schedule -> workspace_schedule */
 "screen.schedule.workspace_schedule" = "График салона";
+/* screen -> schedule -> title */
+"screen.schedule.title" = "Смены";
 /* screen -> schedule -> select_masters */
 "screen.schedule.select_masters" = "Выбрать мастеров";
 /* screen -> schedule -> hide_master */
@@ -266,7 +309,7 @@
 /* screen -> schedule -> weekly_schedule */
 "screen.schedule.weekly_schedule" = "Шаблон на неделю";
 /* screen -> schedule -> select_several */
-"screen.schedule.select_several" = "Выбрать несколько";
+"screen.schedule.select_several" = "Выбрать";
 /* screen -> schedule -> edit_days -> one */
 "screen.schedule.edit_days.one" = "Редактировать %{days} день";
 /* screen -> schedule -> edit_days -> other */
@@ -382,6 +425,8 @@
 "screen.employees.master_search" = "Найти мастера";
 /* screen -> position -> title */
 "screen.position.title" = "Должности";
+/* screen -> position -> name_title */
+"screen.position.name_title" = "Название должности";
 /* screen -> position -> action */
 "screen.position.action" = "Создать должность";
 /* screen -> position -> appointments */
@@ -509,7 +554,9 @@
 /* screen -> clients -> history_client */
 "screen.clients.history_client" = "История клиента";
 /* screen -> clients -> add_history_client */
-"screen.clients.add_history_client" = "Добавить запись";
+"screen.clients.add_history_client" = "Записать";
+"screen.clients.invite_footer" = "По этой ссылке клиент сможет подключиться к Maetry и быстрее записываться к вам.";
+"screen.employees.invite_footer" = "По этой ссылке можно предоставить сотруднику доступ к вашему салону.";
 /* screen -> settings -> current_plan */
 "screen.settings.current_plan" = "Текущий план";
 /* screen -> settings -> salon_type -> individual */
@@ -541,7 +588,8 @@
 /* screen -> settings -> danger_zone -> deactivate */
 "screen.settings.danger_zone.deactivate" = "Деактивировать";
 /* screen -> settings -> danger_zone -> deactivate_hint */
-"screen.settings.danger_zone.deactivate_hint" = "Остановить салон, убрать из поиска";
+"screen.settings.danger_zone.deactivate_hint" = "Салон полностью перестанет работать: клиенты не смогут найти его, открыть страницу или записаться. Вы сможете снова активировать его позже.";
+"screen.settings.danger_zone.deactivate_confirm_message" = "Вы уверены, что хотите деактивировать салон?";
 /* screen -> settings -> danger_zone -> deactivate_title */
 "screen.settings.danger_zone.deactivate_title" = "Деактивировать салон";
 /* screen -> settings -> danger_zone -> delete_title */
@@ -675,10 +723,24 @@
 "screen.employee_editable.name" = "Название";
 /* screen -> employee_editable -> your_name */
 "screen.employee_editable.your_name" = "Ваше имя";
+/* screen -> employee -> profile_title */
+"screen.employee.profile_title" = "Профиль";
+/* screen -> employee -> locale_title */
+"screen.employee.locale_title" = "Предпочитаемый язык";
 /* screen -> workplace_editing -> name */
 "screen.workplace_editing.name" = "Название";
 /* screen -> client -> gender_title */
 "screen.client.gender_title" = "Пол";
+/* screen -> client -> profile_title */
+"screen.client.profile_title" = "Профиль";
+/* screen -> client -> locale_title */
+"screen.client.locale_title" = "Предпочитаемый язык";
+/* screen -> client -> locale -> english */
+"screen.client.locale.english" = "Английский";
+/* screen -> client -> locale -> russian */
+"screen.client.locale.russian" = "Русский";
+/* screen -> client -> locale -> spanish */
+"screen.client.locale.spanish" = "Испанский";
 /* screen -> client -> gender -> female */
 "screen.client.gender.female" = "Женский";
 /* screen -> client -> gender -> male */
@@ -721,14 +783,100 @@
 "screen.workplace_editing.cancellation_policy_title" = "Политика отмены";
 /* screen -> workplace_editing -> cancellation_policy_placeholder */
 "screen.workplace_editing.cancellation_policy_placeholder" = "Добавьте политику отмены";
+/* screen -> workplace_editing -> confirmation_mode_title */
+"screen.workplace_editing.confirmation_mode_title" = "Подтверждение записи";
+/* screen -> workplace_editing -> confirmation_mode_hint */
+"screen.workplace_editing.confirmation_mode_hint" = "Выберите, как подтверждаются онлайн-записи.";
+/* screen -> workplace_editing -> confirmation_mode_auto */
+"screen.workplace_editing.confirmation_mode_auto" = "Автоматически";
+/* screen -> workplace_editing -> confirmation_mode_request */
+"screen.workplace_editing.confirmation_mode_request" = "По запросу";
 /* screen -> workplace_editing -> new_client_welcome_title */
 "screen.workplace_editing.new_client_welcome_title" = "Сообщение для новых клиентов";
 /* screen -> workplace_editing -> new_client_welcome_placeholder */
 "screen.workplace_editing.new_client_welcome_placeholder" = "Добавьте сообщение для новых клиентов";
+/* screen -> workplace_editing -> deposit_required_title */
+"screen.workplace_editing.deposit_required_title" = "Обязательный депозит";
+/* screen -> workplace_editing -> deposit_required_hint */
+"screen.workplace_editing.deposit_required_hint" = "Клиент должен внести депозит, чтобы завершить онлайн-запись.";
+/* screen -> workplace_editing -> deposit_percent_title */
+"screen.workplace_editing.deposit_percent_title" = "Процент депозита";
+/* screen -> workplace_editing -> deposit_percent_placeholder */
+"screen.workplace_editing.deposit_percent_placeholder" = "Процент";
 /* screen -> settings -> online_booking -> title */
 "screen.settings.online_booking.title" = "Онлайн-запись";
 /* screen -> settings -> online_booking -> empty_value */
 "screen.settings.online_booking.empty_value" = "Не настроено";
+/* screen -> settings -> schedule -> title */
+"screen.settings.schedule.title" = "Расписание";
+/* screen -> settings -> schedule -> default_day_title */
+"screen.settings.schedule.default_day_title" = "Рабочий день по умолчанию";
+/* screen -> settings -> schedule -> default_day_hint */
+"screen.settings.schedule.default_day_hint" = "Подставляется, когда вы переключаете выходной в рабочий день в редакторе расписания.";
+/* screen -> settings -> schedule -> default_day_start */
+"screen.settings.schedule.default_day_start" = "Начало";
+/* screen -> settings -> schedule -> default_day_duration */
+"screen.settings.schedule.default_day_duration" = "Длительность";
+/* screen -> settings -> schedule -> local_hint */
+"screen.settings.schedule.local_hint" = "Хранится только на этом устройстве.";
+"screen.settings.payroll.title" = "Зарплаты";
+"screen.settings.payroll.visibility_title" = "Отображать зарплаты";
+"screen.settings.payroll.visibility_footer" = "Если выключено, зарплаты будут скрыты в боковом меню.";
+"screen.settings.payroll.footer" = "Выберите должность, чтобы изменить шаблон правил начисления ЗП. Сотрудники наследуют эти правила, пока для них не задано индивидуальное переопределение.";
+"screen.settings.payroll.exceptions_footer" = "У сотрудников в этом разделе особые правила расчёта зарплаты вместо шаблона должности.";
+/* screen -> settings -> accept payments */
+"screen.settings.accept_payments.title" = "Приём платежей";
+"screen.settings.accept_payments.footer" = "Подключите платёжный аккаунт, чтобы мы знали, куда отправлять деньги, которые клиенты платят в этом салоне.";
+"screen.settings.accept_payments.stripe_title" = "Stripe";
+"screen.settings.accept_payments.square_title" = "Square";
+"screen.settings.accept_payments.status_label" = "Статус";
+"screen.settings.accept_payments.ready_label" = "Готов принимать платежи";
+"screen.settings.accept_payments.add_provider_title" = "Добавить способ оплаты";
+"screen.settings.accept_payments.add_provider_action" = "Добавить способ оплаты";
+"screen.settings.accept_payments.stripe_footer_description" = "Stripe — глобальная платёжная платформа для приёма карточных платежей и получения выплат напрямую на банковский счёт.";
+"screen.settings.accept_payments.stripe_learn_more_link" = "stripe.com/connect";
+"screen.settings.accept_payments.square_footer_description" = "Square позволяет принимать карточные платежи офлайн и онлайн.";
+"screen.settings.accept_payments.square_learn_more_link" = "squareup.com";
+"screen.settings.accept_payments.status_not_started" = "Не подключено";
+"screen.settings.accept_payments.status_pending" = "Ожидает проверки";
+"screen.settings.accept_payments.status_restricted" = "Требуется действие";
+"screen.settings.accept_payments.status_active" = "Подключено";
+"screen.settings.accept_payments.charges_label" = "Приём платежей";
+"screen.settings.accept_payments.payouts_label" = "Выплаты";
+"screen.settings.accept_payments.account_label" = "Подключённый аккаунт";
+"screen.settings.accept_payments.connect_action" = "Подключить аккаунт Stripe";
+"screen.settings.accept_payments.continue_action" = "Продолжить настройку";
+"screen.settings.accept_payments.manage_action" = "Управление аккаунтом";
+"screen.settings.accept_payments.status_unavailable" = "Статус недоступен";
+"screen.settings.accept_payments.status_reconnect_required" = "Требуется переподключение";
+"screen.settings.accept_payments.reconnect_action" = "Переподключить";
+"screen.settings.accept_payments.pending_footer" = "Проверка обычно занимает несколько минут. Потяните вниз, чтобы обновить статус.";
+"screen.settings.accept_payments.location_label" = "Локация";
+"screen.settings.accept_payments.tap_to_pay_label" = "Tap to Pay";
+"screen.settings.accept_payments.tap_to_pay_tutorial_action" = "Как принимать оплату";
+"screen.settings.accept_payments.tap_to_pay_ready" = "Готов";
+"screen.settings.accept_payments.tap_to_pay_setup_required" = "Требуется настройка";
+"screen.settings.accept_payments.tap_to_pay_setup_failed" = "Не удалось завершить настройку Tap to Pay. Попробуйте ещё раз.";
+"screen.settings.accept_payments.tap_to_pay_square_unavailable" = "Square сообщает, что Tap to Pay недоступен для этого аккаунта. Обычно это значит, что приложение собрано с sandbox-ключом или аккаунт продавца не поддерживает Tap to Pay в своей стране.";
+"screen.settings.accept_payments.tap_to_pay_sandbox_unavailable" = "Tap to Pay не работает с sandbox-ключом Square. Соберите приложение в конфигурации Release — там используется production application ID — и авторизуйтесь под реальным аккаунтом продавца.";
+"screen.settings.accept_payments.tap_to_pay_passcode_required" = "Установите код-пароль на этом iPhone — без него Tap to Pay не работает.";
+"screen.settings.accept_payments.tap_to_pay_section" = "Tap to Pay на iPhone";
+"screen.settings.accept_payments.tap_to_pay_unavailable" = "Недоступен";
+"screen.settings.accept_payments.tap_to_pay_unavailable_footer" = "Tap to Pay на iPhone недоступен, потому что ни один подключённый платёжный провайдер его не поддерживает.";
+"screen.settings.accept_payments.tap_to_pay_provider_setup_footer" = "Сначала завершите настройку платёжного провайдера, который поддерживает Tap to Pay на iPhone.";
+"screen.settings.accept_payments.tap_to_pay_setup_footer" = "Проведём через необходимую настройку провайдера и покажем условия Apple, только если это потребуется.";
+"screen.settings.accept_payments.tap_to_pay_ready_footer" = "Подключённый платёжный провайдер готов принимать оплату через Tap to Pay на iPhone.";
+"screen.settings.accept_payments.location_select_title" = "Выберите локацию";
+"screen.settings.accept_payments.learn_more_action" = "Подробнее";
+"screen.settings.accept_payments.request_provider_action" = "Запросить другого провайдера";
+"screen.settings.accept_payments.request_provider_footer" = "Не нашли своего провайдера? Напишите, какой нужен, и мы рассмотрим его подключение.";
+"screen.settings.accept_payments.request_provider_message" = "Здравствуйте! Хочу принимать платежи в Maetry через этого провайдера: ";
+"screen.settings.accept_payments.tap_to_pay_unsupported_device_footer" = "Для Tap to Pay on iPhone нужен iPhone XS или новее. На этом устройстве используйте картридер.";
+"screen.settings.accept_payments.location_footer" = "Платежи будут проводиться в этой локации Square.";
+"screen.settings.accept_payments.readers_label" = "Ридеры";
+"screen.settings.accept_payments.disconnect_action" = "Отключить";
+"screen.settings.accept_payments.disconnect_confirm_title" = "Отключить %@?";
+"screen.settings.accept_payments.disconnect_confirm_message" = "Новые платежи через этого провайдера перестанут работать. История платежей сохранится.";
 /* screen -> position_editable -> name */
 "screen.position_editable.name" = "Название";
 /* screen -> position_editable -> your_name */
@@ -750,7 +898,9 @@
 /* screen -> complex_chunks -> change_executors */
 "screen.complex_chunks.change_executors" = "Поменять исполнителей";
 /* screen -> procedure_editing -> service_update */
-"screen.procedure_editing.service_update" = "Обновление услуги";
+"screen.procedure_editing.service_update" = "Информация об услуге";
+/* screen -> procedure_editing -> service_info_footer */
+"screen.procedure_editing.service_info_footer" = "Продолжительность и цена — базовые настройки услуги. Ниже их можно настроить для каждого специалиста.";
 /* screen -> procedure_editing -> service_name */
 "screen.procedure_editing.service_name" = "Название услуги";
 /* screen -> procedure_editing -> your_name */
@@ -807,10 +957,18 @@
 "screen.paywall.expiration_date" = "до %{date}";
 /* screen -> schedule_setup -> controls -> change */
 "screen.schedule_setup.controls.change" = "Изменить";
+/* screen -> schedule_setup -> title */
+"screen.schedule_setup.title" = "Шаблон расписания";
 /* screen -> schedule_setup -> controls -> day_off */
 "screen.schedule_setup.controls.day_off" = "Выходной";
+/* screen -> schedule_setup -> controls -> every_day */
+"screen.schedule_setup.controls.every_day" = "Каждый день";
 /* screen -> schedule_setup -> controls -> start */
 "screen.schedule_setup.controls.start" = "Начать";
+/* screen -> schedule_setup -> controls -> start_footer */
+"screen.schedule_setup.controls.start_footer" = "Этот шаблон будет применён с указанного дня.";
+/* screen -> schedule_setup -> controls -> template */
+"screen.schedule_setup.controls.template" = "Шаблон";
 /* screen -> schedule_setup -> controls -> from_today */
 "screen.schedule_setup.controls.from_today" = "С сегодня";
 /* widget -> address -> title */
@@ -891,7 +1049,9 @@
 /* reusable -> warning */
 "reusable.warning" = "Внимание";
 /* reusable -> edit */
-"reusable.edit" = "Редактировать";
+"reusable.edit" = "Изм.";
+/* reusable -> not selected */
+"reusable.not_selected" = "Не выбрано";
 /* reusable -> apply */
 "reusable.apply" = "Применить";
 /* reusable -> break */
@@ -1137,7 +1297,7 @@
 /* onboarding -> position -> step1 -> title */
 "onboarding.position.step1.title" = "Настройка позиции";
 /* onboarding -> position -> step1 -> description */
-"onboarding.position.step1.description" = "Откройте экран мастеров, нажмите кнопку + в разделе позиций для создания новой позиции. Настройте все поля и подтвердите создание позиции.";
+"onboarding.position.step1.description" = "Должности помогают управлять группами сотрудников сразу и менять зарплату и права для всех сотрудников в должности.";
 /* creatable -> salon -> title */
 "creatable.salon.title" = "Создание салона";
 /* creatable -> salon -> workplace -> salon_name */
@@ -1225,13 +1385,13 @@
 /* creatable -> procedure -> field -> set_duration */
 "creatable.procedure.field.set_duration" = "Установить";
 /* creatable -> procedure -> field -> duration_title */
-"creatable.procedure.field.duration_title" = "Продолжительность процедуры";
+"creatable.procedure.field.duration_title" = "Продолжительность";
 /* creatable -> procedure -> field -> description_title */
 "creatable.procedure.field.description_title" = "Описание процедуры";
 /* creatable -> procedure -> field -> description_placeholder */
 "creatable.procedure.field.description_placeholder" = "Введите описание...";
 /* creatable -> procedure -> field -> price_title */
-"creatable.procedure.field.price_title" = "Стоимость процедуры";
+"creatable.procedure.field.price_title" = "Стоимость";
 /* creatable -> procedure -> name_enter */
 "creatable.procedure.name_enter" = "Давайте начнём с названия — введите его вручную или выберите из списка";
 /* creatable -> procedure -> name_hint */
@@ -1240,6 +1400,8 @@
 "creatable.procedure.name_placeholder" = "Введите название услуги...";
 /* creatable -> procedure -> category_title */
 "creatable.procedure.category_title" = "Выберите подходящую категорию — так клиентам будет проще сориентироваться";
+/* creatable -> procedure -> category_selection_title */
+"creatable.procedure.category_selection_title" = "Категории";
 /* creatable -> procedure -> duration_title */
 "creatable.procedure.duration_title" = "Сколько времени занимает процедура?";
 /* creatable -> procedure -> description_enter */
@@ -1257,9 +1419,11 @@
 /* creatable -> procedure -> field -> select_different */
 "creatable.procedure.field.select_different" = "Выбрать другую";
 /* creatable -> procedure -> price_placeholder */
-"creatable.procedure.price_placeholder" = "Введите сумму...";
+"creatable.procedure.price_placeholder" = "Введите сумму";
 /* creatable -> procedure -> masters_title */
 "creatable.procedure.masters_title" = "Кто из мастеров будет выполнять эту услугу?";
+/* creatable -> procedure -> executors_title */
+"creatable.procedure.executors_title" = "Исполнители";
 /* creatable -> procedure -> missing_duration */
 "creatable.procedure.missing_duration" = "Отсутствует продолжительность";
 /* creatable -> procedure -> missing_price */
@@ -1474,6 +1638,12 @@
 "creatable.service.missing_tag" = "Отсутствует тег";
 /* creatable -> service -> missing_category */
 "creatable.service.missing_category" = "Отсутствует категория";
+/* creatable -> service -> title */
+"creatable.service.title" = "Новая услуга";
+/* creatable -> service -> name_title */
+"creatable.service.name_title" = "Название";
+/* creatable -> service -> create_action */
+"creatable.service.create_action" = "Создать";
 /* updatable -> employee -> select_position */
 "updatable.client.title" = "Обновление клиента";
 
@@ -1612,6 +1782,14 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "assignment.edit.screen_title" = "Редактирование записи";
 "assignment.edit.title" = "Редактировать запись";
 "assignment.settlement.action" = "Рассчитать";
+"assignment.payment.title" = "Оплата";
+"assignment.payment.operations_unavailable" = "Не удалось загрузить операции.";
+"assignment.payment.status.unpaid" = "Не оплачено";
+"assignment.payment.status.deposit" = "Внесён депозит";
+"assignment.payment.status.pending_confirmation" = "Ожидает подтверждения";
+"assignment.payment.status.paid" = "Оплачено";
+"assignment.payment.status.failed" = "Не удалось оплатить";
+"assignment.payment.status.refunded" = "Возвращено";
 "assignment.timeline.cancelled" = "Запись отменена";
 "assignment.timeline.cancelled_by_client" = "Запись отменил клиент";
 "assignment.timeline.cancelled_by_salon" = "Запись отменил салон";
@@ -1686,7 +1864,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.complex.field.description_title" = "Описание";
 "creatable.complex.field.executors_missing" = "Исполнители не выбраны";
 "creatable.complex.field.executors_sheet_hint" = "Выберите исполнителей, которые могут выполнять эту процедуру внутри набора";
-"creatable.complex.field.name_hint" = "Название должно сразу объяснять, что входит в набор и чем он полезен клиенту";
+"creatable.complex.field.name_hint" = "Клиенты будут видеть это название";
 "creatable.complex.field.name_placeholder" = "Например, маникюр в 4 руки";
 "creatable.complex.field.name_title" = "Название набора";
 "creatable.complex.field.no_discount" = "Скидка не применяется";
@@ -1985,7 +2163,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.products.unit.milliliters" = "Миллилитры (ml)";
 "screen.products.unit.pieces" = "Штуки (pcs)";
 "screen.profile.language.action" = "Открыть настройки языка";
-"screen.profile.language.message" = "Откроем системные настройки приложения, где можно выбрать язык интерфейса";
+"screen.profile.language.message" = "Язык приложения выбирается в системных настройках приложения.";
 "screen.profile.language.title" = "Язык приложения";
 "screen.service_editing.access_settings_title" = "Настройки доступа";
 "screen.service_editing.access_type_title" = "Доступ для клиентов";
@@ -2032,6 +2210,13 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.payments.terminal_checkout.cash_description" = "Оплата наличными фиксируется в этой первой итерации.";
 "screen.payments.terminal_checkout.collect_with_tap_to_pay" = "Принять оплату через Tap to Pay";
 "screen.payments.terminal_checkout.complete_with_cash" = "Завершить с оплатой наличными";
+"screen.payments.terminal_checkout.accept_with_tap_to_pay" = "Принять с помощью Tap to Pay";
+"screen.payments.terminal_checkout.charge_card" = "Принять оплату картой";
+"screen.payments.terminal_checkout.card_entry_security_title" = "Безопасный ввод карты";
+"screen.payments.terminal_checkout.card_entry_security_message" = "На следующем экране откроется защищённая форма ввода карты. Maetry и мастер не получают и не сохраняют номер карты или CVC.";
+"screen.payments.terminal_checkout.continue_to_secure_card_entry" = "Перейти к безопасному вводу";
+"screen.payments.terminal_checkout.select_payment_method" = "Выбрать способ оплаты";
+"screen.payments.terminal_checkout.retry_payment" = "Повторить оплату";
 "screen.payments.terminal_checkout.payment_method" = "Способ оплаты";
 "screen.payments.terminal_checkout.service_amount" = "Стоимость услуги";
 "screen.payments.terminal_checkout.service_amount_footnote" = "Эта сумма берется из текущей записи.";
@@ -2041,9 +2226,14 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.payments.terminal_checkout.tip" = "Чаевые";
 "screen.payments.terminal_checkout.title" = "Принять оплату";
 "screen.payments.terminal_checkout.total_to_collect" = "Итого к оплате";
+"screen.payments.terminal_checkout.cash_received" = "Получено";
+"screen.payments.terminal_checkout.change_due" = "Сдача клиенту";
+"screen.payments.terminal_checkout.tap_to_pay_available" = "Tap to Pay";
+"screen.payments.terminal_checkout.processing_fee" = "Комиссия за оплату";
 "screen.payments.terminal_checkout.cash_title" = "Наличные";
 "screen.payments.terminal_checkout.tap_to_pay_title" = "Tap to Pay";
 "screen.payments.terminal_checkout.unavailable_payment_method_message" = "Этот способ оплаты пока недоступен.";
+"screen.payments.terminal_checkout.choose_another_method" = "Выбрать другой способ";
 "screen.payments.tip_selection.continue_to_payment" = "Перейти к оплате";
 "screen.payments.tip_selection.custom_subtitle" = "введите свою сумму";
 "screen.payments.tip_selection.custom_tip" = "Свои";
@@ -2065,6 +2255,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "app_intent.open_mirror.description" = "Открывает экран зеркала";
 "app_intent.open_mirror.title" = "Открыть зеркало";
 "reusable.retry" = "Повторить";
+"reusable.enabled" = "Включено";
+"reusable.disabled" = "Отключено";
 "screen.continuation.client_invite.selection_hint" = "Выберите аккаунт, который соответствует клиенту этого салона. Показаны только скрытые контакты.";
 "screen.continuation.client_invite.verified_match" = "Подтвержденное совпадение";
 "screen.continuation.client_invite.no_match_message" = "Мы не нашли подходящий аккаунт для этого клиента.";
@@ -2181,8 +2373,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "widget.mirror.description" = "Быстрый доступ к зеркалу Maetry.";
 "widget.mirror.title" = "Зеркало";
 "widget.recovery_methods.title" = "Способы восстановления";
-"reusable.create" = "Создать";
-"reusable.join" = "Присоединиться";
+"reusable.create" = "Созд.";
+"reusable.join" = "Войти";
 "reusable.none" = "Нет";
 "reusable.pending" = "Ожидает";
 "reusable.primary" = "Основной";
@@ -2209,21 +2401,25 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.layout.visible_specialists" = "Видимые специалисты";
 "screen.workspace.layout.visible_days" = "Видимые дни";
 "screen.workspace.layout.visible_days_one" = "1 день";
+"screen.workspace.layout.visible_days_two" = "2 дня";
 "screen.workspace.layout.visible_days_three" = "3 дня";
+"screen.workspace.layout.visible_days_four" = "4 дня";
 "screen.workspace.layout.visible_days_five" = "5 дней";
+"screen.workspace.layout.visible_days_six" = "6 дней";
 "screen.workspace.layout.visible_days_seven" = "7 дней";
 "screen.workspace.layout.time_scale" = "Масштаб времени";
 "screen.workspace.view_mode.title" = "Режим просмотра";
 /* screen -> workspace -> tip -> view_mode -> title */
 "screen.workspace.tip.view_mode.title" = "Вид записей";
 /* screen -> workspace -> tip -> view_mode -> message */
-"screen.workspace.tip.view_mode.message" = "Удерживайте вкладку «Записи», чтобы переключаться между режимами «Ежедневник» и «Список».";
-"screen.workplace.menu.create_workplace" = "Создать салон";
+"screen.workspace.tip.view_mode.message" = "Откройте «Фильтры» и выберите «Отображение», чтобы переключаться между «Ежедневником» и «Списком».";
+"screen.workplace.menu.create_workplace" = "Создать рабочее пространство";
 "screen.workplace.menu.join_workplace" = "Присоединиться к салону";
 "screen.workplace.empty_state.title" = "Салонов пока нет";
 "screen.workplace.empty_state.message" = "Создайте свой салон или присоединитесь к существующему";
 "screen.workplace.selection_state.title" = "Выберите салон";
 "screen.workplace.selection_state.message" = "Выберите салон, в котором хотите работать";
+"screen.workplace.selection_state.current_footer" = "Текущее рабочее пространство";
 "screen.workplace_join.title" = "Присоединиться к салону";
 "screen.workplace_join.description" = "Вставьте код приглашения или полную ссылку-приглашение.";
 "screen.workplace_join.code_placeholder" = "Код приглашения";
@@ -2233,6 +2429,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.billing.managed_on_web" = "Управляется на сайте";
 "screen.settings.billing.managed_on_web_title" = "Биллинг управляется на сайте";
 "screen.settings.billing.full_details_hint" = "Откройте биллинг для подробностей";
+/* screen -> settings -> billing -> contact_workspace_owner_hint */
+"screen.settings.billing.contact_workspace_owner_hint" = "Обратитесь к менеджеру или владельцу рабочего пространства, чтобы обновить план.";
 "screen.settings.billing.no_active_plan" = "Нет активного плана";
 "screen.settings.billing.pricing_hint" = "Откройте биллинг, чтобы посмотреть цены";
 "screen.settings.billing.renews_on_prefix" = "Продлевается";
@@ -2279,6 +2477,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.action.mark_as_paid" = "Отметить как оплачено";
 /* screen -> workspace -> action -> mark_no_show */
 "screen.workspace.action.mark_no_show" = "Отметить неявку";
+/* screen -> workspace -> action -> reopen_appointment */
+"screen.workspace.action.reopen_appointment" = "Вернуть в запланировано";
 /* screen -> workspace -> action -> start_appointment */
 "screen.workspace.action.start_appointment" = "Начать запись";
 /* screen -> workspace -> contact -> choose_channel */
@@ -2329,6 +2529,14 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.assignment.quick_action.no_show.confirm_message" = "Визит будет отмечен как неявка.";
 /* screen -> assignment -> quick_action -> no_show -> button_title */
 "screen.assignment.quick_action.no_show.button_title" = "Отметить";
+/* screen -> assignment -> quick_action -> reopen -> title */
+"screen.assignment.quick_action.reopen.title" = "Вернуть";
+/* screen -> assignment -> quick_action -> reopen -> confirm_title */
+"screen.assignment.quick_action.reopen.confirm_title" = "Вернуть в запланировано?";
+/* screen -> assignment -> quick_action -> reopen -> confirm_message */
+"screen.assignment.quick_action.reopen.confirm_message" = "Запись вернётся в статус «Запланировано». Если она была завершена, оплата будет сброшена.";
+/* screen -> assignment -> quick_action -> reopen -> button_title */
+"screen.assignment.quick_action.reopen.button_title" = "Вернуть";
 /* screen -> assignment -> quick_action -> start -> title */
 "screen.assignment.quick_action.start.title" = "Начать";
 /* screen -> assignment -> quick_action -> start -> confirm_title */
@@ -2346,7 +2554,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* screen -> assignment -> quick_action -> complete -> button_title */
 "screen.assignment.quick_action.complete.button_title" = "Завершить";
 /* screen -> assignment -> quick_action -> reschedule -> title */
-"screen.assignment.quick_action.reschedule.title" = "Перенести";
+"screen.assignment.quick_action.reschedule.title" = "Изменить";
 /* screen -> assignment -> quick_action -> reschedule -> confirm_title */
 "screen.assignment.quick_action.reschedule.confirm_title" = "Изменить время?";
 /* screen -> assignment -> quick_action -> reschedule -> confirm_message */
@@ -2493,6 +2701,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.campaign_detail.share_link" = "Поделиться ссылкой";
 /* screen -> unit_economic -> campaign_detail -> link_title */
 "screen.unit_economic.campaign_detail.link_title" = "Ссылка для приглашения";
+/* screen -> unit_economic -> campaign_detail -> preview_button */
+"screen.unit_economic.campaign_detail.preview_button" = "Предпросмотр";
 /* screen -> unit_economic -> campaign_detail -> share_button */
 "screen.unit_economic.campaign_detail.share_button" = "Поделиться кампанией";
 /* screen -> unit_economic -> campaign_detail -> share_sheet_title */
@@ -2529,6 +2739,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.procedure.field.executors_placeholder" = "Исполнители пока не выбраны";
 /* creatable -> procedure -> field -> service_hint */
 "creatable.procedure.field.service_hint" = "Выберите шаблон из каталога или создайте новую услугу. Лучше выбрать шаблон: так клиентам будет проще находить вас по услуге";
+/* creatable -> procedure -> field -> service_selection_hint */
+"creatable.procedure.field.service_selection_hint" = "Выберите шаблон из каталога или создайте новую услугу.";
 /* creatable -> procedure -> field -> chosen_service_hint */
 "creatable.procedure.field.chosen_service_hint" = "Будет использована существующая услуга из каталога";
 /* creatable -> procedure -> field -> create_service_hint */
@@ -2550,3 +2762,408 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.appointment.progress_tip.title" = "Откройте шаги создания записи";
 /* creatable -> appointment -> progress_tip -> message */
 "creatable.appointment.progress_tip.message" = "Эта кнопка открывает шаги клиента, услуги, времени и стоимости записи.";
+
+/* debug feature flags */
+"screen.debug.dashboard_salary_toggle" = "Зарплаты на дашборде";
+"screen.debug.dashboard_finance_toggle" = "Финансы на дашборде";
+"screen.debug.dashboard_analytics_toggle" = "Аналитика на дашборде";
+"screen.debug.terminal_checkout_toggle" = "Checkout Terminal";
+"screen.debug.tip_request_toggle" = "Запрос чаевых";
+"screen.debug.notification_workflows_toggle" = "Workflow уведомлений";
+
+/* screen -> salary */
+"screen.salary.period_title" = "Период";
+"screen.salary.total_earned" = "Начислено";
+"screen.salary.total_paid" = "Выплачено";
+"screen.salary.total_due" = "К выплате";
+"screen.salary.employees_count" = "Сотрудники";
+"screen.salary.employees_title" = "Зарплата сотрудников";
+"screen.salary.subtitle" = "Начисления и выплаты сотрудникам";
+"screen.salary.server_methods_title" = "Черновик backend-контракта";
+"screen.salary.due_caption" = "к выплате";
+"screen.salary.earned_caption" = "начислено";
+"screen.salary.paid_caption" = "выплачено";
+
+/* screen -> analytics */
+"screen.analytics.title" = "Аналитика";
+"screen.analytics.subtitle" = "Основные показатели за выбранный период.";
+"screen.analytics.period_title" = "Период";
+"screen.analytics.occupancy_chart_title" = "Загрузка";
+"screen.analytics.revenue_chart_title" = "Выручка";
+"screen.analytics.completed_visits_title" = "Завершённые визиты";
+"screen.analytics.average_ticket_title" = "Средний чек";
+"screen.analytics.new_clients_title" = "Новые клиенты";
+"screen.analytics.returning_clients_title" = "Повторные клиенты";
+"screen.analytics.rebooking_rate_title" = "Повторная запись";
+"screen.analytics.future_occupancy_title" = "Будущая загрузка";
+"screen.analytics.cancellations_title" = "Отмены";
+"screen.analytics.no_shows_title" = "Неявки";
+"screen.analytics.percentage_points_short" = "п.п.";
+"screen.analytics.legend_goal" = "Цель";
+"screen.analytics.advice_title" = "Рекомендации";
+"screen.analytics.advice_revenue" = "**Повышайте выручку** через рост загрузки, среднего чека и продвижение услуг с высокой маржинальностью.";
+"screen.analytics.advice_occupancy" = "**Повышайте загрузку** переносом спроса в тихие часы, балансировкой графиков сотрудников и продвижением услуг, которые закрывают короткие окна.";
+"screen.analytics.advice_completed_visits" = "**Увеличивайте завершённые визиты** заполнением окон в расписании, снижением поздних отмен и работой с листом ожидания.";
+"screen.analytics.advice_average_ticket" = "**Повышайте средний чек** пакетами дополняющих услуг, обучением сотрудников предлагать дополнения и контролем скидок.";
+"screen.analytics.advice_new_clients" = "**Привлекайте новых клиентов** через сильные каналы привлечения, офферы на первый визит и рекомендации от лояльных клиентов.";
+"screen.analytics.advice_returning_clients" = "**Возвращайте клиентов** поствизитными сообщениями, персональными предложениями и напоминаниями по циклу услуги.";
+"screen.analytics.advice_rebooking_rate" = "**Повышайте повторную запись** предложением следующего визита до оплаты и напоминаниями, когда подходит срок услуги.";
+"screen.analytics.advice_future_occupancy" = "**Повышайте будущую загрузку** продвижением слабых дней, дополнительными слотами у популярных сотрудников и контактом с клиентами, которые обычно записываются повторно.";
+"screen.analytics.advice_cancellations" = "**Снижайте отмены** своевременными напоминаниями, понятными правилами отмены и подтверждением дорогих или длинных записей.";
+"screen.analytics.advice_no_shows" = "**Снижайте неявки** подтверждениями, депозитами для рискованных записей и быстрым контактом после пропущенного визита.";
+"screen.analytics.current_week" = "Текущая неделя";
+"screen.analytics.current_month" = "Текущий месяц";
+"screen.analytics.select_period" = "Выбрать период";
+"screen.analytics.server_methods_title" = "Черновик backend-контракта";
+"screen.analytics.overview_section" = "Обзор";
+"screen.analytics.overview_footer" = "Управляет сводными карточками вверху экрана аналитики.";
+"screen.analytics.show_summary" = "Показывать сводку";
+"screen.analytics.visibility_title" = "Отображать аналитику";
+"screen.analytics.visibility_footer" = "Если выключено, аналитика будет скрыта в боковом меню.";
+"screen.analytics.show_comparison" = "Разница в";
+"screen.analytics.comparison_count" = "Кол-во";
+"screen.analytics.charts_section" = "Графики";
+"screen.analytics.charts_footer" = "Выключенные графики скрываются с экрана аналитики.";
+"screen.analytics.revenue_hint" = "Показывает динамику выручки за выбранный период.";
+"screen.analytics.occupancy_hint" = "Показывает загрузку рабочего места и целевую линию.";
+"screen.analytics.bookings_hint" = "Показывает подтвержденные и отмененные записи.";
+"screen.analytics.average_ticket_hint" = "Показывает средний чек записи за выбранный период.";
+"screen.analytics.completed_visits_hint" = "Показывает визиты, которые действительно состоялись за выбранный период.";
+"screen.analytics.new_clients_hint" = "Показывает клиентов, которые впервые завершили визит за выбранный период.";
+"screen.analytics.returning_clients_hint" = "Показывает долю клиентов периода, которые уже посещали салон ранее.";
+"screen.analytics.rebooking_rate_hint" = "Показывает завершённые визиты, после которых клиент уже записался снова.";
+"screen.analytics.future_occupancy_hint" = "Показывает заполненность расписания на ближайшие 14 дней.";
+"screen.analytics.cancellations_hint" = "Показывает долю отменённых записей за выбранный период.";
+"screen.analytics.no_shows_hint" = "Показывает записи, на которые клиент не пришёл.";
+"screen.analytics.service_mix_hint" = "Показывает распределение выручки по категориям услуг.";
+"screen.analytics.period_section" = "Период";
+"screen.analytics.period_footer" = "Автоматическая группировка выбирает дни, недели или месяцы по выбранному диапазону дат.";
+"screen.analytics.granularity_title" = "Группировать графики";
+"screen.analytics.granularity_automatic" = "Автоматически";
+"screen.analytics.granularity_daily" = "По дням";
+"screen.analytics.granularity_weekly" = "По неделям";
+"screen.analytics.granularity_monthly" = "По месяцам";
+"screen.analytics.details_section" = "Детали";
+"screen.analytics.details_footer" = "Дополнительные визуальные детали для графиков, которые их поддерживают.";
+"screen.analytics.show_chart_legends" = "Показывать легенды";
+"screen.analytics.highlight_occupancy_goal" = "Показывать цель загрузки";
+"screen.analytics.reset_defaults" = "Сбросить настройки";
+"screen.analytics.reset_confirm_title" = "Сбросить настройки аналитики?";
+"screen.analytics.reset_confirm_message" = "Видимые графики, группировка, сводка и детали вернутся к значениям по умолчанию.";
+
+/* screen -> payments -> terminal checkout */
+"screen.payments.terminal_checkout.collect_with_stripe" = "Принять через Stripe";
+"screen.payments.terminal_checkout.collect_with_square" = "Принять через Square";
+"screen.payments.terminal_checkout.stripe_title" = "Stripe";
+"screen.payments.terminal_checkout.square_title" = "Square";
+"screen.payments.terminal_checkout.stripe_description" = "Оплата картой через Stripe checkout или terminal session.";
+"screen.payments.terminal_checkout.square_description" = "Оплата картой через Square checkout или terminal session.";
+"screen.payments.terminal_checkout.debug_overview_title" = "Переиспользуемый checkout";
+"screen.payments.terminal_checkout.debug_overview_message" = "Самостоятельная финансовая точка входа для записей, товаров, депозитов и произвольных оплат.";
+"screen.payments.terminal_checkout.open_mock_checkout_action" = "Открыть mock checkout";
+"screen.payments.terminal_checkout.server_methods_title" = "Черновик backend-контракта";
+
+/* screen -> payments -> tip request */
+"screen.payments.tip_request.title" = "Запрос чаевых";
+"screen.payments.tip_request.preview_title" = "Preview шага клиента";
+"screen.payments.tip_request.preview_message" = "Этот шаг будет показываться перед оплатой, чтобы клиент мог выбрать чаевые.";
+"screen.payments.tip_request.prompt_before_payment_title" = "Запрашивать чаевые перед оплатой";
+"screen.payments.tip_request.prompt_before_payment_footer" = "Если выключить, чаевые всё равно можно будет добавить на экране оплаты.";
+"screen.payments.tip_request.channels_title" = "Доставка";
+"screen.payments.tip_request.presets_title" = "Варианты чаевых";
+"screen.payments.tip_request.round_up_title" = "Округлить сумму";
+"screen.payments.tip_request.round_up_footer" = "Клиент сможет округлить сумму оплаты до следующего десятка. Разница будет добавлена к чаевым.";
+"screen.payments.tip_request.client_enters_amount_title" = "Клиент вводит сумму";
+"screen.payments.tip_request.client_enters_amount_footer" = "Перед оплатой клиент сам введёт сумму чаевых.";
+"screen.payments.tip_request.server_methods_title" = "Черновик backend-контракта";
+
+/* screen -> notification workflow */
+"screen.notification_workflow.title" = "Уведомления клиентам";
+"screen.notification_workflow.activation_title" = "Отправлять уведомления клиентам";
+"screen.notification_workflow.activation_footer" = "Включите, чтобы отправлять клиентам сообщения по выбранным событиям записи.";
+"screen.notification_workflow.message_package_title" = "Пакет сообщений";
+"screen.notification_workflow.message_package_value" = "Оплатить";
+"screen.notification_workflow.booking_requested_event" = "Запрос записи";
+"screen.notification_workflow.booking_confirmation_event" = "Подтверждение записи";
+"screen.notification_workflow.visit_reminder_event" = "Напоминание о визите";
+"screen.notification_workflow.event_enabled_title" = "Отправлять уведомление";
+"screen.notification_workflow.add_event_title" = "Добавить событие";
+"screen.notification_workflow.create_message.title" = "Создание отправки сообщения";
+"screen.notification_workflow.create_message.event_title" = "Событие";
+
+
+/* Finance module additions */
+"screen.finance.title" = "Финансы";
+"screen.finance.operations_empty" = "Пока нет операций";
+"screen.finance.add_operation" = "Добавить операцию";
+"screen.finance.income" = "Доход";
+"screen.finance.expense" = "Расход";
+"screen.finance.kind.appointment_payment" = "Оплата визита";
+"screen.finance.kind.deposit" = "Депозит";
+"screen.finance.kind.tip" = "Чаевые";
+"screen.finance.kind.refund" = "Возврат";
+"screen.finance.kind.dispute" = "Диспут";
+"screen.finance.kind.salary_payout" = "Выплата зарплаты";
+"screen.finance.kind.custom" = "Кастомная";
+"screen.finance.source.cash" = "Наличные";
+"screen.finance.source.stripe" = "Stripe";
+"screen.finance.source.square" = "Square";
+"screen.finance.source.manual" = "Вручную";
+"screen.finance.new_operation_title" = "Новая операция";
+"screen.finance.type_cash_payment" = "Оплата наличными";
+"screen.finance.type_custom" = "Кастомная операция";
+"screen.finance.amount_label" = "Сумма";
+"screen.finance.note_label" = "Заметка";
+"screen.finance.note_placeholder" = "Необязательная заметка";
+"screen.finance.category_label" = "Категория";
+"screen.finance.select_category" = "Выберите категорию";
+"screen.finance.direction_label" = "Направление";
+"screen.finance.operation_detail_title" = "Операция";
+"screen.finance.refund_button" = "Вернуть";
+"screen.finance.refund_confirm_title" = "Вернуть эту операцию?";
+"screen.finance.refund_confirm_message" = "Будет создана компенсирующая операция возврата.";
+"screen.finance.refund_amount_label" = "Сумма возврата";
+"screen.finance.refund_full_amount" = "Вся сумма";
+"screen.finance.created_by_label" = "Создал";
+"screen.finance.linked_appointment" = "Визит";
+"screen.finance.no_categories" = "Пока нет категорий";
+"screen.finance.manage_categories" = "Категории";
+"screen.finance.new_category_title" = "Новая категория";
+"screen.finance.category_name_placeholder" = "Название категории";
+"screen.salary.rules.title" = "Правила зарплаты";
+"screen.salary.rules.template_caption" = "Шаблон должности";
+"screen.salary.rules.inherited_caption" = "Наследуется от должности";
+"screen.salary.rules.custom_caption" = "Индивидуальные правила";
+"screen.salary.rules.reset_to_template" = "Сбросить к шаблону";
+"screen.salary.rules.reset_confirm_title" = "Сбросить к шаблону должности?";
+"screen.salary.rules.reset_confirm_message" = "Индивидуальные правила этого сотрудника будут удалены.";
+"screen.salary.rules.wages_section" = "Фиксированная оплата";
+"screen.salary.rules.fixed_payment_footer" = "Фиксированная оплата начисляется по выбранной ставке: за час, за смену или за месяц. Активной может быть только одна ставка.";
+"screen.salary.rules.add_wage" = "Добавить ставку";
+"screen.salary.rules.wage_period_hour" = "За час";
+"screen.salary.rules.wage_period_shift" = "За смену";
+"screen.salary.rules.wage_period_month" = "За месяц";
+"screen.salary.rules.services_percent_label" = "Процент с услуг";
+"screen.salary.rules.services_percent_section" = "Процент с оказанных услуг";
+"screen.salary.rules.services_percent_footer" = "Сотрудник получит этот процент с каждой оказанной услуги.";
+"screen.salary.rules.tips_percent_label" = "Процент с чаевых";
+"screen.salary.rules.tips_percent_section" = "Чаевые";
+"screen.salary.rules.tips_percent_footer" = "Сотрудник получит этот процент с каждого чаевого, оставленного клиентом.";
+"screen.salary.rules.procedure_rules_section" = "Правила по процедурам";
+"screen.salary.rules.add_procedure_rule" = "Добавить правило";
+"screen.salary.rules.procedure_label" = "Процедура";
+"screen.salary.rules.select_procedure" = "Выберите процедуру";
+"screen.salary.rules.percent_option" = "Процент";
+"screen.salary.rules.fixed_option" = "Фиксированная сумма";
+"screen.salary.rules.remove_rule" = "Удалить";
+"screen.salary.payout_button" = "Выплата";
+"screen.salary.partial_payout_button" = "Частичная выплата";
+"screen.salary.preview_empty" = "Нет начислений за этот период";
+"screen.salary.line_wage" = "Ставка";
+"screen.salary.line_services_percent" = "Комиссия с услуг";
+"screen.salary.line_tips_percent" = "Комиссия с чаевых";
+"screen.salary.line_procedure_rule" = "Правило по процедуре";
+"screen.salary.payout_confirm_title" = "Оформить выплату?";
+"screen.salary.payout_confirm_message" = "Будет создана операция выплаты зарплаты. Реальный перевод денег система не выполняет.";
+"screen.salary.from_date" = "С";
+"screen.salary.to_date" = "По";
+"screen.salary.payouts_history" = "История выплат";
+"screen.salary.no_employees" = "Нет сотрудников за этот период";
+"screen.salary.rules_link" = "Правила зарплаты";
+
+"screen.payments.terminal_checkout.tap_to_pay_on_iphone" = "Tap to Pay";
+"screen.payments.terminal_checkout.payment_qr_code_title" = "Оплата по QR-коду";
+"screen.payments.terminal_checkout.payment_qr_code_subtitle" = "Клиент сканирует QR-код";
+"screen.payments.terminal_checkout.payment_link_title" = "Ссылка на оплату";
+"screen.payments.terminal_checkout.payment_link_subtitle" = "Отправьте ссылку клиенту";
+"screen.payments.terminal_checkout.manual_card_entry" = "Ввод карты вручную";
+"screen.payments.terminal_checkout.powered_by" = "Работает на %@";
+"screen.payments.terminal_checkout.select_method_title" = "Как платит клиент?";
+"screen.payments.terminal_checkout.preparing_tap_to_pay" = "Подготавливаем Tap to Pay на iPhone…";
+"screen.payments.terminal_checkout.processing_payment" = "Обрабатываем платёж…";
+"screen.payments.terminal_checkout.payment_approved" = "Платёж принят";
+"screen.payments.terminal_checkout.payment_declined" = "Платёж отклонён";
+"screen.payments.terminal_checkout.select_provider_title" = "Провайдер";
+"screen.payments.terminal_checkout.select_provider_message" = "Выберите, через какую платёжную систему будет произведён платёж.";
+"screen.settings.accept_payments.checkout_section" = "Приём оплаты";
+"screen.settings.accept_payments.default_provider_label" = "Провайдер по умолчанию";
+"screen.settings.accept_payments.default_provider_ask" = "Спрашивать каждый раз";
+"screen.settings.accept_payments.default_provider_footer" = "Через какого провайдера открывается расчёт. Способы оплаты, включая Tap to Pay на iPhone, выбираются уже в чеке.";
+
+"screen.payments.terminal_checkout.breakdown_title" = "Детали платежа";
+"screen.payments.terminal_checkout.method_not_selected" = "Не выбран";
+"screen.payments.terminal_checkout.receipt_title" = "Квитанция";
+"screen.payments.terminal_checkout.receipt_placeholder" = "Укажите куда отправить";
+"screen.payments.terminal_checkout.services_amount" = "Стоимость услуг";
+"screen.payments.terminal_checkout.terminal_title" = "Платёжный терминал";
+"screen.payments.terminal_checkout.contactless_subtitle" = "Бесконтактная оплата";
+"screen.payments.terminal_checkout.card_subtitle" = "Оплата картой";
+"screen.payments.terminal_checkout.email_section_title" = "Email";
+"screen.payments.terminal_checkout.email_placeholder" = "name@example.com";
+"screen.payments.tip_selection.other_title" = "Другая";
+"screen.payments.tip_selection.other_subtitle" = "сумма";
+"screen.payments.tip_selection.none_title" = "Без";
+"screen.payments.tip_selection.none_subtitle_short" = "чаевых";
+"screen.payments.tip_selection.round_up_title" = "Округлить";
+"screen.payments.terminal_checkout.cash_payment_title" = "Оплата наличными";
+"screen.payments.terminal_checkout.amount_due" = "К оплате";
+"screen.payments.terminal_checkout.complete_payment" = "Завершить оплату";
+/* screen -> communication_consent -> title */
+"screen.communication_consent.title" = "Настройки уведомлений";
+/* screen -> communication_consent -> transactional */
+"screen.communication_consent.transactional" = "Транзакционные сообщения";
+/* screen -> communication_consent -> marketing */
+"screen.communication_consent.marketing" = "Маркетинговые сообщения";
+/* screen -> communication_consent -> empty */
+"screen.communication_consent.empty" = "Добавьте email или номер телефона, чтобы настроить уведомления.";
+
+/* screen -> discounts -> title */
+"screen.discounts.title" = "Скидки";
+/* screen -> discounts -> show_archived */
+"screen.discounts.show_archived" = "Показывать архивные";
+/* screen -> discounts -> create_action */
+"screen.discounts.create_action" = "Новая скидка";
+/* screen -> discounts -> archive_action */
+"screen.discounts.archive_action" = "В архив";
+/* screen -> discounts -> empty_title */
+"screen.discounts.empty_title" = "Скидок пока нет";
+/* screen -> discounts -> empty_message */
+"screen.discounts.empty_message" = "Правила скидок позволяют снизить цену записи, не трогая прайс: сезонный промокод, приветственное предложение для новых клиентов или тариф на непопулярные часы.";
+/* screen -> discounts -> redemptions */
+"screen.discounts.redemptions" = "Применений: %d";
+/* screen -> discounts -> status -> active */
+"screen.discounts.status.active" = "Активна";
+/* screen -> discounts -> status -> not_started */
+"screen.discounts.status.not_started" = "Не началась";
+/* screen -> discounts -> status -> expired */
+"screen.discounts.status.expired" = "Истекла";
+/* screen -> discounts -> status -> limit_reached */
+"screen.discounts.status.limit_reached" = "Лимит исчерпан";
+/* screen -> discounts -> status -> archived */
+"screen.discounts.status.archived" = "В архиве";
+/* discount -> kind -> percent */
+"discount.kind.percent" = "Процент";
+/* discount -> kind -> fixed */
+"discount.kind.fixed" = "Фиксированная сумма";
+/* discount -> trigger -> manual */
+"discount.trigger.manual" = "Вручную";
+/* discount -> trigger -> code */
+"discount.trigger.code" = "Промокод";
+/* discount -> trigger -> automatic */
+"discount.trigger.automatic" = "Автоматически";
+/* discount -> scope -> booking */
+"discount.scope.booking" = "Вся запись";
+/* discount -> scope -> item */
+"discount.scope.item" = "Отдельная услуга";
+/* discount -> scope -> any */
+"discount.scope.any" = "Любое";
+/* discount -> condition -> first_visit */
+"discount.condition.first_visit" = "Первый визит";
+/* discount -> condition -> client_birthday */
+"discount.condition.client_birthday" = "День рождения клиента";
+/* discount -> condition -> time_window */
+"discount.condition.time_window" = "Временное окно";
+/* discount -> condition -> tolerance_days */
+"discount.condition.tolerance_days" = "Дней вокруг дня рождения";
+/* discount -> condition -> weekdays */
+"discount.condition.weekdays" = "Дни недели";
+/* discount -> condition -> start_time */
+"discount.condition.start_time" = "С";
+/* discount -> condition -> end_time */
+"discount.condition.end_time" = "До";
+/* screen -> discount_editor -> create_title */
+"screen.discount_editor.create_title" = "Новая скидка";
+/* screen -> discount_editor -> edit_title */
+"screen.discount_editor.edit_title" = "Скидка";
+/* screen -> discount_editor -> name_title */
+"screen.discount_editor.name_title" = "Название";
+/* screen -> discount_editor -> name_placeholder */
+"screen.discount_editor.name_placeholder" = "Летнее предложение";
+/* screen -> discount_editor -> kind_title */
+"screen.discount_editor.kind_title" = "Тип";
+/* screen -> discount_editor -> amount_title */
+"screen.discount_editor.amount_title" = "Размер";
+/* screen -> discount_editor -> percent_placeholder */
+"screen.discount_editor.percent_placeholder" = "15";
+/* screen -> discount_editor -> trigger_title */
+"screen.discount_editor.trigger_title" = "Как применяется";
+/* screen -> discount_editor -> code_title */
+"screen.discount_editor.code_title" = "Промокод";
+/* screen -> discount_editor -> code_placeholder */
+"screen.discount_editor.code_placeholder" = "SUMMER15";
+/* screen -> discount_editor -> condition_title */
+"screen.discount_editor.condition_title" = "Условие";
+/* screen -> discount_editor -> scope_title */
+"screen.discount_editor.scope_title" = "Куда применяется";
+/* screen -> discount_editor -> period_title */
+"screen.discount_editor.period_title" = "Срок действия";
+/* screen -> discount_editor -> starts_at */
+"screen.discount_editor.starts_at" = "С";
+/* screen -> discount_editor -> ends_at */
+"screen.discount_editor.ends_at" = "По";
+/* screen -> discount_editor -> limits_title */
+"screen.discount_editor.limits_title" = "Лимиты";
+/* screen -> discount_editor -> max_redemptions */
+"screen.discount_editor.max_redemptions" = "Всего";
+/* screen -> discount_editor -> max_redemptions_per_client */
+"screen.discount_editor.max_redemptions_per_client" = "На одного клиента";
+/* screen -> discount_editor -> limit_unlimited */
+"screen.discount_editor.limit_unlimited" = "Без лимита";
+/* screen -> discount_editor -> locked_hint */
+"screen.discount_editor.locked_hint" = "Тип и способ применения изменить нельзя — создайте новое правило";
+/* screen -> discount_editor -> archive_confirm_title */
+"screen.discount_editor.archive_confirm_title" = "Отправить скидку в архив?";
+/* screen -> discount_editor -> archive_confirm_message */
+"screen.discount_editor.archive_confirm_message" = "Правило перестанет быть доступным для новых записей. Уже выданные скидки останутся как есть.";
+/* screen -> booking -> discount -> add_action */
+"screen.booking.discount.add_action" = "Добавить скидку";
+/* screen -> booking -> discount -> remove_action */
+"screen.booking.discount.remove_action" = "Снять";
+/* screen -> booking -> discount -> select_title */
+"screen.booking.discount.select_title" = "Выберите скидку";
+/* screen -> booking -> discount -> select_service_title */
+"screen.booking.discount.select_service_title" = "Выберите услугу";
+/* screen -> booking -> discount -> level_title */
+"screen.booking.discount.level_title" = "Применить к";
+/* screen -> booking -> discount -> empty_available */
+"screen.booking.discount.empty_available" = "Нет скидок, доступных для применения вручную";
+/* screen -> booking -> discount -> paid_warning */
+"screen.booking.discount.paid_warning" = "Запись уже оплачена. Снятие скидки не изменит проведённые платежи — разница компенсируется в финансовом журнале.";
+/* price_breakdown -> subtotal */
+"price_breakdown.subtotal" = "Подытог";
+/* price_breakdown -> discount */
+"price_breakdown.discount" = "Скидка";
+/* price_breakdown -> total */
+"price_breakdown.total" = "Итого";
+/* error -> discount -> code_taken */
+"error.discount.code_taken" = "Такой промокод уже используется";
+/* error -> discount -> limit_reached */
+"error.discount.limit_reached" = "Лимит применений исчерпан";
+/* error -> discount -> inactive */
+"error.discount.inactive" = "Скидка недоступна: истёк срок";
+/* error -> discount -> already_applied */
+"error.discount.already_applied" = "Эта скидка уже применена";
+/* error -> discount -> exceeds_total */
+"error.discount.exceeds_total" = "Скидка больше суммы к оплате";
+/* error -> discount -> booking_level_only */
+"error.discount.booking_level_only" = "Скидку можно применить только к записи";
+/* error -> discount -> item_level_only */
+"error.discount.item_level_only" = "Скидку можно применить только к услуге";
+/* screen -> promo_code -> title */
+"screen.promo_code.title" = "Промокод";
+/* screen -> promo_code -> placeholder */
+"screen.promo_code.placeholder" = "Введите код";
+/* screen -> promo_code -> apply_action */
+"screen.promo_code.apply_action" = "Применить";
+/* screen -> promo_code -> remove_action */
+"screen.promo_code.remove_action" = "Убрать";
+/* error -> promo_code -> not_found */
+"error.promo_code.not_found" = "Промокод не найден";
+/* error -> promo_code -> expired */
+"error.promo_code.expired" = "Срок действия истёк";
+/* error -> promo_code -> not_started */
+"error.promo_code.not_started" = "Промокод ещё не действует";
+/* error -> promo_code -> redemption_limit_reached */
+"error.promo_code.redemption_limit_reached" = "Промокод больше не действует";
+/* error -> promo_code -> client_limit_reached */
+"error.promo_code.client_limit_reached" = "Вы уже использовали этот промокод";
