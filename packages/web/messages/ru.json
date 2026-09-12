@@ -1,0 +1,17 @@
+{
+  "booking": {
+    "visitStatus": {
+      "pending_master": "Ожидает подтверждения мастера",
+      "pending_client": "Ожидает вашего подтверждения",
+      "confirmed": "Запись подтверждена",
+      "in_progress": "Визит в процессе",
+      "completed": "Визит завершён",
+      "cancelled": "Запись отменена",
+      "no_show": "Визит пропущен",
+      "expired": "Срок действия записи истёк"
+    }
+  },
+  "publicPayment": {
+    "cancellationPolicyLink": "Условия отмены и возврата депозита"
+  }
+}

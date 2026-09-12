@@ -747,6 +747,9 @@
 "screen.client.gender.male" = "Мужской";
 /* screen -> client -> birthdate_title */
 "screen.client.birthdate_title" = "Дата рождения";
+"screen.client.automatic_notifications_title" = "Автоматические уведомления";
+"screen.client.automatic_notifications_enabled" = "Отправлять автоматические сообщения";
+"screen.client.preferred_notification_transport" = "Предпочтительный канал";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Ваше имя";
 /* screen -> workplace_editing -> profile_photo */
@@ -809,6 +812,14 @@
 "screen.settings.online_booking.empty_value" = "Не настроено";
 /* screen -> settings -> schedule -> title */
 "screen.settings.schedule.title" = "Расписание";
+/* screen -> settings -> timeline -> title */
+"screen.settings.timeline.title" = "Отображение записи";
+/* screen -> settings -> timeline -> visible_specialists_hint */
+"screen.settings.timeline.visible_specialists_hint" = "Задаёт, сколько колонок специалистов помещается на экране. Сводите или разводите пальцы по горизонтали в таймлайне, чтобы изменить значение.";
+/* screen -> settings -> timeline -> time_scale_hint */
+"screen.settings.timeline.time_scale_hint" = "Задаёт, сколько времени видно на экране. Сводите или разводите пальцы по вертикали в таймлайне, чтобы изменить значение.";
+/* screen -> settings -> timeline -> slot_duration_hint */
+"screen.settings.timeline.slot_duration_hint" = "Задаёт шаг времени при создании или переносе записей.";
 /* screen -> settings -> schedule -> default_day_title */
 "screen.settings.schedule.default_day_title" = "Рабочий день по умолчанию";
 /* screen -> settings -> schedule -> default_day_hint */
@@ -831,7 +842,7 @@
 "screen.settings.accept_payments.square_title" = "Square";
 "screen.settings.accept_payments.status_label" = "Статус";
 "screen.settings.accept_payments.ready_label" = "Готов принимать платежи";
-"screen.settings.accept_payments.add_provider_title" = "Добавить способ оплаты";
+"screen.settings.accept_payments.add_provider_title" = "Способы приёма оплаты";
 "screen.settings.accept_payments.add_provider_action" = "Добавить способ оплаты";
 "screen.settings.accept_payments.stripe_footer_description" = "Stripe — глобальная платёжная платформа для приёма карточных платежей и получения выплат напрямую на банковский счёт.";
 "screen.settings.accept_payments.stripe_learn_more_link" = "stripe.com/connect";
@@ -860,12 +871,12 @@
 "screen.settings.accept_payments.tap_to_pay_square_unavailable" = "Square сообщает, что Tap to Pay недоступен для этого аккаунта. Обычно это значит, что приложение собрано с sandbox-ключом или аккаунт продавца не поддерживает Tap to Pay в своей стране.";
 "screen.settings.accept_payments.tap_to_pay_sandbox_unavailable" = "Tap to Pay не работает с sandbox-ключом Square. Соберите приложение в конфигурации Release — там используется production application ID — и авторизуйтесь под реальным аккаунтом продавца.";
 "screen.settings.accept_payments.tap_to_pay_passcode_required" = "Установите код-пароль на этом iPhone — без него Tap to Pay не работает.";
-"screen.settings.accept_payments.tap_to_pay_section" = "Tap to Pay на iPhone";
+"screen.settings.accept_payments.tap_to_pay_section" = "Tap to Pay on iPhone";
 "screen.settings.accept_payments.tap_to_pay_unavailable" = "Недоступен";
-"screen.settings.accept_payments.tap_to_pay_unavailable_footer" = "Tap to Pay на iPhone недоступен, потому что ни один подключённый платёжный провайдер его не поддерживает.";
-"screen.settings.accept_payments.tap_to_pay_provider_setup_footer" = "Сначала завершите настройку платёжного провайдера, который поддерживает Tap to Pay на iPhone.";
+"screen.settings.accept_payments.tap_to_pay_unavailable_footer" = "Tap to Pay on iPhone недоступен, потому что ни один подключённый платёжный провайдер его не поддерживает.";
+"screen.settings.accept_payments.tap_to_pay_provider_setup_footer" = "Сначала завершите настройку платёжного провайдера, который поддерживает Tap to Pay on iPhone.";
 "screen.settings.accept_payments.tap_to_pay_setup_footer" = "Проведём через необходимую настройку провайдера и покажем условия Apple, только если это потребуется.";
-"screen.settings.accept_payments.tap_to_pay_ready_footer" = "Подключённый платёжный провайдер готов принимать оплату через Tap to Pay на iPhone.";
+"screen.settings.accept_payments.tap_to_pay_ready_footer" = "Подключённый платёжный провайдер готов принимать оплату через Tap to Pay on iPhone.";
 "screen.settings.accept_payments.location_select_title" = "Выберите локацию";
 "screen.settings.accept_payments.learn_more_action" = "Подробнее";
 "screen.settings.accept_payments.request_provider_action" = "Запросить другого провайдера";
@@ -1819,6 +1830,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.appointment.expand_fields_action" = "Дополнительные поля";
 "creatable.appointment.extended_create_action" = "Расширенное создание";
 "creatable.appointment.manual_date_title" = "Ввести дату вручную";
+"creatable.appointment.multiselect_mode_enabled" = "Включен";
+"creatable.appointment.multiselect_mode_title" = "Режим мультивыбора";
 "creatable.appointment.not_selected" = "Не выбрано";
 "creatable.appointment.quick_create_action" = "Быстрое создание";
 "creatable.appointment.select_executor_title" = "Выберите мастера";
@@ -2885,8 +2898,17 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.notification_workflow.message_package_value" = "Оплатить";
 "screen.notification_workflow.booking_requested_event" = "Запрос записи";
 "screen.notification_workflow.booking_confirmation_event" = "Подтверждение записи";
+"screen.notification_workflow.booking_changed_event" = "Изменение записи";
+"screen.notification_workflow.booking_cancelled_event" = "Отмена записи";
+"screen.notification_workflow.birthday_event" = "День рождения";
 "screen.notification_workflow.visit_reminder_event" = "Напоминание о визите";
 "screen.notification_workflow.event_enabled_title" = "Отправлять уведомление";
+"screen.notification_workflow.include_confirmation_link_title" = "Добавить ссылку для подтверждения";
+"screen.notification_workflow.booking_requested_description" = "Отправляется, когда клиент оставляет запрос на запись.";
+"screen.notification_workflow.booking_confirmation_description" = "Отправляется, когда создаётся запись.";
+"screen.notification_workflow.booking_changed_description" = "Отправляется, когда меняются детали записи.";
+"screen.notification_workflow.booking_cancelled_description" = "Отправляется, когда запись отменяют.";
+"screen.notification_workflow.appointment_completed_description" = "Отправляется после того, как визит отмечен завершённым.";
 "screen.notification_workflow.add_event_title" = "Добавить событие";
 "screen.notification_workflow.create_message.title" = "Создание отправки сообщения";
 "screen.notification_workflow.create_message.event_title" = "Событие";
@@ -2971,7 +2993,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.salary.no_employees" = "Нет сотрудников за этот период";
 "screen.salary.rules_link" = "Правила зарплаты";
 
-"screen.payments.terminal_checkout.tap_to_pay_on_iphone" = "Tap to Pay";
+"screen.payments.terminal_checkout.tap_to_pay_on_iphone" = "Tap to Pay on iPhone";
 "screen.payments.terminal_checkout.payment_qr_code_title" = "Оплата по QR-коду";
 "screen.payments.terminal_checkout.payment_qr_code_subtitle" = "Клиент сканирует QR-код";
 "screen.payments.terminal_checkout.payment_link_title" = "Ссылка на оплату";
@@ -2979,7 +3001,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.payments.terminal_checkout.manual_card_entry" = "Ввод карты вручную";
 "screen.payments.terminal_checkout.powered_by" = "Работает на %@";
 "screen.payments.terminal_checkout.select_method_title" = "Как платит клиент?";
-"screen.payments.terminal_checkout.preparing_tap_to_pay" = "Подготавливаем Tap to Pay на iPhone…";
+"screen.payments.terminal_checkout.preparing_tap_to_pay" = "Подготавливаем Tap to Pay on iPhone…";
 "screen.payments.terminal_checkout.processing_payment" = "Обрабатываем платёж…";
 "screen.payments.terminal_checkout.payment_approved" = "Платёж принят";
 "screen.payments.terminal_checkout.payment_declined" = "Платёж отклонён";
@@ -2988,7 +3010,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.accept_payments.checkout_section" = "Приём оплаты";
 "screen.settings.accept_payments.default_provider_label" = "Провайдер по умолчанию";
 "screen.settings.accept_payments.default_provider_ask" = "Спрашивать каждый раз";
-"screen.settings.accept_payments.default_provider_footer" = "Через какого провайдера открывается расчёт. Способы оплаты, включая Tap to Pay на iPhone, выбираются уже в чеке.";
+"screen.settings.accept_payments.default_provider_footer" = "Через какого провайдера открывается расчёт. Способы оплаты, включая Tap to Pay on iPhone, выбираются уже в чеке.";
 
 "screen.payments.terminal_checkout.breakdown_title" = "Детали платежа";
 "screen.payments.terminal_checkout.method_not_selected" = "Не выбран";
@@ -3016,6 +3038,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.communication_consent.marketing" = "Маркетинговые сообщения";
 /* screen -> communication_consent -> empty */
 "screen.communication_consent.empty" = "Добавьте email или номер телефона, чтобы настроить уведомления.";
+"screen.communication_consent.transactional_sms_disclosure" = "Я подтверждаю, что клиент согласился получать SMS о записях от Maetry. Частота различается; может взиматься плата за сообщения и передачу данных. STOP — отказ, HELP — помощь.";
+"screen.communication_consent.marketing_sms_disclosure" = "Я подтверждаю, что клиент согласился получать регулярные рекламные SMS от Maetry. Частота различается; может взиматься плата за сообщения и передачу данных. STOP — отказ, HELP — помощь.";
+"screen.communication_consent.marketing_email_disclosure" = "Я подтверждаю, что клиент согласился получать регулярные рекламные email от Maetry.";
+"screen.communication_consent.privacy_policy" = "Политика конфиденциальности";
 
 /* screen -> discounts -> title */
 "screen.discounts.title" = "Скидки";
@@ -3117,6 +3143,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.discount_editor.archive_confirm_message" = "Правило перестанет быть доступным для новых записей. Уже выданные скидки останутся как есть.";
 /* screen -> booking -> discount -> add_action */
 "screen.booking.discount.add_action" = "Добавить скидку";
+/* screen -> booking -> discount -> edit_action */
+"screen.booking.discount.edit_action" = "Изм. скидку";
 /* screen -> booking -> discount -> remove_action */
 "screen.booking.discount.remove_action" = "Снять";
 /* screen -> booking -> discount -> select_title */
@@ -3129,6 +3157,10 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.booking.discount.empty_available" = "Нет скидок, доступных для применения вручную";
 /* screen -> booking -> discount -> paid_warning */
 "screen.booking.discount.paid_warning" = "Запись уже оплачена. Снятие скидки не изменит проведённые платежи — разница компенсируется в финансовом журнале.";
+/* screen -> booking -> services -> bundle_label */
+"screen.booking.services.bundle_label" = "Набор";
+/* screen -> booking -> services -> reorder_action */
+"screen.booking.services.reorder_action" = "Изменить порядок";
 /* price_breakdown -> subtotal */
 "price_breakdown.subtotal" = "Подытог";
 /* price_breakdown -> discount */
@@ -3167,3 +3199,191 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "error.promo_code.redemption_limit_reached" = "Промокод больше не действует";
 /* error -> promo_code -> client_limit_reached */
 "error.promo_code.client_limit_reached" = "Вы уже использовали этот промокод";
+
+"screen.workplace_editing.cancellation_allowed" = "Разрешить отмену";
+"screen.workplace_editing.rescheduling_allowed" = "Разрешить перенос";
+"screen.workplace_editing.free_cancellation_minutes" = "Бесплатная отмена, минут до начала";
+"screen.workplace_editing.retain_deposit_late" = "Удерживать депозит при поздней отмене";
+"screen.workplace_editing.cancellation_rules_hint" = "Срок отсчитывается до начала записи. 0 — бесплатная отмена до начала. Удержание применяется только к внесённому депозиту.";
+
+"screen.workplace_editing.deposit_type" = "Тип предоплаты";
+
+"screen.workplace_editing.deposit_type_percent" = "Процент";
+
+"screen.workplace_editing.deposit_type_fixed" = "Фиксированная сумма";
+
+"screen.workplace_editing.deposit_new_clients_only" = "Только новые клиенты";
+
+"screen.workplace_editing.deposit_amount" = "Сумма предоплаты";
+
+"screen.workplace_editing.booking_policy_title" = "Правила записи и отмены";
+/* screen -> settings -> accept_payments -> tap_to_pay_connect_provider */
+"screen.settings.accept_payments.tap_to_pay_connect_provider" = "Подключить провайдера";
+/* screen -> settings -> accept_payments -> tap_to_pay_enable_action */
+"screen.settings.accept_payments.tap_to_pay_enable_action" = "Настроить Tap to Pay on iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_prepare_again_action */
+"screen.settings.accept_payments.tap_to_pay_prepare_again_action" = "Подготовить iPhone заново";
+/* screen -> settings -> accept_payments -> tap_to_pay_providers_footer */
+"screen.settings.accept_payments.tap_to_pay_providers_footer" = "Подключение одного из этих провайдеров включает Tap to Pay on iPhone — приём бесконтактных карт и кошельков прямо на этом iPhone, без дополнительного оборудования.";
+/* screen -> settings -> accept_payments -> other_providers_section */
+"screen.settings.accept_payments.other_providers_section" = "Другие провайдеры";
+/* screen -> payments -> terminal_checkout -> tap_to_pay_connect_provider_subtitle */
+"screen.payments.terminal_checkout.tap_to_pay_connect_provider_subtitle" = "Подключите платёжного провайдера";
+
+"screen.notification_workflow.appointment_section_title" = "Уведомления о записи";
+
+"screen.notification_workflow.reminders_section_title" = "Напоминания";
+/* screen -> settings -> accept_payments -> tap_to_pay_activated_title */
+"screen.settings.accept_payments.tap_to_pay_activated_title" = "Tap to Pay on iPhone готов";
+/* screen -> settings -> accept_payments -> tap_to_pay_activated_message */
+"screen.settings.accept_payments.tap_to_pay_activated_message" = "Попробуйте на следующем чеке: поднесите карту, iPhone или Apple Watch клиента к верхней части вашего iPhone.";
+/* screen -> settings -> accept_payments -> provider_connected_title */
+"screen.settings.accept_payments.provider_connected_title" = "Провайдер подключён";
+/* screen -> settings -> accept_payments -> provider_connected_message */
+"screen.settings.accept_payments.provider_connected_message" = "Теперь через него можно принимать оплату.";
+/* screen -> settings -> accept_payments -> provider_verification_title */
+"screen.settings.accept_payments.provider_verification_title" = "Идёт проверка";
+/* screen -> settings -> accept_payments -> provider_verification_message */
+"screen.settings.accept_payments.provider_verification_message" = "Провайдер ещё проверяет отправленные данные. Tap to Pay on iPhone включится сам, как только проверка закончится, — обычно это несколько минут.";
+/* screen -> settings -> accept_payments -> provider_action_required_title */
+"screen.settings.accept_payments.provider_action_required_title" = "Провайдеру нужен ещё один шаг";
+/* screen -> settings -> accept_payments -> provider_action_required_message */
+"screen.settings.accept_payments.provider_action_required_message" = "Провайдер запросил дополнительные данные, без них приём оплаты не включится. Откройте «Приём платежей» в настройках и завершите настройку — после этого станет доступен Tap to Pay on iPhone.";
+/* screen -> settings -> accept_payments -> provider_onboarding_waiting_title */
+"screen.settings.accept_payments.provider_onboarding_waiting_title" = "Настройка %@";
+/* screen -> settings -> accept_payments -> provider_onboarding_waiting_message */
+"screen.settings.accept_payments.provider_onboarding_waiting_message" = "Закончите настройку в открывшемся окне и вернитесь в приложение.";
+/* screen -> settings -> accept_payments -> provider_onboarding_interrupted_title */
+"screen.settings.accept_payments.provider_onboarding_interrupted_title" = "Настройка не закончена";
+/* screen -> settings -> accept_payments -> provider_onboarding_interrupted_message */
+"screen.settings.accept_payments.provider_onboarding_interrupted_message" = "Вы вернулись из %@, не завершив настройку. Можно продолжить с того места, где остановились.";
+/* screen -> settings -> accept_payments -> provider_onboarding_retry_action */
+"screen.settings.accept_payments.provider_onboarding_retry_action" = "Продолжить настройку";
+/* screen -> settings -> accept_payments -> provider_onboarding_choose_another_action */
+"screen.settings.accept_payments.provider_onboarding_choose_another_action" = "Выбрать другого провайдера";
+/* screen -> settings -> accept_payments -> activation_loading_status */
+"screen.settings.accept_payments.activation_loading_status" = "Проверяем настройки приёма оплаты";
+/* screen -> settings -> accept_payments -> activation_loading_location */
+"screen.settings.accept_payments.activation_loading_location" = "Настраиваем точку приёма оплаты";
+/* screen -> settings -> accept_payments -> terms_admin_only */
+"screen.settings.accept_payments.terms_admin_only" = "Условия Apple для Tap to Pay on iPhone может принять только администратор. Попросите его настроить приём оплаты.";
+/* screen -> settings -> accept_payments -> location_select_footer */
+"screen.settings.accept_payments.location_select_footer" = "Платежи будут проводиться в выбранной локации.";
+/* screen -> settings -> accept_payments -> preparing_device_title */
+"screen.settings.accept_payments.preparing_device_title" = "Настраиваем этот iPhone";
+/* screen -> settings -> accept_payments -> capability_enabled */
+"screen.settings.accept_payments.capability_enabled" = "Включено";
+/* screen -> settings -> accept_payments -> capability_unavailable */
+"screen.settings.accept_payments.capability_unavailable" = "Пока недоступно";
+/* screen -> settings -> accept_payments -> restricted_footer */
+"screen.settings.accept_payments.restricted_footer" = "Stripe ждёт от вас данных, без них аккаунт перестанет принимать платежи. Откройте управление аккаунтом, чтобы увидеть, чего не хватает.";
+
+/* screen -> payments -> terminal_checkout -> error_card_expired */
+"screen.payments.terminal_checkout.error_card_expired" = "Срок действия карты истёк. Попросите другую карту.";
+/* screen -> payments -> terminal_checkout -> error_incorrect_pin */
+"screen.payments.terminal_checkout.error_incorrect_pin" = "Неверный PIN. Попробуйте оплату снова.";
+/* screen -> payments -> terminal_checkout -> error_pin_attempts_exceeded */
+"screen.payments.terminal_checkout.error_pin_attempts_exceeded" = "Слишком много попыток ввода PIN. Карта заблокирована — попросите другую.";
+/* screen -> payments -> terminal_checkout -> error_insufficient_funds */
+"screen.payments.terminal_checkout.error_insufficient_funds" = "На карте недостаточно средств.";
+/* screen -> payments -> terminal_checkout -> error_card_not_supported */
+"screen.payments.terminal_checkout.error_card_not_supported" = "Эта карта не поддерживается. Попросите другую карту.";
+/* screen -> payments -> terminal_checkout -> error_card_limit_exceeded */
+"screen.payments.terminal_checkout.error_card_limit_exceeded" = "Достигнут лимит по карте.";
+/* screen -> payments -> terminal_checkout -> error_amount_not_allowed */
+"screen.payments.terminal_checkout.error_amount_not_allowed" = "Карта не допускает оплату на эту сумму.";
+/* screen -> payments -> terminal_checkout -> error_try_another_card */
+"screen.payments.terminal_checkout.error_try_another_card" = "Карта отклонена. Попросите другую карту.";
+/* screen -> payments -> terminal_checkout -> error_card_not_read */
+"screen.payments.terminal_checkout.error_card_not_read" = "Карта не считана. Попробуйте оплату снова.";
+/* screen -> payments -> terminal_checkout -> error_card_read_timed_out */
+"screen.payments.terminal_checkout.error_card_read_timed_out" = "Карта не считана — время истекло. Попробуйте снова.";
+/* screen -> payments -> terminal_checkout -> error_card_removed_too_soon */
+"screen.payments.terminal_checkout.error_card_removed_too_soon" = "Карту убрали слишком рано. Держите её до конца оплаты.";
+/* screen -> payments -> terminal_checkout -> error_card_left_in_reader */
+"screen.payments.terminal_checkout.error_card_left_in_reader" = "Извлеките карту из ридера.";
+/* screen -> payments -> terminal_checkout -> error_no_network */
+"screen.payments.terminal_checkout.error_no_network" = "Нет подключения к интернету. Проверьте связь и попробуйте снова.";
+/* screen -> payments -> terminal_checkout -> error_payment_timed_out */
+"screen.payments.terminal_checkout.error_payment_timed_out" = "Время ожидания оплаты истекло. Попробуйте снова.";
+/* screen -> payments -> terminal_checkout -> error_location_services_required */
+"screen.payments.terminal_checkout.error_location_services_required" = "Включите службы геолокации — без них оплата картой не работает.";
+/* screen -> payments -> terminal_checkout -> error_location_permission_required */
+"screen.payments.terminal_checkout.error_location_permission_required" = "Разрешите доступ к геопозиции — платёжный провайдер требует его для оплаты картой.";
+/* screen -> payments -> terminal_checkout -> error_device_time_mismatch */
+"screen.payments.terminal_checkout.error_device_time_mismatch" = "На устройстве неверные дата и время. Исправьте их и попробуйте снова.";
+/* screen -> payments -> terminal_checkout -> error_nfc_disabled */
+"screen.payments.terminal_checkout.error_nfc_disabled" = "NFC отключён на этом iPhone.";
+/* screen -> payments -> terminal_checkout -> error_split_screen_unsupported */
+"screen.payments.terminal_checkout.error_split_screen_unsupported" = "Закройте режим разделённого экрана и попробуйте оплату снова.";
+/* screen -> payments -> terminal_checkout -> error_payment_in_progress */
+"screen.payments.terminal_checkout.error_payment_in_progress" = "Оплата уже выполняется.";
+/* screen -> payments -> terminal_checkout -> error_call_in_progress */
+"screen.payments.terminal_checkout.error_call_in_progress" = "Завершите звонок и попробуйте оплату снова.";
+/* screen -> payments -> terminal_checkout -> error_session_expired */
+"screen.payments.terminal_checkout.error_session_expired" = "Сессия оплаты истекла. Попробуйте снова.";
+/* screen -> payments -> terminal_checkout -> error_reader_not_connected */
+"screen.payments.terminal_checkout.error_reader_not_connected" = "Ридер карт не подключён.";
+/* screen -> payments -> terminal_checkout -> error_duplicate_payment_attempt */
+"screen.payments.terminal_checkout.error_duplicate_payment_attempt" = "Возможно, оплата уже прошла. Проверьте список платежей, прежде чем повторять.";
+/* screen -> payments -> terminal_checkout -> error_provider_reconnect_required */
+"screen.payments.terminal_checkout.error_provider_reconnect_required" = "Переподключите платёжного провайдера в настройках, прежде чем принимать оплату.";
+/* screen -> payments -> terminal_checkout -> error_location_not_activated */
+"screen.payments.terminal_checkout.error_location_not_activated" = "Эта локация не активирована для оплаты картой.";
+/* screen -> payments -> terminal_checkout -> error_country_not_supported */
+"screen.payments.terminal_checkout.error_country_not_supported" = "Платёжный провайдер не поддерживает оплату картой в этой стране.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_account_unavailable */
+"screen.payments.terminal_checkout.error_tap_to_pay_account_unavailable" = "Tap to Pay недоступен для этого платёжного аккаунта.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_interrupted */
+"screen.payments.terminal_checkout.error_tap_to_pay_interrupted" = "Tap to Pay прерван. Попробуйте оплату снова.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_preparation_failed */
+"screen.payments.terminal_checkout.error_tap_to_pay_preparation_failed" = "Не удалось подготовить Tap to Pay на этом iPhone.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_device_banned */
+"screen.payments.terminal_checkout.error_tap_to_pay_device_banned" = "Tap to Pay заблокирован на этом iPhone.";
+/* screen -> payments -> terminal_checkout -> error_unexpected */
+"screen.payments.terminal_checkout.error_unexpected" = "Не удалось завершить оплату. Попробуйте снова.";
+
+/* screen -> payments -> terminal_checkout -> payment_failed */
+"screen.payments.terminal_checkout.payment_failed" = "Не удалось оплатить";
+
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_account_blocked */
+"screen.payments.terminal_checkout.error_tap_to_pay_account_blocked" = "Tap to Pay заблокирован для этого аккаунта на этом iPhone. Apple разрешает не больше 3 разных платёжных аккаунтов на устройство за 24 часа — подождите сутки или возьмите другой iPhone.";
+
+"screen.settings.accept_payments.stripe_connection_choice_title" = "Подключение Stripe";
+
+"screen.settings.accept_payments.stripe_create_account" = "Создать новый аккаунт";
+
+"screen.settings.accept_payments.stripe_use_existing_account" = "Подключить существующий Stripe";
+
+"screen.settings.accept_payments.stripe_connection_choice_footer" = "Подключите свой бизнес-аккаунт Stripe или создайте новый платёжный аккаунт для этого салона.";
+
+"screen.settings.accept_payments.stripe_create_location" = "Создать локацию для этого салона";
+
+"screen.settings.accept_payments.stripe_location_footer" = "Создайте локацию по адресу этого салона или выберите его существующую локацию в Stripe. Локации других салонов сохранятся.";
+
+/* screen -> payments -> terminal_checkout -> error_visit_already_settled */
+"screen.payments.terminal_checkout.error_visit_already_settled" = "Этот визит уже оплачен или закрыт. Обновите список — повторно проводить оплату не нужно.";
+
+/* screen -> payments -> terminal_checkout -> error_payment_settled_visit_open */
+"screen.payments.terminal_checkout.error_payment_settled_visit_open" = "Оплата прошла, но визит не закрылся. Обновите список — повторно оплату не проводите.";
+
+/* screen -> payments -> terminal_checkout -> error_payment_already_completed */
+"screen.payments.terminal_checkout.error_payment_already_completed" = "Этот платёж уже завершён. Обновите список, прежде чем проводить новый.";
+
+/* screen -> payments -> terminal_checkout -> error_no_access */
+"screen.payments.terminal_checkout.error_no_access" = "Недостаточно прав, чтобы принимать оплату по этому визиту.";
+
+/* screen -> payments -> terminal_checkout -> error_visit_not_found */
+"screen.payments.terminal_checkout.error_visit_not_found" = "Визит не найден. Обновите список.";
+
+/* screen -> payments -> terminal_checkout -> error_server_unavailable */
+"screen.payments.terminal_checkout.error_server_unavailable" = "Сервис оплаты временно недоступен. Попробуйте через минуту.";
+
+/* screen -> payments -> terminal_checkout -> error_card_methods_unavailable */
+"screen.payments.terminal_checkout.error_card_methods_unavailable" = "Нет доступных способов оплаты картой. Проверьте настройку платёжного аккаунта.";
+
+/* screen -> payments -> terminal_checkout -> payment_taken */
+"screen.payments.terminal_checkout.payment_taken" = "Оплата принята";
+
+/* screen -> payments -> terminal_checkout -> finish_visit */
+"screen.payments.terminal_checkout.finish_visit" = "Закрыть визит";

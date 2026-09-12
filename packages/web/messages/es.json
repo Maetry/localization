@@ -1,0 +1,17 @@
+{
+  "booking": {
+    "visitStatus": {
+      "pending_master": "Pendiente de confirmación del profesional",
+      "pending_client": "Pendiente de tu confirmación",
+      "confirmed": "Reserva confirmada",
+      "in_progress": "Visita en curso",
+      "completed": "Visita completada",
+      "cancelled": "Reserva cancelada",
+      "no_show": "No asististe a la cita",
+      "expired": "Reserva caducada"
+    }
+  },
+  "publicPayment": {
+    "cancellationPolicyLink": "Política de cancelación y depósito"
+  }
+}

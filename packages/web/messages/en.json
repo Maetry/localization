@@ -14,5 +14,20 @@
     "loading": "Loading...",
     "success": "Success",
     "error": "Error"
+  },
+  "booking": {
+    "visitStatus": {
+      "pending_master": "Awaiting specialist confirmation",
+      "pending_client": "Awaiting your confirmation",
+      "confirmed": "Booking confirmed",
+      "in_progress": "Visit in progress",
+      "completed": "Visit completed",
+      "cancelled": "Booking cancelled",
+      "no_show": "Visit missed",
+      "expired": "Booking expired"
+    }
+  },
+  "publicPayment": {
+    "cancellationPolicyLink": "Cancellation and deposit policy"
   }
 }

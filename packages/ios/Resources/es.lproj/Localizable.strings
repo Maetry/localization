@@ -799,6 +799,9 @@
 "screen.client.gender.male" = "Masculino";
 /* screen -> client -> birthdate_title */
 "screen.client.birthdate_title" = "Fecha de nacimiento";
+"screen.client.automatic_notifications_title" = "Notificaciones automáticas";
+"screen.client.automatic_notifications_enabled" = "Enviar mensajes automáticos";
+"screen.client.preferred_notification_transport" = "Canal preferido";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Tu nombre";
 /* screen -> workplace_editing -> profile_photo */
@@ -861,6 +864,14 @@
 "screen.settings.online_booking.empty_value" = "Sin configurar";
 /* screen -> settings -> schedule -> title */
 "screen.settings.schedule.title" = "Horario";
+/* screen -> settings -> timeline -> title */
+"screen.settings.timeline.title" = "Vista de citas";
+/* screen -> settings -> timeline -> visible_specialists_hint */
+"screen.settings.timeline.visible_specialists_hint" = "Define cuántas columnas de especialistas caben en pantalla. Pellizca horizontalmente en la cronología para cambiarlo.";
+/* screen -> settings -> timeline -> time_scale_hint */
+"screen.settings.timeline.time_scale_hint" = "Controla cuánto tiempo se muestra. Pellizca verticalmente en la cronología para cambiarlo.";
+/* screen -> settings -> timeline -> slot_duration_hint */
+"screen.settings.timeline.slot_duration_hint" = "Define el intervalo usado al crear o mover citas.";
 /* screen -> settings -> schedule -> default_day_title */
 "screen.settings.schedule.default_day_title" = "Jornada laboral predeterminada";
 /* screen -> settings -> schedule -> default_day_hint */
@@ -883,7 +894,7 @@
 "screen.settings.accept_payments.square_title" = "Square";
 "screen.settings.accept_payments.status_label" = "Estado";
 "screen.settings.accept_payments.ready_label" = "Listo para aceptar pagos";
-"screen.settings.accept_payments.add_provider_title" = "Agregar método de pago";
+"screen.settings.accept_payments.add_provider_title" = "Métodos de aceptación de pagos";
 "screen.settings.accept_payments.add_provider_action" = "Agregar método de pago";
 "screen.settings.accept_payments.stripe_footer_description" = "Stripe es una plataforma de pagos global para aceptar pagos con tarjeta y recibir pagos directamente en tu cuenta bancaria.";
 "screen.settings.accept_payments.stripe_learn_more_link" = "stripe.com/connect";
@@ -2411,6 +2422,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "creatable.appointment.expand_fields_action" = "Campos adicionales";
 "creatable.appointment.extended_create_action" = "Creación avanzada";
 "creatable.appointment.manual_date_title" = "Introducir fecha manualmente";
+"creatable.appointment.multiselect_mode_enabled" = "Activado";
+"creatable.appointment.multiselect_mode_title" = "Modo de selección múltiple";
 "creatable.appointment.not_selected" = "No seleccionado";
 "creatable.appointment.quick_create_action" = "Creación rápida";
 "creatable.appointment.select_executor_title" = "Selecciona un profesional";
@@ -2874,8 +2887,17 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.notification_workflow.message_package_value" = "Comprar";
 "screen.notification_workflow.booking_requested_event" = "Solicitud de reserva";
 "screen.notification_workflow.booking_confirmation_event" = "Confirmación de reserva";
+"screen.notification_workflow.booking_changed_event" = "Cambio de reserva";
+"screen.notification_workflow.booking_cancelled_event" = "Cancelación de reserva";
+"screen.notification_workflow.birthday_event" = "Cumpleaños";
 "screen.notification_workflow.visit_reminder_event" = "Recordatorio de visita";
 "screen.notification_workflow.event_enabled_title" = "Enviar notificación";
+"screen.notification_workflow.include_confirmation_link_title" = "Incluir enlace de confirmación";
+"screen.notification_workflow.booking_requested_description" = "Se envía cuando un cliente envía una solicitud de reserva.";
+"screen.notification_workflow.booking_confirmation_description" = "Se envía cuando se crea una reserva.";
+"screen.notification_workflow.booking_changed_description" = "Se envía cuando cambian los detalles de la reserva.";
+"screen.notification_workflow.booking_cancelled_description" = "Se envía cuando se cancela una reserva.";
+"screen.notification_workflow.appointment_completed_description" = "Se envía después de marcar la visita como completada.";
 "screen.notification_workflow.add_event_title" = "Añadir evento";
 "screen.notification_workflow.create_message.title" = "Crear mensaje";
 "screen.notification_workflow.create_message.event_title" = "Evento";
@@ -2960,7 +2982,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.salary.no_employees" = "Sin empleados para este periodo";
 "screen.salary.rules_link" = "Reglas de nómina";
 
-"screen.payments.terminal_checkout.tap_to_pay_on_iphone" = "Tap to Pay";
+"screen.payments.terminal_checkout.tap_to_pay_on_iphone" = "Tap to Pay en iPhone";
 "screen.payments.terminal_checkout.payment_qr_code_title" = "Pago con código QR";
 "screen.payments.terminal_checkout.payment_qr_code_subtitle" = "El cliente escanea el código QR";
 "screen.payments.terminal_checkout.payment_link_title" = "Enlace de pago";
@@ -3005,6 +3027,10 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.communication_consent.marketing" = "Mensajes de marketing";
 /* screen -> communication_consent -> empty */
 "screen.communication_consent.empty" = "Añade un correo o número de teléfono para gestionar las preferencias de notificaciones.";
+"screen.communication_consent.transactional_sms_disclosure" = "Confirmo que el cliente aceptó recibir SMS de citas de Maetry. La frecuencia varía; pueden aplicarse tarifas de mensajes y datos. STOP para cancelar o HELP para obtener ayuda.";
+"screen.communication_consent.marketing_sms_disclosure" = "Confirmo que el cliente aceptó recibir SMS promocionales recurrentes de Maetry. La frecuencia varía; pueden aplicarse tarifas de mensajes y datos. STOP para cancelar o HELP para obtener ayuda.";
+"screen.communication_consent.marketing_email_disclosure" = "Confirmo que el cliente aceptó recibir correos electrónicos promocionales recurrentes de Maetry.";
+"screen.communication_consent.privacy_policy" = "Política de privacidad";
 
 /* screen -> discounts -> title */
 "screen.discounts.title" = "Descuentos";
@@ -3106,6 +3132,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.discount_editor.archive_confirm_message" = "La regla dejará de estar disponible para nuevas reservas. Los descuentos ya aplicados se mantienen.";
 /* screen -> booking -> discount -> add_action */
 "screen.booking.discount.add_action" = "Añadir descuento";
+/* screen -> booking -> discount -> edit_action */
+"screen.booking.discount.edit_action" = "Editar descuento";
 /* screen -> booking -> discount -> remove_action */
 "screen.booking.discount.remove_action" = "Quitar";
 /* screen -> booking -> discount -> select_title */
@@ -3118,6 +3146,10 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.booking.discount.empty_available" = "No hay descuentos disponibles para aplicar manualmente";
 /* screen -> booking -> discount -> paid_warning */
 "screen.booking.discount.paid_warning" = "La reserva ya está pagada. Quitar el descuento no cambia los pagos registrados: la diferencia se compensa en el diario financiero.";
+/* screen -> booking -> services -> bundle_label */
+"screen.booking.services.bundle_label" = "Paquete";
+/* screen -> booking -> services -> reorder_action */
+"screen.booking.services.reorder_action" = "Cambiar orden";
 /* price_breakdown -> subtotal */
 "price_breakdown.subtotal" = "Subtotal";
 /* price_breakdown -> discount */
@@ -3156,3 +3188,191 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "error.promo_code.redemption_limit_reached" = "El código promocional ya no está disponible";
 /* error -> promo_code -> client_limit_reached */
 "error.promo_code.client_limit_reached" = "Ya has usado este código promocional";
+
+"screen.workplace_editing.cancellation_allowed" = "Permitir cancelaciones";
+"screen.workplace_editing.rescheduling_allowed" = "Permitir cambios de cita";
+"screen.workplace_editing.free_cancellation_minutes" = "Cancelación gratuita, minutos antes";
+"screen.workplace_editing.retain_deposit_late" = "Retener depósito por cancelación tardía";
+"screen.workplace_editing.cancellation_rules_hint" = "El plazo se cuenta antes del inicio de la cita. Usa 0 para permitir la cancelación gratuita hasta el inicio. La retención solo se aplica si se ha pagado un depósito.";
+
+"screen.workplace_editing.deposit_type" = "Tipo de anticipo";
+
+"screen.workplace_editing.deposit_type_percent" = "Porcentaje";
+
+"screen.workplace_editing.deposit_type_fixed" = "Importe fijo";
+
+"screen.workplace_editing.deposit_new_clients_only" = "Solo clientes nuevos";
+
+"screen.workplace_editing.deposit_amount" = "Importe del anticipo";
+
+"screen.workplace_editing.booking_policy_title" = "Política de reservas y cancelaciones";
+/* screen -> settings -> accept_payments -> tap_to_pay_connect_provider */
+"screen.settings.accept_payments.tap_to_pay_connect_provider" = "Conectar un proveedor";
+/* screen -> settings -> accept_payments -> tap_to_pay_enable_action */
+"screen.settings.accept_payments.tap_to_pay_enable_action" = "Configurar Tap to Pay en iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_prepare_again_action */
+"screen.settings.accept_payments.tap_to_pay_prepare_again_action" = "Volver a preparar este iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_providers_footer */
+"screen.settings.accept_payments.tap_to_pay_providers_footer" = "Conectar uno de estos proveedores es lo que activa Tap to Pay en iPhone: aceptar tarjetas y carteras sin contacto en este iPhone, sin hardware adicional.";
+/* screen -> settings -> accept_payments -> other_providers_section */
+"screen.settings.accept_payments.other_providers_section" = "Otros proveedores";
+/* screen -> payments -> terminal_checkout -> tap_to_pay_connect_provider_subtitle */
+"screen.payments.terminal_checkout.tap_to_pay_connect_provider_subtitle" = "Conecta un proveedor de pagos";
+
+"screen.notification_workflow.appointment_section_title" = "Notificaciones de citas";
+
+"screen.notification_workflow.reminders_section_title" = "Recordatorios";
+/* screen -> settings -> accept_payments -> tap_to_pay_activated_title */
+"screen.settings.accept_payments.tap_to_pay_activated_title" = "Tap to Pay en iPhone está listo";
+/* screen -> settings -> accept_payments -> tap_to_pay_activated_message */
+"screen.settings.accept_payments.tap_to_pay_activated_message" = "Pruébalo en tu próxima cuenta: acerca la tarjeta, el iPhone o el Apple Watch del cliente a la parte superior de tu iPhone.";
+/* screen -> settings -> accept_payments -> provider_connected_title */
+"screen.settings.accept_payments.provider_connected_title" = "Proveedor conectado";
+/* screen -> settings -> accept_payments -> provider_connected_message */
+"screen.settings.accept_payments.provider_connected_message" = "Ya puedes aceptar pagos con este proveedor.";
+/* screen -> settings -> accept_payments -> provider_verification_title */
+"screen.settings.accept_payments.provider_verification_title" = "Verificación en curso";
+/* screen -> settings -> accept_payments -> provider_verification_message */
+"screen.settings.accept_payments.provider_verification_message" = "Tu proveedor sigue revisando los datos que enviaste. Tap to Pay en iPhone se activará solo en cuanto termine la revisión, normalmente en unos minutos.";
+/* screen -> settings -> accept_payments -> provider_action_required_title */
+"screen.settings.accept_payments.provider_action_required_title" = "Falta un paso con tu proveedor";
+/* screen -> settings -> accept_payments -> provider_action_required_message */
+"screen.settings.accept_payments.provider_action_required_message" = "Tu proveedor necesita más datos para aceptar pagos. Abre Aceptar pagos en los ajustes y termina la configuración; después podrás usar Tap to Pay en iPhone.";
+/* screen -> settings -> accept_payments -> provider_onboarding_waiting_title */
+"screen.settings.accept_payments.provider_onboarding_waiting_title" = "Configurando %@";
+/* screen -> settings -> accept_payments -> provider_onboarding_waiting_message */
+"screen.settings.accept_payments.provider_onboarding_waiting_message" = "Termina los pasos en la ventana que se abrió y vuelve a la app.";
+/* screen -> settings -> accept_payments -> provider_onboarding_interrupted_title */
+"screen.settings.accept_payments.provider_onboarding_interrupted_title" = "La configuración no terminó";
+/* screen -> settings -> accept_payments -> provider_onboarding_interrupted_message */
+"screen.settings.accept_payments.provider_onboarding_interrupted_message" = "Volviste de %@ antes de terminar la configuración. Puedes continuar donde la dejaste.";
+/* screen -> settings -> accept_payments -> provider_onboarding_retry_action */
+"screen.settings.accept_payments.provider_onboarding_retry_action" = "Continuar configuración";
+/* screen -> settings -> accept_payments -> provider_onboarding_choose_another_action */
+"screen.settings.accept_payments.provider_onboarding_choose_another_action" = "Elegir otro proveedor";
+/* screen -> settings -> accept_payments -> activation_loading_status */
+"screen.settings.accept_payments.activation_loading_status" = "Comprobando la configuración de pagos";
+/* screen -> settings -> accept_payments -> activation_loading_location */
+"screen.settings.accept_payments.activation_loading_location" = "Configurando el punto de cobro";
+/* screen -> settings -> accept_payments -> terms_admin_only */
+"screen.settings.accept_payments.terms_admin_only" = "Solo un administrador puede aceptar los términos y condiciones de Apple para Tap to Pay en iPhone. Pídele a un administrador que lo configure.";
+/* screen -> settings -> accept_payments -> location_select_footer */
+"screen.settings.accept_payments.location_select_footer" = "Los pagos se registrarán en la ubicación que elijas.";
+/* screen -> settings -> accept_payments -> preparing_device_title */
+"screen.settings.accept_payments.preparing_device_title" = "Configurando este iPhone";
+/* screen -> settings -> accept_payments -> capability_enabled */
+"screen.settings.accept_payments.capability_enabled" = "Activado";
+/* screen -> settings -> accept_payments -> capability_unavailable */
+"screen.settings.accept_payments.capability_unavailable" = "Aún no disponible";
+/* screen -> settings -> accept_payments -> restricted_footer */
+"screen.settings.accept_payments.restricted_footer" = "Stripe necesita datos tuyos para que esta cuenta siga aceptando pagos. Abre la administración de la cuenta para ver qué falta.";
+
+/* screen -> payments -> terminal_checkout -> error_card_expired */
+"screen.payments.terminal_checkout.error_card_expired" = "La tarjeta ha caducado. Pide otra tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_incorrect_pin */
+"screen.payments.terminal_checkout.error_incorrect_pin" = "PIN incorrecto. Vuelve a intentar el pago.";
+/* screen -> payments -> terminal_checkout -> error_pin_attempts_exceeded */
+"screen.payments.terminal_checkout.error_pin_attempts_exceeded" = "Demasiados intentos de PIN. La tarjeta está bloqueada: pide otra.";
+/* screen -> payments -> terminal_checkout -> error_insufficient_funds */
+"screen.payments.terminal_checkout.error_insufficient_funds" = "Fondos insuficientes en la tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_card_not_supported */
+"screen.payments.terminal_checkout.error_card_not_supported" = "Esta tarjeta no es compatible. Pide otra tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_card_limit_exceeded */
+"screen.payments.terminal_checkout.error_card_limit_exceeded" = "Se ha alcanzado el límite de gasto de la tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_amount_not_allowed */
+"screen.payments.terminal_checkout.error_amount_not_allowed" = "La tarjeta no permite este importe.";
+/* screen -> payments -> terminal_checkout -> error_try_another_card */
+"screen.payments.terminal_checkout.error_try_another_card" = "La tarjeta fue rechazada. Pide otra tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_card_not_read */
+"screen.payments.terminal_checkout.error_card_not_read" = "No se leyó la tarjeta. Vuelve a intentar el pago.";
+/* screen -> payments -> terminal_checkout -> error_card_read_timed_out */
+"screen.payments.terminal_checkout.error_card_read_timed_out" = "No se leyó la tarjeta a tiempo. Vuelve a intentarlo.";
+/* screen -> payments -> terminal_checkout -> error_card_removed_too_soon */
+"screen.payments.terminal_checkout.error_card_removed_too_soon" = "Se retiró la tarjeta demasiado pronto. Mantenla hasta que termine el pago.";
+/* screen -> payments -> terminal_checkout -> error_card_left_in_reader */
+"screen.payments.terminal_checkout.error_card_left_in_reader" = "Retira la tarjeta del lector.";
+/* screen -> payments -> terminal_checkout -> error_no_network */
+"screen.payments.terminal_checkout.error_no_network" = "Sin conexión a internet. Comprueba la conexión e inténtalo de nuevo.";
+/* screen -> payments -> terminal_checkout -> error_payment_timed_out */
+"screen.payments.terminal_checkout.error_payment_timed_out" = "Se agotó el tiempo del pago. Inténtalo de nuevo.";
+/* screen -> payments -> terminal_checkout -> error_location_services_required */
+"screen.payments.terminal_checkout.error_location_services_required" = "Activa los servicios de localización: sin ellos no funciona el pago con tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_location_permission_required */
+"screen.payments.terminal_checkout.error_location_permission_required" = "Permite el acceso a la ubicación: el proveedor de pagos lo exige para cobrar con tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_device_time_mismatch */
+"screen.payments.terminal_checkout.error_device_time_mismatch" = "La fecha y la hora del dispositivo son incorrectas. Corrígelas e inténtalo de nuevo.";
+/* screen -> payments -> terminal_checkout -> error_nfc_disabled */
+"screen.payments.terminal_checkout.error_nfc_disabled" = "El NFC está desactivado en este iPhone.";
+/* screen -> payments -> terminal_checkout -> error_split_screen_unsupported */
+"screen.payments.terminal_checkout.error_split_screen_unsupported" = "Cierra la pantalla dividida y vuelve a intentar el pago.";
+/* screen -> payments -> terminal_checkout -> error_payment_in_progress */
+"screen.payments.terminal_checkout.error_payment_in_progress" = "Ya hay un pago en curso.";
+/* screen -> payments -> terminal_checkout -> error_call_in_progress */
+"screen.payments.terminal_checkout.error_call_in_progress" = "Finaliza la llamada y vuelve a intentar el pago.";
+/* screen -> payments -> terminal_checkout -> error_session_expired */
+"screen.payments.terminal_checkout.error_session_expired" = "La sesión de pago ha caducado. Inténtalo de nuevo.";
+/* screen -> payments -> terminal_checkout -> error_reader_not_connected */
+"screen.payments.terminal_checkout.error_reader_not_connected" = "El lector de tarjetas no está conectado.";
+/* screen -> payments -> terminal_checkout -> error_duplicate_payment_attempt */
+"screen.payments.terminal_checkout.error_duplicate_payment_attempt" = "Es posible que el pago ya se haya realizado. Revisa la lista de pagos antes de volver a intentarlo.";
+/* screen -> payments -> terminal_checkout -> error_provider_reconnect_required */
+"screen.payments.terminal_checkout.error_provider_reconnect_required" = "Vuelve a conectar el proveedor de pagos en los ajustes antes de cobrar.";
+/* screen -> payments -> terminal_checkout -> error_location_not_activated */
+"screen.payments.terminal_checkout.error_location_not_activated" = "Esta ubicación no está activada para pagos con tarjeta.";
+/* screen -> payments -> terminal_checkout -> error_country_not_supported */
+"screen.payments.terminal_checkout.error_country_not_supported" = "El proveedor de pagos no admite pagos con tarjeta en este país.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_account_unavailable */
+"screen.payments.terminal_checkout.error_tap_to_pay_account_unavailable" = "Tap to Pay no está disponible para esta cuenta de pagos.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_interrupted */
+"screen.payments.terminal_checkout.error_tap_to_pay_interrupted" = "Tap to Pay se interrumpió. Vuelve a intentar el pago.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_preparation_failed */
+"screen.payments.terminal_checkout.error_tap_to_pay_preparation_failed" = "No se pudo preparar Tap to Pay en este iPhone.";
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_device_banned */
+"screen.payments.terminal_checkout.error_tap_to_pay_device_banned" = "Tap to Pay está bloqueado en este iPhone.";
+/* screen -> payments -> terminal_checkout -> error_unexpected */
+"screen.payments.terminal_checkout.error_unexpected" = "No se pudo completar el pago. Inténtalo de nuevo.";
+
+/* screen -> payments -> terminal_checkout -> payment_failed */
+"screen.payments.terminal_checkout.payment_failed" = "No se pudo pagar";
+
+/* screen -> payments -> terminal_checkout -> error_tap_to_pay_account_blocked */
+"screen.payments.terminal_checkout.error_tap_to_pay_account_blocked" = "Tap to Pay está bloqueado para esta cuenta en este iPhone. Apple permite hasta 3 cuentas de pago distintas por dispositivo cada 24 horas: espera un día o usa otro iPhone.";
+
+"screen.settings.accept_payments.stripe_connection_choice_title" = "Conectar Stripe";
+
+"screen.settings.accept_payments.stripe_create_account" = "Crear una cuenta nueva";
+
+"screen.settings.accept_payments.stripe_use_existing_account" = "Conectar una cuenta de Stripe existente";
+
+"screen.settings.accept_payments.stripe_connection_choice_footer" = "Conecta tu cuenta de empresa de Stripe o crea una nueva cuenta de pagos para este salón.";
+
+"screen.settings.accept_payments.stripe_create_location" = "Crear una ubicación para este salón";
+
+"screen.settings.accept_payments.stripe_location_footer" = "Crea una ubicación con la dirección de este salón o selecciona su ubicación existente en Stripe. Los demás salones conservarán sus ubicaciones.";
+
+/* screen -> payments -> terminal_checkout -> error_visit_already_settled */
+"screen.payments.terminal_checkout.error_visit_already_settled" = "Esta visita ya está pagada o cerrada. Actualiza la lista: no hace falta volver a cobrar.";
+
+/* screen -> payments -> terminal_checkout -> error_payment_settled_visit_open */
+"screen.payments.terminal_checkout.error_payment_settled_visit_open" = "El pago se realizó, pero la visita no se cerró. Actualiza la lista y no vuelvas a cobrar.";
+
+/* screen -> payments -> terminal_checkout -> error_payment_already_completed */
+"screen.payments.terminal_checkout.error_payment_already_completed" = "Este pago ya está completado. Actualiza la lista antes de cobrar otro.";
+
+/* screen -> payments -> terminal_checkout -> error_no_access */
+"screen.payments.terminal_checkout.error_no_access" = "No tienes permiso para cobrar esta visita.";
+
+/* screen -> payments -> terminal_checkout -> error_visit_not_found */
+"screen.payments.terminal_checkout.error_visit_not_found" = "No se encontró esta visita. Actualiza la lista.";
+
+/* screen -> payments -> terminal_checkout -> error_server_unavailable */
+"screen.payments.terminal_checkout.error_server_unavailable" = "El servicio de pagos no está disponible temporalmente. Inténtalo en un momento.";
+
+/* screen -> payments -> terminal_checkout -> error_card_methods_unavailable */
+"screen.payments.terminal_checkout.error_card_methods_unavailable" = "No hay métodos de pago con tarjeta disponibles. Revisa la configuración de la cuenta de pagos.";
+
+/* screen -> payments -> terminal_checkout -> payment_taken */
+"screen.payments.terminal_checkout.payment_taken" = "Pago recibido";
+
+/* screen -> payments -> terminal_checkout -> finish_visit */
+"screen.payments.terminal_checkout.finish_visit" = "Cerrar la visita";
