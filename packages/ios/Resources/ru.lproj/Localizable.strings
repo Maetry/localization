@@ -882,7 +882,6 @@
 "screen.settings.accept_payments.request_provider_action" = "Запросить другого провайдера";
 "screen.settings.accept_payments.request_provider_footer" = "Не нашли своего провайдера? Напишите, какой нужен, и мы рассмотрим его подключение.";
 "screen.settings.accept_payments.request_provider_message" = "Здравствуйте! Хочу принимать платежи в Maetry через этого провайдера: ";
-"screen.settings.accept_payments.tap_to_pay_unsupported_device_footer" = "Для Tap to Pay on iPhone нужен iPhone XS или новее. На этом устройстве используйте картридер.";
 "screen.settings.accept_payments.location_footer" = "Платежи будут проводиться в этой локации Square.";
 "screen.settings.accept_payments.readers_label" = "Ридеры";
 "screen.settings.accept_payments.disconnect_action" = "Отключить";
@@ -1801,6 +1800,13 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "assignment.payment.status.paid" = "Оплачено";
 "assignment.payment.status.failed" = "Не удалось оплатить";
 "assignment.payment.status.refunded" = "Возвращено";
+"assignment.payment.attempt.declined" = "Попытка отклонена";
+"assignment.payment.attempt.pending" = "Ожидает оплаты";
+"assignment.payment.attempt.reason.declined" = "Карта отклонена";
+"assignment.payment.attempt.reason.cancelled" = "Отменено";
+"assignment.payment.attempt.reason.reader" = "Ошибка считывателя";
+"assignment.payment.attempt.reason.network" = "Нет связи";
+"assignment.payment.attempt.reason.other" = "Причина неизвестна";
 "assignment.timeline.cancelled" = "Запись отменена";
 "assignment.timeline.cancelled_by_client" = "Запись отменил клиент";
 "assignment.timeline.cancelled_by_salon" = "Запись отменил салон";
@@ -2942,6 +2948,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.finance.direction_label" = "Направление";
 "screen.finance.operation_detail_title" = "Операция";
 "screen.finance.refund_button" = "Вернуть";
+"screen.finance.receipt_button" = "Квитанция";
+"screen.finance.receipt_unavailable" = "Не удалось открыть квитанцию. Попробуйте позже.";
 "screen.finance.refund_confirm_title" = "Вернуть эту операцию?";
 "screen.finance.refund_confirm_message" = "Будет создана компенсирующая операция возврата.";
 "screen.finance.refund_amount_label" = "Сумма возврата";
@@ -3249,6 +3257,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.accept_payments.provider_action_required_title" = "Провайдеру нужен ещё один шаг";
 /* screen -> settings -> accept_payments -> provider_action_required_message */
 "screen.settings.accept_payments.provider_action_required_message" = "Провайдер запросил дополнительные данные, без них приём оплаты не включится. Откройте «Приём платежей» в настройках и завершите настройку — после этого станет доступен Tap to Pay on iPhone.";
+"screen.settings.accept_payments.provider_support_title" = "Провайдер должен проверить аккаунт";
+"screen.settings.accept_payments.provider_support_message" = "Это ограничение нельзя снять в процессе настройки. Обратитесь в поддержку платёжного провайдера, чтобы проверить аккаунт.";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_title */
 "screen.settings.accept_payments.provider_onboarding_waiting_title" = "Настройка %@";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_message */
@@ -3266,7 +3276,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* screen -> settings -> accept_payments -> activation_loading_location */
 "screen.settings.accept_payments.activation_loading_location" = "Настраиваем точку приёма оплаты";
 /* screen -> settings -> accept_payments -> terms_admin_only */
-"screen.settings.accept_payments.terms_admin_only" = "Условия Apple для Tap to Pay on iPhone может принять только администратор. Попросите его настроить приём оплаты.";
+"screen.settings.accept_payments.terms_admin_only" = "Чтобы продолжить, попросите владельца салона подтвердить условия Apple для Tap to Pay on iPhone из своего аккаунта.";
 /* screen -> settings -> accept_payments -> location_select_footer */
 "screen.settings.accept_payments.location_select_footer" = "Платежи будут проводиться в выбранной локации.";
 /* screen -> settings -> accept_payments -> preparing_device_title */
@@ -3387,3 +3397,30 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 /* screen -> payments -> terminal_checkout -> finish_visit */
 "screen.payments.terminal_checkout.finish_visit" = "Закрыть визит";
+
+"creatable.salon.workplace.address_required" = "Укажите адрес";
+"screen.workspace.tip.onboarding_progress.title" = "Продолжите настройку рабочего пространства";
+"screen.workspace.tip.onboarding_progress.message" = "Завершите оставшиеся шаги, чтобы подготовить рабочее пространство к работе.";
+"screen.booking.services.change_executor" = "Изменить исполнителя";
+"screen.booking.services.change_time" = "Изменить время";
+"screen.debug.reset_all_tips" = "Сбросить все подсказки";
+"screen.debug.network_requests" = "Сетевые запросы";
+"screen.debug.network_request_summary" = "Сейчас %1$d, всего %2$d";
+"reusable.expand" = "Развернуть";
+"reusable.clear" = "Очистить";
+"reusable.forward" = "Вперёд";
+"reusable.backward" = "Назад";
+"widget.recovery_methods.verification_status.unverified" = "Не подтверждён";
+"widget.recovery_methods.verification_status.pending" = "Ожидает подтверждения";
+"widget.recovery_methods.verification_status.verified" = "Подтверждён";
+
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_title */
+"screen.settings.accept_payments.tap_to_pay_promo_title" = "Принимайте бесконтактные платежи на iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_message */
+"screen.settings.accept_payments.tap_to_pay_promo_message" = "Настройте Tap to Pay on iPhone, чтобы принимать бесконтактные карты, Apple Pay и другие цифровые кошельки — без дополнительного оборудования.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_footnote */
+"screen.settings.accept_payments.tap_to_pay_promo_footnote" = "Доступно с подключённым платёжным провайдером.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_not_now */
+"screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Не сейчас";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
+"screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Некоторые бесконтактные карты могут не приниматься. Могут действовать лимиты на транзакции. Символ бесконтактной оплаты является товарным знаком, принадлежащим EMVCo, LLC, и используется с её разрешения.";

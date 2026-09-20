@@ -900,7 +900,6 @@
 "screen.settings.accept_payments.request_provider_action" = "Request another provider";
 "screen.settings.accept_payments.request_provider_footer" = "Don’t see the provider you use? Tell us which one you need and we’ll look into adding it.";
 "screen.settings.accept_payments.request_provider_message" = "Hi! I’d like to accept payments in Maetry through this provider: ";
-"screen.settings.accept_payments.tap_to_pay_unsupported_device_footer" = "Tap to Pay on iPhone needs an iPhone XS or later. Use a card reader on this device instead.";
 "screen.settings.accept_payments.location_footer" = "Payments will be recorded to this Square location.";
 "screen.settings.accept_payments.readers_label" = "Readers";
 "screen.settings.accept_payments.disconnect_action" = "Disconnect";
@@ -2396,6 +2395,13 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "assignment.payment.status.failed" = "Payment failed";
 /* assignment -> payment -> status -> refunded */
 "assignment.payment.status.refunded" = "Refunded";
+"assignment.payment.attempt.declined" = "Attempt declined";
+"assignment.payment.attempt.pending" = "Awaiting payment";
+"assignment.payment.attempt.reason.declined" = "Card declined";
+"assignment.payment.attempt.reason.cancelled" = "Cancelled";
+"assignment.payment.attempt.reason.reader" = "Reader error";
+"assignment.payment.attempt.reason.network" = "No connection";
+"assignment.payment.attempt.reason.other" = "Reason unknown";
 /* assignment -> timeline -> cancelled */
 "assignment.timeline.cancelled" = "Appointment canceled";
 /* assignment -> timeline -> cancelled_by_client */
@@ -3224,6 +3230,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.finance.direction_label" = "Direction";
 "screen.finance.operation_detail_title" = "Operation";
 "screen.finance.refund_button" = "Refund";
+"screen.finance.receipt_button" = "Receipt";
+"screen.finance.receipt_unavailable" = "Couldn't open the receipt. Try again later.";
 "screen.finance.refund_confirm_title" = "Refund this operation?";
 "screen.finance.refund_confirm_message" = "This will create a compensating refund operation.";
 "screen.finance.refund_amount_label" = "Refund amount";
@@ -3531,6 +3539,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.accept_payments.provider_action_required_title" = "One more step with your provider";
 /* screen -> settings -> accept_payments -> provider_action_required_message */
 "screen.settings.accept_payments.provider_action_required_message" = "Your provider needs more details before it can take payments. Open Accept payments in settings to finish, then Tap to Pay on iPhone becomes available.";
+"screen.settings.accept_payments.provider_support_title" = "Your provider needs to review this account";
+"screen.settings.accept_payments.provider_support_message" = "This restriction can’t be resolved in setup. Contact your payment provider’s support team for help reviewing the account.";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_title */
 "screen.settings.accept_payments.provider_onboarding_waiting_title" = "Setting up %@";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_message */
@@ -3548,7 +3558,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* screen -> settings -> accept_payments -> activation_loading_location */
 "screen.settings.accept_payments.activation_loading_location" = "Setting up the payment location";
 /* screen -> settings -> accept_payments -> terms_admin_only */
-"screen.settings.accept_payments.terms_admin_only" = "Only an administrator can accept Apple’s Terms and Conditions for Tap to Pay on iPhone. Please ask an administrator to set it up.";
+"screen.settings.accept_payments.terms_admin_only" = "To continue, ask the salon owner to accept Apple’s Terms and Conditions for Tap to Pay on iPhone from their account.";
 /* screen -> settings -> accept_payments -> location_select_footer */
 "screen.settings.accept_payments.location_select_footer" = "Payments will be recorded to the location you choose.";
 /* screen -> settings -> accept_payments -> preparing_device_title */
@@ -3669,3 +3679,30 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 /* screen -> payments -> terminal_checkout -> finish_visit */
 "screen.payments.terminal_checkout.finish_visit" = "Close the visit";
+
+"creatable.salon.workplace.address_required" = "Address required";
+"screen.workspace.tip.onboarding_progress.title" = "Continue setting up your workspace";
+"screen.workspace.tip.onboarding_progress.message" = "Complete the remaining steps to get your workspace ready.";
+"screen.booking.services.change_executor" = "Change professional";
+"screen.booking.services.change_time" = "Change time";
+"screen.debug.reset_all_tips" = "Reset all tips";
+"screen.debug.network_requests" = "Network requests";
+"screen.debug.network_request_summary" = "Now %1$d, total %2$d";
+"reusable.expand" = "Expand";
+"reusable.clear" = "Clear";
+"reusable.forward" = "Forward";
+"reusable.backward" = "Back";
+"widget.recovery_methods.verification_status.unverified" = "Unverified";
+"widget.recovery_methods.verification_status.pending" = "Pending";
+"widget.recovery_methods.verification_status.verified" = "Verified";
+
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_title */
+"screen.settings.accept_payments.tap_to_pay_promo_title" = "Accept contactless payments on iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_message */
+"screen.settings.accept_payments.tap_to_pay_promo_message" = "Set up Tap to Pay on iPhone to accept contactless cards, Apple Pay, and other digital wallets — no additional hardware needed.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_footnote */
+"screen.settings.accept_payments.tap_to_pay_promo_footnote" = "Available with your connected payment provider.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_not_now */
+"screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Not now";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
+"screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Some contactless cards may not be accepted. Transaction limits may apply. The Contactless Symbol is a trademark owned by and used with permission of EMVCo, LLC.";

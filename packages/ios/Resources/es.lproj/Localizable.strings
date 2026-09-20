@@ -934,7 +934,6 @@
 "screen.settings.accept_payments.request_provider_action" = "Solicitar otro proveedor";
 "screen.settings.accept_payments.request_provider_footer" = "¿No ves tu proveedor? Dinos cuál necesitas y estudiaremos añadirlo.";
 "screen.settings.accept_payments.request_provider_message" = "¡Hola! Me gustaría aceptar pagos en Maetry con este proveedor: ";
-"screen.settings.accept_payments.tap_to_pay_unsupported_device_footer" = "Tap to Pay en iPhone requiere un iPhone XS o posterior. En este dispositivo, usa un lector de tarjetas.";
 "screen.settings.accept_payments.location_footer" = "Los pagos se registrarán en esta ubicación de Square.";
 "screen.settings.accept_payments.readers_label" = "Lectores";
 "screen.settings.accept_payments.disconnect_action" = "Desconectar";
@@ -2393,6 +2392,13 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "assignment.payment.status.paid" = "Pagado";
 "assignment.payment.status.failed" = "Error en el pago";
 "assignment.payment.status.refunded" = "Reembolsado";
+"assignment.payment.attempt.declined" = "Intento rechazado";
+"assignment.payment.attempt.pending" = "Pendiente de pago";
+"assignment.payment.attempt.reason.declined" = "Tarjeta rechazada";
+"assignment.payment.attempt.reason.cancelled" = "Cancelado";
+"assignment.payment.attempt.reason.reader" = "Error del lector";
+"assignment.payment.attempt.reason.network" = "Sin conexión";
+"assignment.payment.attempt.reason.other" = "Motivo desconocido";
 "assignment.timeline.cancelled" = "Cita cancelada";
 "assignment.timeline.cancelled_by_client" = "El cliente canceló la cita";
 "assignment.timeline.cancelled_by_salon" = "El salón canceló la cita";
@@ -2931,6 +2937,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.finance.direction_label" = "Dirección";
 "screen.finance.operation_detail_title" = "Operación";
 "screen.finance.refund_button" = "Reembolsar";
+"screen.finance.receipt_button" = "Recibo";
+"screen.finance.receipt_unavailable" = "No se pudo abrir el recibo. Inténtalo más tarde.";
 "screen.finance.refund_confirm_title" = "¿Reembolsar esta operación?";
 "screen.finance.refund_confirm_message" = "Se creará una operación de reembolso compensatoria.";
 "screen.finance.refund_amount_label" = "Importe del reembolso";
@@ -3238,6 +3246,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.settings.accept_payments.provider_action_required_title" = "Falta un paso con tu proveedor";
 /* screen -> settings -> accept_payments -> provider_action_required_message */
 "screen.settings.accept_payments.provider_action_required_message" = "Tu proveedor necesita más datos para aceptar pagos. Abre Aceptar pagos en los ajustes y termina la configuración; después podrás usar Tap to Pay en iPhone.";
+"screen.settings.accept_payments.provider_support_title" = "Tu proveedor debe revisar esta cuenta";
+"screen.settings.accept_payments.provider_support_message" = "Esta restricción no se puede resolver durante la configuración. Ponte en contacto con el soporte de tu proveedor de pagos para que revise la cuenta.";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_title */
 "screen.settings.accept_payments.provider_onboarding_waiting_title" = "Configurando %@";
 /* screen -> settings -> accept_payments -> provider_onboarding_waiting_message */
@@ -3255,7 +3265,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 /* screen -> settings -> accept_payments -> activation_loading_location */
 "screen.settings.accept_payments.activation_loading_location" = "Configurando el punto de cobro";
 /* screen -> settings -> accept_payments -> terms_admin_only */
-"screen.settings.accept_payments.terms_admin_only" = "Solo un administrador puede aceptar los términos y condiciones de Apple para Tap to Pay en iPhone. Pídele a un administrador que lo configure.";
+"screen.settings.accept_payments.terms_admin_only" = "Para continuar, pídele al propietario del salón que acepte desde su cuenta los términos y condiciones de Apple para Tap to Pay en iPhone.";
 /* screen -> settings -> accept_payments -> location_select_footer */
 "screen.settings.accept_payments.location_select_footer" = "Los pagos se registrarán en la ubicación que elijas.";
 /* screen -> settings -> accept_payments -> preparing_device_title */
@@ -3376,3 +3386,30 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 /* screen -> payments -> terminal_checkout -> finish_visit */
 "screen.payments.terminal_checkout.finish_visit" = "Cerrar la visita";
+
+"creatable.salon.workplace.address_required" = "Indica la dirección";
+"screen.workspace.tip.onboarding_progress.title" = "Continúa configurando tu espacio de trabajo";
+"screen.workspace.tip.onboarding_progress.message" = "Completa los pasos restantes para preparar tu espacio de trabajo.";
+"screen.booking.services.change_executor" = "Cambiar profesional";
+"screen.booking.services.change_time" = "Cambiar hora";
+"screen.debug.reset_all_tips" = "Restablecer todos los consejos";
+"screen.debug.network_requests" = "Solicitudes de red";
+"screen.debug.network_request_summary" = "Ahora %1$d, total %2$d";
+"reusable.expand" = "Expandir";
+"reusable.clear" = "Limpiar";
+"reusable.forward" = "Siguiente";
+"reusable.backward" = "Atrás";
+"widget.recovery_methods.verification_status.unverified" = "Sin verificar";
+"widget.recovery_methods.verification_status.pending" = "Pendiente de verificación";
+"widget.recovery_methods.verification_status.verified" = "Verificado";
+
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_title */
+"screen.settings.accept_payments.tap_to_pay_promo_title" = "Acepta pagos sin contacto en iPhone";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_message */
+"screen.settings.accept_payments.tap_to_pay_promo_message" = "Configura Tap to Pay en iPhone para aceptar tarjetas sin contacto, Apple Pay y otras carteras digitales, sin hardware adicional.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_footnote */
+"screen.settings.accept_payments.tap_to_pay_promo_footnote" = "Disponible con tu proveedor de pagos conectado.";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_not_now */
+"screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Ahora no";
+/* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
+"screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Es posible que no se acepten algunas tarjetas sin contacto. Pueden aplicarse límites a las transacciones. El símbolo de pago sin contacto es una marca comercial propiedad de EMVCo, LLC y se utiliza con su permiso.";
