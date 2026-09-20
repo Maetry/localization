@@ -13,5 +13,34 @@
   },
   "publicPayment": {
     "cancellationPolicyLink": "Условия отмены и возврата депозита"
+  },
+  "publicReceipt": {
+    "title": "Чек",
+    "number": "Чек №",
+    "date": "Дата",
+    "customer": "Клиент",
+    "employee": "Мастер",
+    "subtotal": "Подытог",
+    "discount": "Скидка",
+    "tax": "Налог",
+    "total": "Итого",
+    "paymentMethod": "Способ оплаты",
+    "reversalOf": "Возврат по чеку №",
+    "print": "Распечатать или сохранить в PDF",
+    "notFoundTitle": "Чек не найден",
+    "notFoundDescription": "Возможно, ссылка неверна или чек аннулирован.",
+    "thanks": "Спасибо!",
+    "kind": {
+      "appointmentPayment": "Продажа",
+      "deposit": "Депозит",
+      "tip": "Чаевые",
+      "refund": "Возврат"
+    },
+    "source": {
+      "cash": "Наличные",
+      "stripe": "Карта",
+      "square": "Карта",
+      "manual": "Другое"
+    }
   }
 }

@@ -29,5 +29,34 @@
   },
   "publicPayment": {
     "cancellationPolicyLink": "Cancellation and deposit policy"
+  },
+  "publicReceipt": {
+    "title": "Receipt",
+    "number": "Receipt No.",
+    "date": "Date",
+    "customer": "Customer",
+    "employee": "Specialist",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "tax": "Tax",
+    "total": "Total",
+    "paymentMethod": "Payment method",
+    "reversalOf": "Refund for receipt No.",
+    "print": "Print or save as PDF",
+    "notFoundTitle": "Receipt not found",
+    "notFoundDescription": "The link may be incorrect or the receipt has been voided.",
+    "thanks": "Thank you!",
+    "kind": {
+      "appointmentPayment": "Sale",
+      "deposit": "Deposit",
+      "tip": "Tip",
+      "refund": "Refund"
+    },
+    "source": {
+      "cash": "Cash",
+      "stripe": "Card",
+      "square": "Card",
+      "manual": "Other"
+    }
   }
 }

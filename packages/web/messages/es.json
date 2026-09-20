@@ -13,5 +13,34 @@
   },
   "publicPayment": {
     "cancellationPolicyLink": "Política de cancelación y depósito"
+  },
+  "publicReceipt": {
+    "title": "Recibo",
+    "number": "Recibo n.º",
+    "date": "Fecha",
+    "customer": "Cliente",
+    "employee": "Especialista",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "tax": "Impuesto",
+    "total": "Total",
+    "paymentMethod": "Método de pago",
+    "reversalOf": "Reembolso del recibo n.º",
+    "print": "Imprimir o guardar como PDF",
+    "notFoundTitle": "Recibo no encontrado",
+    "notFoundDescription": "Es posible que el enlace sea incorrecto o que el recibo haya sido anulado.",
+    "thanks": "¡Gracias!",
+    "kind": {
+      "appointmentPayment": "Venta",
+      "deposit": "Depósito",
+      "tip": "Propina",
+      "refund": "Reembolso"
+    },
+    "source": {
+      "cash": "Efectivo",
+      "stripe": "Tarjeta",
+      "square": "Tarjeta",
+      "manual": "Otro"
+    }
   }
 }
