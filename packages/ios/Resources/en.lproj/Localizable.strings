@@ -838,6 +838,8 @@
 "screen.settings.timeline.time_scale_hint" = "Controls how much time is visible. Pinch vertically in the timeline to change it.";
 /* screen -> settings -> timeline -> slot_duration_hint */
 "screen.settings.timeline.slot_duration_hint" = "Sets the time step used when creating or moving appointments.";
+"screen.settings.timeline.track_appointment_start" = "Track appointment start";
+"screen.settings.timeline.track_appointment_start_hint" = "Adds a Start action before checkout so the appointment's in-progress state can be tracked.";
 /* screen -> settings -> schedule -> default_day_title */
 "screen.settings.schedule.default_day_title" = "Default working day";
 /* screen -> settings -> schedule -> default_day_hint */

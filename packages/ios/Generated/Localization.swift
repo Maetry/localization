@@ -2448,6 +2448,8 @@ public enum Loc {
         public static let slotDurationHint = Loc.tr("Localizable", "screen.settings.timeline.slot_duration_hint", fallback: "Sets the time step used when creating or moving appointments.")
         public static let timeScaleHint = Loc.tr("Localizable", "screen.settings.timeline.time_scale_hint", fallback: "Controls how much time is visible. Pinch vertically in the timeline to change it.")
         public static let title = Loc.tr("Localizable", "screen.settings.timeline.title", fallback: "Appointment view")
+        public static let trackAppointmentStart = Loc.tr("Localizable", "screen.settings.timeline.track_appointment_start", fallback: "Track appointment start")
+        public static let trackAppointmentStartHint = Loc.tr("Localizable", "screen.settings.timeline.track_appointment_start_hint", fallback: "Adds a Start action before checkout so the appointment's in-progress state can be tracked.")
         public static let visibleSpecialistsHint = Loc.tr("Localizable", "screen.settings.timeline.visible_specialists_hint", fallback: "Sets how many specialist columns fit on screen. Pinch horizontally in the timeline to change it.")
       }
     }
