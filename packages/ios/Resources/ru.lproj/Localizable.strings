@@ -838,6 +838,7 @@
 "screen.settings.payroll.footer" = "Выберите должность, чтобы изменить шаблон правил начисления ЗП. Сотрудники наследуют эти правила, пока для них не задано индивидуальное переопределение.";
 "screen.settings.payroll.exceptions_footer" = "У сотрудников в этом разделе особые правила расчёта зарплаты вместо шаблона должности.";
 /* screen -> settings -> accept payments */
+"screen.settings.accept_payments.another_account_connected" = "К этому рабочему месту уже подключён платёжный аккаунт. Отключите его, прежде чем подключать другой.";
 "screen.settings.accept_payments.title" = "Приём платежей";
 "screen.settings.accept_payments.footer" = "Подключите платёжный аккаунт, чтобы мы знали, куда отправлять деньги, которые клиенты платят в этом салоне.";
 "screen.settings.accept_payments.stripe_title" = "Stripe";

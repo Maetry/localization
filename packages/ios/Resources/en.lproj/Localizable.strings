@@ -856,6 +856,7 @@
 "screen.settings.payroll.footer" = "Choose a position to edit its payroll rule template. Employees inherit these rules until they get individual overrides.";
 "screen.settings.payroll.exceptions_footer" = "Employees in this section use individual payroll rules instead of the position template.";
 /* screen -> settings -> accept payments */
+"screen.settings.accept_payments.another_account_connected" = "This workplace already has a payment account connected. Disconnect it before connecting another.";
 "screen.settings.accept_payments.title" = "Accept payments";
 "screen.settings.accept_payments.footer" = "Connect a payment account so we know where to send the money your clients pay at this salon.";
 "screen.settings.accept_payments.stripe_title" = "Stripe";

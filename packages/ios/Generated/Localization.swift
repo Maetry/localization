@@ -2257,6 +2257,7 @@ public enum Loc {
         public static let activationLoadingStatus = Loc.tr("Localizable", "screen.settings.accept_payments.activation_loading_status", fallback: "Checking your payment setup")
         public static let addProviderAction = Loc.tr("Localizable", "screen.settings.accept_payments.add_provider_action", fallback: "Add payment method")
         public static let addProviderTitle = Loc.tr("Localizable", "screen.settings.accept_payments.add_provider_title", fallback: "Payment acceptance methods")
+        public static let anotherAccountConnected = Loc.tr("Localizable", "screen.settings.accept_payments.another_account_connected", fallback: "This workplace already has a payment account connected. Disconnect it before connecting another.")
         public static let capabilityEnabled = Loc.tr("Localizable", "screen.settings.accept_payments.capability_enabled", fallback: "Enabled")
         public static let capabilityUnavailable = Loc.tr("Localizable", "screen.settings.accept_payments.capability_unavailable", fallback: "Not yet available")
         public static let chargesLabel = Loc.tr("Localizable", "screen.settings.accept_payments.charges_label", fallback: "Accepting payments")

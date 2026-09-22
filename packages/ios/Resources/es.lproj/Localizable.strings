@@ -890,6 +890,7 @@
 "screen.settings.payroll.footer" = "Elige un puesto para editar su plantilla de reglas de nómina. Los empleados heredan estas reglas hasta que reciben una anulación individual.";
 "screen.settings.payroll.exceptions_footer" = "Los empleados de esta sección usan reglas de nómina individuales en lugar de la plantilla del puesto.";
 /* screen -> settings -> accept payments */
+"screen.settings.accept_payments.another_account_connected" = "Este espacio de trabajo ya tiene una cuenta de pago conectada. Desconéctala antes de conectar otra.";
 "screen.settings.accept_payments.title" = "Aceptar pagos";
 "screen.settings.accept_payments.footer" = "Conecta una cuenta de pago para saber a dónde enviar el dinero que pagan tus clientes en este salón.";
 "screen.settings.accept_payments.stripe_title" = "Stripe";
