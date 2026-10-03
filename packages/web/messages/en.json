@@ -58,5 +58,23 @@
       "square": "Card",
       "manual": "Other"
     }
+  },
+  "onboardingClaim": {
+    "title": "Get access to this business",
+    "note": "Confirm that you control a contact already saved for this business.",
+    "empty": "No eligible contacts are available. Contact support to request access.",
+    "loadFailed": "Could not load contacts. Try again.",
+    "retry": "Try again",
+    "send": "Send code",
+    "code": "Verification code",
+    "sent": "Enter the code sent to {contact}. It is valid for 15 minutes.",
+    "verify": "Confirm code",
+    "resend": "Send a new code",
+    "wait": "You can resend in {seconds} seconds.",
+    "expired": "The code has expired. Request a new one.",
+    "verified": "Contact confirmed",
+    "continue": "Sign in and get access",
+    "failure": "Could not complete the request. Try again.",
+    "invalidCode": "Enter the six-digit code."
   }
 }

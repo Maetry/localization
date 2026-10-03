@@ -42,5 +42,23 @@
       "square": "Tarjeta",
       "manual": "Otro"
     }
+  },
+  "onboardingClaim": {
+    "title": "Obtener acceso al negocio",
+    "note": "Confirma que tienes acceso a un contacto ya guardado para este negocio.",
+    "empty": "No hay contactos disponibles para la verificación. Contacta con soporte para solicitar acceso.",
+    "loadFailed": "No se pudieron cargar los contactos. Inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "send": "Enviar código",
+    "code": "Código de verificación",
+    "sent": "Introduce el código enviado a {contact}. Es válido durante 15 minutos.",
+    "verify": "Confirmar código",
+    "resend": "Enviar otro código",
+    "wait": "Puedes reenviar en {seconds} segundos.",
+    "expired": "El código ha caducado. Solicita uno nuevo.",
+    "verified": "Contacto confirmado",
+    "continue": "Iniciar sesión y obtener acceso",
+    "failure": "No se pudo completar la solicitud. Inténtalo de nuevo.",
+    "invalidCode": "Introduce el código de seis dígitos."
   }
 }
