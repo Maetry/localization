@@ -1166,7 +1166,7 @@
 /* onboarding -> alert -> steps_completed */
 "onboarding.alert.steps_completed" = "%d of %d steps completed";
 /* onboarding -> alert -> complete_salon_setup */
-"onboarding.alert.complete_salon_setup" = "Complete the salon setup";
+"onboarding.alert.complete_salon_setup" = "Complete the setup";
 /* onboarding -> create_workplace -> title */
 "onboarding.create_workplace.title" = "Create your first salon";
 /* onboarding -> create_workplace -> subtitle */
@@ -2283,6 +2283,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "reusable.enabled" = "Enabled";
 "reusable.disabled" = "Disabled";
 "reusable.send" = "Send";
+"reusable.continue_with_apple" = "Continue with Apple";
+"reusable.continue_with_google" = "Continue with Google";
 "reusable.sign_in_with_google" = "Sign in with Google";
 "reusable.verified" = "Verified";
 "screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
@@ -3427,3 +3429,123 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Not now";
 /* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
 "screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Some contactless cards may not be accepted. Transaction limits may apply. The Contactless Symbol is a trademark owned by and used with permission of EMVCo, LLC.";
+
+"screen.booking_appearance.title" = "Booking appearance";
+"screen.booking_appearance.background" = "Background";
+"screen.booking_appearance.action_color" = "Action color";
+"screen.booking_appearance.header" = "Header";
+"screen.booking_appearance.minimal" = "Minimal";
+"screen.booking_appearance.filled" = "Filled";
+"screen.booking_appearance.rounded" = "Rounded";
+"screen.booking_appearance.sections" = "Sections";
+"screen.booking_appearance.automatic" = "Automatic";
+"screen.booking_appearance.light" = "Light";
+"screen.booking_appearance.dark" = "Dark";
+"screen.booking_appearance.symbols" = "Symbols";
+"screen.booking_appearance.symbols_hint" = "Symbols separated by commas";
+"screen.booking_appearance.preview" = "Preview";
+"screen.booking_appearance.save" = "Save";
+
+"screen.public.sign_in_action" = "Sign in";
+
+"error.auth_unavailable" = "Sign-in is currently unavailable. Please try again later.";
+
+"error.auth_presentation_failed" = "Unable to open sign-in. Please try again.";
+
+"screen.settings.payment_pricing.title" = "Payment amount rules";
+
+"screen.settings.payment_pricing.draft_notice" = "Draft rules are saved on this device for this business. They do not change payment amounts yet.";
+
+"screen.settings.payment_pricing.cash" = "Cash";
+
+"screen.settings.payment_pricing.transfer" = "Bank transfer";
+
+"screen.settings.payment_pricing.adjustment" = "Price adjustment";
+
+"screen.settings.payment_pricing.unchanged" = "Regular price";
+
+"screen.settings.payment_pricing.discount" = "Discount";
+
+"screen.settings.payment_pricing.increase" = "Increase";
+
+"screen.settings.payment_pricing.unit" = "Calculation";
+
+"screen.settings.payment_pricing.percentage" = "Percentage";
+
+"screen.settings.payment_pricing.fixed" = "Fixed amount";
+
+"screen.settings.payment_pricing.value" = "Adjustment value";
+
+"screen.settings.payment_pricing.preview" = "Preview";
+
+"screen.settings.payment_pricing.base_amount" = "Service price";
+
+"screen.settings.payment_pricing.final_amount" = "Final amount";
+
+"screen.settings.payment_pricing.preview_notice" = "Calculated from the service price, without tips. A discount cannot exceed the service price.";
+
+"activity.appointment_completed.console.title" = "Assignment completed";
+"activity.appointment_completed.customer.title" = "Appointment completed";
+"activity.appointment_completed.console.message" = "Completed: {date}";
+"activity.appointment_completed.customer.message" = "Completed: {date}";
+"activity.booking_created.console.title" = "Booking created";
+"activity.booking_created.customer.title" = "Booking created";
+"activity.booking_created.console.message" = "Awaiting confirmation";
+"activity.booking_created.customer.message" = "Awaiting confirmation";
+
+/* Account identity (Zitadel sign-in data) */
+"widget.account_identity.section_title" = "Sign-in";
+"widget.account_identity.username" = "Username";
+"widget.account_identity.phone" = "Phone";
+"widget.account_identity.add" = "Add";
+"widget.account_identity.unverified" = "Not verified";
+"widget.account_identity.providers_title" = "Sign-in methods";
+"widget.account_identity.providers_footer" = "The last way to sign in can't be disconnected.";
+"widget.account_identity.connect" = "Connect";
+"widget.account_identity.disconnect" = "Disconnect";
+"widget.account_identity.disconnect_confirm_title" = "Disconnect %@?";
+"widget.account_identity.link_conflict" = "This account is already used by someone else to sign in to Maetry.";
+"widget.account_identity.link_failed" = "Couldn't connect the account. Try again.";
+"widget.account_identity.email_footer" = "Your email can't be removed, only replaced. We'll send a code to the new address.";
+"widget.account_identity.phone_footer" = "We'll send a code to this number by SMS.";
+"widget.account_identity.code_placeholder" = "Verification code";
+"widget.account_identity.code_sent" = "We sent a code to %@.";
+"widget.account_identity.resend_code" = "Resend code";
+"widget.account_identity.get_code" = "Get code";
+"widget.account_identity.verify" = "Verify";
+"widget.account_identity.remove_phone" = "Remove phone";
+"widget.account_identity.remove_phone_confirm_title" = "Remove phone number?";
+/* screen -> public -> auth_separator */
+"screen.public.auth_separator" = "or";
+
+"screen.settings.payment_pricing.commission" = "Commission";
+
+"screen.settings.payment_pricing.fee_allocation" = "Who pays the commission";
+
+"screen.settings.payment_pricing.client" = "Client";
+
+"screen.settings.payment_pricing.business" = "Business";
+
+"screen.settings.payment_pricing.provider_rates" = "Provider rates";
+
+"screen.settings.payment_pricing.bank_rates" = "Check with your bank";
+
+"screen.settings.payment_pricing.allocation_notice" = "The client share is added to the service price. The business share is deducted from the payout.";
+
+"screen.settings.payment_pricing.cash_notice" = "For cash, this percentage is a discount from your listed service price. Use it to offer a lower cash price while keeping card prices unchanged. A cash discount does not automatically override restrictions on card surcharges.";
+
+"screen.settings.payment_pricing.transfer_notice" = "Your bank determines transfer fees. This rule sets how the fee is shared between the client and your business.";
+
+"screen.settings.payment_pricing.stripe_notice" = "Stripe determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.";
+
+"screen.settings.payment_pricing.square_notice" = "Square determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.";
+
+"screen.settings.accept_payments.online_transfer_title" = "Online transfers";
+
+"screen.settings.accept_payments.online_transfer_enabled" = "Accept online transfers";
+
+"screen.settings.accept_payments.online_transfer_description" = "Record money received outside Maetry. Select the services you accept; no money is transferred automatically.";
+
+"screen.payments.terminal_checkout.complete_with_transfer" = "Confirm transfer received";
+
+"screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirm only after you have received the money in the selected service. Maetry records the payment; it does not transfer money.";

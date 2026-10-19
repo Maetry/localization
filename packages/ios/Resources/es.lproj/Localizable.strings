@@ -1218,7 +1218,7 @@
 /* onboarding -> alert -> steps_completed */
 "onboarding.alert.steps_completed" = "%d de %d pasos completados";
 /* onboarding -> alert -> complete_salon_setup */
-"onboarding.alert.complete_salon_setup" = "Completa la configuración del salón";
+"onboarding.alert.complete_salon_setup" = "Completa la configuración";
 /* onboarding -> create_workplace -> title */
 "onboarding.create_workplace.title" = "Crea tu primer salón";
 /* onboarding -> create_workplace -> subtitle */
@@ -1862,6 +1862,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "reusable.enabled" = "Activado";
 "reusable.disabled" = "Desactivado";
 "reusable.send" = "Enviar";
+"reusable.continue_with_apple" = "Continuar con Apple";
+"reusable.continue_with_google" = "Continuar con Google";
 "reusable.sign_in_with_google" = "Iniciar sesión con Google";
 "reusable.verified" = "Verificado";
 "screen.continuation.client_invite.selection_hint" = "Select the account that matches this salon client. Only masked contacts are shown.";
@@ -3416,3 +3418,123 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Ahora no";
 /* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
 "screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Es posible que no se acepten algunas tarjetas sin contacto. Pueden aplicarse límites a las transacciones. El símbolo de pago sin contacto es una marca comercial propiedad de EMVCo, LLC y se utiliza con su permiso.";
+
+"screen.booking_appearance.title" = "Apariencia de reservas";
+"screen.booking_appearance.background" = "Fondo";
+"screen.booking_appearance.action_color" = "Color de acciones";
+"screen.booking_appearance.header" = "Cabecera";
+"screen.booking_appearance.minimal" = "Mínima";
+"screen.booking_appearance.filled" = "Rellena";
+"screen.booking_appearance.rounded" = "Redondeada";
+"screen.booking_appearance.sections" = "Secciones";
+"screen.booking_appearance.automatic" = "Automático";
+"screen.booking_appearance.light" = "Claras";
+"screen.booking_appearance.dark" = "Oscuras";
+"screen.booking_appearance.symbols" = "Símbolos";
+"screen.booking_appearance.symbols_hint" = "Símbolos separados por comas";
+"screen.booking_appearance.preview" = "Vista previa";
+"screen.booking_appearance.save" = "Guardar";
+
+"screen.public.sign_in_action" = "Iniciar sesión";
+
+"error.auth_unavailable" = "El inicio de sesión no está disponible. Inténtalo más tarde.";
+
+"error.auth_presentation_failed" = "No se pudo abrir el inicio de sesión. Inténtalo de nuevo.";
+
+"screen.settings.payment_pricing.title" = "Reglas del importe de pago";
+
+"screen.settings.payment_pricing.draft_notice" = "Las reglas de borrador se guardan en este dispositivo para este negocio. Todavía no modifican los importes de los pagos.";
+
+"screen.settings.payment_pricing.cash" = "Efectivo";
+
+"screen.settings.payment_pricing.transfer" = "Transferencia bancaria";
+
+"screen.settings.payment_pricing.adjustment" = "Ajuste del precio";
+
+"screen.settings.payment_pricing.unchanged" = "Precio habitual";
+
+"screen.settings.payment_pricing.discount" = "Descuento";
+
+"screen.settings.payment_pricing.increase" = "Incremento";
+
+"screen.settings.payment_pricing.unit" = "Cálculo";
+
+"screen.settings.payment_pricing.percentage" = "Porcentaje";
+
+"screen.settings.payment_pricing.fixed" = "Importe fijo";
+
+"screen.settings.payment_pricing.value" = "Valor del ajuste";
+
+"screen.settings.payment_pricing.preview" = "Vista previa";
+
+"screen.settings.payment_pricing.base_amount" = "Precio del servicio";
+
+"screen.settings.payment_pricing.final_amount" = "Importe final";
+
+"screen.settings.payment_pricing.preview_notice" = "Calculado a partir del precio del servicio, sin propinas. El descuento no puede superar el precio del servicio.";
+
+"activity.appointment_completed.console.title" = "Cita completada";
+"activity.appointment_completed.customer.title" = "Cita completada";
+"activity.appointment_completed.console.message" = "Completada: {date}";
+"activity.appointment_completed.customer.message" = "Completada: {date}";
+"activity.booking_created.console.title" = "Reserva creada";
+"activity.booking_created.customer.title" = "Reserva creada";
+"activity.booking_created.console.message" = "Pendiente de confirmación";
+"activity.booking_created.customer.message" = "Pendiente de confirmación";
+
+/* Account identity (Zitadel sign-in data) */
+"widget.account_identity.section_title" = "Inicio de sesión";
+"widget.account_identity.username" = "Usuario";
+"widget.account_identity.phone" = "Teléfono";
+"widget.account_identity.add" = "Añadir";
+"widget.account_identity.unverified" = "No verificado";
+"widget.account_identity.providers_title" = "Métodos de inicio de sesión";
+"widget.account_identity.providers_footer" = "No se puede desconectar el último método de inicio de sesión.";
+"widget.account_identity.connect" = "Conectar";
+"widget.account_identity.disconnect" = "Desconectar";
+"widget.account_identity.disconnect_confirm_title" = "¿Desconectar %@?";
+"widget.account_identity.link_conflict" = "Otra persona ya usa esta cuenta para iniciar sesión en Maetry.";
+"widget.account_identity.link_failed" = "No se pudo conectar la cuenta. Inténtalo de nuevo.";
+"widget.account_identity.email_footer" = "Tu correo no se puede eliminar, solo reemplazar. Enviaremos un código a la nueva dirección.";
+"widget.account_identity.phone_footer" = "Enviaremos un código por SMS a este número.";
+"widget.account_identity.code_placeholder" = "Código de verificación";
+"widget.account_identity.code_sent" = "Enviamos un código a %@.";
+"widget.account_identity.resend_code" = "Reenviar código";
+"widget.account_identity.get_code" = "Obtener código";
+"widget.account_identity.verify" = "Verificar";
+"widget.account_identity.remove_phone" = "Eliminar teléfono";
+"widget.account_identity.remove_phone_confirm_title" = "¿Eliminar el número de teléfono?";
+/* screen -> public -> auth_separator */
+"screen.public.auth_separator" = "o";
+
+"screen.settings.payment_pricing.commission" = "Comisión";
+
+"screen.settings.payment_pricing.fee_allocation" = "Quién paga la comisión";
+
+"screen.settings.payment_pricing.client" = "Cliente";
+
+"screen.settings.payment_pricing.business" = "Negocio";
+
+"screen.settings.payment_pricing.provider_rates" = "Tarifas del proveedor";
+
+"screen.settings.payment_pricing.bank_rates" = "Consulta con tu banco";
+
+"screen.settings.payment_pricing.allocation_notice" = "La parte del cliente se suma al precio del servicio. La parte del negocio se descuenta del pago.";
+
+"screen.settings.payment_pricing.cash_notice" = "Para efectivo, este porcentaje es un descuento sobre el precio publicado del servicio. Permite ofrecer un precio menor en efectivo sin cambiar el precio con tarjeta. El descuento no anula automáticamente las restricciones sobre recargos con tarjeta.";
+
+"screen.settings.payment_pricing.transfer_notice" = "Tu banco determina las comisiones de transferencia. Esta regla establece cómo se reparten entre el cliente y tu negocio.";
+
+"screen.settings.payment_pricing.stripe_notice" = "Stripe establece sus comisiones de procesamiento. Esta regla define cómo se reparten entre el cliente y tu negocio. Trasladarlas al cliente depende de las condiciones del proveedor y las normas locales.";
+
+"screen.settings.payment_pricing.square_notice" = "Square establece sus comisiones de procesamiento. Esta regla define cómo se reparten entre el cliente y tu negocio. Trasladarlas al cliente depende de las condiciones del proveedor y las normas locales.";
+
+"screen.settings.accept_payments.online_transfer_title" = "Transferencias en línea";
+
+"screen.settings.accept_payments.online_transfer_enabled" = "Aceptar transferencias en línea";
+
+"screen.settings.accept_payments.online_transfer_description" = "Registra el dinero recibido fuera de Maetry. Selecciona los servicios que aceptas; el dinero no se transfiere automáticamente.";
+
+"screen.payments.terminal_checkout.complete_with_transfer" = "Confirmar transferencia recibida";
+
+"screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirma solo después de recibir el dinero en el servicio seleccionado. Maetry registra el pago; no transfiere dinero.";

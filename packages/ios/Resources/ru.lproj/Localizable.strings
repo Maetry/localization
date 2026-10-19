@@ -1166,7 +1166,7 @@
 /* onboarding -> alert -> steps_completed */
 "onboarding.alert.steps_completed" = "%d из %d шагов завершено";
 /* onboarding -> alert -> complete_salon_setup */
-"onboarding.alert.complete_salon_setup" = "Завершите настройку салона";
+"onboarding.alert.complete_salon_setup" = "Завершите настройку";
 /* onboarding -> create_workplace -> title */
 "onboarding.create_workplace.title" = "Создать свой первый салон";
 /* onboarding -> create_workplace -> subtitle */
@@ -2406,6 +2406,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 /* reusable -> from_phone_book */
 "reusable.from_phone_book" = "Из телефонной книги";
 "reusable.send" = "Отправить";
+"reusable.continue_with_apple" = "Продолжить с Apple";
+"reusable.continue_with_google" = "Продолжить с Google";
 "reusable.sign_in_with_google" = "Войти через Google";
 "reusable.verified" = "Подтверждено";
 "reusable.selected" = "выбрано";
@@ -3427,3 +3429,123 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.settings.accept_payments.tap_to_pay_promo_not_now" = "Не сейчас";
 /* screen -> settings -> accept_payments -> tap_to_pay_promo_disclaimer */
 "screen.settings.accept_payments.tap_to_pay_promo_disclaimer" = "Некоторые бесконтактные карты могут не приниматься. Могут действовать лимиты на транзакции. Символ бесконтактной оплаты является товарным знаком, принадлежащим EMVCo, LLC, и используется с её разрешения.";
+
+"screen.booking_appearance.title" = "Оформление записи";
+"screen.booking_appearance.background" = "Фон";
+"screen.booking_appearance.action_color" = "Цвет действий";
+"screen.booking_appearance.header" = "Шапка";
+"screen.booking_appearance.minimal" = "Минимальная";
+"screen.booking_appearance.filled" = "С заливкой";
+"screen.booking_appearance.rounded" = "Скруглённая";
+"screen.booking_appearance.sections" = "Секции";
+"screen.booking_appearance.automatic" = "Автоматически";
+"screen.booking_appearance.light" = "Светлые";
+"screen.booking_appearance.dark" = "Тёмные";
+"screen.booking_appearance.symbols" = "Символы";
+"screen.booking_appearance.symbols_hint" = "Символы через запятую";
+"screen.booking_appearance.preview" = "Предпросмотр";
+"screen.booking_appearance.save" = "Сохранить";
+
+"screen.public.sign_in_action" = "Войти";
+
+"error.auth_unavailable" = "Вход пока недоступен. Попробуйте позже.";
+
+"error.auth_presentation_failed" = "Не удалось открыть вход. Попробуйте ещё раз.";
+
+"screen.settings.payment_pricing.title" = "Формирование суммы";
+
+"screen.settings.payment_pricing.draft_notice" = "Черновые правила сохраняются на этом устройстве для этого бизнеса. Пока они не изменяют суммы платежей.";
+
+"screen.settings.payment_pricing.cash" = "Наличные";
+
+"screen.settings.payment_pricing.transfer" = "Банковский перевод";
+
+"screen.settings.payment_pricing.adjustment" = "Корректировка цены";
+
+"screen.settings.payment_pricing.unchanged" = "Обычная цена";
+
+"screen.settings.payment_pricing.discount" = "Скидка";
+
+"screen.settings.payment_pricing.increase" = "Увеличение";
+
+"screen.settings.payment_pricing.unit" = "Расчёт";
+
+"screen.settings.payment_pricing.percentage" = "Процент";
+
+"screen.settings.payment_pricing.fixed" = "Фиксированная сумма";
+
+"screen.settings.payment_pricing.value" = "Размер корректировки";
+
+"screen.settings.payment_pricing.preview" = "Предварительный расчёт";
+
+"screen.settings.payment_pricing.base_amount" = "Цена услуги";
+
+"screen.settings.payment_pricing.final_amount" = "Итоговая сумма";
+
+"screen.settings.payment_pricing.preview_notice" = "Расчёт от цены услуги без чаевых. Скидка не может превышать цену услуги.";
+
+"activity.appointment_completed.console.title" = "Запись завершена";
+"activity.appointment_completed.customer.title" = "Визит завершён";
+"activity.appointment_completed.console.message" = "Завершено: {date}";
+"activity.appointment_completed.customer.message" = "Завершено: {date}";
+"activity.booking_created.console.title" = "Бронь создана";
+"activity.booking_created.customer.title" = "Бронь создана";
+"activity.booking_created.console.message" = "Ожидает подтверждения";
+"activity.booking_created.customer.message" = "Ожидает подтверждения";
+
+/* Account identity (Zitadel sign-in data) */
+"widget.account_identity.section_title" = "Вход";
+"widget.account_identity.username" = "Логин";
+"widget.account_identity.phone" = "Телефон";
+"widget.account_identity.add" = "Добавить";
+"widget.account_identity.unverified" = "Не подтверждён";
+"widget.account_identity.providers_title" = "Способы входа";
+"widget.account_identity.providers_footer" = "Последний способ входа отключить нельзя.";
+"widget.account_identity.connect" = "Подключить";
+"widget.account_identity.disconnect" = "Отключить";
+"widget.account_identity.disconnect_confirm_title" = "Отключить %@?";
+"widget.account_identity.link_conflict" = "Этот аккаунт уже используется для входа в Maetry другим пользователем.";
+"widget.account_identity.link_failed" = "Не удалось подключить аккаунт. Попробуйте ещё раз.";
+"widget.account_identity.email_footer" = "Email нельзя удалить — только заменить. На новый адрес придёт код.";
+"widget.account_identity.phone_footer" = "На этот номер придёт SMS с кодом.";
+"widget.account_identity.code_placeholder" = "Код подтверждения";
+"widget.account_identity.code_sent" = "Мы отправили код на %@.";
+"widget.account_identity.resend_code" = "Отправить код ещё раз";
+"widget.account_identity.get_code" = "Получить код";
+"widget.account_identity.verify" = "Подтвердить";
+"widget.account_identity.remove_phone" = "Удалить телефон";
+"widget.account_identity.remove_phone_confirm_title" = "Удалить номер телефона?";
+/* screen -> public -> auth_separator */
+"screen.public.auth_separator" = "или";
+
+"screen.settings.payment_pricing.commission" = "Комиссия";
+
+"screen.settings.payment_pricing.fee_allocation" = "Кто оплачивает комиссию";
+
+"screen.settings.payment_pricing.client" = "Клиент";
+
+"screen.settings.payment_pricing.business" = "Бизнес";
+
+"screen.settings.payment_pricing.provider_rates" = "Тарифы провайдера";
+
+"screen.settings.payment_pricing.bank_rates" = "Уточните в банке";
+
+"screen.settings.payment_pricing.allocation_notice" = "Доля клиента добавляется к цене услуги. Доля бизнеса удерживается из выплаты.";
+
+"screen.settings.payment_pricing.cash_notice" = "Для наличных этот процент — скидка от указанной цены услуги. Так можно предложить более низкую цену за наличные, сохранив цену оплаты картой. Скидка за наличные сама по себе не отменяет ограничений на надбавки при оплате картой.";
+
+"screen.settings.payment_pricing.transfer_notice" = "Комиссию за перевод определяет ваш банк. Это правило задаёт, как она распределяется между клиентом и бизнесом.";
+
+"screen.settings.payment_pricing.stripe_notice" = "Комиссию за обработку платежа устанавливает Stripe. Это правило задаёт её распределение между клиентом и бизнесом. Перенос комиссии на клиента зависит от условий провайдера и местных правил.";
+
+"screen.settings.payment_pricing.square_notice" = "Комиссию за обработку платежа устанавливает Square. Это правило задаёт её распределение между клиентом и бизнесом. Перенос комиссии на клиента зависит от условий провайдера и местных правил.";
+
+"screen.settings.accept_payments.online_transfer_title" = "Онлайн-переводы";
+
+"screen.settings.accept_payments.online_transfer_enabled" = "Принимать онлайн-переводы";
+
+"screen.settings.accept_payments.online_transfer_description" = "Отмечайте переводы, полученные вне Maetry. Выберите доступные способы; деньги автоматически не переводятся.";
+
+"screen.payments.terminal_checkout.complete_with_transfer" = "Подтвердить получение перевода";
+
+"screen.payments.terminal_checkout.transfer_confirmation_notice" = "Подтвердите оплату только после получения денег через выбранный сервис. Maetry фиксирует оплату, но не переводит деньги.";

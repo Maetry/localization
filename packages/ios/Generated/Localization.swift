@@ -21,6 +21,16 @@ public enum Loc {
         public static let title = Loc.tr("Localizable", "activity.appointment_cancelled.customer.title", fallback: "Appointment cancelled")
       }
     }
+    public enum AppointmentCompleted {
+      public enum Console {
+        public static let message = Loc.tr("Localizable", "activity.appointment_completed.console.message", fallback: "Completed: {date}")
+        public static let title = Loc.tr("Localizable", "activity.appointment_completed.console.title", fallback: "Assignment completed")
+      }
+      public enum Customer {
+        public static let message = Loc.tr("Localizable", "activity.appointment_completed.customer.message", fallback: "Completed: {date}")
+        public static let title = Loc.tr("Localizable", "activity.appointment_completed.customer.title", fallback: "Appointment completed")
+      }
+    }
     public enum AppointmentCreated {
       public enum Console {
         public static let message = Loc.tr("Localizable", "activity.appointment_created.console.message", fallback: "{date} price: {price}")
@@ -39,6 +49,16 @@ public enum Loc {
       public enum Customer {
         public static let message = Loc.tr("Localizable", "activity.appointment_updated.customer.message", fallback: "New time: {date}")
         public static let title = Loc.tr("Localizable", "activity.appointment_updated.customer.title", fallback: "Appointment updated")
+      }
+    }
+    public enum BookingCreated {
+      public enum Console {
+        public static let message = Loc.tr("Localizable", "activity.booking_created.console.message", fallback: "Awaiting confirmation")
+        public static let title = Loc.tr("Localizable", "activity.booking_created.console.title", fallback: "Booking created")
+      }
+      public enum Customer {
+        public static let message = Loc.tr("Localizable", "activity.booking_created.customer.message", fallback: "Awaiting confirmation")
+        public static let title = Loc.tr("Localizable", "activity.booking_created.customer.title", fallback: "Booking created")
       }
     }
     public enum BookingRequested {
@@ -674,6 +694,8 @@ public enum Loc {
     }
   }
   public enum Error {
+    public static let authPresentationFailed = Loc.tr("Localizable", "error.auth_presentation_failed", fallback: "Unable to open sign-in. Please try again.")
+    public static let authUnavailable = Loc.tr("Localizable", "error.auth_unavailable", fallback: "Sign-in is currently unavailable. Please try again later.")
     public static let error = Loc.tr("Localizable", "error.error", fallback: "Error")
     public enum Decoding {
       public static let customerAppointment = Loc.tr("Localizable", "error.decoding.customer_appointment", fallback: "Failed to decode as Procedure or Complex")
@@ -746,7 +768,7 @@ public enum Loc {
       public static let title = Loc.tr("Localizable", "onboarding.activate.title", fallback: "Activate salon")
     }
     public enum Alert {
-      public static let completeSalonSetup = Loc.tr("Localizable", "onboarding.alert.complete_salon_setup", fallback: "Complete the salon setup")
+      public static let completeSalonSetup = Loc.tr("Localizable", "onboarding.alert.complete_salon_setup", fallback: "Complete the setup")
       public static func stepsCompleted(_ p1: Int, _ p2: Int) -> String {
         return Loc.tr("Localizable", "onboarding.alert.steps_completed", p1, p2, fallback: "%d of %d steps completed")
       }
@@ -941,6 +963,8 @@ public enum Loc {
     public static let clear = Loc.tr("Localizable", "reusable.clear", fallback: "Clear")
     public static let close = Loc.tr("Localizable", "reusable.close", fallback: "Close")
     public static let `continue` = Loc.tr("Localizable", "reusable.continue", fallback: "Continue")
+    public static let continueWithApple = Loc.tr("Localizable", "reusable.continue_with_apple", fallback: "Continue with Apple")
+    public static let continueWithGoogle = Loc.tr("Localizable", "reusable.continue_with_google", fallback: "Continue with Google")
     public static let copyButton = Loc.tr("Localizable", "reusable.copy_button", fallback: "Copy")
     public static let create = Loc.tr("Localizable", "reusable.create", fallback: "Create")
     public static let delete = Loc.tr("Localizable", "reusable.delete", fallback: "Delete")
@@ -1218,6 +1242,23 @@ public enum Loc {
         public static let changeTime = Loc.tr("Localizable", "screen.booking.services.change_time", fallback: "Change time")
         public static let reorderAction = Loc.tr("Localizable", "screen.booking.services.reorder_action", fallback: "Change order")
       }
+    }
+    public enum BookingAppearance {
+      public static let actionColor = Loc.tr("Localizable", "screen.booking_appearance.action_color", fallback: "Action color")
+      public static let automatic = Loc.tr("Localizable", "screen.booking_appearance.automatic", fallback: "Automatic")
+      public static let background = Loc.tr("Localizable", "screen.booking_appearance.background", fallback: "Background")
+      public static let dark = Loc.tr("Localizable", "screen.booking_appearance.dark", fallback: "Dark")
+      public static let filled = Loc.tr("Localizable", "screen.booking_appearance.filled", fallback: "Filled")
+      public static let header = Loc.tr("Localizable", "screen.booking_appearance.header", fallback: "Header")
+      public static let light = Loc.tr("Localizable", "screen.booking_appearance.light", fallback: "Light")
+      public static let minimal = Loc.tr("Localizable", "screen.booking_appearance.minimal", fallback: "Minimal")
+      public static let preview = Loc.tr("Localizable", "screen.booking_appearance.preview", fallback: "Preview")
+      public static let rounded = Loc.tr("Localizable", "screen.booking_appearance.rounded", fallback: "Rounded")
+      public static let save = Loc.tr("Localizable", "screen.booking_appearance.save", fallback: "Save")
+      public static let sections = Loc.tr("Localizable", "screen.booking_appearance.sections", fallback: "Sections")
+      public static let symbols = Loc.tr("Localizable", "screen.booking_appearance.symbols", fallback: "Symbols")
+      public static let symbolsHint = Loc.tr("Localizable", "screen.booking_appearance.symbols_hint", fallback: "Symbols separated by commas")
+      public static let title = Loc.tr("Localizable", "screen.booking_appearance.title", fallback: "Booking appearance")
     }
     public enum Catalog {
       public static let complexHeader = Loc.tr("Localizable", "screen.catalog.complex_header", fallback: "Complexes")
@@ -1715,6 +1756,7 @@ public enum Loc {
         public static let collectWithTapToPay = Loc.tr("Localizable", "screen.payments.terminal_checkout.collect_with_tap_to_pay", fallback: "Collect with Tap to Pay")
         public static let completePayment = Loc.tr("Localizable", "screen.payments.terminal_checkout.complete_payment", fallback: "Complete payment")
         public static let completeWithCash = Loc.tr("Localizable", "screen.payments.terminal_checkout.complete_with_cash", fallback: "Complete with cash")
+        public static let completeWithTransfer = Loc.tr("Localizable", "screen.payments.terminal_checkout.complete_with_transfer", fallback: "Confirm transfer received")
         public static let contactlessSubtitle = Loc.tr("Localizable", "screen.payments.terminal_checkout.contactless_subtitle", fallback: "Contactless")
         public static let continueToSecureCardEntry = Loc.tr("Localizable", "screen.payments.terminal_checkout.continue_to_secure_card_entry", fallback: "Continue to secure entry")
         public static let debugOverviewMessage = Loc.tr("Localizable", "screen.payments.terminal_checkout.debug_overview_message", fallback: "A standalone finance entry point for booking payments, products, deposits, and custom charges.")
@@ -1806,6 +1848,7 @@ public enum Loc {
         public static let tip = Loc.tr("Localizable", "screen.payments.terminal_checkout.tip", fallback: "Tip")
         public static let title = Loc.tr("Localizable", "screen.payments.terminal_checkout.title", fallback: "Collect payment")
         public static let totalToCollect = Loc.tr("Localizable", "screen.payments.terminal_checkout.total_to_collect", fallback: "Total to collect")
+        public static let transferConfirmationNotice = Loc.tr("Localizable", "screen.payments.terminal_checkout.transfer_confirmation_notice", fallback: "Confirm only after you have received the money in the selected service. Maetry records the payment; it does not transfer money.")
         public static let unavailablePaymentMethodMessage = Loc.tr("Localizable", "screen.payments.terminal_checkout.unavailable_payment_method_message", fallback: "This payment method is not available yet.")
       }
       public enum TipRequest {
@@ -2059,10 +2102,12 @@ public enum Loc {
       public static let title = Loc.tr("Localizable", "screen.promo_code.title", fallback: "Promo code")
     }
     public enum Public {
+      public static let authSeparator = Loc.tr("Localizable", "screen.public.auth_separator", fallback: "or")
       public static let clientButton = Loc.tr("Localizable", "screen.public.client_button", fallback: "Continue as Client")
       public static let continuationAction = Loc.tr("Localizable", "screen.public.continuation_action", fallback: "Press the button to continue")
       public static let proButton = Loc.tr("Localizable", "screen.public.pro_button", fallback: "Continue as Specialist")
       public static let searchAction = Loc.tr("Localizable", "screen.public.search_action", fallback: "Search salons")
+      public static let signInAction = Loc.tr("Localizable", "screen.public.sign_in_action", fallback: "Sign in")
       public static let welcome = Loc.tr("Localizable", "screen.public.welcome", fallback: "Welcome to Maetry!")
       public enum Card1 {
         public static let address = Loc.tr("Localizable", "screen.public.card1.address", fallback: "Independence Avenue, 43")
@@ -2279,6 +2324,9 @@ public enum Loc {
         public static let locationSelectFooter = Loc.tr("Localizable", "screen.settings.accept_payments.location_select_footer", fallback: "Payments will be recorded to the location you choose.")
         public static let locationSelectTitle = Loc.tr("Localizable", "screen.settings.accept_payments.location_select_title", fallback: "Choose location")
         public static let manageAction = Loc.tr("Localizable", "screen.settings.accept_payments.manage_action", fallback: "Manage account")
+        public static let onlineTransferDescription = Loc.tr("Localizable", "screen.settings.accept_payments.online_transfer_description", fallback: "Record money received outside Maetry. Select the services you accept; no money is transferred automatically.")
+        public static let onlineTransferEnabled = Loc.tr("Localizable", "screen.settings.accept_payments.online_transfer_enabled", fallback: "Accept online transfers")
+        public static let onlineTransferTitle = Loc.tr("Localizable", "screen.settings.accept_payments.online_transfer_title", fallback: "Online transfers")
         public static let otherProvidersSection = Loc.tr("Localizable", "screen.settings.accept_payments.other_providers_section", fallback: "Other providers")
         public static let payoutsLabel = Loc.tr("Localizable", "screen.settings.accept_payments.payouts_label", fallback: "Payouts")
         public static let pendingFooter = Loc.tr("Localizable", "screen.settings.accept_payments.pending_footer", fallback: "Verification usually takes a few minutes. Pull to refresh to update the status.")
@@ -2423,6 +2471,35 @@ public enum Loc {
       public enum OnlineBooking {
         public static let emptyValue = Loc.tr("Localizable", "screen.settings.online_booking.empty_value", fallback: "Not set")
         public static let title = Loc.tr("Localizable", "screen.settings.online_booking.title", fallback: "Online booking")
+      }
+      public enum PaymentPricing {
+        public static let adjustment = Loc.tr("Localizable", "screen.settings.payment_pricing.adjustment", fallback: "Price adjustment")
+        public static let allocationNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.allocation_notice", fallback: "The client share is added to the service price. The business share is deducted from the payout.")
+        public static let bankRates = Loc.tr("Localizable", "screen.settings.payment_pricing.bank_rates", fallback: "Check with your bank")
+        public static let baseAmount = Loc.tr("Localizable", "screen.settings.payment_pricing.base_amount", fallback: "Service price")
+        public static let business = Loc.tr("Localizable", "screen.settings.payment_pricing.business", fallback: "Business")
+        public static let cash = Loc.tr("Localizable", "screen.settings.payment_pricing.cash", fallback: "Cash")
+        public static let cashNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.cash_notice", fallback: "For cash, this percentage is a discount from your listed service price. Use it to offer a lower cash price while keeping card prices unchanged. A cash discount does not automatically override restrictions on card surcharges.")
+        public static let client = Loc.tr("Localizable", "screen.settings.payment_pricing.client", fallback: "Client")
+        public static let commission = Loc.tr("Localizable", "screen.settings.payment_pricing.commission", fallback: "Commission")
+        public static let discount = Loc.tr("Localizable", "screen.settings.payment_pricing.discount", fallback: "Discount")
+        public static let draftNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.draft_notice", fallback: "Draft rules are saved on this device for this business. They do not change payment amounts yet.")
+        public static let feeAllocation = Loc.tr("Localizable", "screen.settings.payment_pricing.fee_allocation", fallback: "Who pays the commission")
+        public static let finalAmount = Loc.tr("Localizable", "screen.settings.payment_pricing.final_amount", fallback: "Final amount")
+        public static let fixed = Loc.tr("Localizable", "screen.settings.payment_pricing.fixed", fallback: "Fixed amount")
+        public static let increase = Loc.tr("Localizable", "screen.settings.payment_pricing.increase", fallback: "Increase")
+        public static let percentage = Loc.tr("Localizable", "screen.settings.payment_pricing.percentage", fallback: "Percentage")
+        public static let preview = Loc.tr("Localizable", "screen.settings.payment_pricing.preview", fallback: "Preview")
+        public static let previewNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.preview_notice", fallback: "Calculated from the service price, without tips. A discount cannot exceed the service price.")
+        public static let providerRates = Loc.tr("Localizable", "screen.settings.payment_pricing.provider_rates", fallback: "Provider rates")
+        public static let squareNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.square_notice", fallback: "Square determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.")
+        public static let stripeNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.stripe_notice", fallback: "Stripe determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.")
+        public static let title = Loc.tr("Localizable", "screen.settings.payment_pricing.title", fallback: "Payment amount rules")
+        public static let transfer = Loc.tr("Localizable", "screen.settings.payment_pricing.transfer", fallback: "Bank transfer")
+        public static let transferNotice = Loc.tr("Localizable", "screen.settings.payment_pricing.transfer_notice", fallback: "Your bank determines transfer fees. This rule sets how the fee is shared between the client and your business.")
+        public static let unchanged = Loc.tr("Localizable", "screen.settings.payment_pricing.unchanged", fallback: "Regular price")
+        public static let unit = Loc.tr("Localizable", "screen.settings.payment_pricing.unit", fallback: "Calculation")
+        public static let value = Loc.tr("Localizable", "screen.settings.payment_pricing.value", fallback: "Adjustment value")
       }
       public enum Payroll {
         public static let exceptionsFooter = Loc.tr("Localizable", "screen.settings.payroll.exceptions_footer", fallback: "Employees in this section use individual payroll rules instead of the position template.")
@@ -2808,6 +2885,33 @@ public enum Loc {
     }
   }
   public enum Widget {
+    public enum AccountIdentity {
+      public static let add = Loc.tr("Localizable", "widget.account_identity.add", fallback: "Add")
+      public static let codePlaceholder = Loc.tr("Localizable", "widget.account_identity.code_placeholder", fallback: "Verification code")
+      public static func codeSent(_ p1: Any) -> String {
+        return Loc.tr("Localizable", "widget.account_identity.code_sent", String(describing: p1), fallback: "We sent a code to %@.")
+      }
+      public static let connect = Loc.tr("Localizable", "widget.account_identity.connect", fallback: "Connect")
+      public static let disconnect = Loc.tr("Localizable", "widget.account_identity.disconnect", fallback: "Disconnect")
+      public static func disconnectConfirmTitle(_ p1: Any) -> String {
+        return Loc.tr("Localizable", "widget.account_identity.disconnect_confirm_title", String(describing: p1), fallback: "Disconnect %@?")
+      }
+      public static let emailFooter = Loc.tr("Localizable", "widget.account_identity.email_footer", fallback: "Your email can't be removed, only replaced. We'll send a code to the new address.")
+      public static let getCode = Loc.tr("Localizable", "widget.account_identity.get_code", fallback: "Get code")
+      public static let linkConflict = Loc.tr("Localizable", "widget.account_identity.link_conflict", fallback: "This account is already used by someone else to sign in to Maetry.")
+      public static let linkFailed = Loc.tr("Localizable", "widget.account_identity.link_failed", fallback: "Couldn't connect the account. Try again.")
+      public static let phone = Loc.tr("Localizable", "widget.account_identity.phone", fallback: "Phone")
+      public static let phoneFooter = Loc.tr("Localizable", "widget.account_identity.phone_footer", fallback: "We'll send a code to this number by SMS.")
+      public static let providersFooter = Loc.tr("Localizable", "widget.account_identity.providers_footer", fallback: "The last way to sign in can't be disconnected.")
+      public static let providersTitle = Loc.tr("Localizable", "widget.account_identity.providers_title", fallback: "Sign-in methods")
+      public static let removePhone = Loc.tr("Localizable", "widget.account_identity.remove_phone", fallback: "Remove phone")
+      public static let removePhoneConfirmTitle = Loc.tr("Localizable", "widget.account_identity.remove_phone_confirm_title", fallback: "Remove phone number?")
+      public static let resendCode = Loc.tr("Localizable", "widget.account_identity.resend_code", fallback: "Resend code")
+      public static let sectionTitle = Loc.tr("Localizable", "widget.account_identity.section_title", fallback: "Sign-in")
+      public static let unverified = Loc.tr("Localizable", "widget.account_identity.unverified", fallback: "Not verified")
+      public static let username = Loc.tr("Localizable", "widget.account_identity.username", fallback: "Username")
+      public static let verify = Loc.tr("Localizable", "widget.account_identity.verify", fallback: "Verify")
+    }
     public enum Address {
       public static let currentLocation = Loc.tr("Localizable", "widget.address.current_location", fallback: "Current location")
       public static let navigation = Loc.tr("Localizable", "widget.address.navigation", fallback: "Build route")
