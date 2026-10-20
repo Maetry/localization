@@ -924,6 +924,7 @@
 "screen.settings.accept_payments.tap_to_pay_setup_required" = "Requiere configuración";
 "screen.settings.accept_payments.tap_to_pay_setup_failed" = "No se pudo completar la configuración de Tap to Pay. Inténtalo de nuevo.";
 "screen.settings.accept_payments.tap_to_pay_square_unavailable" = "Square indica que Tap to Pay no está disponible para esta cuenta. Suele significar que la app se compiló con una clave de sandbox o que la cuenta del vendedor no admite Tap to Pay en su país.";
+"screen.settings.accept_payments.square_temporarily_unavailable" = "Los pagos con Square están desactivados temporalmente en este dispositivo porque el SDK de Square cerraba la app. Usa otro método de pago o actualiza la app.";
 "screen.settings.accept_payments.tap_to_pay_sandbox_unavailable" = "Tap to Pay no funciona con una clave de sandbox de Square. Compila la app en Release, que usa el application ID de producción, y autoriza una cuenta de vendedor real.";
 "screen.settings.accept_payments.tap_to_pay_passcode_required" = "Configura un código en este iPhone: Tap to Pay no funciona sin él.";
 "screen.settings.accept_payments.tap_to_pay_section" = "Tap to Pay en iPhone";

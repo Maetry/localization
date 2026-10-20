@@ -2358,6 +2358,7 @@ public enum Loc {
         public static let restrictedFooter = Loc.tr("Localizable", "screen.settings.accept_payments.restricted_footer", fallback: "Stripe needs something from you before this account can keep taking payments. Open account management to see what is missing.")
         public static let squareFooterDescription = Loc.tr("Localizable", "screen.settings.accept_payments.square_footer_description", fallback: "Square lets you accept in-person and online card payments.")
         public static let squareLearnMoreLink = Loc.tr("Localizable", "screen.settings.accept_payments.square_learn_more_link", fallback: "squareup.com")
+        public static let squareTemporarilyUnavailable = Loc.tr("Localizable", "screen.settings.accept_payments.square_temporarily_unavailable", fallback: "Square payments are temporarily turned off on this device because the Square SDK kept crashing the app. Use another payment method or update the app.")
         public static let squareTitle = Loc.tr("Localizable", "screen.settings.accept_payments.square_title", fallback: "Square")
         public static let statusActive = Loc.tr("Localizable", "screen.settings.accept_payments.status_active", fallback: "Connected")
         public static let statusLabel = Loc.tr("Localizable", "screen.settings.accept_payments.status_label", fallback: "Status")
