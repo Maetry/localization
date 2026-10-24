@@ -72,6 +72,14 @@
 "screen.profile.support.unknown_id" = "Desconocido";
 /* screen -> profile -> support -> not_install */
 "screen.profile.support.not_install" = "La app de Telegram no está instalada";
+
+"screen.profile.support_session.title" = "Modo de soporte";
+
+"screen.profile.support_session.message" = "Has iniciado sesión como «%@» desde Maetry Control. Todo lo que hagas será en nombre de este usuario. Cierra sesión para salir del modo de soporte.";
+
+"screen.profile.support_session.expires" = "La sesión termina a las %@";
+
+"screen.profile.support_session.expired" = "El enlace de soporte ha caducado. Ábrelo de nuevo desde Maetry Control.";
 /* screen -> profile -> iam -> title */
 "screen.profile.iam.title" = "Seleccionar modo";
 /* screen -> profile -> iam -> customer */

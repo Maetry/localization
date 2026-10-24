@@ -2083,6 +2083,16 @@ public enum Loc {
         public static let unknownId = Loc.tr("Localizable", "screen.profile.support.unknown_id", fallback: "Unknown")
         public static let userMessage = Loc.tr("Localizable", "screen.profile.support.user_message", fallback: "Hello, I need help! My ID: ")
       }
+      public enum SupportSession {
+        public static let expired = Loc.tr("Localizable", "screen.profile.support_session.expired", fallback: "The support link has expired. Open it again from Maetry Control.")
+        public static func expires(_ p1: Any) -> String {
+          return Loc.tr("Localizable", "screen.profile.support_session.expires", String(describing: p1), fallback: "Session ends at %@")
+        }
+        public static func message(_ p1: Any) -> String {
+          return Loc.tr("Localizable", "screen.profile.support_session.message", String(describing: p1), fallback: "You are signed in as “%@” from Maetry Control. Everything you do is on behalf of this user. Log out to leave support mode.")
+        }
+        public static let title = Loc.tr("Localizable", "screen.profile.support_session.title", fallback: "Support mode")
+      }
     }
     public enum ProfileEditing {
       public static let chooseFromGallery = Loc.tr("Localizable", "screen.profile_editing.choose_from_gallery", fallback: "Choose from gallery")
