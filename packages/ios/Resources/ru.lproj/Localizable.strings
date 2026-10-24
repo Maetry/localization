@@ -72,6 +72,14 @@
 "screen.profile.support.unknown_id" = "Неизвестно";
 /* screen -> profile -> support -> not_install */
 "screen.profile.support.not_install" = "Приложение Telegram не найдено";
+
+"screen.profile.support_session.title" = "Режим поддержки";
+
+"screen.profile.support_session.message" = "Вы вошли от имени «%@» из Maetry Control. Все действия выполняются от имени этого пользователя. Чтобы выйти из режима поддержки, нажмите «Выйти».";
+
+"screen.profile.support_session.expires" = "Сессия закончится в %@";
+
+"screen.profile.support_session.expired" = "Ссылка поддержки устарела. Откройте её заново из Maetry Control.";
 /* screen -> profile -> iam -> title */
 "screen.profile.iam.title" = "Выберите режим";
 /* screen -> profile -> iam -> customer */

@@ -72,6 +72,14 @@
 "screen.profile.support.unknown_id" = "Unknown";
 /* screen -> profile -> support -> not_install */
 "screen.profile.support.not_install" = "Telegram app is not installed";
+
+"screen.profile.support_session.title" = "Support mode";
+
+"screen.profile.support_session.message" = "You are signed in as “%@” from Maetry Control. Everything you do is on behalf of this user. Log out to leave support mode.";
+
+"screen.profile.support_session.expires" = "Session ends at %@";
+
+"screen.profile.support_session.expired" = "The support link has expired. Open it again from Maetry Control.";
 /* screen -> profile -> iam -> title */
 "screen.profile.iam.title" = "Select Mode";
 /* screen -> profile -> iam -> customer */
