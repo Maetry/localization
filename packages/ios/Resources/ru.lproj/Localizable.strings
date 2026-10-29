@@ -2450,7 +2450,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace.menu.join_workplace" = "Присоединиться к салону";
 "screen.workplace.empty_state.title" = "Салонов пока нет";
 "screen.workplace.empty_state.message" = "Создайте свой салон или присоединитесь к существующему";
-"screen.workplace.selection_state.title" = "Выберите салон";
+"screen.workplace.selection_state.title" = "Выберите рабочее пространство";
 "screen.workplace.selection_state.message" = "Выберите салон, в котором хотите работать";
 "screen.workplace.selection_state.current_footer" = "Текущее рабочее пространство";
 "screen.workplace_join.title" = "Присоединиться к салону";
@@ -3558,3 +3558,17 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.payments.terminal_checkout.complete_with_transfer" = "Подтвердить получение перевода";
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Подтвердите оплату только после получения денег через выбранный сервис. Maetry фиксирует оплату, но не переводит деньги.";
+
+"screen.side_menu.operations" = "Работа";
+"screen.side_menu.management" = "Управление";
+"screen.side_menu.finances" = "Финансы";
+"screen.side_menu.growth" = "Развитие";
+"screen.side_menu.pinned" = "Закреплённые";
+"screen.side_menu.hidden" = "Скрытые";
+"screen.side_menu.pin" = "Закрепить";
+"screen.side_menu.unpin" = "Открепить";
+"screen.side_menu.hide" = "Скрыть";
+"screen.side_menu.show" = "Показать в меню";
+"screen.side_menu.expanded" = "Развёрнуто";
+"screen.side_menu.collapsed" = "Свёрнуто";
+"screen.side_menu.workplace" = "Рабочее пространство";

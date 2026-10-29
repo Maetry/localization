@@ -378,9 +378,9 @@
 /* screen -> catalog_management -> service_search */
 "screen.catalog_management.service_search" = "Search for service";
 /* screen -> employees -> title */
-"screen.employees.title" = "Staffs";
+"screen.employees.title" = "Team";
 /* screen -> employees -> all_title */
-"screen.employees.all_title" = "Staffs";
+"screen.employees.all_title" = "Team";
 /* screen -> employees -> filter -> active */
 "screen.employees.filter.active" = "Active";
 /* screen -> employees -> filter -> invite */
@@ -554,7 +554,7 @@
 /* screen -> permissions -> owner_toggle_description */
 "screen.permissions.owner_toggle_description" = "Granting this access gives the person full control over the workspace";
 /* screen -> salary -> title */
-"screen.salary.title" = "Salary";
+"screen.salary.title" = "Payroll";
 /* screen -> salary -> wage_title */
 "screen.salary.wage_title" = "Fixed payment";
 /* screen -> salary -> percent_title */
@@ -1062,7 +1062,7 @@
 /* widget -> dashboard -> services -> action */
 "widget.dashboard.services.action" = "Add service";
 /* widget -> dashboard -> staff -> title */
-"widget.dashboard.staff.title" = "Staffs";
+"widget.dashboard.staff.title" = "Team";
 /* widget -> dashboard -> staff -> action */
 "widget.dashboard.staff.action" = "Add staff member";
 /* widget -> dashboard -> clients -> title */
@@ -2031,7 +2031,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace.menu.join_workplace" = "Join a salon";
 "screen.workplace.empty_state.title" = "No salons yet";
 "screen.workplace.empty_state.message" = "Create your own salon or join an existing one";
-"screen.workplace.selection_state.title" = "Select a salon";
+"screen.workplace.selection_state.title" = "Select workplace";
 "screen.workplace.selection_state.message" = "Choose the salon you want to work in";
 "screen.workplace.selection_state.current_footer" = "Current workspace";
 "screen.workplace_join.title" = "Join workplace";
@@ -3840,3 +3840,17 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.payments.terminal_checkout.complete_with_transfer" = "Confirm transfer received";
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirm only after you have received the money in the selected service. Maetry records the payment; it does not transfer money.";
+
+"screen.side_menu.operations" = "Operations";
+"screen.side_menu.management" = "Management";
+"screen.side_menu.finances" = "Finances";
+"screen.side_menu.growth" = "Growth";
+"screen.side_menu.pinned" = "Pinned";
+"screen.side_menu.hidden" = "Hidden";
+"screen.side_menu.pin" = "Pin";
+"screen.side_menu.unpin" = "Unpin";
+"screen.side_menu.hide" = "Hide";
+"screen.side_menu.show" = "Show in menu";
+"screen.side_menu.expanded" = "Expanded";
+"screen.side_menu.collapsed" = "Collapsed";
+"screen.side_menu.workplace" = "Workspace";

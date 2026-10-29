@@ -1498,7 +1498,7 @@ public enum Loc {
     public enum Employees {
       public static let addAssignment = Loc.tr("Localizable", "screen.employees.add_assignment", fallback: "Book client")
       public static let addEmployee = Loc.tr("Localizable", "screen.employees.add_employee", fallback: "Add staff member")
-      public static let allTitle = Loc.tr("Localizable", "screen.employees.all_title", fallback: "Staffs")
+      public static let allTitle = Loc.tr("Localizable", "screen.employees.all_title", fallback: "Team")
       public static let assignment = Loc.tr("Localizable", "screen.employees.assignment", fallback: "Appointments")
       public static let dismissedFilter = Loc.tr("Localizable", "screen.employees.dismissed_filter", fallback: "Уволенные")
       public static let dismissedTitle = Loc.tr("Localizable", "screen.employees.dismissed_title", fallback: "Уволенные сотрудники")
@@ -1508,7 +1508,7 @@ public enum Loc {
       public static let noDismissedEmployees = Loc.tr("Localizable", "screen.employees.no_dismissed_employees", fallback: "Нет уволенных сотрудников")
       public static let noEmployees = Loc.tr("Localizable", "screen.employees.no_employees", fallback: "No staff yet")
       public static let service = Loc.tr("Localizable", "screen.employees.service", fallback: "Services")
-      public static let title = Loc.tr("Localizable", "screen.employees.title", fallback: "Staffs")
+      public static let title = Loc.tr("Localizable", "screen.employees.title", fallback: "Team")
       public enum DangerZone {
         public static let cancelAlertMessage = Loc.tr("Localizable", "screen.employees.danger_zone.cancel_alert_message", fallback: "Employee won't be able to join using the sent link")
         public static let cancelAlertTitle = Loc.tr("Localizable", "screen.employees.danger_zone.cancel_alert_title", fallback: "Cancel invitation")
@@ -2162,7 +2162,7 @@ public enum Loc {
       public static let selectType = Loc.tr("Localizable", "screen.salary.select_type", fallback: "Choose type")
       public static let serverMethodsTitle = Loc.tr("Localizable", "screen.salary.server_methods_title", fallback: "Черновик backend-контракта")
       public static let subtitle = Loc.tr("Localizable", "screen.salary.subtitle", fallback: "Accruals and payouts for employees")
-      public static let title = Loc.tr("Localizable", "screen.salary.title", fallback: "Salary")
+      public static let title = Loc.tr("Localizable", "screen.salary.title", fallback: "Payroll")
       public static let toDate = Loc.tr("Localizable", "screen.salary.to_date", fallback: "To")
       public static let totalDue = Loc.tr("Localizable", "screen.salary.total_due", fallback: "To pay")
       public static let totalEarned = Loc.tr("Localizable", "screen.salary.total_earned", fallback: "Earned")
@@ -2546,6 +2546,21 @@ public enum Loc {
       public static let linkButton = Loc.tr("Localizable", "screen.sharing.link_button", fallback: "Share link")
       public static let qrButton = Loc.tr("Localizable", "screen.sharing.qr_button", fallback: "Send QR code")
     }
+    public enum SideMenu {
+      public static let collapsed = Loc.tr("Localizable", "screen.side_menu.collapsed", fallback: "Collapsed")
+      public static let expanded = Loc.tr("Localizable", "screen.side_menu.expanded", fallback: "Expanded")
+      public static let finances = Loc.tr("Localizable", "screen.side_menu.finances", fallback: "Finances")
+      public static let growth = Loc.tr("Localizable", "screen.side_menu.growth", fallback: "Growth")
+      public static let hidden = Loc.tr("Localizable", "screen.side_menu.hidden", fallback: "Hidden")
+      public static let hide = Loc.tr("Localizable", "screen.side_menu.hide", fallback: "Hide")
+      public static let management = Loc.tr("Localizable", "screen.side_menu.management", fallback: "Management")
+      public static let operations = Loc.tr("Localizable", "screen.side_menu.operations", fallback: "Operations")
+      public static let pin = Loc.tr("Localizable", "screen.side_menu.pin", fallback: "Pin")
+      public static let pinned = Loc.tr("Localizable", "screen.side_menu.pinned", fallback: "Pinned")
+      public static let show = Loc.tr("Localizable", "screen.side_menu.show", fallback: "Show in menu")
+      public static let unpin = Loc.tr("Localizable", "screen.side_menu.unpin", fallback: "Unpin")
+      public static let workplace = Loc.tr("Localizable", "screen.side_menu.workplace", fallback: "Workspace")
+    }
     public enum UnitEconomic {
       public static let headerSubtitle = Loc.tr("Localizable", "screen.unit_economic.header_subtitle", fallback: "Overview of how customers find you")
       public static let maxCampaignsReached = Loc.tr("Localizable", "screen.unit_economic.max_campaigns_reached", fallback: "A maximum of 5 campaigns can be added to the chart")
@@ -2691,7 +2706,7 @@ public enum Loc {
       public enum SelectionState {
         public static let currentFooter = Loc.tr("Localizable", "screen.workplace.selection_state.current_footer", fallback: "Current workspace")
         public static let message = Loc.tr("Localizable", "screen.workplace.selection_state.message", fallback: "Choose the salon you want to work in")
-        public static let title = Loc.tr("Localizable", "screen.workplace.selection_state.title", fallback: "Select a salon")
+        public static let title = Loc.tr("Localizable", "screen.workplace.selection_state.title", fallback: "Select workplace")
       }
     }
     public enum WorkplaceEditing {
@@ -2969,7 +2984,7 @@ public enum Loc {
       }
       public enum Staff {
         public static let action = Loc.tr("Localizable", "widget.dashboard.staff.action", fallback: "Add staff member")
-        public static let title = Loc.tr("Localizable", "widget.dashboard.staff.title", fallback: "Staffs")
+        public static let title = Loc.tr("Localizable", "widget.dashboard.staff.title", fallback: "Team")
       }
     }
     public enum KnowledgeBase {

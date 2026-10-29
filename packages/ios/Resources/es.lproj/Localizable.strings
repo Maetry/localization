@@ -2024,7 +2024,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workplace.menu.join_workplace" = "Unirse a un salón";
 "screen.workplace.empty_state.title" = "Aún no hay salones";
 "screen.workplace.empty_state.message" = "Crea tu propio salón o únete a uno existente";
-"screen.workplace.selection_state.title" = "Selecciona un salón";
+"screen.workplace.selection_state.title" = "Selecciona un lugar de trabajo";
 "screen.workplace.selection_state.message" = "Elige el salón en el que quieres trabajar";
 "screen.workplace.selection_state.current_footer" = "Espacio de trabajo actual";
 "screen.workplace_join.title" = "Unirse al salón";
@@ -3547,3 +3547,17 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.payments.terminal_checkout.complete_with_transfer" = "Confirmar transferencia recibida";
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirma solo después de recibir el dinero en el servicio seleccionado. Maetry registra el pago; no transfiere dinero.";
+
+"screen.side_menu.operations" = "Operaciones";
+"screen.side_menu.management" = "Gestión";
+"screen.side_menu.finances" = "Finanzas";
+"screen.side_menu.growth" = "Crecimiento";
+"screen.side_menu.pinned" = "Fijados";
+"screen.side_menu.hidden" = "Ocultos";
+"screen.side_menu.pin" = "Fijar";
+"screen.side_menu.unpin" = "Desfijar";
+"screen.side_menu.hide" = "Ocultar";
+"screen.side_menu.show" = "Mostrar en el menú";
+"screen.side_menu.expanded" = "Expandido";
+"screen.side_menu.collapsed" = "Contraído";
+"screen.side_menu.workplace" = "Espacio de trabajo";
