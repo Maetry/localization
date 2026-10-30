@@ -1,4 +1,68 @@
 {
+  "invite": {
+    "acceptance": {
+      "title": {
+        "businessClaim": "Your business is ready for you",
+        "employeeInvite": "Join the salon team",
+        "clientInvite": "Your visits, all in one place"
+      },
+      "description": {
+        "businessClaim": "Accept access to manage this business, its team and bookings.",
+        "employeeInvite": "Accept the invitation to access your workplace, schedule and clients.",
+        "clientInvite": "Connect your client profile to see your visits and booking history at this salon."
+      },
+      "success": {
+        "businessClaim": "The business is now yours to manage",
+        "employeeInvite": "You have joined the team",
+        "clientInvite": "Your client profile is connected"
+      },
+      "completed": {
+        "businessClaim": "Your account now has access. Download Maetry for Business and sign in with the same account to continue.",
+        "employeeInvite": "Your account is connected to your employee profile. Download Maetry for Business and sign in with the same account.",
+        "clientInvite": "Your salon history is connected. Download Maetry and sign in with the same account to see your visits."
+      },
+      "loading": "Opening your invitation",
+      "accepting": "Connecting your account",
+      "accept": "Accept invitation",
+      "retry": "Try again",
+      "googlePlay": "Get it on Google Play",
+      "signInNote": "Sign in or create an account securely with Maetry. This invitation will be connected to the account you choose.",
+      "errors": {
+        "unavailable": {
+          "title": "This invitation is unavailable",
+          "description": "The link may have expired or already been used. Ask the sender for a new invitation."
+        },
+        "authentication": {
+          "title": "Sign in to continue",
+          "description": "Sign-in was cancelled or your session has expired. Your invitation has not been lost."
+        },
+        "unsupported": {
+          "title": "Client invitations are coming soon",
+          "description": "This invitation cannot be accepted yet. Please keep the link and try again later."
+        },
+        "conflict": {
+          "title": "We could not connect this profile",
+          "description": "Your account may already have a profile at this salon, or this profile is connected to another account. Contact the salon to check."
+        },
+        "network": {
+          "title": "Something went wrong",
+          "description": "We could not finish the request. Check your connection and try again."
+        }
+      },
+      "waitlist": {
+        "title": "Maetry for Android",
+        "description": "The Android app is not available yet. Join the waitlist to help us prioritize its launch and get notified when it is ready.",
+        "email": "Your email",
+        "action": "Join the waitlist",
+        "submitting": "Joining…",
+        "joinedTitle": "You are on the waitlist",
+        "joinedDescription": "Thank you for your interest. We will email you when the Android app is ready. Your salon access is already connected to your account.",
+        "error": "We could not save your request. Please try again."
+      },
+      "openApp": "Open in the app",
+      "openAppHint": "If the app did not open, install it or accept the invitation here."
+    }
+  },
   "actions": {
     "save": "Save",
     "cancel": "Cancel",

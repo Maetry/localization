@@ -117,7 +117,7 @@
 /* screen -> profile -> danger_zone -> without_subscription */
 "screen.profile.danger_zone.without_subscription" = "Без подписки ничего не будет работать";
 /* screen -> notice -> title */
-"screen.notice.title" = "Активность";
+"screen.notice.title" = "Уведомления";
 /* screen -> notice -> placeholder */
 "screen.notice.placeholder" = "Ты еще не получил ни одного уведомления";
 /* screen -> notice -> read_all */
@@ -563,6 +563,7 @@
 "screen.clients.history_client" = "История клиента";
 /* screen -> clients -> add_history_client */
 "screen.clients.add_history_client" = "Записать";
+"screen.clients.invite_app_footer" = "[Пригласите клиента](maetry-action://invite-client) в Maetry — для удобной связи и самостоятельной записи.";
 "screen.clients.invite_footer" = "По этой ссылке клиент сможет подключиться к Maetry и быстрее записываться к вам.";
 "screen.employees.invite_footer" = "По этой ссылке можно предоставить сотруднику доступ к вашему салону.";
 /* screen -> settings -> current_plan */
@@ -3559,10 +3560,88 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Подтвердите оплату только после получения денег через выбранный сервис. Maetry фиксирует оплату, но не переводит деньги.";
 
+"widget.address.postal_details_title" = "Дополните адрес";
+
+"widget.address.postal_details_message" = "Укажите штат и почтовый индекс физического адреса салона, чтобы настройка платежей завершалась автоматически.";
+
+"widget.address.state" = "Штат";
+
+"widget.address.postal_code" = "Почтовый индекс";
+"screen.finance.select_operation_type" = "Выберите тип операции";
+
+"screen.personal_notifications.title" = "Мои уведомления";
+
+"screen.personal_notifications.footer" = "Только для этого салона. Отключение категории не удаляет уже полученные уведомления.";
+
+"screen.personal_notifications.empty" = "Для вашей роли пока нет доступных категорий уведомлений.";
+
+"screen.event_history.title" = "История событий";
+
+"screen.event_history.empty" = "Событий пока нет";
+
+"screen.event_history.failed" = "Не удалось загрузить историю событий";
+
+"screen.event_history.more" = "Загрузить ещё";
+
+"screen.event_history.refresh" = "Обновить историю";
+
+"screen.event_history.employee" = "Сотрудник";
+
+"screen.event_history.client" = "Клиент";
+
+"screen.event_history.system" = "Автоматически";
+
+"screen.event_history.support" = "Поддержка";
+
+"screen.event_history.user" = "Пользователь";
+
+"screen.event_history.completed" = "Визит завершён";
+
+"screen.event_history.payment" = "Оплата принята";
+
+"screen.event_history.receipt" = "Чек выдан";
+
+"screen.event_history.integration" = "Статус интеграции изменён";
+
+"screen.event_history.booking_created" = "Бронирование создано";
+
+"screen.event_history.salon_created" = "Салон создан";
+
+"screen.event_history.salon_published" = "Салон опубликован";
+
+"screen.event_history.salon_settings" = "Настройки салона изменены";
+
+"screen.event_history.salon_ownership" = "Права владения салоном изменены";
+
+"screen.notice.all_workplaces" = "Все салоны";
+"screen.notice.selected_workplaces" = "Выбрано салонов: %d";
+"screen.notice.filtered_empty" = "Нет уведомлений от выбранных салонов";
+
+/* Acquisition event analytics */
+"screen.unit_economic.events.funnel" = "Воронка записи";
+"screen.unit_economic.events.funnel_note" = "Публичные пути, начатые в этом месяце; последовательные шаги до конца месяца.";
+"screen.unit_economic.events.flow_starts" = "Начали запись";
+"screen.unit_economic.events.service_selected" = "Выбрали услугу";
+"screen.unit_economic.events.slot_selected" = "Выбрали время";
+"screen.unit_economic.events.booked_journeys" = "Создали запись";
+"screen.unit_economic.events.bookings" = "Записи";
+"screen.unit_economic.events.completed_visits" = "Завершённые визиты";
+"screen.unit_economic.events.repeat_bookings" = "Повторные записи";
+"screen.unit_economic.events.revenue" = "Стоимость завершённых визитов";
+"screen.unit_economic.events.revenue_note" = "Стоимость из событий завершения, не платежи. Валюты показаны отдельно.";
+"screen.unit_economic.events.revenue_missing" = "Для части завершённых визитов нет снимка стоимости. Выручка неполная.";
+"screen.unit_economic.events.no_slots" = "Пути без свободных слотов";
+"screen.unit_economic.events.errors" = "Пути с ошибками";
+"screen.unit_economic.events.unattributed" = "Источник не определён";
+"screen.unit_economic.events.coverage_note" = "Учитываются только события журнала. Более ранняя история не восстановлена; повторы считаются после первой зафиксированной записи.";
+"screen.unit_economic.events.conversion" = "Конверсия пути";
+"screen.unit_economic.events.period_activity" = "Активность за месяц";
+
 "screen.side_menu.operations" = "Работа";
 "screen.side_menu.management" = "Управление";
 "screen.side_menu.finances" = "Финансы";
 "screen.side_menu.growth" = "Развитие";
+
 "screen.side_menu.pinned" = "Закреплённые";
 "screen.side_menu.hidden" = "Скрытые";
 "screen.side_menu.pin" = "Закрепить";
@@ -3571,4 +3650,19 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.side_menu.show" = "Показать в меню";
 "screen.side_menu.expanded" = "Развёрнуто";
 "screen.side_menu.collapsed" = "Свёрнуто";
+
 "screen.side_menu.workplace" = "Рабочее пространство";
+
+"screen.unit_economic.source.default_title" = "Ссылка салона";
+
+"screen.unit_economic.source.archived_section" = "В архиве";
+
+"screen.unit_economic.source.archive_action" = "В архив";
+
+"screen.unit_economic.source.restore_action" = "Вернуть из архива";
+
+"screen.unit_economic.source.archive_hint" = "Ссылка продолжит работать и приписывать записи.";
+
+"screen.unit_economic.source.appearance_title" = "Оформление источника";
+
+"screen.unit_economic.source.metrics_unavailable" = "Метрики доступны владельцу и администраторам.";

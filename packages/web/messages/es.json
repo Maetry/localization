@@ -1,4 +1,68 @@
 {
+  "invite": {
+    "acceptance": {
+      "title": {
+        "businessClaim": "Tu negocio está listo",
+        "employeeInvite": "Únete al equipo del salón",
+        "clientInvite": "Tus visitas en un solo lugar"
+      },
+      "description": {
+        "businessClaim": "Acepta el acceso para gestionar este negocio, su equipo y sus reservas.",
+        "employeeInvite": "Acepta la invitación para acceder a tu lugar de trabajo, horario y clientes.",
+        "clientInvite": "Conecta tu perfil de cliente para ver tus visitas e historial de reservas en este salón."
+      },
+      "success": {
+        "businessClaim": "El negocio está conectado a tu cuenta",
+        "employeeInvite": "Ya formas parte del equipo",
+        "clientInvite": "Tu perfil de cliente está conectado"
+      },
+      "completed": {
+        "businessClaim": "Ya tienes acceso. Descarga Maetry para empresas e inicia sesión con la misma cuenta para continuar.",
+        "employeeInvite": "Tu cuenta está conectada a tu perfil de empleado. Descarga Maetry para empresas e inicia sesión con la misma cuenta.",
+        "clientInvite": "Tu historial está conectado. Descarga Maetry e inicia sesión con la misma cuenta para ver tus visitas."
+      },
+      "loading": "Abriendo tu invitación",
+      "accepting": "Conectando tu cuenta",
+      "accept": "Aceptar invitación",
+      "retry": "Intentar de nuevo",
+      "googlePlay": "Descargar en Google Play",
+      "signInNote": "Inicia sesión o crea una cuenta con Maetry. La invitación se conectará a la cuenta que elijas.",
+      "errors": {
+        "unavailable": {
+          "title": "Invitación no disponible",
+          "description": "El enlace puede haber caducado o ya se ha utilizado. Pide al remitente una nueva invitación."
+        },
+        "authentication": {
+          "title": "Inicia sesión para continuar",
+          "description": "Se canceló el inicio de sesión o tu sesión caducó. Tu invitación no se ha perdido."
+        },
+        "unsupported": {
+          "title": "Las invitaciones de clientes llegarán pronto",
+          "description": "Todavía no puedes aceptar esta invitación. Guarda el enlace e inténtalo más tarde."
+        },
+        "conflict": {
+          "title": "No pudimos conectar este perfil",
+          "description": "Puede que tu cuenta ya tenga un perfil en este salón o que este perfil esté conectado a otra cuenta. Contacta con el salón."
+        },
+        "network": {
+          "title": "Algo salió mal",
+          "description": "No pudimos completar la solicitud. Comprueba tu conexión e inténtalo de nuevo."
+        }
+      },
+      "waitlist": {
+        "title": "Maetry para Android",
+        "description": "La aplicación para Android aún no está disponible. Únete a la lista de espera para ayudarnos a priorizar su lanzamiento y recibir una notificación.",
+        "email": "Tu correo electrónico",
+        "action": "Unirme a la lista de espera",
+        "submitting": "Enviando…",
+        "joinedTitle": "Estás en la lista de espera",
+        "joinedDescription": "¡Gracias por tu interés! Te avisaremos cuando la aplicación para Android esté lista. Tu acceso al salón ya está conectado.",
+        "error": "No pudimos guardar tu solicitud. Inténtalo de nuevo."
+      },
+      "openApp": "Abrir en la app",
+      "openAppHint": "Si la app no se abrió, instálala o acepta la invitación aquí."
+    }
+  },
   "booking": {
     "visitStatus": {
       "pending_master": "Pendiente de confirmación del profesional",

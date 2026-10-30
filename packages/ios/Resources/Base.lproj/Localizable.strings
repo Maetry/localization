@@ -117,7 +117,7 @@
 /* screen -> profile -> danger_zone -> without_subscription */
 "screen.profile.danger_zone.without_subscription" = "Without a subscription nothing will work";
 /* screen -> notice -> title */
-"screen.notice.title" = "Activity";
+"screen.notice.title" = "Notifications";
 /* screen -> notice -> placeholder */
 "screen.notice.placeholder" = "You haven't received any notifications yet";
 /* screen -> notice -> read_all */
@@ -563,6 +563,7 @@
 "screen.clients.history_client" = "Client history";
 /* screen -> clients -> add_history_client */
 "screen.clients.add_history_client" = "Book";
+"screen.clients.invite_app_footer" = "[Invite your client](maetry-action://invite-client) to Maetry to stay in touch and let them book their next visit.";
 "screen.clients.invite_footer" = "With this link, the client can join Maetry and book with you faster.";
 "screen.employees.invite_footer" = "Use this link to give the employee access to your workplace.";
 /* screen -> settings -> current_plan */
@@ -3559,10 +3560,88 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirm only after you have received the money in the selected service. Maetry records the payment; it does not transfer money.";
 
+"widget.address.postal_details_title" = "Complete the address";
+
+"widget.address.postal_details_message" = "Enter the state and ZIP code of the salon’s physical address so payment setup can finish automatically.";
+
+"widget.address.state" = "State";
+
+"widget.address.postal_code" = "ZIP code";
+"screen.finance.select_operation_type" = "Choose operation type";
+
+"screen.personal_notifications.title" = "My notifications";
+
+"screen.personal_notifications.footer" = "Only for this workplace. Turning off a category does not remove notifications you already received.";
+
+"screen.personal_notifications.empty" = "No notification categories are available for your role.";
+
+"screen.event_history.title" = "Event history";
+
+"screen.event_history.empty" = "No events yet";
+
+"screen.event_history.failed" = "Could not load event history";
+
+"screen.event_history.more" = "Load more";
+
+"screen.event_history.refresh" = "Refresh history";
+
+"screen.event_history.employee" = "Employee";
+
+"screen.event_history.client" = "Client";
+
+"screen.event_history.system" = "Automatically";
+
+"screen.event_history.support" = "Support";
+
+"screen.event_history.user" = "User";
+
+"screen.event_history.completed" = "Visit completed";
+
+"screen.event_history.payment" = "Payment received";
+
+"screen.event_history.receipt" = "Receipt issued";
+
+"screen.event_history.integration" = "Integration status changed";
+
+"screen.event_history.booking_created" = "Booking created";
+
+"screen.event_history.salon_created" = "Workplace created";
+
+"screen.event_history.salon_published" = "Workplace published";
+
+"screen.event_history.salon_settings" = "Workplace settings updated";
+
+"screen.event_history.salon_ownership" = "Workplace ownership updated";
+
+"screen.notice.all_workplaces" = "All workplaces";
+"screen.notice.selected_workplaces" = "Selected workplaces: %d";
+"screen.notice.filtered_empty" = "No notifications for the selected workplaces";
+
+/* Acquisition event analytics */
+"screen.unit_economic.events.funnel" = "Booking funnel";
+"screen.unit_economic.events.funnel_note" = "Public journeys started this month; ordered steps, observed before month end.";
+"screen.unit_economic.events.flow_starts" = "Started booking";
+"screen.unit_economic.events.service_selected" = "Selected a service";
+"screen.unit_economic.events.slot_selected" = "Selected a time";
+"screen.unit_economic.events.booked_journeys" = "Created a booking";
+"screen.unit_economic.events.bookings" = "Bookings";
+"screen.unit_economic.events.completed_visits" = "Completed visits";
+"screen.unit_economic.events.repeat_bookings" = "Repeat bookings";
+"screen.unit_economic.events.revenue" = "Completed visit value";
+"screen.unit_economic.events.revenue_note" = "Completion prices from events, not payments. Currencies shown separately.";
+"screen.unit_economic.events.revenue_missing" = "Some completed visits have no price snapshot. Revenue is incomplete.";
+"screen.unit_economic.events.no_slots" = "Journeys with no slots";
+"screen.unit_economic.events.errors" = "Journeys with errors";
+"screen.unit_economic.events.unattributed" = "Unknown source";
+"screen.unit_economic.events.coverage_note" = "Only journal events are included. Earlier history is not reconstructed; repeat bookings are relative to the first recorded booking.";
+"screen.unit_economic.events.conversion" = "Journey conversion";
+"screen.unit_economic.events.period_activity" = "Activity this month";
+
 "screen.side_menu.operations" = "Operations";
 "screen.side_menu.management" = "Management";
 "screen.side_menu.finances" = "Finances";
 "screen.side_menu.growth" = "Growth";
+
 "screen.side_menu.pinned" = "Pinned";
 "screen.side_menu.hidden" = "Hidden";
 "screen.side_menu.pin" = "Pin";
@@ -3571,4 +3650,19 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.side_menu.show" = "Show in menu";
 "screen.side_menu.expanded" = "Expanded";
 "screen.side_menu.collapsed" = "Collapsed";
+
 "screen.side_menu.workplace" = "Workspace";
+
+"screen.unit_economic.source.default_title" = "Salon link";
+
+"screen.unit_economic.source.archived_section" = "Archived";
+
+"screen.unit_economic.source.archive_action" = "Archive";
+
+"screen.unit_economic.source.restore_action" = "Restore";
+
+"screen.unit_economic.source.archive_hint" = "The link keeps working and attributing bookings.";
+
+"screen.unit_economic.source.appearance_title" = "Source appearance";
+
+"screen.unit_economic.source.metrics_unavailable" = "Metrics are available to owners and administrators.";

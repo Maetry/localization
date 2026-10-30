@@ -177,7 +177,7 @@
 /* screen -> profile -> danger_zone -> without_subscription */
 "screen.profile.danger_zone.without_subscription" = "Sin una suscripción, nada funcionará";
 /* screen -> notice -> title */
-"screen.notice.title" = "Actividad";
+"screen.notice.title" = "Notificaciones";
 /* screen -> notice -> placeholder */
 "screen.notice.placeholder" = "Aún no has recibido notificaciones";
 /* screen -> notice -> read_all */
@@ -623,6 +623,7 @@
 "screen.clients.history_client" = "Historial del cliente";
 /* screen -> clients -> add_history_client */
 "screen.clients.add_history_client" = "Reservar";
+"screen.clients.invite_app_footer" = "[Invita a tu cliente](maetry-action://invite-client) a Maetry para mantener el contacto y que reserve su próxima visita.";
 "screen.clients.invite_footer" = "Con este enlace, el cliente puede unirse a Maetry y reservar contigo más rápido.";
 "screen.employees.invite_footer" = "Usa este enlace para darle acceso al empleado a tu salón.";
 /* screen -> settings -> current_plan */
@@ -3548,10 +3549,88 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 "screen.payments.terminal_checkout.transfer_confirmation_notice" = "Confirma solo después de recibir el dinero en el servicio seleccionado. Maetry registra el pago; no transfiere dinero.";
 
+"widget.address.postal_details_title" = "Completa la dirección";
+
+"widget.address.postal_details_message" = "Indica el estado y el código postal de la dirección física del salón para completar automáticamente la configuración de pagos.";
+
+"widget.address.state" = "Estado";
+
+"widget.address.postal_code" = "Código postal";
+"screen.finance.select_operation_type" = "Elige el tipo de operación";
+
+"screen.personal_notifications.title" = "Mis notificaciones";
+
+"screen.personal_notifications.footer" = "Solo para este establecimiento. Desactivar una categoría no elimina las notificaciones recibidas.";
+
+"screen.personal_notifications.empty" = "No hay categorías de notificación disponibles para tu rol.";
+
+"screen.event_history.title" = "Historial de eventos";
+
+"screen.event_history.empty" = "Aún no hay eventos";
+
+"screen.event_history.failed" = "No se pudo cargar el historial";
+
+"screen.event_history.more" = "Cargar más";
+
+"screen.event_history.refresh" = "Actualizar historial";
+
+"screen.event_history.employee" = "Empleado";
+
+"screen.event_history.client" = "Cliente";
+
+"screen.event_history.system" = "Automáticamente";
+
+"screen.event_history.support" = "Soporte";
+
+"screen.event_history.user" = "Usuario";
+
+"screen.event_history.completed" = "Visita completada";
+
+"screen.event_history.payment" = "Pago recibido";
+
+"screen.event_history.receipt" = "Recibo emitido";
+
+"screen.event_history.integration" = "Estado de integración actualizado";
+
+"screen.event_history.booking_created" = "Reserva creada";
+
+"screen.event_history.salon_created" = "Establecimiento creado";
+
+"screen.event_history.salon_published" = "Establecimiento publicado";
+
+"screen.event_history.salon_settings" = "Configuración del establecimiento actualizada";
+
+"screen.event_history.salon_ownership" = "Propiedad del establecimiento actualizada";
+
+"screen.notice.all_workplaces" = "Todos los salones";
+"screen.notice.selected_workplaces" = "Salones seleccionados: %d";
+"screen.notice.filtered_empty" = "No hay notificaciones de los salones seleccionados";
+
+/* Acquisition event analytics */
+"screen.unit_economic.events.funnel" = "Embudo de reservas";
+"screen.unit_economic.events.funnel_note" = "Recorridos públicos iniciados este mes; pasos en orden hasta fin de mes.";
+"screen.unit_economic.events.flow_starts" = "Iniciaron reserva";
+"screen.unit_economic.events.service_selected" = "Eligieron servicio";
+"screen.unit_economic.events.slot_selected" = "Eligieron horario";
+"screen.unit_economic.events.booked_journeys" = "Crearon reserva";
+"screen.unit_economic.events.bookings" = "Reservas";
+"screen.unit_economic.events.completed_visits" = "Visitas completadas";
+"screen.unit_economic.events.repeat_bookings" = "Reservas repetidas";
+"screen.unit_economic.events.revenue" = "Valor de visitas completadas";
+"screen.unit_economic.events.revenue_note" = "Precios de eventos de finalización, no pagos. Monedas por separado.";
+"screen.unit_economic.events.revenue_missing" = "Algunas visitas completadas no tienen precio registrado. Ingresos incompletos.";
+"screen.unit_economic.events.no_slots" = "Recorridos sin horarios";
+"screen.unit_economic.events.errors" = "Recorridos con errores";
+"screen.unit_economic.events.unattributed" = "Origen desconocido";
+"screen.unit_economic.events.coverage_note" = "Solo se incluyen eventos registrados. No se reconstruye el historial anterior; repeticiones desde la primera reserva registrada.";
+"screen.unit_economic.events.conversion" = "Conversión del recorrido";
+"screen.unit_economic.events.period_activity" = "Actividad de este mes";
+
 "screen.side_menu.operations" = "Operaciones";
 "screen.side_menu.management" = "Gestión";
 "screen.side_menu.finances" = "Finanzas";
 "screen.side_menu.growth" = "Crecimiento";
+
 "screen.side_menu.pinned" = "Fijados";
 "screen.side_menu.hidden" = "Ocultos";
 "screen.side_menu.pin" = "Fijar";
@@ -3560,4 +3639,19 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.side_menu.show" = "Mostrar en el menú";
 "screen.side_menu.expanded" = "Expandido";
 "screen.side_menu.collapsed" = "Contraído";
+
 "screen.side_menu.workplace" = "Espacio de trabajo";
+
+"screen.unit_economic.source.default_title" = "Enlace del salón";
+
+"screen.unit_economic.source.archived_section" = "Archivadas";
+
+"screen.unit_economic.source.archive_action" = "Archivar";
+
+"screen.unit_economic.source.restore_action" = "Restaurar";
+
+"screen.unit_economic.source.archive_hint" = "El enlace seguirá funcionando y atribuyendo reservas.";
+
+"screen.unit_economic.source.appearance_title" = "Apariencia de la fuente";
+
+"screen.unit_economic.source.metrics_unavailable" = "Las métricas están disponibles para propietarios y administradores.";
