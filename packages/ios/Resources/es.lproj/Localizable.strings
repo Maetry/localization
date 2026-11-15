@@ -2028,6 +2028,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workplace.selection_state.title" = "Selecciona un lugar de trabajo";
 "screen.workplace.selection_state.message" = "Elige el salón en el que quieres trabajar";
 "screen.workplace.selection_state.current_footer" = "Espacio de trabajo actual";
+"screen.workplace.access_lost.title" = "Sin acceso a este salón";
+"screen.workplace.access_lost.message" = "Ya no tienes acceso a «%@». Elige otro lugar de trabajo.";
 "screen.workplace_join.title" = "Unirse al salón";
 "screen.workplace_join.description" = "Pega el código de invitación o el enlace completo de invitación.";
 "screen.workplace_join.code_placeholder" = "Código de invitación";

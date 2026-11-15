@@ -2747,6 +2747,12 @@ public enum Loc {
       public static let schedule = Loc.tr("Localizable", "screen.workplace.schedule", fallback: "Shifts")
       public static let settings = Loc.tr("Localizable", "screen.workplace.settings", fallback: "Settings")
       public static let workspace = Loc.tr("Localizable", "screen.workplace.workspace", fallback: "Bookings")
+      public enum AccessLost {
+        public static func message(_ p1: Any) -> String {
+          return Loc.tr("Localizable", "screen.workplace.access_lost.message", String(describing: p1), fallback: "You no longer have access to “%@”. Choose another workplace.")
+        }
+        public static let title = Loc.tr("Localizable", "screen.workplace.access_lost.title", fallback: "No access to this salon")
+      }
       public enum Action {
         public static let inviteEmployee = Loc.tr("Localizable", "screen.workplace.action.invite_employee", fallback: "Add employee")
         public static let readAll = Loc.tr("Localizable", "screen.workplace.action.read_all", fallback: "Mark as read")

@@ -2035,6 +2035,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace.selection_state.title" = "Select workplace";
 "screen.workplace.selection_state.message" = "Choose the salon you want to work in";
 "screen.workplace.selection_state.current_footer" = "Current workspace";
+"screen.workplace.access_lost.title" = "No access to this salon";
+"screen.workplace.access_lost.message" = "You no longer have access to “%@”. Choose another workplace.";
 "screen.workplace_join.title" = "Join workplace";
 "screen.workplace_join.description" = "Paste the invite code or the full invite link.";
 "screen.workplace_join.code_placeholder" = "Invite code";

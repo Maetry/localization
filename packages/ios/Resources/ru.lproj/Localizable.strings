@@ -2454,6 +2454,8 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace.selection_state.title" = "Выберите рабочее пространство";
 "screen.workplace.selection_state.message" = "Выберите салон, в котором хотите работать";
 "screen.workplace.selection_state.current_footer" = "Текущее рабочее пространство";
+"screen.workplace.access_lost.title" = "Нет доступа к салону";
+"screen.workplace.access_lost.message" = "У вас больше нет доступа к «%@». Выберите другое рабочее место.";
 "screen.workplace_join.title" = "Присоединиться к салону";
 "screen.workplace_join.description" = "Вставьте код приглашения или полную ссылку-приглашение.";
 "screen.workplace_join.code_placeholder" = "Код приглашения";
