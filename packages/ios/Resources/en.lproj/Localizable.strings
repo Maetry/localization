@@ -3748,7 +3748,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.settings.payment_pricing.title" = "Payment amount rules";
 
-"screen.settings.payment_pricing.draft_notice" = "Draft rules are saved on this device for this business. They do not change payment amounts yet.";
+"screen.settings.payment_pricing.draft_notice" = "With the full fee assigned to the customer, Square can apply your location’s configured surcharge to an eligible in-person credit card payment. The salon covers any unrecovered fees.";
 
 "screen.settings.payment_pricing.cash" = "Cash";
 
@@ -3826,13 +3826,13 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.settings.payment_pricing.allocation_notice" = "The client share is added to the service price. The business share is deducted from the payout.";
 
-"screen.settings.payment_pricing.cash_notice" = "For cash, this percentage is a discount from your listed service price. Use it to offer a lower cash price while keeping card prices unchanged. A cash discount does not automatically override restrictions on card surcharges.";
+"screen.settings.payment_pricing.cash_notice" = "The customer’s share of the cash fee is added to the service price.";
 
 "screen.settings.payment_pricing.transfer_notice" = "Your bank determines transfer fees. This rule sets how the fee is shared between the client and your business.";
 
-"screen.settings.payment_pricing.stripe_notice" = "Stripe determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.";
+"screen.settings.payment_pricing.stripe_notice" = "US standard rates: online 2.9% + 30¢; in person 2.7% + 5¢, plus 10¢ per Tap to Pay authorization. The salon covers fees when eligibility for a surcharge cannot be confirmed.";
 
-"screen.settings.payment_pricing.square_notice" = "Square determines its processing fees. This rule sets how the fee is shared between the client and your business. Passing fees to the client is subject to provider terms and local rules.";
+"screen.settings.payment_pricing.square_notice" = "Square Free US: in person 2.6% + 15¢, online API 2.9% + 30¢, and manual entry 3.5% + 15¢. Your location may have different rates.";
 
 "screen.settings.accept_payments.online_transfer_title" = "Online transfers";
 

@@ -3455,7 +3455,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 "screen.settings.payment_pricing.title" = "Reglas del importe de pago";
 
-"screen.settings.payment_pricing.draft_notice" = "Las reglas de borrador se guardan en este dispositivo para este negocio. Todavía no modifican los importes de los pagos.";
+"screen.settings.payment_pricing.draft_notice" = "Si asignas toda la comisión al cliente, Square puede aplicar el recargo configurado para tu local a un pago presencial con tarjeta de crédito que cumpla los requisitos. El negocio cubre la diferencia.";
 
 "screen.settings.payment_pricing.cash" = "Efectivo";
 
@@ -3533,13 +3533,13 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 "screen.settings.payment_pricing.allocation_notice" = "La parte del cliente se suma al precio del servicio. La parte del negocio se descuenta del pago.";
 
-"screen.settings.payment_pricing.cash_notice" = "Para efectivo, este porcentaje es un descuento sobre el precio publicado del servicio. Permite ofrecer un precio menor en efectivo sin cambiar el precio con tarjeta. El descuento no anula automáticamente las restricciones sobre recargos con tarjeta.";
+"screen.settings.payment_pricing.cash_notice" = "La parte de la comisión por efectivo que corresponde al cliente se suma al precio del servicio.";
 
 "screen.settings.payment_pricing.transfer_notice" = "Tu banco determina las comisiones de transferencia. Esta regla establece cómo se reparten entre el cliente y tu negocio.";
 
-"screen.settings.payment_pricing.stripe_notice" = "Stripe establece sus comisiones de procesamiento. Esta regla define cómo se reparten entre el cliente y tu negocio. Trasladarlas al cliente depende de las condiciones del proveedor y las normas locales.";
+"screen.settings.payment_pricing.stripe_notice" = "Tarifas estándar de EE. UU.: en línea, 2,9 % + 30 ¢; en persona, 2,7 % + 5 ¢, más 10 ¢ por autorización Tap to Pay. El negocio cubre la comisión si no se puede confirmar que el recargo está permitido.";
 
-"screen.settings.payment_pricing.square_notice" = "Square establece sus comisiones de procesamiento. Esta regla define cómo se reparten entre el cliente y tu negocio. Trasladarlas al cliente depende de las condiciones del proveedor y las normas locales.";
+"screen.settings.payment_pricing.square_notice" = "Square Free en EE. UU.: en persona, 2,6 % + 15 ¢; API en línea, 2,9 % + 30 ¢; ingreso manual, 3,5 % + 15 ¢. Las tarifas de tu local pueden variar.";
 
 "screen.settings.accept_payments.online_transfer_title" = "Transferencias en línea";
 

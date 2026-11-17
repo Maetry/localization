@@ -3466,7 +3466,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.settings.payment_pricing.title" = "Формирование суммы";
 
-"screen.settings.payment_pricing.draft_notice" = "Черновые правила сохраняются на этом устройстве для этого бизнеса. Пока они не изменяют суммы платежей.";
+"screen.settings.payment_pricing.draft_notice" = "Если вся комиссия отнесена на клиента, при очной оплате подходящей кредитной картой Square может применить надбавку из настроек вашей точки. Оставшуюся разницу покрывает салон.";
 
 "screen.settings.payment_pricing.cash" = "Наличные";
 
@@ -3544,13 +3544,13 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 "screen.settings.payment_pricing.allocation_notice" = "Доля клиента добавляется к цене услуги. Доля бизнеса удерживается из выплаты.";
 
-"screen.settings.payment_pricing.cash_notice" = "Для наличных этот процент — скидка от указанной цены услуги. Так можно предложить более низкую цену за наличные, сохранив цену оплаты картой. Скидка за наличные сама по себе не отменяет ограничений на надбавки при оплате картой.";
+"screen.settings.payment_pricing.cash_notice" = "Доля комиссии за наличные, которую оплачивает клиент, добавляется к цене услуги.";
 
 "screen.settings.payment_pricing.transfer_notice" = "Комиссию за перевод определяет ваш банк. Это правило задаёт, как она распределяется между клиентом и бизнесом.";
 
-"screen.settings.payment_pricing.stripe_notice" = "Комиссию за обработку платежа устанавливает Stripe. Это правило задаёт её распределение между клиентом и бизнесом. Перенос комиссии на клиента зависит от условий провайдера и местных правил.";
+"screen.settings.payment_pricing.stripe_notice" = "Стандартные тарифы США: онлайн — 2,9% + 30 ¢, лично — 2,7% + 5 ¢, ещё 10 ¢ за авторизацию Tap to Pay. Если допустимость надбавки не подтверждена, комиссию покрывает салон.";
 
-"screen.settings.payment_pricing.square_notice" = "Комиссию за обработку платежа устанавливает Square. Это правило задаёт её распределение между клиентом и бизнесом. Перенос комиссии на клиента зависит от условий провайдера и местных правил.";
+"screen.settings.payment_pricing.square_notice" = "Square Free в США: лично — 2,6% + 15 ¢, онлайн через API — 2,9% + 30 ¢, при ручном вводе — 3,5% + 15 ¢. Тариф вашей точки может отличаться.";
 
 "screen.settings.accept_payments.online_transfer_title" = "Онлайн-переводы";
 
