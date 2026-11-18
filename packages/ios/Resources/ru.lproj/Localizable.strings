@@ -3680,3 +3680,11 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.source.appearance_title" = "Оформление источника";
 
 "screen.unit_economic.source.metrics_unavailable" = "Метрики доступны владельцу и администраторам.";
+"screen.client_merge.button" = "Склеить с другими клиентами";
+"screen.client_merge.title" = "Склеить клиентов";
+"screen.client_merge.similar_section" = "Тот же телефон или email";
+"screen.client_merge.all_section" = "Все клиенты";
+"screen.client_merge.footer" = "Визиты, контакты и заметки выбранных клиентов перейдут к %@, а сами они будут удалены.";
+"screen.client_merge.action" = "Склеить";
+"screen.client_merge.confirm_title" = "Склеить выбранных клиентов?";
+"screen.client_merge.confirm_message" = "Отменить это нельзя.";

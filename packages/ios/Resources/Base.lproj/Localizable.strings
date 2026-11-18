@@ -3680,3 +3680,11 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.source.appearance_title" = "Source appearance";
 
 "screen.unit_economic.source.metrics_unavailable" = "Metrics are available to owners and administrators.";
+"screen.client_merge.button" = "Merge with other clients";
+"screen.client_merge.title" = "Merge clients";
+"screen.client_merge.similar_section" = "Same phone or email";
+"screen.client_merge.all_section" = "All clients";
+"screen.client_merge.footer" = "Visits, contacts, notes of the selected clients move to %@, and the selected clients are deleted.";
+"screen.client_merge.action" = "Merge";
+"screen.client_merge.confirm_title" = "Merge the selected clients?";
+"screen.client_merge.confirm_message" = "This can’t be undone.";

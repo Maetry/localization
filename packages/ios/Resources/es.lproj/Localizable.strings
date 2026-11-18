@@ -3669,3 +3669,11 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.source.appearance_title" = "Apariencia de la fuente";
 
 "screen.unit_economic.source.metrics_unavailable" = "Las métricas están disponibles para propietarios y administradores.";
+"screen.client_merge.button" = "Fusionar con otros clientes";
+"screen.client_merge.title" = "Fusionar clientes";
+"screen.client_merge.similar_section" = "Mismo teléfono o email";
+"screen.client_merge.all_section" = "Todos los clientes";
+"screen.client_merge.footer" = "Las visitas, contactos y notas de los clientes seleccionados pasan a %@, y esos clientes se eliminan.";
+"screen.client_merge.action" = "Fusionar";
+"screen.client_merge.confirm_title" = "¿Fusionar los clientes seleccionados?";
+"screen.client_merge.confirm_message" = "No se puede deshacer.";

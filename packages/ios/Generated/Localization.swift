@@ -1308,6 +1308,18 @@ public enum Loc {
       public static let name = Loc.tr("Localizable", "screen.client_editable.name", fallback: "Name")
       public static let yourName = Loc.tr("Localizable", "screen.client_editable.your_name", fallback: "Your name")
     }
+    public enum ClientMerge {
+      public static let action = Loc.tr("Localizable", "screen.client_merge.action", fallback: "Merge")
+      public static let allSection = Loc.tr("Localizable", "screen.client_merge.all_section", fallback: "All clients")
+      public static let button = Loc.tr("Localizable", "screen.client_merge.button", fallback: "Merge with other clients")
+      public static let confirmMessage = Loc.tr("Localizable", "screen.client_merge.confirm_message", fallback: "This can’t be undone.")
+      public static let confirmTitle = Loc.tr("Localizable", "screen.client_merge.confirm_title", fallback: "Merge the selected clients?")
+      public static func footer(_ p1: Any) -> String {
+        return Loc.tr("Localizable", "screen.client_merge.footer", String(describing: p1), fallback: "Visits, contacts, notes of the selected clients move to %@, and the selected clients are deleted.")
+      }
+      public static let similarSection = Loc.tr("Localizable", "screen.client_merge.similar_section", fallback: "Same phone or email")
+      public static let title = Loc.tr("Localizable", "screen.client_merge.title", fallback: "Merge clients")
+    }
     public enum Clients {
       public static let action = Loc.tr("Localizable", "screen.clients.action", fallback: "Add client")
       public static let addHistoryClient = Loc.tr("Localizable", "screen.clients.add_history_client", fallback: "Book")
