@@ -252,6 +252,10 @@
 "screen.assignment.status.confirmed" = "Confirmada";
 /* screen -> assignment -> status -> closed */
 "screen.assignment.status.closed" = "Cerrada";
+/* screen -> assignment -> status -> expired */
+"screen.assignment.status.expired" = "Expirada";
+/* screen -> assignment -> status -> rejected */
+"screen.assignment.status.rejected" = "Rechazada";
 /* screen -> assignment -> status -> no_status */
 "screen.assignment.status.no_status" = "Sin estado";
 /* screen -> assignment -> danger_zone -> title */
@@ -305,6 +309,7 @@
 "screen.workspace.collision_message" = "Ya hay una cita programada para esta hora";
 /* screen -> workspace -> reschedule_button */
 "screen.workspace.reschedule_button" = "Reprogramar cita";
+"screen.workspace.reschedule_unavailable" = "No se puede reprogramar";
 /* screen -> workspace -> select_masters */
 "screen.workspace.select_masters" = "Seleccionar especialistas";
 /* screen -> workspace -> masters_quantity */
@@ -811,6 +816,12 @@
 "screen.client.automatic_notifications_title" = "Notificaciones automáticas";
 "screen.client.automatic_notifications_enabled" = "Enviar mensajes automáticos";
 "screen.client.preferred_notification_transport" = "Canal preferido";
+/* screen -> client -> note_title */
+"screen.client.note_title" = "Nota";
+/* screen -> client -> note_placeholder */
+"screen.client.note_placeholder" = "Preferencias, alergias, cualquier cosa que recordar";
+/* screen -> client -> note_footer */
+"screen.client.note_footer" = "Solo la ve el personal. El cliente no la ve.";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Tu nombre";
 /* screen -> workplace_editing -> profile_photo */
@@ -843,6 +854,12 @@
 "screen.workplace_editing.advance_unit_hours" = "Horas";
 /* screen -> workplace_editing -> advance_unit_days */
 "screen.workplace_editing.advance_unit_days" = "Días";
+/* screen -> workplace_editing -> advance_unit_minutes_short */
+"screen.workplace_editing.advance_unit_minutes_short" = "min.";
+/* screen -> workplace_editing -> advance_unit_hours_short */
+"screen.workplace_editing.advance_unit_hours_short" = "h";
+/* screen -> workplace_editing -> advance_unit_days_short */
+"screen.workplace_editing.advance_unit_days_short" = "días";
 /* screen -> workplace_editing -> cancellation_policy_title */
 "screen.workplace_editing.cancellation_policy_title" = "Política de cancelación";
 /* screen -> workplace_editing -> cancellation_policy_placeholder */
@@ -886,7 +903,7 @@
 /* screen -> settings -> schedule -> default_day_title */
 "screen.settings.schedule.default_day_title" = "Jornada laboral predeterminada";
 /* screen -> settings -> schedule -> default_day_hint */
-"screen.settings.schedule.default_day_hint" = "Se usa cuando conviertes un día libre en un día laboral en el editor de horarios.";
+"screen.settings.schedule.default_day_hint" = "Este horario se sugiere al cambiar un día libre a un día laboral.";
 /* screen -> settings -> schedule -> default_day_start */
 "screen.settings.schedule.default_day_start" = "Inicio";
 /* screen -> settings -> schedule -> default_day_duration */
@@ -1322,33 +1339,33 @@
 /* onboarding -> workplace -> step4 -> subtitle */
 "onboarding.workplace.step4.subtitle" = "Mantén pulsada la cita, luego elige el estado en el menú que aparece";
 /* onboarding -> workplace_progress -> employee -> title */
-"onboarding.workplace_progress.employee.title" = "Añade personal";
+"onboarding.workplace_progress.employee.title" = "Añade a tu primer empleado";
 /* onboarding -> workplace_progress -> employee -> subtitle */
-"onboarding.workplace_progress.employee.subtitle" = "Añade especialistas y administradores para asignar servicios, gestionar horarios y aceptar reservas.";
+"onboarding.workplace_progress.employee.subtitle" = "Invita a un profesional o administrador.";
 /* onboarding -> workplace_progress -> schedule -> title */
-"onboarding.workplace_progress.schedule.title" = "Configura el horario de trabajo";
+"onboarding.workplace_progress.schedule.title" = "Configura tu horario";
 /* onboarding -> workplace_progress -> schedule -> subtitle */
-"onboarding.workplace_progress.schedule.subtitle" = "Define el horario del salón y quién trabaja en cada momento para que los clientes vean la disponibilidad.";
+"onboarding.workplace_progress.schedule.subtitle" = "Define el horario y los turnos.";
 /* onboarding -> workplace_progress -> procedure -> title */
-"onboarding.workplace_progress.procedure.title" = "Añade servicios del salón";
+"onboarding.workplace_progress.procedure.title" = "Crea tu primer servicio";
 /* onboarding -> workplace_progress -> procedure -> subtitle */
-"onboarding.workplace_progress.procedure.subtitle" = "Crea los servicios que ofrece el salón para que los clientes puedan elegirlos al reservar online y en la agenda.";
+"onboarding.workplace_progress.procedure.subtitle" = "Indica el nombre, precio y duración.";
 /* onboarding -> workplace_progress -> client -> title */
-"onboarding.workplace_progress.client.title" = "Añade clientes";
+"onboarding.workplace_progress.client.title" = "Añade a tu primer cliente";
 /* onboarding -> workplace_progress -> client -> subtitle */
-"onboarding.workplace_progress.client.subtitle" = "Crea tu base de clientes para gestionar reservas más rápido y guardar el historial de visitas en un solo lugar.";
+"onboarding.workplace_progress.client.subtitle" = "Guarda su nombre y datos de contacto.";
 /* onboarding -> workplace_progress -> online_booking_link -> title */
-"onboarding.workplace_progress.online_booking_link.title" = "Obtén tu enlace de reserva online";
+"onboarding.workplace_progress.online_booking_link.title" = "Comparte tu enlace de reservas";
 /* onboarding -> workplace_progress -> online_booking_link -> subtitle */
-"onboarding.workplace_progress.online_booking_link.subtitle" = "Copia el enlace y colócalo donde a los clientes les resulte fácil reservar: redes sociales, mensajería y tu sitio web.";
+"onboarding.workplace_progress.online_booking_link.subtitle" = "Permite que tus clientes reserven online.";
 /* onboarding -> workplace_progress -> activation -> title */
 "onboarding.workplace_progress.activation.title" = "Activa el salón";
 /* onboarding -> workplace_progress -> activation -> subtitle */
 "onboarding.workplace_progress.activation.subtitle" = "Después de la activación, el salón estará disponible para reservas online y visible en el marketplace de Maetry.";
 /* onboarding -> workplace_progress -> appointment -> title */
-"onboarding.workplace_progress.appointment.title" = "Crea tu primera reserva";
+"onboarding.workplace_progress.appointment.title" = "Crea tu primera cita";
 /* onboarding -> workplace_progress -> appointment -> subtitle */
-"onboarding.workplace_progress.appointment.subtitle" = "Crea la primera reserva para comprobar que el personal, los servicios, los clientes y el horario están configurados correctamente.";
+"onboarding.workplace_progress.appointment.subtitle" = "Elige cliente, servicio y hora.";
 /* onboarding -> salon_creation -> step1 -> title */
 "onboarding.salon_creation.step1.title" = "Creación de salón";
 /* onboarding -> salon_creation -> step1 -> subtitle */
@@ -2006,6 +2023,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workspace.filter.confirmed" = "Confirmada";
 "screen.workspace.filter.cancelled" = "Cancelada";
 "screen.workspace.layout.title" = "Diseño";
+"screen.workspace.layout.edit" = "Editar ubicación";
 "screen.workspace.layout.visible_specialists" = "Especialistas visibles";
 "screen.workspace.layout.visible_days" = "Días visibles";
 "screen.workspace.layout.visible_days_one" = "1 día";
@@ -2424,6 +2442,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "assignment.timeline.created" = "Cita creada";
 "assignment.timeline.empty" = "Los eventos de esta cita aparecerán aquí cuando se confirme o se modifique.";
 "assignment.timeline.expired" = "La cita ha caducado";
+"assignment.timeline.expired_description" = "El plazo de respuesta ha pasado: ya no se puede confirmar esta solicitud.";
 "assignment.timeline.new_time_label" = "Nueva hora";
 "assignment.timeline.no_show" = "El cliente no asistió";
 "assignment.timeline.pending" = "Pendiente de confirmación";
@@ -2616,7 +2635,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "creatable.product.field.barcode" = "Código de barras del producto (opcional)";
 "creatable.product.field.barcode_placeholder" = "UPC, EAN, GTIN";
 "creatable.product.field.brand" = "Marca del producto";
-"creatable.product.field.brand_placeholder" = "Por ejemplo, Lui Philipo";
+"creatable.product.field.brand_placeholder" = "Nombre de la marca";
 "creatable.product.field.category" = "Categoría del producto";
 "creatable.product.field.category_placeholder" = "Por ejemplo, Uñas";
 "creatable.product.field.commission_description" = "Calcula la comisión del miembro del equipo al vender el producto.";
@@ -2641,7 +2660,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "creatable.product.field.sku" = "SKU (unidad de mantenimiento de stock)";
 "creatable.product.field.stock_toggle" = "Controlar el stock disponible";
 "creatable.product.field.supplier" = "Proveedor";
-"creatable.product.field.supplier_placeholder" = "Por ejemplo, Lui Nikita";
+"creatable.product.field.supplier_placeholder" = "Nombre del proveedor";
 "creatable.product.field.supply_price" = "Precio de compra";
 "creatable.product.field.tax" = "Impuesto";
 "creatable.product.field.tax_select" = "Selecciona un impuesto";
@@ -2851,6 +2870,11 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.analytics.current_week" = "Semana actual";
 "screen.analytics.current_month" = "Mes actual";
 "screen.analytics.select_period" = "Seleccionar periodo";
+"screen.analytics.previous_month" = "Mes anterior";
+"screen.analytics.last_30_days" = "Últimos 30 días";
+"screen.analytics.last_3_months" = "Últimos 3 meses";
+"screen.analytics.period_start" = "Inicio";
+"screen.analytics.period_end" = "Fin";
 "screen.analytics.server_methods_title" = "Черновик backend-контракта";
 "screen.analytics.overview_section" = "Resumen";
 "screen.analytics.overview_footer" = "Controla las tarjetas de resumen en la parte superior de Analíticas.";
@@ -2939,7 +2963,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 
 /* Finance module additions */
-"screen.finance.title" = "Finanzas";
+"screen.finance.title" = "Operaciones";
 "screen.finance.operations_empty" = "Aún no hay operaciones";
 "screen.finance.add_operation" = "Añadir operación";
 "screen.finance.income" = "Ingreso";
@@ -2951,10 +2975,12 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.finance.kind.dispute" = "Disputa";
 "screen.finance.kind.salary_payout" = "Pago de salario";
 "screen.finance.kind.custom" = "Personalizada";
+"screen.finance.kind.voucher_sale" = "Venta de certificado de regalo o membresía";
 "screen.finance.source.cash" = "Efectivo";
 "screen.finance.source.stripe" = "Stripe";
 "screen.finance.source.square" = "Square";
 "screen.finance.source.manual" = "Manual";
+"screen.finance.source.voucher" = "Certificado de regalo o membresía";
 "screen.finance.new_operation_title" = "Nueva operación";
 "screen.finance.type_cash_payment" = "Pago en efectivo";
 "screen.finance.type_custom" = "Operación personalizada";
@@ -2964,6 +2990,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.finance.category_label" = "Categoría";
 "screen.finance.select_category" = "Seleccionar categoría";
 "screen.finance.direction_label" = "Dirección";
+"screen.finance.acquiring_fee" = "Comisión de procesamiento";
 "screen.finance.operation_detail_title" = "Operación";
 "screen.finance.refund_button" = "Reembolsar";
 "screen.finance.receipt_button" = "Recibo";
@@ -3232,7 +3259,17 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.workplace_editing.retain_deposit_late" = "Retener depósito por cancelación tardía";
 "screen.workplace_editing.cancellation_rules_hint" = "El plazo se cuenta antes del inicio de la cita. Usa 0 para permitir la cancelación gratuita hasta el inicio. La retención solo se aplica si se ha pagado un depósito.";
 
-"screen.workplace_editing.deposit_type" = "Tipo de anticipo";
+"screen.workplace_editing.booking_payment_title" = "Pago de reservas en línea";
+
+"screen.workplace_editing.booking_payment_none" = "Sin depósito ni pago anticipado";
+
+"screen.workplace_editing.booking_payment_full_prepayment" = "Pago anticipado completo";
+
+"screen.workplace_editing.deposit_percent_hint" = "Introduce un porcentaje del 1 al 99.";
+
+"screen.workplace_editing.deposit_new_clients_hint" = "Un cliente se considera nuevo hasta que haya completado y pagado en su totalidad al menos una cita.";
+
+"screen.workplace_editing.deposit_type" = "Tipo de depósito";
 
 "screen.workplace_editing.deposit_type_percent" = "Porcentaje";
 
@@ -3240,7 +3277,7 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 
 "screen.workplace_editing.deposit_new_clients_only" = "Solo clientes nuevos";
 
-"screen.workplace_editing.deposit_amount" = "Importe del anticipo";
+"screen.workplace_editing.deposit_amount" = "Importe del depósito";
 
 "screen.workplace_editing.booking_policy_title" = "Política de reservas y cancelaciones";
 /* screen -> settings -> accept_payments -> tap_to_pay_connect_provider */
@@ -3570,6 +3607,48 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "widget.address.state" = "Estado";
 
 "widget.address.postal_code" = "Código postal";
+
+/* widget -> address -> details */
+"widget.address.details" = "Detalles de la dirección";
+
+/* widget -> address -> line2 */
+"widget.address.line2" = "Apartamento, local u oficina";
+
+/* widget -> address -> entrance */
+"widget.address.entrance" = "Entrada o edificio";
+
+/* widget -> address -> floor */
+"widget.address.floor" = "Planta";
+
+/* widget -> address -> region */
+"widget.address.region" = "Estado o región";
+
+/* widget -> address -> any_postal_code */
+"widget.address.any_postal_code" = "Código postal";
+
+/* widget -> address -> note */
+"widget.address.note" = "Cómo llegar";
+
+/* widget -> address -> note_placeholder */
+"widget.address.note_placeholder" = "Aparcamiento, entrada, parada más cercana…";
+
+/* widget -> address -> country_locked_title */
+"widget.address.country_locked_title" = "No se puede cambiar el país";
+
+/* widget -> address -> country_locked_message */
+"widget.address.country_locked_message" = "Por ahora, un salón solo puede trasladarse dentro de su país.";
+
+/* widget -> address -> postal_required_message */
+"widget.address.postal_required_message" = "Indica el estado y el código postal: los pagos en EE. UU. los necesitan.";
+
+/* widget -> address -> move_confirm_title */
+"widget.address.move_confirm_title" = "¿Cambiar la dirección del salón?";
+
+/* widget -> address -> move_confirm_message */
+"widget.address.move_confirm_message" = "Las citas y solicitudes próximas pasarán a la nueva dirección. Las visitas pasadas conservan la anterior.";
+
+/* widget -> address -> move_confirm_action */
+"widget.address.move_confirm_action" = "Cambiar dirección";
 "screen.finance.select_operation_type" = "Elige el tipo de operación";
 
 "screen.personal_notifications.title" = "Mis notificaciones";
@@ -3661,6 +3740,9 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.source.archived_section" = "Archivadas";
 
 "screen.unit_economic.source.archive_action" = "Archivar";
+"screen.unit_economic.source.send_action" = "Enviar al cliente";
+"screen.unit_economic.source.send_as_link" = "Enviar como enlace";
+"screen.unit_economic.source.send_as_qr" = "Enviar como código QR";
 
 "screen.unit_economic.source.restore_action" = "Restaurar";
 
@@ -3669,6 +3751,299 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.unit_economic.source.appearance_title" = "Apariencia de la fuente";
 
 "screen.unit_economic.source.metrics_unavailable" = "Las métricas están disponibles para propietarios y administradores.";
+
+"screen.unit_economic.source.metric_new_clients" = "Clientes nuevos";
+
+"screen.unit_economic.source.metric_revenue" = "Ingresos";
+
+"screen.unit_economic.source.results_section" = "Resultados";
+
+"screen.unit_economic.source.dynamics_section" = "Evolución";
+
+"screen.unit_economic.source.clients_section" = "Clientes";
+
+"screen.unit_economic.source.drop_off_section" = "Dónde abandonan";
+
+"screen.unit_economic.source.abandoned" = "No completaron la reserva";
+
+"screen.unit_economic.source.drop_off_note" = "Solo se conocen como causas la falta de horarios y los errores. El resto simplemente no terminó.";
+
+"screen.balance.title" = "Saldo";
+"screen.balance.available" = "Disponible para transferir";
+"screen.balance.pending" = "Pendiente";
+"screen.balance.unavailable" = "Datos aún no disponibles";
+"screen.balance.cash_description" = "El efectivo disponible aparecerá aquí cuando se active el seguimiento del saldo de caja.";
+"screen.balance.setup_description" = "Los saldos de proveedores y las transferencias aún no están conectados. Puedes gestionar los proveedores de pago en los ajustes.";
+
+"screen.settings.timeline.occupancy_hint" = "El anillo muestra qué parte del horario de trabajo de cada día está ocupada por citas, sin contar los descansos. Ayuda a encontrar rápidamente días con tiempo disponible.";
+
+"screen.settings.timeline.horizontal_lines" = "Líneas de tiempo horizontales";
+
+"screen.settings.timeline.vertical_lines" = "Separadores de columnas verticales";
+
+"screen.booking_requests.action_required" = "Requieren acción";
+
+"screen.booking_requests.awaiting_client" = "Esperando al cliente";
+
+"screen.booking_requests.date_undefined" = "Fecha sin definir";
+
+"screen.resources.title" = "Recursos";
+"screen.resources.timeline_title" = "Equipamiento";
+"screen.resources.select" = "Seleccionar recursos";
+"screen.resources.alternatives" = "Se puede usar cualquiera de los recursos seleccionados";
+"screen.resources.add" = "Añadir recurso";
+"screen.resources.name" = "Nombre del recurso";
+"screen.resources.quantity" = "Cantidad";
+"screen.resources.full_duration" = "Todo el servicio";
+"screen.resources.initial_duration" = "Inicio del servicio";
+"screen.resources.empty" = "Aún no hay recursos";
+"screen.resources.free_day" = "Libre todo el día";
+"screen.resources.settings" = "Cuándo se necesita el recurso";
+"screen.resources.minutes" = "Duración en minutos";
+"screen.resources.full_duration_hint" = "Se reserva desde el inicio hasta el final del servicio.";
+"screen.resources.initial_duration_hint" = "Se reserva desde el inicio durante el número de minutos que indiques.";
+
+
+// Mailings
+"screen.mailings.title" = "Envíos";
+"screen.mailings.create" = "Crear envío";
+"screen.mailings.detail.title" = "Envío";
+"screen.mailings.draft" = "Borrador";
+"screen.mailings.empty.title" = "Aún no hay envíos";
+"screen.mailings.empty.description" = "Crea un envío para preparar un mensaje para tus clientes.";
+"screen.mailings.name" = "Nombre del envío";
+"screen.mailings.message.title" = "Mensaje";
+"screen.mailings.message.placeholder" = "Texto del mensaje";
+"screen.mailings.message.remaining" = "Caracteres restantes: %d";
+"screen.mailings.audience.title" = "Audiencia";
+"screen.mailings.audience.recipients" = "Destinatarios";
+"screen.mailings.audience.all_clients" = "Todos los clientes";
+"screen.mailings.audience.filtered" = "Con filtros";
+"screen.mailings.audience.minimum_visits" = "Mínimo de visitas";
+"screen.mailings.audience.birthday_month" = "Mes de nacimiento";
+"screen.mailings.audience.hint" = "Los clientes deben cumplir todos los filtros seleccionados.";
+"screen.mailings.audience.reset" = "Restablecer filtros";
+"screen.mailings.schedule.title" = "Programación";
+"screen.mailings.schedule.toggle" = "Programar envío";
+"screen.mailings.schedule.date" = "Fecha";
+"screen.mailings.schedule.time" = "Hora";
+"screen.mailings.delivery.title" = "Configuración del envío";
+"screen.mailings.delivery.channel" = "Canal";
+"screen.mailings.delivery.sender" = "Remitente";
+
+"screen.mailings.status.title" = "Estado";
+"screen.mailings.status.under_review" = "En revisión";
+"screen.mailings.status.review_hint" = "Estamos revisando el mensaje. Podrás pagar cuando se apruebe.";
+"screen.mailings.status.awaiting_payment" = "Pendiente de pago";
+"screen.mailings.payment.title" = "Pago";
+"screen.mailings.payment.request_estimate" = "Calcular el coste";
+"screen.mailings.payment.estimated_total" = "Coste estimado";
+"screen.mailings.payment.pay" = "Pagar";
+"screen.mailings.payment.return_to_draft" = "Volver al borrador";
+"screen.mailings.payment.demo_title" = "Vista previa del pago";
+"screen.mailings.payment.demo_hint" = "El importe es de ejemplo. No se realizará ningún cargo.";
+
+"screen.mailings.sample.payment.name" = "Nuevas citas disponibles";
+"screen.mailings.sample.payment.message" = "Hemos abierto nuevas citas para los próximos días. Elige la hora que te venga bien para tu próxima visita.";
+"screen.mailings.sample.review.name" = "Oferta de fin de semana";
+"screen.mailings.sample.review.message" = "Disfruta de un descuento en tu próxima visita hasta el domingo. Reserva con antelación para elegir tu hora.";
+"screen.mailings.sample.draft.name" = "Invitación a volver";
+"screen.mailings.sample.draft.message" = "¡Hace tiempo que no nos vemos! Nos encantaría verte de nuevo. Elige en línea la hora que te venga bien.";
+
+"screen.booking.client_note_title" = "Nota del cliente";
+"screen.booking.add_staff_note" = "Añadir nota";
+"screen.booking.notes_title" = "Notas";
+"screen.booking.staff_notes_title" = "Notas del personal";
+
+"screen.payments.terminal_checkout.split_title" = "Dividir pago";
+
+"screen.payments.terminal_checkout.split_method_title" = "Dividir";
+
+"screen.payments.terminal_checkout.split_method_subtitle" = "Cobrar por partes con distintos métodos";
+
+"screen.payments.terminal_checkout.split_remaining" = "Pendiente por servicios";
+
+"screen.payments.terminal_checkout.split_part_amount" = "Importe de esta parte";
+
+"screen.payments.terminal_checkout.split_accept_part" = "Cobrar";
+
+"screen.payments.terminal_checkout.split_tip_total" = "Propinas totales";
+
+"screen.payments.terminal_checkout.split_received" = "Pagos recibidos";
+
+"screen.payments.terminal_checkout.split_amount_hint" = "Indica qué parte de los %@ pendientes quieres cobrar ahora. Después elige un método de pago. El resto se puede cobrar con otro método.";
+
+"screen.payments.terminal_checkout.split_amount_error" = "Introduce un importe mayor que cero y no superior al saldo pendiente.";
+
+"screen.payments.terminal_checkout.split_refresh_error" = "No se pudo actualizar el saldo. Reintenta antes de cobrar otra parte.";
+
+"screen.payments.terminal_checkout.split_complete" = "Pagado por completo";
+
+"screen.payments.terminal_checkout.split_return_change" = "Dejar el cambio de propina";
+
+"screen.payments.terminal_checkout.split_finish" = "Finalizar cobro";
+
+"screen.payments.terminal_checkout.cash_remainder" = "¿Qué hacemos con el sobrante?";
+
+"screen.payments.terminal_checkout.cash_shortfall_title" = "Se recibió menos del importe a pagar";
+
+"screen.payments.terminal_checkout.cash_shortfall_message" = "Recibido: %@. A pagar: %@. ¿Marcar el servicio como totalmente pagado y registrar el importe completo de %@?";
+
+"screen.payments.terminal_checkout.cash_record_amount" = "Registrar el pago completo";
+
+"screen.payments.terminal_checkout.accept_part" = "Aceptar una parte";
+
+"screen.payments.terminal_checkout.payment_amount" = "Importe del pago";
+
+"screen.payments.terminal_checkout.certificate" = "Certificado de regalo";
+
+"screen.payments.terminal_checkout.certificate_code" = "Código del certificado";
+
+"screen.payments.terminal_checkout.scan_certificate" = "Escanear código o código de barras";
+
+"screen.payments.terminal_checkout.check_certificate" = "Comprobar certificado";
+
+"screen.payments.terminal_checkout.membership" = "Abono";
+
+"screen.payments.terminal_checkout.membership_empty" = "Aquí aparecerán los abonos disponibles del cliente";
+
+"screen.payments.terminal_checkout.preview_notice" = "El pago con este método aún no está disponible";
+
+"screen.payments.terminal_checkout.refresh_balance" = "Actualizar saldo pendiente";
+
+"screen.permissions.cred_read_own" = "Solo lectura de datos propios";
+
+"screen.position.presets_title" = "Puestos básicos";
+
+"screen.position.preset_master" = "Profesional";
+
+"screen.position.preset_admin" = "Administrador";
+
+"screen.salary.minimum_title" = "Mínimo garantizado";
+
+"screen.salary.minimum_footer" = "No incluye propinas. El complemento se devenga el último día del período de garantía.";
+
+"screen.salary.minimum_week" = "Semana";
+
+"screen.salary.full_price" = "Calcular comisión antes de descuentos";
+
+"screen.salary.full_price_footer" = "Si está desactivado, la comisión se calcula sobre el precio con descuento.";
+
+"screen.salary.unpaid_periods" = "Períodos pendientes de pago";
+
+"screen.salary.payout_recorded" = "Pagado el";
+
+"screen.salary.load_more" = "Mostrar más";
+
+"screen.salary.line_minimum" = "Complemento hasta el mínimo";
+
+"screen.salary.payout_schedule" = "Calendario de pagos";
+"screen.salary.payout_schedule_none" = "Sin calendario";
+"screen.salary.payout_schedule_week" = "Cada semana";
+"screen.salary.payout_schedule_month" = "Cada mes";
+"screen.salary.payout_weekday" = "Día de la semana";
+"screen.salary.payout_monthday" = "Día del mes";
+"screen.salary.payout_schedule_footer" = "El calendario comienza en la fecha del primer pago. Las fechas usan la zona horaria del salón. Si el día no existe en un mes, se usa el último. El período del mínimo garantizado no cambia.";
+"screen.salary.paid_period" = "Período pagado";
+"screen.salary.unpaid_period" = "Período no pagado";
+"screen.salary.next_payout" = "Próximo pago";
+"screen.salary.show_details" = "Mostrar detalles";
+"screen.salary.hide_details" = "Ocultar detalles";
+
+"screen.salary.payout_schedule_fortnight" = "Cada dos semanas";
+"screen.salary.payout_anchor_date" = "Fecha del primer pago";
+
+"screen.salary.services_count" = "Servicios: %@";
+"screen.salary.operations_count" = "Operaciones: %@";
+"screen.salary.periods_count" = "Períodos: %@";
+
+"screen.salary.payout_schedule_manual_footer" = "Sin calendario, los pagos se realizan a petición: elige un período, paga al empleado y registra el pago manualmente.";
+
+"screen.salary.calculation_title" = "Cálculo de nómina";
+"screen.salary.unpaid_period_explanation" = "El importe a pagar se calcula para %@. Estas fechas aún no están cubiertas por pagos registrados.";
+
+"screen.salary.period_breakdown_explanation" = "El resumen muestra los ingresos, los pagos registrados y el importe pendiente del período seleccionado arriba. El desglose incluye todos los importes devengados de ese período.";
+
+"screen.salary.payout_history_explanation" = "El historial muestra los importes registrados y los períodos a los que corresponden.";
+"screen.salary.payout_coverage_explanation" = "Este pago cubre %@.";
+
+"onboarding.workplace_progress.menu_title" = "Completa la configuración de tu salón";
+
+"creatable.appointment.steps_title" = "Pasos para crear una cita";
+
+"screen.settings.timeline.colors_title" = "Colores";
+"screen.settings.timeline.colors_hint" = "Elige un color de encabezado para cada estado de la cita. Los ajustes se guardan en este dispositivo.";
+
+"screen.salary.payout_sheet_title" = "Registrar pago de nómina";
+"screen.salary.payout_periods_title" = "Fechas incluidas";
+"screen.salary.payout_remaining" = "Pendiente de pago";
+"screen.salary.payout_record" = "Registrar pago";
+"screen.salary.payout_manual_footer" = "Registra un pago que has realizado por tu cuenta. Esta acción no transfiere dinero automáticamente.";
+"screen.salary.payout_partial_footer" = "Puedes pagar una parte. El saldo seguirá pendiente y el período permanecerá abierto hasta pagarlo por completo.";
+"screen.salary.payout_schedule_hint" = "Pago programado: %@. Puedes registrar un pago anticipado si es necesario.";
+"screen.salary.payout_unclosed_explanation" = "Este pago no cierra por completo ningún período nuevo. El saldo actual se muestra en el cálculo de nómina.";
+
+"screen.settings.timeline.colors_entry_hint" = "Personaliza los encabezados según el estado, la categoría del servicio o la fuente de captación. Tus preferencias se guardan en este dispositivo.";
+
+"screen.settings.timeline.horizontal_lines_hint" = "Las líneas horizontales marcan intervalos de tiempo y ayudan a comparar el inicio y el final de las citas.";
+
+"screen.settings.timeline.vertical_lines_hint" = "Las líneas verticales separan las columnas para distinguir mejor a cada especialista o día.";
+
+"screen.settings.timeline.color_mode_title" = "Colorear por";
+
+"screen.settings.timeline.color_mode_status" = "Estado de la cita";
+
+"screen.settings.timeline.color_mode_category" = "Categoría del servicio";
+
+"screen.settings.timeline.color_mode_source" = "Fuente de captación";
+
+"screen.settings.timeline.color_mode_hint" = "Elige qué determina el color del encabezado. Las reglas sin configurar usan el color del estado.";
+
+"screen.settings.timeline.color_category_hint" = "Las categorías provienen del catálogo. Si un servicio tiene varias categorías, se usa el primer color configurado de la lista. Los cambios del catálogo también afectan a las citas existentes.";
+
+"screen.settings.timeline.color_source_hint" = "Las fuentes provienen de Captación e incluyen las archivadas. Las citas sin una fuente vinculada aparecen como Fuente desconocida.";
+
+"screen.settings.timeline.color_uncategorized" = "Sin categoría";
+
+"screen.settings.timeline.color_unknown_source" = "Fuente desconocida";
+
+"screen.mailings.subtitle" = "Mensajes y ofertas para tus clientes";
+
+"screen.mailings.filter.empty" = "No hay envíos con este estado";
+
+"screen.mailings.filter.hint" = "Elige otro estado o muestra todos los envíos.";
+
+"screen.settings.sales_catalog.certificates" = "Certificados de regalo";
+"screen.settings.sales_catalog.memberships" = "Abonos";
+"screen.settings.sales_catalog.sell_certificate" = "Vender un certificado de regalo";
+"screen.settings.sales_catalog.sell_membership" = "Dar de alta un abono";
+"screen.settings.sales_catalog.sell_products" = "Vender productos";
+"screen.settings.sales_catalog.empty" = "Todavía no hay artículos a la venta en este catálogo";
+"screen.settings.sales_catalog.description" = "Descripción";
+"screen.settings.sales_catalog.fixed_value" = "Valor fijo";
+"screen.settings.sales_catalog.flexible_value" = "Valor flexible";
+"screen.settings.sales_catalog.minimum_value" = "Desde";
+"screen.settings.sales_catalog.maximum_value" = "Hasta";
+"screen.settings.sales_catalog.eligible_services" = "Servicios del abono";
+"screen.settings.sales_catalog.checkout_preview" = "Vista previa del pago";
+"screen.salary.rules.product_commission_footer" = "El empleado recibe este porcentaje de las ventas minoristas de productos. Con un porcentaje de cero, no se genera comisión.";
+"screen.settings.sales_catalog.buyer" = "Comprador";
+"screen.settings.sales_catalog.without_buyer" = "Sin comprador";
+"screen.settings.sales_catalog.proceed_to_payment" = "Ir al pago";
+"screen.settings.sales_catalog.certificate_value" = "Valor nominal";
+
+"creatable.product.field.volume" = "Volumen";
+"creatable.product.field.weight" = "Peso";
+"creatable.product.field.quantity" = "Cantidad";
+"creatable.product.field.retail_pricing" = "Método para fijar el precio";
+"creatable.product.field.internal_use" = "Uso interno";
+"creatable.product.field.fixed_retail_price" = "Precio fijo";
+"creatable.product.field.supply_price_markup" = "Margen sobre el precio de compra";
+"creatable.product.field.markup_footer" = "El precio de venta es el precio de compra más el recargo. Por ejemplo, un coste de 100 con un recargo del 20 % da un precio de venta de 120.";
+"creatable.product.field.internal_use_footer" = "El producto permanece en el catálogo para uso interno y no está disponible para la venta.";
+"screen.products.categories" = "Categorías de productos";
+"screen.products.category_name" = "Nombre de la categoría";
+"screen.products.no_category" = "Sin categoría";
 "screen.client_merge.button" = "Fusionar con otros clientes";
 "screen.client_merge.title" = "Fusionar clientes";
 "screen.client_merge.similar_section" = "Mismo teléfono o email";
@@ -3677,3 +4052,8 @@ Estoy escribiendo para compartir mi reseña de la aplicación Maetry. A continua
 "screen.client_merge.action" = "Fusionar";
 "screen.client_merge.confirm_title" = "¿Fusionar los clientes seleccionados?";
 "screen.client_merge.confirm_message" = "No se puede deshacer.";
+
+"screen.settings.sales_catalog.create_certificate" = "Crear certificado de regalo";
+"screen.settings.sales_catalog.create_membership" = "Crear abono";
+"screen.products.create_category" = "Crear categoría";
+"screen.products.create_product" = "Crear producto";

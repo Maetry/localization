@@ -92,6 +92,10 @@
     }
   },
   "publicPayment": {
+    "payingFullPrepaymentAt": "Paying in full at",
+    "fullPrepayment": "Full prepayment",
+    "fullPrepaymentConfirmationHint": "This payment covers the full cost of your services. Your booking remains pending until you pay.",
+    "prepaymentPolicyLink": "Cancellation and prepayment policy",
     "cancellationPolicyLink": "Cancellation and deposit policy"
   },
   "publicReceipt": {
@@ -125,7 +129,8 @@
   },
   "onboardingClaim": {
     "title": "Get access to this business",
-    "note": "Confirm that you control a contact already saved for this business.",
+    "profileLink": "Is this your business?",
+    "note": "Choose a phone number or email address on file for this business. We’ll send a six-digit code by text or email. Enter the code, then sign in to get access.",
     "empty": "No eligible contacts are available. Contact support to request access.",
     "loadFailed": "Could not load contacts. Try again.",
     "retry": "Try again",

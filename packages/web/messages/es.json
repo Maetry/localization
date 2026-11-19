@@ -76,6 +76,10 @@
     }
   },
   "publicPayment": {
+    "payingFullPrepaymentAt": "Pago total por adelantado en",
+    "fullPrepayment": "Pago total por adelantado",
+    "fullPrepaymentConfirmationHint": "Este pago cubre el costo total de tus servicios. Tu reserva seguirá pendiente hasta que pagues.",
+    "prepaymentPolicyLink": "Política de cancelación y pago anticipado",
     "cancellationPolicyLink": "Política de cancelación y depósito"
   },
   "publicReceipt": {
@@ -109,7 +113,8 @@
   },
   "onboardingClaim": {
     "title": "Obtener acceso al negocio",
-    "note": "Confirma que tienes acceso a un contacto ya guardado para este negocio.",
+    "profileLink": "¿Es tu negocio?",
+    "note": "Elige un número de teléfono o un correo electrónico registrado para este negocio. Te enviaremos un código de seis dígitos por SMS o correo electrónico. Introduce el código e inicia sesión para obtener acceso.",
     "empty": "No hay contactos disponibles para la verificación. Contacta con soporte para solicitar acceso.",
     "loadFailed": "No se pudieron cargar los contactos. Inténtalo de nuevo.",
     "retry": "Reintentar",

@@ -192,6 +192,10 @@
 "screen.assignment.status.confirmed" = "Confirmed";
 /* screen -> assignment -> status -> closed */
 "screen.assignment.status.closed" = "Closed";
+/* screen -> assignment -> status -> expired */
+"screen.assignment.status.expired" = "Expired";
+/* screen -> assignment -> status -> rejected */
+"screen.assignment.status.rejected" = "Declined";
 /* screen -> assignment -> status -> no_status */
 "screen.assignment.status.no_status" = "No status";
 /* screen -> assignment -> danger_zone -> title */
@@ -245,6 +249,7 @@
 "screen.workspace.collision_message" = "There is already an appointment scheduled for this time";
 /* screen -> workspace -> reschedule_button */
 "screen.workspace.reschedule_button" = "Reschedule appointment";
+"screen.workspace.reschedule_unavailable" = "Rescheduling unavailable";
 /* screen -> workspace -> select_masters */
 "screen.workspace.select_masters" = "Select specialists";
 /* screen -> workspace -> masters_quantity */
@@ -759,6 +764,12 @@
 "screen.client.automatic_notifications_title" = "Automatic notifications";
 "screen.client.automatic_notifications_enabled" = "Send automatic messages";
 "screen.client.preferred_notification_transport" = "Preferred channel";
+/* screen -> client -> note_title */
+"screen.client.note_title" = "Note";
+/* screen -> client -> note_placeholder */
+"screen.client.note_placeholder" = "Preferences, allergies, anything to remember";
+/* screen -> client -> note_footer */
+"screen.client.note_footer" = "Visible only to staff. The client doesn't see it.";
 /* screen -> workplace_editing -> your_name */
 "screen.workplace_editing.your_name" = "Your name";
 /* screen -> workplace_editing -> profile_photo */
@@ -791,6 +802,12 @@
 "screen.workplace_editing.advance_unit_hours" = "Hours";
 /* screen -> workplace_editing -> advance_unit_days */
 "screen.workplace_editing.advance_unit_days" = "Days";
+/* screen -> workplace_editing -> advance_unit_minutes_short */
+"screen.workplace_editing.advance_unit_minutes_short" = "min.";
+/* screen -> workplace_editing -> advance_unit_hours_short */
+"screen.workplace_editing.advance_unit_hours_short" = "hr.";
+/* screen -> workplace_editing -> advance_unit_days_short */
+"screen.workplace_editing.advance_unit_days_short" = "days";
 /* screen -> workplace_editing -> cancellation_policy_title */
 "screen.workplace_editing.cancellation_policy_title" = "Cancellation policy";
 /* screen -> workplace_editing -> cancellation_policy_placeholder */
@@ -834,7 +851,7 @@
 /* screen -> settings -> schedule -> default_day_title */
 "screen.settings.schedule.default_day_title" = "Default working day";
 /* screen -> settings -> schedule -> default_day_hint */
-"screen.settings.schedule.default_day_hint" = "Used when you switch a day off to a working day in the schedule editor.";
+"screen.settings.schedule.default_day_hint" = "These hours are suggested when you change a day off to a working day.";
 /* screen -> settings -> schedule -> default_day_start */
 "screen.settings.schedule.default_day_start" = "Start";
 /* screen -> settings -> schedule -> default_day_duration */
@@ -1270,25 +1287,25 @@
 /* onboarding -> workplace -> step4 -> subtitle */
 "onboarding.workplace.step4.subtitle" = "Touch and hold the entry, in the menu that opens, select the desired status.";
 /* onboarding -> workplace_progress -> employee -> title */
-"onboarding.workplace_progress.employee.title" = "Add staff";
+"onboarding.workplace_progress.employee.title" = "Add your first staff member";
 /* onboarding -> workplace_progress -> employee -> subtitle */
-"onboarding.workplace_progress.employee.subtitle" = "Add specialists and admins so you can assign services, manage schedules, and accept bookings.";
+"onboarding.workplace_progress.employee.subtitle" = "Invite a specialist or admin.";
 /* onboarding -> workplace_progress -> schedule -> title */
-"onboarding.workplace_progress.schedule.title" = "Set up the work schedule";
+"onboarding.workplace_progress.schedule.title" = "Set up your schedule";
 /* onboarding -> workplace_progress -> schedule -> subtitle */
-"onboarding.workplace_progress.schedule.subtitle" = "Set the salon hours and who works when, so clients can see available time slots.";
+"onboarding.workplace_progress.schedule.subtitle" = "Set opening hours and staff shifts.";
 /* onboarding -> workplace_progress -> procedure -> title */
-"onboarding.workplace_progress.procedure.title" = "Add salon services";
+"onboarding.workplace_progress.procedure.title" = "Create your first service";
 /* onboarding -> workplace_progress -> procedure -> subtitle */
-"onboarding.workplace_progress.procedure.subtitle" = "Create the services your salon offers so clients can choose them when booking online and in the schedule.";
+"onboarding.workplace_progress.procedure.subtitle" = "Set its name, price, and duration.";
 /* onboarding -> workplace_progress -> client -> title */
-"onboarding.workplace_progress.client.title" = "Add clients";
+"onboarding.workplace_progress.client.title" = "Add your first client";
 /* onboarding -> workplace_progress -> client -> subtitle */
-"onboarding.workplace_progress.client.subtitle" = "Create your client base so you can book visits faster and keep visit history in one place.";
+"onboarding.workplace_progress.client.subtitle" = "Save their name and contact details.";
 /* onboarding -> workplace_progress -> online_booking_link -> title */
-"onboarding.workplace_progress.online_booking_link.title" = "Get your online booking link";
+"onboarding.workplace_progress.online_booking_link.title" = "Share your booking link";
 /* onboarding -> workplace_progress -> online_booking_link -> subtitle */
-"onboarding.workplace_progress.online_booking_link.subtitle" = "Copy the link and place it where clients can book easily: social media, messengers, and your website.";
+"onboarding.workplace_progress.online_booking_link.subtitle" = "Let clients book online.";
 /* onboarding -> workplace_progress -> activation -> title */
 "onboarding.workplace_progress.activation.title" = "Activate the salon";
 /* onboarding -> workplace_progress -> activation -> subtitle */
@@ -1296,7 +1313,7 @@
 /* onboarding -> workplace_progress -> appointment -> title */
 "onboarding.workplace_progress.appointment.title" = "Create your first booking";
 /* onboarding -> workplace_progress -> appointment -> subtitle */
-"onboarding.workplace_progress.appointment.subtitle" = "Create the first booking to verify that staff, services, clients, and schedule are set up correctly.";
+"onboarding.workplace_progress.appointment.subtitle" = "Choose a client, service, and time.";
 /* onboarding -> salon_creation -> step1 -> title */
 "onboarding.salon_creation.step1.title" = "Salon creation";
 /* onboarding -> salon_creation -> step1 -> subtitle */
@@ -1828,6 +1845,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "assignment.timeline.created" = "Запись создана";
 "assignment.timeline.empty" = "События по этой записи появятся здесь, когда она будет подтверждена или изменена.";
 "assignment.timeline.expired" = "Срок записи истёк";
+"assignment.timeline.expired_description" = "Срок ответа прошёл — подтвердить заявку уже нельзя.";
 "assignment.timeline.new_time_label" = "Новое время";
 "assignment.timeline.no_show" = "Клиент не пришёл";
 "assignment.timeline.pending" = "Ожидает подтверждения";
@@ -2083,7 +2101,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.product.field.barcode" = "Штрихкод товара (необязательно)";
 "creatable.product.field.barcode_placeholder" = "UPC, EAN, GTIN";
 "creatable.product.field.brand" = "Бренд товара";
-"creatable.product.field.brand_placeholder" = "Например, Lui Philipo";
+"creatable.product.field.brand_placeholder" = "Название бренда";
 "creatable.product.field.category" = "Категория товара";
 "creatable.product.field.category_placeholder" = "Например, Ногти";
 "creatable.product.field.commission_description" = "Рассчитывайте комиссию участника команды при продаже товара.";
@@ -2108,7 +2126,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "creatable.product.field.sku" = "SKU (единица складского учета)";
 "creatable.product.field.stock_toggle" = "Отслеживать количество в наличии";
 "creatable.product.field.supplier" = "Поставщик";
-"creatable.product.field.supplier_placeholder" = "Например, Lui Nikita";
+"creatable.product.field.supplier_placeholder" = "Название поставщика";
 "creatable.product.field.supply_price" = "Цена поставки";
 "creatable.product.field.tax" = "Налог";
 "creatable.product.field.tax_select" = "Выберите налог";
@@ -2439,6 +2457,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workspace.filter.confirmed" = "Confirmed";
 "screen.workspace.filter.cancelled" = "Cancelled";
 "screen.workspace.layout.title" = "Layout";
+"screen.workspace.layout.edit" = "Edit placement";
 "screen.workspace.layout.visible_specialists" = "Visible specialists";
 "screen.workspace.layout.visible_days" = "Visible days";
 "screen.workspace.layout.visible_days_one" = "1 day";
@@ -2862,6 +2881,11 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.analytics.current_week" = "Current week";
 "screen.analytics.current_month" = "Current month";
 "screen.analytics.select_period" = "Select period";
+"screen.analytics.previous_month" = "Previous month";
+"screen.analytics.last_30_days" = "Last 30 days";
+"screen.analytics.last_3_months" = "Last 3 months";
+"screen.analytics.period_start" = "Start";
+"screen.analytics.period_end" = "End";
 "screen.analytics.server_methods_title" = "Черновик backend-контракта";
 "screen.analytics.overview_section" = "Overview";
 "screen.analytics.overview_footer" = "Controls the summary cards at the top of Analytics.";
@@ -2950,7 +2974,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 
 
 /* Finance module additions */
-"screen.finance.title" = "Finance";
+"screen.finance.title" = "Operations";
 "screen.finance.operations_empty" = "No operations yet";
 "screen.finance.add_operation" = "Add operation";
 "screen.finance.income" = "Income";
@@ -2962,10 +2986,12 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.finance.kind.dispute" = "Dispute";
 "screen.finance.kind.salary_payout" = "Salary payout";
 "screen.finance.kind.custom" = "Custom";
+"screen.finance.kind.voucher_sale" = "Gift certificate or membership sale";
 "screen.finance.source.cash" = "Cash";
 "screen.finance.source.stripe" = "Stripe";
 "screen.finance.source.square" = "Square";
 "screen.finance.source.manual" = "Manual";
+"screen.finance.source.voucher" = "Gift certificate or membership";
 "screen.finance.new_operation_title" = "New operation";
 "screen.finance.type_cash_payment" = "Cash payment";
 "screen.finance.type_custom" = "Custom operation";
@@ -2975,6 +3001,7 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.finance.category_label" = "Category";
 "screen.finance.select_category" = "Select category";
 "screen.finance.direction_label" = "Direction";
+"screen.finance.acquiring_fee" = "Acquiring fee";
 "screen.finance.operation_detail_title" = "Operation";
 "screen.finance.refund_button" = "Refund";
 "screen.finance.receipt_button" = "Receipt";
@@ -3242,6 +3269,16 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.workplace_editing.free_cancellation_minutes" = "Free cancellation, minutes before";
 "screen.workplace_editing.retain_deposit_late" = "Retain deposit for late cancellation";
 "screen.workplace_editing.cancellation_rules_hint" = "The deadline is measured before the appointment starts. Set 0 for free cancellation until the start. Deposit retention applies only when a deposit has been paid.";
+
+"screen.workplace_editing.booking_payment_title" = "Payment for online bookings";
+
+"screen.workplace_editing.booking_payment_none" = "No deposit or prepayment";
+
+"screen.workplace_editing.booking_payment_full_prepayment" = "Full prepayment";
+
+"screen.workplace_editing.deposit_percent_hint" = "Enter a percentage from 1 to 99.";
+
+"screen.workplace_editing.deposit_new_clients_hint" = "A client is considered new until they have completed and fully paid for at least one appointment.";
 
 "screen.workplace_editing.deposit_type" = "Deposit type";
 
@@ -3581,6 +3618,48 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "widget.address.state" = "State";
 
 "widget.address.postal_code" = "ZIP code";
+
+/* widget -> address -> details */
+"widget.address.details" = "Address details";
+
+/* widget -> address -> line2 */
+"widget.address.line2" = "Apartment, suite or office";
+
+/* widget -> address -> entrance */
+"widget.address.entrance" = "Entrance or building";
+
+/* widget -> address -> floor */
+"widget.address.floor" = "Floor";
+
+/* widget -> address -> region */
+"widget.address.region" = "State or region";
+
+/* widget -> address -> any_postal_code */
+"widget.address.any_postal_code" = "Postal code";
+
+/* widget -> address -> note */
+"widget.address.note" = "How to get there";
+
+/* widget -> address -> note_placeholder */
+"widget.address.note_placeholder" = "Parking, entrance, nearest stop…";
+
+/* widget -> address -> country_locked_title */
+"widget.address.country_locked_title" = "The country can’t be changed";
+
+/* widget -> address -> country_locked_message */
+"widget.address.country_locked_message" = "For now, a salon can move only within its country.";
+
+/* widget -> address -> postal_required_message */
+"widget.address.postal_required_message" = "Enter the state and ZIP code: payouts in the US need them.";
+
+/* widget -> address -> move_confirm_title */
+"widget.address.move_confirm_title" = "Change the salon’s address?";
+
+/* widget -> address -> move_confirm_message */
+"widget.address.move_confirm_message" = "Upcoming appointments and requests will move to the new address. Past visits keep the old one.";
+
+/* widget -> address -> move_confirm_action */
+"widget.address.move_confirm_action" = "Change address";
 "screen.finance.select_operation_type" = "Choose operation type";
 
 "screen.personal_notifications.title" = "My notifications";
@@ -3672,6 +3751,9 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.source.archived_section" = "Archived";
 
 "screen.unit_economic.source.archive_action" = "Archive";
+"screen.unit_economic.source.send_action" = "Send to client";
+"screen.unit_economic.source.send_as_link" = "Send as link";
+"screen.unit_economic.source.send_as_qr" = "Send as QR code";
 
 "screen.unit_economic.source.restore_action" = "Restore";
 
@@ -3680,11 +3762,317 @@ I am writing to share my review of the Maetry application. Below is my review:";
 "screen.unit_economic.source.appearance_title" = "Source appearance";
 
 "screen.unit_economic.source.metrics_unavailable" = "Metrics are available to owners and administrators.";
+
+"screen.unit_economic.source.metric_new_clients" = "New clients";
+
+"screen.unit_economic.source.metric_revenue" = "Revenue";
+
+"screen.unit_economic.source.results_section" = "Results";
+
+"screen.unit_economic.source.dynamics_section" = "Trend";
+
+"screen.unit_economic.source.clients_section" = "Clients";
+
+"screen.unit_economic.source.drop_off_section" = "Where people leave";
+
+"screen.unit_economic.source.abandoned" = "Didn't finish booking";
+
+"screen.unit_economic.source.drop_off_note" = "Only missing time slots and errors are known reasons. Other journeys were simply not finished.";
+
+"screen.balance.title" = "Balance";
+"screen.balance.available" = "Available for payout";
+"screen.balance.pending" = "Pending";
+"screen.balance.unavailable" = "Data not available yet";
+"screen.balance.cash_description" = "Cash on hand will appear here when cash balance tracking is available.";
+"screen.balance.setup_description" = "Provider balances and payouts are not connected yet. You can manage payment providers in settings.";
+
+"screen.settings.timeline.occupancy_hint" = "The ring shows how much of each day’s working time is booked, excluding breaks. Use it to quickly find days with available time.";
+
+"screen.settings.timeline.horizontal_lines" = "Horizontal time lines";
+
+"screen.settings.timeline.vertical_lines" = "Vertical column dividers";
+
+"screen.booking_requests.title" = "Requests";
+
+"screen.booking_requests.empty_title" = "No booking requests";
+
+"screen.booking_requests.empty_description" = "Requests awaiting agreement appear here, including those without a time.";
+
+"screen.booking_requests.unscheduled" = "Time to be agreed";
+
+"screen.booking_requests.action_required" = "Action required";
+
+"screen.booking_requests.awaiting_client" = "Waiting for client";
+
+"screen.booking_requests.date_undefined" = "Date not selected";
+
+"screen.resources.title" = "Resources";
+"screen.resources.timeline_title" = "Equipment";
+"screen.resources.select" = "Select resources";
+"screen.resources.alternatives" = "Any selected resource can be used";
+"screen.resources.add" = "Add resource";
+"screen.resources.name" = "Resource name";
+"screen.resources.quantity" = "Quantity";
+"screen.resources.full_duration" = "Entire procedure";
+"screen.resources.initial_duration" = "Start of procedure";
+"screen.resources.empty" = "No resources yet";
+"screen.resources.free_day" = "Free all day";
+"screen.resources.settings" = "When the resource is needed";
+"screen.resources.minutes" = "Duration in minutes";
+"screen.resources.full_duration_hint" = "Reserved from the start to the end of the procedure.";
+"screen.resources.initial_duration_hint" = "Reserved from the start for the number of minutes you enter.";
+
+
+// Mailings
+"screen.mailings.title" = "Mailings";
+"screen.mailings.create" = "Create mailing";
+"screen.mailings.detail.title" = "Mailing";
+"screen.mailings.draft" = "Draft";
+"screen.mailings.empty.title" = "No mailings yet";
+"screen.mailings.empty.description" = "Create a mailing to prepare a message for your clients.";
+"screen.mailings.name" = "Mailing name";
+"screen.mailings.message.title" = "Message";
+"screen.mailings.message.placeholder" = "Message text";
+"screen.mailings.message.remaining" = "Characters remaining: %d";
+"screen.mailings.audience.title" = "Audience";
+"screen.mailings.audience.recipients" = "Recipients";
+"screen.mailings.audience.all_clients" = "All clients";
+"screen.mailings.audience.filtered" = "Filtered";
+"screen.mailings.audience.minimum_visits" = "Minimum visits";
+"screen.mailings.audience.birthday_month" = "Birth month";
+"screen.mailings.audience.hint" = "Clients must match all selected filters.";
+"screen.mailings.audience.reset" = "Reset filters";
+"screen.mailings.schedule.title" = "Schedule";
+"screen.mailings.schedule.toggle" = "Schedule mailing";
+"screen.mailings.schedule.date" = "Date";
+"screen.mailings.schedule.time" = "Time";
+"screen.mailings.delivery.title" = "Delivery";
+"screen.mailings.delivery.channel" = "Channel";
+"screen.mailings.delivery.sender" = "Sender";
+
+"screen.mailings.status.title" = "Status";
+"screen.mailings.status.under_review" = "Under review";
+"screen.mailings.status.review_hint" = "We’re reviewing the message. You can pay once it’s approved.";
+"screen.mailings.status.awaiting_payment" = "Awaiting payment";
+"screen.mailings.payment.title" = "Payment";
+"screen.mailings.payment.request_estimate" = "Get an estimate";
+"screen.mailings.payment.estimated_total" = "Estimated cost";
+"screen.mailings.payment.pay" = "Pay";
+"screen.mailings.payment.return_to_draft" = "Return to draft";
+"screen.mailings.payment.demo_title" = "Payment preview";
+"screen.mailings.payment.demo_hint" = "The amount is for demonstration. You won’t be charged.";
+
+"screen.mailings.sample.payment.name" = "New appointments available";
+"screen.mailings.sample.payment.message" = "We’ve opened new appointments for the next few days. Pick a time that works for your next visit.";
+"screen.mailings.sample.review.name" = "Weekend offer";
+"screen.mailings.sample.review.message" = "Get a discount on your next visit through Sunday. Book ahead to pick a time that works for you.";
+"screen.mailings.sample.draft.name" = "Invitation to return";
+"screen.mailings.sample.draft.message" = "It’s been a while! We’d love to see you again. Pick a time that works for you online.";
+
+"screen.booking.client_note_title" = "Пометка от клиента";
+"screen.booking.add_staff_note" = "Добавить заметку";
+"screen.booking.notes_title" = "Заметки";
+"screen.booking.staff_notes_title" = "Заметки сотрудников";
+
+"screen.payments.terminal_checkout.split_title" = "Split payment";
+
+"screen.payments.terminal_checkout.split_method_title" = "Split";
+
+"screen.payments.terminal_checkout.split_method_subtitle" = "Accept parts with different payment methods";
+
+"screen.payments.terminal_checkout.split_remaining" = "Remaining for services";
+
+"screen.payments.terminal_checkout.split_part_amount" = "Amount for this part";
+
+"screen.payments.terminal_checkout.split_accept_part" = "Accept";
+
+"screen.payments.terminal_checkout.split_tip_total" = "Total tips";
+
+"screen.payments.terminal_checkout.split_received" = "Payments received";
+
+"screen.payments.terminal_checkout.split_amount_hint" = "Enter how much of the remaining %@ to accept now. Then choose a payment method. The rest can be paid using another method.";
+
+"screen.payments.terminal_checkout.split_amount_error" = "Enter an amount greater than zero and within the remaining balance.";
+
+"screen.payments.terminal_checkout.split_refresh_error" = "Could not refresh the balance. Retry before accepting another payment.";
+
+"screen.payments.terminal_checkout.split_complete" = "Fully paid";
+
+"screen.payments.terminal_checkout.split_return_change" = "Keep change as tip";
+
+"screen.payments.terminal_checkout.split_finish" = "Finish checkout";
+
+"screen.payments.terminal_checkout.cash_remainder" = "What should we do with the remainder?";
+
+"screen.payments.terminal_checkout.cash_shortfall_title" = "Received less than the amount due";
+
+"screen.payments.terminal_checkout.cash_shortfall_message" = "Received: %@. Amount due: %@. Mark the service as fully paid and record the full amount of %@?";
+
+"screen.payments.terminal_checkout.cash_record_amount" = "Record full payment";
+
+"screen.payments.terminal_checkout.accept_part" = "Принять часть";
+
+"screen.payments.terminal_checkout.payment_amount" = "Сумма платежа";
+
+"screen.payments.terminal_checkout.certificate" = "Сертификат";
+
+"screen.payments.terminal_checkout.certificate_code" = "Код сертификата";
+
+"screen.payments.terminal_checkout.scan_certificate" = "Сканировать код или штрихкод";
+
+"screen.payments.terminal_checkout.check_certificate" = "Проверить сертификат";
+
+"screen.payments.terminal_checkout.membership" = "Абонемент";
+
+"screen.payments.terminal_checkout.membership_empty" = "Доступные абонементы клиента появятся здесь";
+
+"screen.payments.terminal_checkout.preview_notice" = "Приём оплаты этим способом пока недоступен";
+
+"screen.payments.terminal_checkout.refresh_balance" = "Обновить остаток";
+
+"screen.permissions.cred_read_own" = "Own data, view only";
+
+"screen.position.presets_title" = "Base positions";
+
+"screen.position.preset_master" = "Master";
+
+"screen.position.preset_admin" = "Administrator";
+
+"screen.salary.minimum_title" = "Guaranteed minimum";
+
+"screen.salary.minimum_footer" = "Excludes tips. The top-up is accrued on the last day of the selected guarantee period.";
+
+"screen.salary.minimum_week" = "Week";
+
+"screen.salary.full_price" = "Calculate commission before discounts";
+
+"screen.salary.full_price_footer" = "When disabled, commission uses the discounted service price.";
+
+"screen.salary.unpaid_periods" = "Unpaid periods";
+
+"screen.salary.payout_recorded" = "Paid on";
+
+"screen.salary.load_more" = "Show more";
+
+"screen.salary.line_minimum" = "Minimum top-up";
+
+"screen.salary.payout_schedule" = "Payout schedule";
+"screen.salary.payout_schedule_none" = "No schedule";
+"screen.salary.payout_schedule_week" = "Every week";
+"screen.salary.payout_schedule_month" = "Every month";
+"screen.salary.payout_weekday" = "Day of week";
+"screen.salary.payout_monthday" = "Day of month";
+"screen.salary.payout_schedule_footer" = "Payouts start on the first payout date. Dates use the salon time zone. If the chosen day is missing from a month, the last day is used. The guaranteed minimum period stays unchanged.";
+"screen.salary.paid_period" = "Paid period";
+"screen.salary.unpaid_period" = "Unpaid period";
+"screen.salary.next_payout" = "Next payout";
+"screen.salary.show_details" = "Show details";
+"screen.salary.hide_details" = "Hide details";
+
+"screen.salary.payout_schedule_fortnight" = "Every two weeks";
+"screen.salary.payout_anchor_date" = "First payout date";
+
+"screen.salary.services_count" = "Services: %@";
+"screen.salary.operations_count" = "Operations: %@";
+"screen.salary.periods_count" = "Periods: %@";
+
+"screen.salary.payout_schedule_manual_footer" = "Without a schedule, payouts are made on request: choose a period, pay the employee and record the payout manually.";
+
+"screen.salary.calculation_title" = "Payroll calculation";
+"screen.salary.unpaid_period_explanation" = "The amount to pay is calculated for %@. These dates are not yet covered by recorded payouts.";
+
+"screen.salary.period_breakdown_explanation" = "The summary shows earnings, recorded payouts and the remaining amount for the period selected above. The breakdown below includes all accruals for that period.";
+
+"screen.salary.payout_history_explanation" = "Payout history shows recorded amounts and the periods they relate to.";
+"screen.salary.payout_coverage_explanation" = "This payout covers %@.";
+
+"onboarding.workplace_progress.menu_title" = "Complete your salon setup";
+
+"creatable.appointment.steps_title" = "Booking steps";
+
+"screen.settings.timeline.colors_title" = "Colors";
+"screen.settings.timeline.colors_hint" = "Choose a header color for each appointment status. Settings are saved on this device.";
+
+"screen.salary.payout_sheet_title" = "Record salary payout";
+"screen.salary.payout_periods_title" = "Dates included";
+"screen.salary.payout_remaining" = "Remaining to pay";
+"screen.salary.payout_record" = "Record payout";
+"screen.salary.payout_manual_footer" = "Record a payout you have made yourself. This action does not transfer money automatically.";
+"screen.salary.payout_partial_footer" = "You can pay part of the amount. The balance remains due and the period stays open until paid in full.";
+"screen.salary.payout_schedule_hint" = "Scheduled payout: %@. You can record an earlier payout if needed.";
+"screen.salary.payout_unclosed_explanation" = "This payout does not close any new periods in full. The current balance is shown in payroll calculation.";
+
+"screen.settings.timeline.colors_entry_hint" = "Customize appointment header colors by status, service category, or acquisition source. Your choices are saved on this device.";
+
+"screen.settings.timeline.horizontal_lines_hint" = "Horizontal lines mark time intervals across the timeline and help you compare appointment start and end times.";
+
+"screen.settings.timeline.vertical_lines_hint" = "Vertical lines separate timeline columns to make each specialist or day easier to distinguish.";
+
+"screen.settings.timeline.color_mode_title" = "Color by";
+
+"screen.settings.timeline.color_mode_status" = "Appointment status";
+
+"screen.settings.timeline.color_mode_category" = "Service category";
+
+"screen.settings.timeline.color_mode_source" = "Acquisition source";
+
+"screen.settings.timeline.color_mode_hint" = "Choose what determines the appointment header color. Unconfigured rules use the status color.";
+
+"screen.settings.timeline.color_category_hint" = "Categories come from your service catalog. If a service has several categories, the first configured color in the list is used. Changes to the catalog also affect existing appointments.";
+
+"screen.settings.timeline.color_source_hint" = "Sources come from Acquisition, including archived sources. An appointment without a linked source appears as Unknown source.";
+
+"screen.settings.timeline.color_uncategorized" = "Uncategorized";
+
+"screen.settings.timeline.color_unknown_source" = "Unknown source";
+
+"screen.mailings.subtitle" = "Messages and offers for your clients";
+
+"screen.mailings.filter.empty" = "No mailings with this status";
+
+"screen.mailings.filter.hint" = "Choose another status or show all mailings.";
+
+"screen.settings.sales_catalog.certificates" = "Сертификаты";
+"screen.settings.sales_catalog.memberships" = "Абонементы";
+"screen.settings.sales_catalog.sell_certificate" = "Продать сертификат";
+"screen.settings.sales_catalog.sell_membership" = "Оформить абонемент";
+"screen.settings.sales_catalog.sell_products" = "Продать товары";
+"screen.settings.sales_catalog.empty" = "В этом каталоге пока нет позиций для продажи";
+"screen.settings.sales_catalog.description" = "Описание";
+"screen.settings.sales_catalog.fixed_value" = "Фиксированный номинал";
+"screen.settings.sales_catalog.flexible_value" = "Гибкий номинал";
+"screen.settings.sales_catalog.minimum_value" = "От";
+"screen.settings.sales_catalog.maximum_value" = "До";
+"screen.settings.sales_catalog.eligible_services" = "Услуги по абонементу";
+"screen.settings.sales_catalog.checkout_preview" = "Демо оплаты";
+"screen.salary.rules.product_commission_footer" = "Сотрудник получает этот процент от суммы розничных продаж товаров. При 0 % комиссия не начисляется.";
+"screen.settings.sales_catalog.buyer" = "Покупатель";
+"screen.settings.sales_catalog.without_buyer" = "Без покупателя";
+"screen.settings.sales_catalog.proceed_to_payment" = "К оплате";
+"screen.settings.sales_catalog.certificate_value" = "Номинал";
+
+"creatable.product.field.volume" = "Объём";
+"creatable.product.field.weight" = "Вес";
+"creatable.product.field.quantity" = "Количество";
+"creatable.product.field.retail_pricing" = "Способ расчёта";
+"creatable.product.field.internal_use" = "Для внутреннего использования";
+"creatable.product.field.fixed_retail_price" = "Фиксированная цена";
+"creatable.product.field.supply_price_markup" = "Наценка на цену поставки";
+"creatable.product.field.markup_footer" = "Розничная цена равна цене поставки плюс наценка. Например, при цене поставки 100 и наценке 20% товар продаётся за 120.";
+"creatable.product.field.internal_use_footer" = "Товар остаётся в каталоге для внутреннего использования и не появляется при продаже.";
+"screen.products.categories" = "Категории товаров";
+"screen.products.category_name" = "Название категории";
+"screen.products.no_category" = "Без категории";
 "screen.client_merge.button" = "Merge with other clients";
 "screen.client_merge.title" = "Merge clients";
 "screen.client_merge.similar_section" = "Same phone or email";
 "screen.client_merge.all_section" = "All clients";
-"screen.client_merge.footer" = "Visits, contacts, notes of the selected clients move to %@, and the selected clients are deleted.";
+"screen.client_merge.footer" = "Visits, contacts and notes of the selected clients move to %@, and the selected clients are deleted.";
 "screen.client_merge.action" = "Merge";
 "screen.client_merge.confirm_title" = "Merge the selected clients?";
 "screen.client_merge.confirm_message" = "This can’t be undone.";
+
+"screen.settings.sales_catalog.create_certificate" = "Создать сертификат";
+"screen.settings.sales_catalog.create_membership" = "Создать абонемент";
+"screen.products.create_category" = "Создать категорию";
+"screen.products.create_product" = "Создать товар";
